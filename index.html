@@ -35,8 +35,30 @@
         body {
             font-family: 'Inter', sans-serif;
             user-select: none;
-            overflow: hidden;
+            overflow: auto;
         }
+
+        .master-map {
+            min-height: 100vh;
+            background:
+                radial-gradient(circle at 10% 0%, rgba(20, 184, 166, 0.12), transparent 28rem),
+                radial-gradient(circle at 90% 10%, rgba(225, 29, 72, 0.12), transparent 28rem),
+                #020617;
+        }
+
+        .master-canvas { position: relative; }
+        .master-crossover-svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0; }
+        .master-grid { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr)); gap: 1rem; }
+        .argument-card { transition: transform .2s ease, opacity .2s ease, border-color .2s ease, box-shadow .2s ease; }
+        .argument-card:hover, .argument-card.is-active { transform: translateY(-3px); box-shadow: 0 16px 35px rgba(0, 0, 0, .28); }
+        .argument-card.is-dimmed { opacity: .22; }
+        .hide-master-tiers .tier-badge { display: none; }
+        .crossover-path { fill: none; stroke-width: 2; stroke-dasharray: 5,5; opacity: 0; transition: opacity .2s ease; }
+        .crossover-path.is-visible { opacity: .8; animation: crossoverDash 1.2s linear infinite; }
+        @keyframes crossoverDash { to { stroke-dashoffset: -10; } }
+
+        .deep-view { min-height: calc(100vh - 3.5rem); }
+        #deepView > #canvasViewport { flex: 1 1 auto; height: auto; min-height: 0; min-width: 0; }
         
         .grid-pattern-dark {
             background-size: 32px 32px;
@@ -99,11 +121,57 @@
         }
     </style>
 </head>
-<body class="bg-slate-950 text-slate-100 h-screen w-screen flex flex-col antialiased select-none">
+<body class="bg-slate-950 text-slate-100 min-h-screen w-screen flex flex-col antialiased select-none">
+
+    <!-- Master Map View -->
+    <section id="masterMapView" class="master-map flex-1">
+        <header class="sticky top-0 z-30 border-b border-slate-800/80 bg-slate-950/90 px-4 py-3 backdrop-blur-xl sm:px-6">
+            <div class="mx-auto flex max-w-[1600px] flex-wrap items-center gap-3">
+                <div class="mr-auto flex items-center gap-3">
+                    <div class="flex h-10 w-10 items-center justify-center rounded-xl border border-teal-400/30 bg-teal-400/10 text-teal-300"><i class="fa-solid fa-network-wired"></i></div>
+                    <div>
+                        <h1 class="text-base font-bold text-slate-100 sm:text-lg">Master Argument Map</h1>
+                        <p class="text-[11px] text-slate-400">75 arguments across the theist and atheist dialectic</p>
+                    </div>
+                </div>
+                <div class="relative w-full sm:w-72">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3 top-3 text-xs text-slate-500"></i>
+                    <input id="masterSearch" type="search" placeholder="Search arguments, domains, summaries..." class="w-full rounded-lg border border-slate-700 bg-slate-900/90 py-2 pl-8 pr-3 text-xs text-slate-200 outline-none transition focus:border-teal-400">
+                </div>
+                <label class="flex cursor-pointer items-center gap-2 text-xs text-slate-300" title="Show or hide academic tier badges">
+                    <input id="tierToggle" type="checkbox" checked class="peer sr-only">
+                    <span class="relative h-5 w-9 rounded-full bg-slate-700 transition peer-checked:bg-teal-600 after:absolute after:left-1 after:top-1 after:h-3 after:w-3 after:rounded-full after:bg-white after:transition peer-checked:after:translate-x-4"></span>
+                    <span>Tiers</span>
+                </label>
+            </div>
+            <div class="mx-auto mt-3 flex max-w-[1600px] flex-wrap items-center gap-2">
+                <div id="sideFilters" class="flex rounded-lg border border-slate-800 bg-slate-900/70 p-1 text-xs">
+                    <button data-side="all" class="filter-button rounded-md bg-teal-600 px-3 py-1.5 font-semibold text-white">All (75)</button>
+                    <button data-side="theist" class="filter-button rounded-md px-3 py-1.5 text-slate-400 hover:bg-slate-800">Theistic (40)</button>
+                    <button data-side="atheist" class="filter-button rounded-md px-3 py-1.5 text-slate-400 hover:bg-slate-800">Atheistic (35)</button>
+                </div>
+                <select id="domainFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
+                    <option value="all">All domains</option>
+                </select>
+                <select id="tierFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
+                    <option value="all">All tiers</option><option>S</option><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
+                </select>
+                <span id="masterResultCount" class="ml-auto text-xs text-slate-500"></span>
+            </div>
+        </header>
+        <main class="mx-auto max-w-[1600px] px-4 py-6 sm:px-6">
+            <div id="masterStatus" class="mb-4 hidden rounded-lg border border-rose-500/30 bg-rose-950/30 p-3 text-xs text-rose-200"></div>
+            <div id="masterCanvas" class="master-canvas">
+                <svg id="masterCrossoverSvg" class="master-crossover-svg" aria-hidden="true"></svg>
+                <div id="masterGrid" class="master-grid"></div>
+            </div>
+        </main>
+    </section>
 
     <!-- Top Header Navigation Bar -->
-    <header class="h-14 bg-slate-900/90 border-b border-slate-800/80 px-4 flex items-center justify-between z-30 shrink-0 backdrop-blur-md">
+    <header id="deepHeader" class="hidden h-14 bg-slate-900/90 border-b border-slate-800/80 px-4 flex items-center justify-between z-30 shrink-0 backdrop-blur-md">
         <div class="flex items-center space-x-3">
+            <button id="backToMasterBtn" class="rounded-lg border border-slate-700 bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-200 transition hover:bg-slate-700" title="Return to the master argument map"><i class="fa-solid fa-arrow-left mr-1.5"></i>Back to Master Map</button>
             <div class="w-8 h-8 rounded-lg bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 font-bold text-base">
                 <i class="fa-solid fa-diagram-project"></i>
             </div>
@@ -147,7 +215,7 @@
     </header>
 
     <!-- Main Content Container -->
-    <div class="relative flex-1 w-full h-full overflow-hidden flex">
+    <div id="deepView" class="deep-view hidden relative flex-1 w-full h-full overflow-hidden flex">
         
         <!-- Left Legend & Statistics Sidebar Overlay -->
         <div class="absolute left-4 top-4 z-20 flex flex-col gap-2 pointer-events-none">
@@ -707,8 +775,23 @@
             }
 
             initDataset(data) {
+                if (!data || !Array.isArray(data.nodes)) {
+                    throw new Error('Branch JSON must contain a nodes array.');
+                }
+
+                console.log('[KalamTreeEngine] Parsing branch data:', {
+                    argument: data.argument,
+                    nodeCount: data.nodes.length
+                });
                 this.nodes.clear();
                 data.nodes.forEach(n => {
+                    console.log('[KalamTreeEngine] Parsed node:', {
+                        id: n.id,
+                        parentId: n.parentId,
+                        title: n.title,
+                        summary: n.summary,
+                        childrenFromData: n.children
+                    });
                     this.nodes.set(n.id, {
                         ...n,
                         x: 0,
@@ -723,6 +806,12 @@
                         this.nodes.get(node.parentId).children.push(node.id);
                     }
                 });
+
+                console.log('[KalamTreeEngine] Built node map:', [...this.nodes.values()].map(node => ({
+                    id: node.id,
+                    parentId: node.parentId,
+                    childIds: node.children
+                })));
             }
 
             /**
@@ -1421,17 +1510,245 @@
             }
         }
 
+        class MasterMapController {
+            constructor(data) {
+                this.arguments = data.arguments || [];
+                this.domainGroups = {
+                    cosmological: ['cosmological'],
+                    teleological: ['teleological'],
+                    ontological: ['ontological'],
+                    moral_axiological: ['moral'],
+                    existential_epistemic: ['existential', 'epistemic', 'coherence_and_logic'],
+                    evil_suffering: ['evil_suffering'],
+                    divine_silence: ['divine_silence'],
+                    naturalistic_objections: ['naturalistic_objections']
+                };
+                this.filteredArguments = this.arguments;
+                this.side = 'all';
+                this.domain = 'all';
+                this.tier = 'all';
+                this.search = '';
+                this.showTiers = true;
+                this.activeId = null;
+
+                this.grid = document.getElementById('masterGrid');
+                this.canvas = document.getElementById('masterCanvas');
+                this.svg = document.getElementById('masterCrossoverSvg');
+                this.populateDomainFilter();
+                this.setupListeners();
+                this.render();
+            }
+
+            escape(value) {
+                return String(value ?? '').replace(/[&<>'"]/g, character => ({
+                    '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+                })[character]);
+            }
+
+            formatLabel(value) {
+                return String(value || '').split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+            }
+
+            domainLabel(domain) {
+                return {
+                    cosmological: 'Cosmological', teleological: 'Teleological', ontological: 'Ontological',
+                    moral_axiological: 'Moral & Axiological', existential_epistemic: 'Existential & Epistemic',
+                    evil_suffering: 'Evil & Suffering', divine_silence: 'Divine Silence',
+                    naturalistic_objections: 'Naturalistic Objections'
+                }[domain] || this.formatLabel(domain);
+            }
+
+            domainIcon(domain) {
+                return {
+                    cosmological: '🌌', teleological: '🎯', ontological: '🧩', moral: '⚖️',
+                    'moral_axiological': '⚖️', existential: '🧭', epistemic: '🧭', coherence_and_logic: '🧭',
+                    existential_epistemic: '🧭', evil_suffering: '💔', divine_silence: '🔇', naturalistic_objections: '🔬'
+                }[domain] || '◈';
+            }
+
+            populateDomainFilter() {
+                const select = document.getElementById('domainFilter');
+                select.innerHTML = '<option value="all">All domains</option>' + Object.keys(this.domainGroups).map(domain => `<option value="${domain}">${this.escape(this.domainLabel(domain))}</option>`).join('');
+            }
+
+            setupListeners() {
+                document.getElementById('masterSearch').addEventListener('input', event => {
+                    this.search = event.target.value.trim().toLowerCase();
+                    this.render();
+                });
+                document.getElementById('domainFilter').addEventListener('change', event => {
+                    this.domain = event.target.value;
+                    this.render();
+                });
+                document.getElementById('tierFilter').addEventListener('change', event => {
+                    this.tier = event.target.value;
+                    this.render();
+                });
+                document.getElementById('tierToggle').addEventListener('change', event => {
+                    this.showTiers = event.target.checked;
+                    document.body.classList.toggle('hide-master-tiers', !this.showTiers);
+                });
+                document.querySelectorAll('[data-side]').forEach(button => {
+                    button.addEventListener('click', () => {
+                        this.side = button.dataset.side;
+                        document.querySelectorAll('[data-side]').forEach(item => item.className = 'filter-button rounded-md px-3 py-1.5 text-slate-400 hover:bg-slate-800');
+                        button.className = 'filter-button rounded-md bg-teal-600 px-3 py-1.5 font-semibold text-white';
+                        this.render();
+                    });
+                });
+                document.getElementById('backToMasterBtn').addEventListener('click', () => this.showMasterView());
+                window.addEventListener('resize', () => this.drawCrossovers());
+            }
+
+            matches(argument) {
+                const haystack = [argument.title, argument.summary, argument.domain, argument.side].join(' ').toLowerCase();
+                return (!this.search || haystack.includes(this.search)) &&
+                    (this.side === 'all' || argument.side === this.side) &&
+                    (this.domain === 'all' || this.domainGroups[this.domain]?.includes(argument.domain)) &&
+                    (this.tier === 'all' || argument.tier === this.tier);
+            }
+
+            render() {
+                this.filteredArguments = this.arguments.filter(argument => this.matches(argument));
+                document.getElementById('masterResultCount').textContent = `${this.filteredArguments.length} of ${this.arguments.length} arguments`;
+                this.grid.innerHTML = this.filteredArguments.map(argument => this.cardMarkup(argument)).join('');
+                this.grid.querySelectorAll('[data-explore-id]').forEach(button => button.addEventListener('click', event => {
+                    event.stopPropagation();
+                    this.openBranch(button.dataset.exploreId);
+                }));
+                this.grid.querySelectorAll('.argument-card').forEach(card => {
+                    card.addEventListener('mouseenter', () => this.highlightCrossovers(card.dataset.argumentId));
+                    card.addEventListener('mouseleave', () => this.clearCrossoverHighlight());
+                });
+                requestAnimationFrame(() => this.drawCrossovers());
+            }
+
+            cardMarkup(argument) {
+                const isTheist = argument.side === 'theist';
+                const sideClass = isTheist ? 'border-teal-500/60 hover:border-teal-300' : 'border-rose-500/60 hover:border-rose-300';
+                const sideText = isTheist ? 'Theistic' : 'Atheistic';
+                const method = argument.epistemicMethod === 'a_priori' ? 'A Priori · Logic' : argument.epistemicMethod === 'a_posteriori' ? 'A Posteriori · Empirical' : 'Pragmatic';
+                const baggage = argument.metaphysicalPrice || argument.metaphysicalBaggage || 'light';
+                const baggageLabel = String(baggage).includes('heavy') ? '🧳🧳🧳 Heavy Baggage' : String(baggage).includes('medium') ? '🧳🧳 Medium Baggage' : '🧳 Light Baggage';
+                return `<article class="argument-card rounded-xl border-l-4 ${sideClass} border-y border-r border-slate-800 bg-slate-900/85 p-4 shadow-lg" data-argument-id="${this.escape(argument.id)}">
+                    <div class="mb-3 flex items-start justify-between gap-2">
+                        <span class="rounded-full border ${isTheist ? 'border-teal-500/30 bg-teal-950/50 text-teal-300' : 'border-rose-500/30 bg-rose-950/50 text-rose-300'} px-2 py-1 text-[10px] font-bold uppercase tracking-wider">${sideText}</span>
+                        <span class="tier-badge rounded border border-slate-700 bg-slate-800 px-2 py-1 text-[10px] font-bold text-slate-300" title="Academic rank">Tier ${this.escape(argument.tier)}</span>
+                    </div>
+                    <h2 class="mb-2 text-sm font-bold leading-snug text-slate-100">${this.escape(argument.title)}</h2>
+                    <p class="mb-4 line-clamp-3 text-xs leading-relaxed text-slate-400">${this.escape(argument.summary)}</p>
+                    <div class="mb-4 flex flex-wrap gap-1.5 text-[10px]">
+                        <span class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300" title="Argument domain">${this.domainIcon(argument.domain)} ${this.escape(this.domainLabel(Object.keys(this.domainGroups).find(group => this.domainGroups[group].includes(argument.domain)) || argument.domain))}</span>
+                        <span class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300" title="Epistemic method">${this.escape(method)}</span>
+                        <span class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300" title="Metaphysical commitments">${this.escape(baggageLabel)}</span>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 border-t border-slate-800 pt-3">
+                        <span class="text-[10px] text-slate-500"><i class="fa-solid fa-arrows-left-right-to-line mr-1"></i>${argument.crossovers?.length || 0} crossovers</span>
+                        <button data-explore-id="${this.escape(argument.id)}" class="rounded-lg bg-teal-600 px-3 py-2 text-[11px] font-semibold text-white transition hover:bg-teal-500"><i class="fa-solid fa-code-branch mr-1"></i>Explore Branch</button>
+                    </div>
+                </article>`;
+            }
+
+            highlightCrossovers(argumentId) {
+                this.activeId = argumentId;
+                const targets = new Set((this.arguments.find(argument => argument.id === argumentId)?.crossovers || []).map(crossover => crossover.targetArgumentId));
+                this.grid.querySelectorAll('.argument-card').forEach(card => card.classList.toggle('is-dimmed', card.dataset.argumentId !== argumentId && !targets.has(card.dataset.argumentId)));
+                this.drawCrossovers();
+            }
+
+            clearCrossoverHighlight() {
+                this.activeId = null;
+                this.grid.querySelectorAll('.argument-card').forEach(card => card.classList.remove('is-dimmed'));
+                this.drawCrossovers();
+            }
+
+            drawCrossovers() {
+                const active = this.activeId && this.arguments.find(argument => argument.id === this.activeId);
+                if (!active) { this.svg.innerHTML = ''; return; }
+                const source = this.grid.querySelector(`[data-argument-id="${active.id}"]`);
+                if (!source) return;
+                const canvasRect = this.canvas.getBoundingClientRect();
+                const sourceRect = source.getBoundingClientRect();
+                this.svg.setAttribute('viewBox', `0 0 ${canvasRect.width} ${canvasRect.height}`);
+                this.svg.innerHTML = (active.crossovers || []).map(crossover => {
+                    const target = this.grid.querySelector(`[data-argument-id="${crossover.targetArgumentId}"]`);
+                    if (!target) return '';
+                    const targetRect = target.getBoundingClientRect();
+                    const x1 = sourceRect.left - canvasRect.left + sourceRect.width / 2;
+                    const y1 = sourceRect.top - canvasRect.top + sourceRect.height / 2;
+                    const x2 = targetRect.left - canvasRect.left + targetRect.width / 2;
+                    const y2 = targetRect.top - canvasRect.top + targetRect.height / 2;
+                    const curve = Math.max(60, Math.abs(x2 - x1) * .35);
+                    const color = active.side === 'theist' ? '#2dd4bf' : '#fb7185';
+                    return `<path class="crossover-path is-visible" d="M ${x1} ${y1} C ${x1 + curve} ${y1}, ${x2 - curve} ${y2}, ${x2} ${y2}" stroke="${color}" />`;
+                }).join('');
+            }
+
+            async openBranch(argumentId) {
+                const argument = this.arguments.find(item => item.id === argumentId);
+                if (!argument) return;
+                try {
+                    const response = await fetch(`./${encodeURIComponent(argument.dataFile)}`);
+                    if (!response.ok) {
+                        throw new Error('BRANCH_UNDER_CONSTRUCTION');
+                    }
+                    const treeData = await response.json();
+                    document.getElementById('masterMapView').classList.add('hidden');
+                    document.getElementById('deepHeader').classList.remove('hidden');
+                    document.getElementById('deepHeader').classList.add('flex');
+                    document.getElementById('deepView').classList.remove('hidden');
+                    document.title = `${argument.title} - Interactive Decision Tree`;
+                    window.kalamTree = new KalamTreeEngine(treeData);
+                } catch (error) {
+                    const status = document.getElementById('masterStatus');
+                    status.textContent = error.message === 'BRANCH_UNDER_CONSTRUCTION'
+                        ? 'Branch JSON under construction. Only Kalam Cosmological Argument (KCA) is currently available.'
+                        : `Could not open this branch: ${error.message}`;
+                    status.classList.remove('hidden');
+                }
+            }
+
+            showMasterView() {
+                document.getElementById('deepHeader').classList.add('hidden');
+                document.getElementById('deepHeader').classList.remove('flex');
+                document.getElementById('deepView').classList.add('hidden');
+                document.getElementById('masterMapView').classList.remove('hidden');
+                document.title = 'Master Argument Map';
+                this.resetFilters();
+            }
+
+            resetFilters() {
+                this.side = 'all';
+                this.domain = 'all';
+                this.tier = 'all';
+                this.search = '';
+                this.activeId = null;
+                document.getElementById('masterSearch').value = '';
+                document.getElementById('domainFilter').value = 'all';
+                document.getElementById('tierFilter').value = 'all';
+                document.querySelectorAll('[data-side]').forEach(button => {
+                    button.className = button.dataset.side === 'all'
+                        ? 'filter-button rounded-md bg-teal-600 px-3 py-1.5 font-semibold text-white'
+                        : 'filter-button rounded-md px-3 py-1.5 text-slate-400 hover:bg-slate-800';
+                });
+                document.getElementById('masterStatus').classList.add('hidden');
+                this.render();
+            }
+        }
+
         window.onload = async function() {
             try {
-                const response = await fetch('./kalam_tree.json');
+                const response = await fetch('./arguments_index.json');
                 if (!response.ok) {
-                    throw new Error(`Failed to load tree data: ${response.status} ${response.statusText}`);
+                    throw new Error(`Failed to load argument index: ${response.status} ${response.statusText}`);
                 }
 
-                const treeData = await response.json();
-                window.kalamTree = new KalamTreeEngine(treeData);
+                const indexData = await response.json();
+                window.masterMap = new MasterMapController(indexData);
             } catch (error) {
-                console.error('Unable to initialize the Kalam argument tree.', error);
+                const status = document.getElementById('masterStatus');
+                status.textContent = `Unable to initialize the master map: ${error.message}`;
+                status.classList.remove('hidden');
             }
         };
     </script>
