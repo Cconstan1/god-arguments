@@ -1530,6 +1530,7 @@
                 this.search = '';
                 this.showTiers = true;
                 this.activeId = null;
+                this.branchCache = new Map();
 
                 this.grid = document.getElementById('masterGrid');
                 this.canvas = document.getElementById('masterCanvas');
@@ -1687,12 +1688,18 @@
             async openBranch(argumentId) {
                 const argument = this.arguments.find(item => item.id === argumentId);
                 if (!argument) return;
+                const status = document.getElementById('masterStatus');
+                status.classList.add('hidden');
                 try {
-                    const response = await fetch(`./${encodeURIComponent(argument.dataFile)}`);
-                    if (!response.ok) {
-                        throw new Error('BRANCH_UNDER_CONSTRUCTION');
+                    let treeData = this.branchCache.get(argument.dataFile);
+                    if (!treeData) {
+                        const response = await fetch(`./${encodeURIComponent(argument.dataFile)}`);
+                        if (!response.ok) {
+                            throw new Error('BRANCH_UNDER_CONSTRUCTION');
+                        }
+                        treeData = await response.json();
+                        this.branchCache.set(argument.dataFile, treeData);
                     }
-                    const treeData = await response.json();
                     document.getElementById('masterMapView').classList.add('hidden');
                     document.getElementById('deepHeader').classList.remove('hidden');
                     document.getElementById('deepHeader').classList.add('flex');
@@ -1700,10 +1707,9 @@
                     document.title = `${argument.title} - Interactive Decision Tree`;
                     window.kalamTree = new KalamTreeEngine(treeData);
                 } catch (error) {
-                    const status = document.getElementById('masterStatus');
                     status.textContent = error.message === 'BRANCH_UNDER_CONSTRUCTION'
                         ? 'Branch JSON under construction. Only Kalam Cosmological Argument (KCA) is currently available.'
-                        : `Could not open this branch: ${error.message}`;
+                        : 'Could not load this branch. Make sure the app is being served locally and try again.';
                     status.classList.remove('hidden');
                 }
             }
