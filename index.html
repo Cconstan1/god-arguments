@@ -732,13 +732,18 @@
                 const rootNodes = Array.from(this.nodes.values()).filter(n => !n.parentId);
                 let currentY = 50;
 
-                const positionSubtree = (nodeId, depth) => {
+                const isColumnTwoRebuttal = (node) => {
+                    return (node.parentId === '1.0' || node.parentId === '1.1') &&
+                        (node.nodeType === 'rebuttal' || node.side === 'skeptic' || node.type === 'rebuttal');
+                };
+
+                const positionSubtree = (nodeId, column) => {
                     const node = this.nodes.get(nodeId);
                     const isCollapsed = this.collapsedNodes.has(nodeId);
                     const visibleChildren = isCollapsed ? [] : node.children.filter(cid => this.nodes.has(cid));
 
-                    node.depth = depth;
-                    node.x = depth * this.levelGapX + 100;
+                    node.depth = column;
+                    node.x = column * this.levelGapX + 100;
 
                     if (visibleChildren.length === 0) {
                         node.y = currentY;
@@ -746,7 +751,13 @@
                     } else {
                         const childYs = [];
                         visibleChildren.forEach(childId => {
-                            positionSubtree(childId, depth + 1);
+                            const child = this.nodes.get(childId);
+                            const childColumn = child.nodeType === 'core_stage'
+                                ? 0
+                                : isColumnTwoRebuttal(child)
+                                    ? 1
+                                    : column + 1;
+                            positionSubtree(childId, childColumn);
                             childYs.push(this.nodes.get(childId).y);
                         });
                         // Center parent relative to visible children

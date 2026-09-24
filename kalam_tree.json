@@ -17,6 +17,8 @@
       "parentId": "1.0",
       "level": 1,
       "type": "stage_2",
+      "nodeType": "core_stage",
+      "side": "theist",
       "shortLabel": "Stage 2 Deduction",
       "title": "Identification of First Cause (Stage 2)",
       "summary": "If the universe has a cause, that cause must transcend physical space, time, and matter\u2014meaning it is uncaused, timeless, spaceless, immaterial, and enormously powerful.",
