@@ -1,0 +1,226 @@
+{
+  "argument": "Kalam Cosmological Argument",
+  "description": "A structured branching graph of the Kalam Cosmological Argument showing organic debate depths across levels.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Kalam Core",
+      "title": "Kalam Cosmological Argument (Stage 1)",
+      "summary": "Whatever begins to exist has a cause. The universe began to exist. Therefore, the universe has a cause.",
+      "status": "active"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Stage 2 Deduction",
+      "title": "Identification of First Cause (Stage 2)",
+      "summary": "If the universe has a cause, that cause must transcend physical space, time, and matter\u2014meaning it is uncaused, timeless, spaceless, immaterial, and enormously powerful.",
+      "status": "active"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Equivocation",
+      "title": "Equivocation Objection (Ex Nihilo vs Ex Materia)",
+      "summary": "Every 'beginning' we observe in daily life is a rearrangement of pre-existing matter. We have no experience with stuff coming into existence out of literal nothing.",
+      "status": "active"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Reframe Begins",
+      "title": "Reframing 'Begins to Exist'",
+      "summary": "Defenders reframe Premise 1: 'Everything with an earliest temporal boundary has a cause.' This applies universally whether matter pre-existed or not.",
+      "status": "active"
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Material Parody",
+      "title": "Material Causality Symmetry/Parody",
+      "summary": "If we rely on empirical intuition, every cause is also a material cause. Symmetrical claim: 'Whatever begins to exist has a material cause', which rules out creation ex nihilo.",
+      "status": "active"
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "deep_defense",
+      "shortLabel": "Ex Nihilo Principle",
+      "title": "Metaphysical Intuition (Ex Nihilo Nihil Fit)",
+      "summary": "Premise 1 rests on the metaphysical principle 'out of nothing, nothing comes', not mere empirical induction. Material causality is a feature of physical objects, not causation itself.",
+      "status": "active"
+    },
+    {
+      "id": "6.1",
+      "parentId": "5.1",
+      "level": 6,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Material Causality & Metaphysical Limits",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended"
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Quantum Decay",
+      "title": "Quantum Indeterminacy Objection",
+      "summary": "Quantum mechanics shows subatomic events (like virtual particle pairs or decay) occur spontaneously without deterministic causes.",
+      "status": "active"
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Vacuum Substrate",
+      "title": "Quantum Vacuum Is a Physical System",
+      "summary": "Quantum virtual particles arise within a pre-existing quantum vacuum governed by physical energy and laws\u2014not out of literal non-being.",
+      "status": "active"
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Quantum Vacuum & Causality",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Infinite Regress",
+      "title": "Eternal / Infinite Past Regress Objection",
+      "summary": "The Big Bang may represent local expansion, but the broader cosmos, multiverse, or quantum vacuum could be eternal into the past.",
+      "status": "active"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Actual Infinite",
+      "title": "Impossibility of Actual Infinites in Time",
+      "summary": "An actual infinite series of past events leads to logical paradoxes (Hilbert's Hotel, Grim Reaper). You cannot traverse an infinite series of moments to reach today.",
+      "status": "active"
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Cantor & LQG",
+      "title": "Mathematical Infinities & Quantum Cosmology",
+      "summary": "Cantorian set theory shows actual infinites are mathematically coherent. Loop Quantum Gravity and bounce models permit continuous past states without an absolute start.",
+      "status": "active"
+    },
+    {
+      "id": "5.3",
+      "parentId": "4.3",
+      "level": 5,
+      "type": "deep_defense",
+      "shortLabel": "BGV Theorem",
+      "title": "Causal Finitism & BGV Theorem",
+      "summary": "Causal chains suffer from paradoxes if infinite (Causal Finitism). The Borde-Guth-Vilenkin (BGV) theorem proves any universe expanding on average must have a past boundary.",
+      "status": "active"
+    },
+    {
+      "id": "6.3",
+      "parentId": "5.3",
+      "level": 6,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: BGV Boundary & Quantum Initial State",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended"
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Hawking Time",
+      "title": "Physics of Time Objection",
+      "summary": "Space and time were created with the Big Bang. Asking what happened 'before' t=0 is like asking what is 'north of the South Pole'.",
+      "status": "active"
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Simultaneous Cause",
+      "title": "Simultaneous & Ontological Causality",
+      "summary": "Causality does not require temporal priority (a cause occurring before an effect in time). Cause and effect can occur simultaneously at t=0.",
+      "status": "active"
+    },
+    {
+      "id": "4.4",
+      "parentId": "3.4",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Relativity Conflict",
+      "title": "Special Relativity & Absolute Simultaneity",
+      "summary": "Special relativity disproves absolute cosmic simultaneity. Simultaneous physical causation violates relativistic physics.",
+      "status": "active"
+    },
+    {
+      "id": "5.4",
+      "parentId": "4.4",
+      "level": 5,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Temporal Priority & Relativity",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended"
+    },
+    {
+      "id": "2.5",
+      "parentId": "1.1",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Gap Fallacy",
+      "title": "The Gap / God of the Gaps Fallacy",
+      "summary": "Even if the universe has a first cause, jumping to a personal God is an argument from ignorance. The cause could be a natural physical mechanism.",
+      "status": "active"
+    },
+    {
+      "id": "3.5",
+      "parentId": "2.5",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Personal Agency",
+      "title": "Personal Agent Choice (Free Will)",
+      "summary": "A timeless, unchanging cause can only produce a finite effect in time if it possesses libertarian agency (free will) to choose to create at a specific moment.",
+      "status": "active"
+    },
+    {
+      "id": "4.5",
+      "parentId": "3.5",
+      "level": 4,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Agent Causality & Uncaused Will",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended"
+    }
+  ]
+}

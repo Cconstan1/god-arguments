@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalam Cosmological Argument - Interactive Decision Tree</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            user-select: none;
+            overflow: hidden;
+        }
+        
+        .grid-pattern-dark {
+            background-size: 32px 32px;
+            background-image: 
+                radial-gradient(circle, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+        }
+
+        .grid-pattern-light {
+            background-size: 32px 32px;
+            background-image: 
+                radial-gradient(circle, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+        }
+
+        /* Node stroke and connector animations */
+        .connector-path {
+            transition: stroke 0.3s ease, stroke-width 0.3s ease, opacity 0.3s ease;
+        }
+
+        .connector-path.active-path {
+            stroke-dasharray: 8;
+            animation: dash 1.5s linear infinite;
+        }
+
+        @keyframes dash {
+            to {
+                stroke-dashoffset: -16;
+            }
+        }
+
+        /* Card custom shadow and hover effects */
+        .node-card {
+            transition: transform 0.15s ease-out, box-shadow 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+        }
+
+        .node-card:hover {
+            transform: translateY(-2px) scale(1.01);
+        }
+
+        /* Node type glow effects */
+        .glow-core { box-shadow: 0 0 15px rgba(16, 185, 129, 0.25); }
+        .glow-rebuttal { box-shadow: 0 0 15px rgba(244, 63, 94, 0.25); }
+        .glow-defense { box-shadow: 0 0 15px rgba(14, 165, 233, 0.25); }
+        .glow-sub { box-shadow: 0 0 15px rgba(168, 85, 247, 0.25); }
+        .glow-terminal { box-shadow: 0 0 15px rgba(245, 158, 11, 0.25); }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(0,0,0,0.1);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(100,116,139,0.4);
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(100,116,139,0.7);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 h-screen w-screen flex flex-col antialiased select-none">
+
+    <!-- Top Header Navigation Bar -->
+    <header class="h-14 bg-slate-900/90 border-b border-slate-800/80 px-4 flex items-center justify-between z-30 shrink-0 backdrop-blur-md">
+        <div class="flex items-center space-x-3">
+            <div class="w-8 h-8 rounded-lg bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 font-bold text-base">
+                <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <div>
+                <h1 class="font-bold text-sm sm:text-base text-slate-100 flex items-center gap-2">
+                    Kalam Cosmological Argument
+                    <span class="text-xs font-normal px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">Decision Tree</span>
+                </h1>
+                <p class="text-[11px] text-slate-400 hidden sm:block">Interactive 4+ Level Dialectical Map & Dialectic Graph Engine</p>
+            </div>
+        </div>
+
+        <!-- Search & Filter Bar -->
+        <div class="flex items-center space-x-2">
+            <div class="relative w-44 sm:w-64">
+                <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-xs text-slate-400"></i>
+                <input type="text" id="searchInput" placeholder="Search tree nodes..." 
+                    class="w-full bg-slate-800/90 border border-slate-700/80 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-emerald-500/80 transition-all">
+                <button id="clearSearch" class="hidden absolute right-2 top-2 text-xs text-slate-500 hover:text-slate-300">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- View Detail Level Toggle -->
+            <div class="hidden md:flex bg-slate-800 p-1 rounded-lg border border-slate-700/80 text-xs text-slate-300">
+                <button id="viewAutoBtn" class="px-2.5 py-1 rounded-md bg-slate-700 text-white font-medium transition-all" title="Auto label density based on zoom depth">Auto Zoom</button>
+                <button id="viewCompactBtn" class="px-2.5 py-1 rounded-md hover:bg-slate-700/50 transition-all" title="Always show short zoom labels">Compact</button>
+                <button id="viewFullBtn" class="px-2.5 py-1 rounded-md hover:bg-slate-700/50 transition-all" title="Always show full summary text">Detailed</button>
+            </div>
+
+            <!-- Actions Menu -->
+            <button id="resetViewHeaderBtn" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-medium text-slate-200 flex items-center gap-1.5 transition-all">
+                <i class="fa-solid fa-compress text-emerald-400"></i>
+                <span class="hidden sm:inline">Fit Canvas</span>
+            </button>
+
+            <button id="themeToggleBtn" class="p-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-slate-300 transition-all" title="Toggle Light/Dark Visual Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="relative flex-1 w-full h-full overflow-hidden flex">
+        
+        <!-- Left Legend & Statistics Sidebar Overlay -->
+        <div class="absolute left-4 top-4 z-20 flex flex-col gap-2 pointer-events-none">
+            <!-- Legend Container -->
+            <div class="pointer-events-auto bg-slate-900/90 border border-slate-800 rounded-xl p-3 shadow-2xl backdrop-blur-md w-52 sm:w-60 transition-all">
+                <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-2">
+                    <span class="text-xs font-semibold text-slate-300 uppercase tracking-wider">Argument Legend</span>
+                    <button id="toggleLegendBtn" class="text-slate-500 hover:text-slate-300 text-xs">
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </button>
+                </div>
+                <div id="legendBody" class="space-y-1.5 text-xs">
+                    <div class="flex items-center justify-between text-slate-300">
+                        <div class="flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 ring-2 ring-emerald-500/20"></span>
+                            <span>Core Argument</span>
+                        </div>
+                        <span id="count-core" class="text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-800/50 px-1.5 py-0.2 rounded">0</span>
+                    </div>
+                    <div class="flex items-center justify-between text-slate-300">
+                        <div class="flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-rose-500 ring-2 ring-rose-500/20"></span>
+                            <span>Skeptic Rebuttal</span>
+                        </div>
+                        <span id="count-rebuttal" class="text-[10px] bg-rose-950 text-rose-400 border border-rose-800/50 px-1.5 py-0.2 rounded">0</span>
+                    </div>
+                    <div class="flex items-center justify-between text-slate-300">
+                        <div class="flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-sky-500 ring-2 ring-sky-500/20"></span>
+                            <span>Theist Defense</span>
+                        </div>
+                        <span id="count-counter" class="text-[10px] bg-sky-950 text-sky-400 border border-sky-800/50 px-1.5 py-0.2 rounded">0</span>
+                    </div>
+                    <div class="flex items-center justify-between text-slate-300">
+                        <div class="flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-purple-500 ring-2 ring-purple-500/20"></span>
+                            <span>Sub-Counter / Deep</span>
+                        </div>
+                        <span id="count-sub" class="text-[10px] bg-purple-950 text-purple-400 border border-purple-800/50 px-1.5 py-0.2 rounded">0</span>
+                    </div>
+                    <div class="flex items-center justify-between text-slate-300">
+                        <div class="flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-amber-500 border border-dashed border-amber-300"></span>
+                            <span>Open / Boundary</span>
+                        </div>
+                        <span id="count-terminal" class="text-[10px] bg-amber-950 text-amber-400 border border-amber-800/50 px-1.5 py-0.2 rounded">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Path Highlight Status Banner (shows when path is filtered) -->
+            <div id="pathBanner" class="hidden pointer-events-auto bg-emerald-950/90 border border-emerald-500/40 rounded-lg p-2.5 shadow-lg backdrop-blur-md w-52 sm:w-60 flex items-center justify-between text-xs text-emerald-200">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-route text-emerald-400 animate-pulse"></i>
+                    <span>Path Filter Active</span>
+                </div>
+                <button id="clearPathBtn" class="text-xs bg-emerald-800/50 hover:bg-emerald-800 px-2 py-0.5 rounded text-emerald-100">
+                    Clear
+                </button>
+            </div>
+        </div>
+
+        <!-- Pan & Zoom Infinite Canvas Container -->
+        <div id="canvasViewport" class="relative w-full h-full cursor-grab active:cursor-grabbing grid-pattern-dark overflow-hidden transition-colors duration-300">
+            
+            <!-- Transform Container (Panning + Zooming layer) -->
+            <div id="canvasTransform" class="absolute inset-0 origin-0 transform-gpu" style="transform: translate(0px, 0px) scale(1);">
+                
+                <!-- SVG Connections Overlay -->
+                <svg id="svgConnectors" class="absolute inset-0 w-[10000px] h-[10000px] pointer-events-none z-0">
+                    <defs>
+                        <!-- Connection Line Markers -->
+                        <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="#10b981" />
+                        </marker>
+                        <marker id="arrow-rose" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="#f43f5e" />
+                        </marker>
+                        <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5e9" />
+                        </marker>
+                        <marker id="arrow-purple" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="#a855f7" />
+                        </marker>
+                        <marker id="arrow-amber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b" />
+                        </marker>
+                    </defs>
+                    <g id="pathGroup"></g>
+                </svg>
+
+                <!-- HTML Nodes Container Layer -->
+                <div id="nodesContainer" class="absolute inset-0 w-[10000px] h-[10000px] pointer-events-none z-10">
+                    <!-- Nodes rendered dynamically by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Bottom Right Canvas Control Tools -->
+        <div class="absolute right-4 bottom-4 z-20 flex flex-col items-end gap-2">
+            <!-- Zoom Indicator -->
+            <div id="zoomBadge" class="bg-slate-900/90 border border-slate-800 text-slate-300 font-mono text-[11px] px-2.5 py-1 rounded-lg backdrop-blur-md shadow-lg">
+                100%
+            </div>
+
+            <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-1.5 shadow-2xl backdrop-blur-md flex flex-col gap-1 text-slate-300">
+                <button id="zoomInBtn" class="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center transition-all" title="Zoom In (+)">
+                    <i class="fa-solid fa-plus text-xs"></i>
+                </button>
+                <button id="zoomOutBtn" class="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center transition-all" title="Zoom Out (-)">
+                    <i class="fa-solid fa-minus text-xs"></i>
+                </button>
+                <div class="h-px bg-slate-800 my-0.5"></div>
+                <button id="fitViewBtn" class="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center transition-all" title="Fit Entire Tree in View">
+                    <i class="fa-solid fa-expand text-xs text-emerald-400"></i>
+                </button>
+                <button id="expandAllBtn" class="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center transition-all" title="Expand All Nodes">
+                    <i class="fa-solid fa-folder-open text-xs text-sky-400"></i>
+                </button>
+                <button id="collapseAllBtn" class="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center transition-all" title="Collapse To Root">
+                    <i class="fa-solid fa-folder-closed text-xs text-slate-400"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Right Drawer / Inspector Panel -->
+        <aside id="inspectorDrawer" class="translate-x-full fixed right-0 top-14 bottom-0 w-full sm:w-96 bg-slate-900/95 border-l border-slate-800/90 z-40 shadow-2xl backdrop-blur-xl transition-transform duration-300 ease-in-out flex flex-col">
+            <!-- Drawer Header -->
+            <div class="p-4 border-b border-slate-800 flex items-center justify-between shrink-0 bg-slate-900/80">
+                <div class="flex items-center gap-2">
+                    <span id="drawerBadge" class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800">
+                        Node Details
+                    </span>
+                    <span id="drawerLevel" class="text-xs font-mono text-slate-400">Level 1</span>
+                </div>
+                <button id="closeDrawerBtn" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 flex items-center justify-center text-slate-400 hover:text-white transition-all">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Drawer Content Body -->
+            <div class="flex-1 overflow-y-auto p-5 space-y-5">
+                
+                <!-- Title & Meta -->
+                <div>
+                    <span id="drawerId" class="text-xs font-mono text-emerald-400 font-semibold uppercase tracking-widest block mb-1">ID: 1.0</span>
+                    <h2 id="drawerTitle" class="text-lg font-bold text-slate-100 leading-snug">
+                        Kalam Cosmological Argument (Stage 1)
+                    </h2>
+                    <p id="drawerShortLabel" class="text-xs text-slate-400 italic mt-0.5">Short Label: Kalam Core</p>
+                </div>
+
+                <!-- Summary Callout -->
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 space-y-2">
+                    <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-400 block">Argument Summary & Formulation</span>
+                    <p id="drawerSummary" class="text-sm text-slate-200 leading-relaxed font-normal">
+                        Whatever begins to exist has a cause. The universe began to exist. Therefore, the universe has a cause.
+                    </p>
+                </div>
+
+                <!-- Status & Classification -->
+                <div class="grid grid-cols-2 gap-3 text-xs">
+                    <div class="bg-slate-800/40 border border-slate-800 rounded-lg p-2.5">
+                        <span class="text-slate-400 text-[10px] uppercase block">Dialectical Type</span>
+                        <span id="drawerType" class="font-medium text-slate-200 block mt-0.5 capitalize">Core Argument</span>
+                    </div>
+                    <div class="bg-slate-800/40 border border-slate-800 rounded-lg p-2.5">
+                        <span class="text-slate-400 text-[10px] uppercase block">Node Status</span>
+                        <span id="drawerStatus" class="font-medium text-emerald-400 block mt-0.5 capitalize">Active Branch</span>
+                    </div>
+                </div>
+
+                <!-- Lineage Path Breadcrumb -->
+                <div class="space-y-2">
+                    <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-400 block">Lineage Path</span>
+                    <div id="drawerBreadcrumbs" class="flex flex-wrap gap-1.5 text-xs">
+                        <!-- Rendered by JS -->
+                    </div>
+                </div>
+
+                <!-- Connections Section -->
+                <div class="space-y-3">
+                    <!-- Parent Node -->
+                    <div>
+                        <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-400 block mb-1.5">Parent Premise / Objection</span>
+                        <div id="drawerParentContainer">
+                            <!-- Rendered by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Children Nodes -->
+                    <div>
+                        <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-400 block mb-1.5">Child Branches / Responses (<span id="drawerChildrenCount">0</span>)</span>
+                        <div id="drawerChildrenContainer" class="space-y-1.5 max-h-48 overflow-y-auto pr-1">
+                            <!-- Rendered by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Actions: Focus / Highlight / Add Rebuttal -->
+                <div class="pt-2 border-t border-slate-800 space-y-2">
+                    <button id="focusNodeBtn" class="w-full py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-medium text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-900/20 transition-all">
+                        <i class="fa-solid fa-crosshairs"></i>
+                        <span>Center & Focus on Canvas</span>
+                    </button>
+                    <button id="highlightPathBtn" class="w-full py-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 rounded-xl font-medium text-xs flex items-center justify-center gap-2 transition-all">
+                        <i class="fa-solid fa-route text-emerald-400"></i>
+                        <span>Highlight Dialectical Path</span>
+                    </button>
+                    <button id="addRebuttalBtn" class="w-full py-2.5 bg-slate-800 hover:bg-slate-700 border border-amber-500/40 text-amber-300 rounded-xl font-medium text-xs flex items-center justify-center gap-2 transition-all">
+                        <i class="fa-solid fa-plus text-amber-400"></i>
+                        <span>Add New Counter-Argument / Branch</span>
+                    </button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Add Custom Rebuttal Modal -->
+        <div id="addNodeModal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl w-full max-w-lg shadow-2xl p-6 space-y-4">
+                <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                    <h3 class="text-base font-bold text-slate-100 flex items-center gap-2">
+                        <i class="fa-solid fa-node-plus text-amber-400"></i>
+                        Add Rebuttal / Counter-Argument
+                    </h3>
+                    <button id="closeModalBtn" class="text-slate-500 hover:text-slate-300">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <p class="text-xs text-slate-400">
+                    Appending dynamic response to parent node: <span id="modalParentTitle" class="text-emerald-400 font-semibold"></span>
+                </p>
+
+                <form id="addNodeForm" class="space-y-3.5">
+                    <div>
+                        <label class="block text-xs font-medium text-slate-300 mb-1">Response Stance / Type</label>
+                        <select id="modalNodeType" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-emerald-500">
+                            <option value="rebuttal">Skeptic Rebuttal (Red/Orange)</option>
+                            <option value="counter_rebuttal">Theist Defense / Counter-Rebuttal (Blue)</option>
+                            <option value="sub_counter">Sub-Rebuttal / Parody (Purple)</option>
+                            <option value="deep_defense">Deep Metaphysical Defense (Indigo)</option>
+                            <option value="terminal">Open-Ended Boundary (Amber/Dashed)</option>
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1">Short Label (1-3 words)</label>
+                            <input type="text" id="modalShortLabel" required placeholder="e.g., Multiverse Model" 
+                                class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-emerald-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1">Node Status</label>
+                            <select id="modalNodeStatus" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-emerald-500">
+                                <option value="active">Active Branch</option>
+                                <option value="open_ended">Open Ended</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-medium text-slate-300 mb-1">Full Argument Title</label>
+                        <input type="text" id="modalTitle" required placeholder="e.g., Eternal Inflation & Multiverse Cosmology" 
+                            class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-emerald-500">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-medium text-slate-300 mb-1">Summary & Dialectical Logic</label>
+                        <textarea id="modalSummary" rows="3" required placeholder="Explain the argument, objection, or counter-perspective..." 
+                            class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-emerald-500"></textarea>
+                    </div>
+
+                    <div class="flex items-center justify-end gap-2 pt-2 border-t border-slate-800">
+                        <button type="button" id="cancelModalBtn" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-xl text-xs text-slate-300 font-medium">Cancel</button>
+                        <button type="submit" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 rounded-xl text-xs text-white font-medium shadow-lg shadow-emerald-900/30">Add Node to Tree</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /**
+         * Initial Dataset for the Kalam Cosmological Argument Decision Tree
+         */
+        const INITIAL_DATASET = {
+          "argument": "Kalam Cosmological Argument",
+          "description": "A structured branching graph of the Kalam Cosmological Argument showing organic debate depths across levels.",
+          "nodes": [
+            {
+              "id": "1.0",
+              "parentId": null,
+              "level": 1,
+              "type": "core_argument",
+              "shortLabel": "Kalam Core",
+              "title": "Kalam Cosmological Argument (Stage 1)",
+              "summary": "Whatever begins to exist has a cause. The universe began to exist. Therefore, the universe has a cause.",
+              "status": "active"
+            },
+            {
+              "id": "1.1",
+              "parentId": "1.0",
+              "level": 1,
+              "type": "stage_2",
+              "shortLabel": "Stage 2 Deduction",
+              "title": "Identification of First Cause (Stage 2)",
+              "summary": "If the universe has a cause, that cause must transcend physical space, time, and matter—meaning it is uncaused, timeless, spaceless, immaterial, and enormously powerful.",
+              "status": "active"
+            },
+            {
+              "id": "2.1",
+              "parentId": "1.0",
+              "level": 2,
+              "type": "rebuttal",
+              "shortLabel": "Equivocation",
+              "title": "Equivocation Objection (Ex Nihilo vs Ex Materia)",
+              "summary": "Every 'beginning' we observe in daily life is a rearrangement of pre-existing matter. We have no experience with stuff coming into existence out of literal nothing.",
+              "status": "active"
+            },
+            {
+              "id": "3.1",
+              "parentId": "2.1",
+              "level": 3,
+              "type": "counter_rebuttal",
+              "shortLabel": "Reframe Begins",
+              "title": "Reframing 'Begins to Exist'",
+              "summary": "Defenders reframe Premise 1: 'Everything with an earliest temporal boundary has a cause.' This applies universally whether matter pre-existed or not.",
+              "status": "active"
+            },
+            {
+              "id": "4.1",
+              "parentId": "3.1",
+              "level": 4,
+              "type": "sub_counter",
+              "shortLabel": "Material Parody",
+              "title": "Material Causality Symmetry/Parody",
+              "summary": "If we rely on empirical intuition, every cause is also a material cause. Symmetrical claim: 'Whatever begins to exist has a material cause', which rules out creation ex nihilo.",
+              "status": "active"
+            },
+            {
+              "id": "5.1",
+              "parentId": "4.1",
+              "level": 5,
+              "type": "deep_defense",
+              "shortLabel": "Ex Nihilo Principle",
+              "title": "Metaphysical Intuition (Ex Nihilo Nihil Fit)",
+              "summary": "Premise 1 rests on the metaphysical principle 'out of nothing, nothing comes', not mere empirical induction. Material causality is a feature of physical objects, not causation itself.",
+              "status": "active"
+            },
+            {
+              "id": "6.1",
+              "parentId": "5.1",
+              "level": 6,
+              "type": "terminal",
+              "shortLabel": "Branch End",
+              "title": "Terminal Node: Material Causality & Metaphysical Limits",
+              "summary": "End of current source tree; add your own!",
+              "status": "open_ended"
+            },
+            {
+              "id": "2.2",
+              "parentId": "1.0",
+              "level": 2,
+              "type": "rebuttal",
+              "shortLabel": "Quantum Decay",
+              "title": "Quantum Indeterminacy Objection",
+              "summary": "Quantum mechanics shows subatomic events (like virtual particle pairs or decay) occur spontaneously without deterministic causes.",
+              "status": "active"
+            },
+            {
+              "id": "3.2",
+              "parentId": "2.2",
+              "level": 3,
+              "type": "counter_rebuttal",
+              "shortLabel": "Vacuum Substrate",
+              "title": "Quantum Vacuum Is a Physical System",
+              "summary": "Quantum virtual particles arise within a pre-existing quantum vacuum governed by physical energy and laws—not out of literal non-being.",
+              "status": "active"
+            },
+            {
+              "id": "4.2",
+              "parentId": "3.2",
+              "level": 4,
+              "type": "terminal",
+              "shortLabel": "Branch End",
+              "title": "Terminal Node: Quantum Vacuum & Causality",
+              "summary": "End of current source tree; add your own!",
+              "status": "open_ended"
+            },
+            {
+              "id": "2.3",
+              "parentId": "1.0",
+              "level": 2,
+              "type": "rebuttal",
+              "shortLabel": "Infinite Regress",
+              "title": "Eternal / Infinite Past Regress Objection",
+              "summary": "The Big Bang may represent local expansion, but the broader cosmos, multiverse, or quantum vacuum could be eternal into the past.",
+              "status": "active"
+            },
+            {
+              "id": "3.3",
+              "parentId": "2.3",
+              "level": 3,
+              "type": "counter_rebuttal",
+              "shortLabel": "Actual Infinite",
+              "title": "Impossibility of Actual Infinites in Time",
+              "summary": "An actual infinite series of past events leads to logical paradoxes (Hilbert's Hotel, Grim Reaper). You cannot traverse an infinite series of moments to reach today.",
+              "status": "active"
+            },
+            {
+              "id": "4.3",
+              "parentId": "3.3",
+              "level": 4,
+              "type": "sub_counter",
+              "shortLabel": "Cantor & LQG",
+              "title": "Mathematical Infinities & Quantum Cosmology",
+              "summary": "Cantorian set theory shows actual infinites are mathematically coherent. Loop Quantum Gravity and bounce models permit continuous past states without an absolute start.",
+              "status": "active"
+            },
+            {
+              "id": "5.3",
+              "parentId": "4.3",
+              "level": 5,
+              "type": "deep_defense",
+              "shortLabel": "BGV Theorem",
+              "title": "Causal Finitism & BGV Theorem",
+              "summary": "Causal chains suffer from paradoxes if infinite (Causal Finitism). The Borde-Guth-Vilenkin (BGV) theorem proves any universe expanding on average must have a past boundary.",
+              "status": "active"
+            },
+            {
+              "id": "6.3",
+              "parentId": "5.3",
+              "level": 6,
+              "type": "terminal",
+              "shortLabel": "Branch End",
+              "title": "Terminal Node: BGV Boundary & Quantum Initial State",
+              "summary": "End of current source tree; add your own!",
+              "status": "open_ended"
+            },
+            {
+              "id": "2.4",
+              "parentId": "1.0",
+              "level": 2,
+              "type": "rebuttal",
+              "shortLabel": "Hawking Time",
+              "title": "Physics of Time Objection",
+              "summary": "Space and time were created with the Big Bang. Asking what happened 'before' t=0 is like asking what is 'north of the South Pole'.",
+              "status": "active"
+            },
+            {
+              "id": "3.4",
+              "parentId": "2.4",
+              "level": 3,
+              "type": "counter_rebuttal",
+              "shortLabel": "Simultaneous Cause",
+              "title": "Simultaneous & Ontological Causality",
+              "summary": "Causality does not require temporal priority (a cause occurring before an effect in time). Cause and effect can occur simultaneously at t=0.",
+              "status": "active"
+            },
+            {
+              "id": "4.4",
+              "parentId": "3.4",
+              "level": 4,
+              "type": "sub_counter",
+              "shortLabel": "Relativity Conflict",
+              "title": "Special Relativity & Absolute Simultaneity",
+              "summary": "Special relativity disproves absolute cosmic simultaneity. Simultaneous physical causation violates relativistic physics.",
+              "status": "active"
+            },
+            {
+              "id": "5.4",
+              "parentId": "4.4",
+              "level": 5,
+              "type": "terminal",
+              "shortLabel": "Branch End",
+              "title": "Terminal Node: Temporal Priority & Relativity",
+              "summary": "End of current source tree; add your own!",
+              "status": "open_ended"
+            },
+            {
+              "id": "2.5",
+              "parentId": "1.1",
+              "level": 2,
+              "type": "rebuttal",
+              "shortLabel": "Gap Fallacy",
+              "title": "The Gap / God of the Gaps Fallacy",
+              "summary": "Even if the universe has a first cause, jumping to a personal God is an argument from ignorance. The cause could be a natural physical mechanism.",
+              "status": "active"
+            },
+            {
+              "id": "3.5",
+              "parentId": "2.5",
+              "level": 3,
+              "type": "counter_rebuttal",
+              "shortLabel": "Personal Agency",
+              "title": "Personal Agent Choice (Free Will)",
+              "summary": "A timeless, unchanging cause can only produce a finite effect in time if it possesses libertarian agency (free will) to choose to create at a specific moment.",
+              "status": "active"
+            },
+            {
+              "id": "4.5",
+              "parentId": "3.5",
+              "level": 4,
+              "type": "terminal",
+              "shortLabel": "Branch End",
+              "title": "Terminal Node: Agent Causality & Uncaused Will",
+              "summary": "End of current source tree; add your own!",
+              "status": "open_ended"
+            }
+          ]
+        };
+
+        /**
+         * State Management Architecture
+         */
+        class KalamTreeEngine {
+            constructor(data) {
+                this.nodes = new Map();
+                this.collapsedNodes = new Set();
+                this.selectedNodeId = null;
+                this.highlightedPath = new Set();
+                this.searchQuery = "";
+                
+                // View Mode: 'auto', 'compact', 'full'
+                this.detailMode = 'auto'; 
+
+                // Pan & Zoom Engine State
+                this.scale = 1.0;
+                this.panX = 120;
+                this.panY = 180;
+                this.isPanning = false;
+                this.startPanX = 0;
+                this.startPanY = 0;
+
+                // Layout Dimensions
+                this.nodeWidth = 320;
+                this.nodeHeight = 160;
+                this.levelGapX = 380;
+                this.rowGapY = 170;
+
+                // DOM Elements
+                this.viewportEl = document.getElementById('canvasViewport');
+                this.transformEl = document.getElementById('canvasTransform');
+                this.nodesContainerEl = document.getElementById('nodesContainer');
+                this.svgConnectorsEl = document.getElementById('svgConnectors');
+                this.pathGroupEl = document.getElementById('pathGroup');
+                this.drawerEl = document.getElementById('inspectorDrawer');
+
+                this.initDataset(data);
+                this.setupEventListeners();
+                this.updateCounts();
+                this.render();
+                
+                // Initial fit to view after short timeout for layout stabilization
+                setTimeout(() => this.fitToView(), 100);
+            }
+
+            initDataset(data) {
+                this.nodes.clear();
+                data.nodes.forEach(n => {
+                    this.nodes.set(n.id, {
+                        ...n,
+                        x: 0,
+                        y: 0,
+                        children: []
+                    });
+                });
+
+                // Build hierarchy parent-child links
+                this.nodes.forEach(node => {
+                    if (node.parentId && this.nodes.has(node.parentId)) {
+                        this.nodes.get(node.parentId).children.push(node.id);
+                    }
+                });
+            }
+
+            /**
+             * Horizontally Branching Layout Algorithm
+             */
+            calculateLayout() {
+                const rootNodes = Array.from(this.nodes.values()).filter(n => !n.parentId);
+                let currentY = 50;
+
+                const positionSubtree = (nodeId, depth) => {
+                    const node = this.nodes.get(nodeId);
+                    const isCollapsed = this.collapsedNodes.has(nodeId);
+                    const visibleChildren = isCollapsed ? [] : node.children.filter(cid => this.nodes.has(cid));
+
+                    node.depth = depth;
+                    node.x = depth * this.levelGapX + 100;
+
+                    if (visibleChildren.length === 0) {
+                        node.y = currentY;
+                        currentY += this.rowGapY;
+                    } else {
+                        const childYs = [];
+                        visibleChildren.forEach(childId => {
+                            positionSubtree(childId, depth + 1);
+                            childYs.push(this.nodes.get(childId).y);
+                        });
+                        // Center parent relative to visible children
+                        node.y = (childYs[0] + childYs[childYs.length - 1]) / 2;
+                    }
+                };
+
+                rootNodes.forEach(root => {
+                    positionSubtree(root.id, 0);
+                });
+            }
+
+            /**
+             * Color Coding & Visual Style Tokens
+             */
+            getNodeStyle(node) {
+                const isTerminal = node.status === 'open_ended' || node.type === 'terminal';
+                
+                if (isTerminal) {
+                    return {
+                        border: 'border-dashed border-amber-500/80 bg-slate-900/90 hover:border-amber-400',
+                        headerBg: 'bg-amber-950/40 text-amber-300 border-amber-800/40',
+                        badge: 'Open / Add Rebuttal',
+                        badgeStyle: 'bg-amber-950 text-amber-400 border-amber-700/50',
+                        accentColor: '#f59e0b',
+                        marker: 'url(#arrow-amber)',
+                        glow: 'glow-terminal'
+                    };
+                }
+
+                switch (node.type) {
+                    case 'core_argument':
+                    case 'stage_2':
+                        return {
+                            border: 'border-emerald-500/80 bg-slate-900/90 hover:border-emerald-400',
+                            headerBg: 'bg-emerald-950/50 text-emerald-300 border-emerald-800/40',
+                            badge: node.type === 'stage_2' ? 'Stage 2 Deduction' : 'Core Premise',
+                            badgeStyle: 'bg-emerald-950 text-emerald-400 border-emerald-800',
+                            accentColor: '#10b981',
+                            marker: 'url(#arrow-green)',
+                            glow: 'glow-core'
+                        };
+                    case 'rebuttal':
+                        return {
+                            border: 'border-rose-500/80 bg-slate-900/90 hover:border-rose-400',
+                            headerBg: 'bg-rose-950/50 text-rose-300 border-rose-800/40',
+                            badge: 'Skeptic Rebuttal',
+                            badgeStyle: 'bg-rose-950 text-rose-400 border-rose-800',
+                            accentColor: '#f43f5e',
+                            marker: 'url(#arrow-rose)',
+                            glow: 'glow-rebuttal'
+                        };
+                    case 'counter_rebuttal':
+                        return {
+                            border: 'border-sky-500/80 bg-slate-900/90 hover:border-sky-400',
+                            headerBg: 'bg-sky-950/50 text-sky-300 border-sky-800/40',
+                            badge: 'Theist Defense',
+                            badgeStyle: 'bg-sky-950 text-sky-400 border-sky-800',
+                            accentColor: '#0ea5e9',
+                            marker: 'url(#arrow-sky)',
+                            glow: 'glow-defense'
+                        };
+                    case 'sub_counter':
+                    case 'deep_defense':
+                        return {
+                            border: 'border-purple-500/80 bg-slate-900/90 hover:border-purple-400',
+                            headerBg: 'bg-purple-950/50 text-purple-300 border-purple-800/40',
+                            badge: node.type === 'deep_defense' ? 'Deep Defense' : 'Sub-Rebuttal',
+                            badgeStyle: 'bg-purple-950 text-purple-400 border-purple-800',
+                            accentColor: '#a855f7',
+                            marker: 'url(#arrow-purple)',
+                            glow: 'glow-sub'
+                        };
+                    default:
+                        return {
+                            border: 'border-slate-700 bg-slate-900/90',
+                            headerBg: 'bg-slate-800 text-slate-300 border-slate-700',
+                            badge: 'Argument',
+                            badgeStyle: 'bg-slate-800 text-slate-300 border-slate-700',
+                            accentColor: '#94a3b8',
+                            marker: 'url(#arrow-amber)',
+                            glow: ''
+                        };
+                }
+            }
+
+            /**
+             * Render Graph Nodes & Connectors
+             */
+            render() {
+                this.calculateLayout();
+                this.renderConnectors();
+                this.renderNodes();
+                this.updateTransform();
+            }
+
+            renderConnectors() {
+                let svgHtml = "";
+
+                this.nodes.forEach(parent => {
+                    if (this.collapsedNodes.has(parent.id)) return;
+
+                    parent.children.forEach(childId => {
+                        const child = this.nodes.get(childId);
+                        if (!child) return;
+
+                        // Calculate connector anchor points (Right side of parent -> Left side of child)
+                        const startX = parent.x + this.nodeWidth;
+                        const startY = parent.y + 70; // middle of node height
+                        const endX = child.x;
+                        const endY = child.y + 70;
+
+                        // Smooth Cubic Bezier Curved Path
+                        const dx = Math.abs(endX - startX) * 0.5;
+                        const pathData = `M ${startX} ${startY} C ${startX + dx} ${startY}, ${endX - dx} ${endY}, ${endX} ${endY}`;
+
+                        const isPathActive = this.highlightedPath.has(parent.id) && this.highlightedPath.has(child.id);
+                        const isMatch = this.searchQuery && (this.doesNodeMatchSearch(parent) || this.doesNodeMatchSearch(child));
+
+                        const style = this.getNodeStyle(child);
+                        const strokeColor = isPathActive ? '#10b981' : style.accentColor;
+                        const strokeWidth = isPathActive ? 3.5 : 2;
+                        const opacity = (this.searchQuery && !isMatch) ? 0.15 : (isPathActive ? 1.0 : 0.6);
+
+                        svgHtml += `
+                            <path d="${pathData}" 
+                                  fill="none" 
+                                  stroke="${strokeColor}" 
+                                  stroke-width="${strokeWidth}" 
+                                  opacity="${opacity}" 
+                                  marker-end="${style.marker}"
+                                  class="connector-path ${isPathActive ? 'active-path' : ''}" />
+                        `;
+                    });
+                });
+
+                this.pathGroupEl.innerHTML = svgHtml;
+            }
+
+            renderNodes() {
+                let html = "";
+                const isZoomedOut = this.detailMode === 'compact' || (this.detailMode === 'auto' && this.scale < 0.72);
+
+                this.nodes.forEach(node => {
+                    // Check if parent is collapsed
+                    if (this.isParentCollapsed(node)) return;
+
+                    const style = this.getNodeStyle(node);
+                    const isSelected = this.selectedNodeId === node.id;
+                    const isPathHighlighted = this.highlightedPath.has(node.id);
+                    const isCollapsed = this.collapsedNodes.has(node.id);
+                    const hasChildren = node.children.length > 0;
+                    
+                    const matchesSearch = !this.searchQuery || this.doesNodeMatchSearch(node);
+                    const searchDim = this.searchQuery && !matchesSearch;
+
+                    // Zoom Label Rules: Compact view shows zoomOutLabel (shortLabel), full view shows summary
+                    const cardContent = isZoomedOut ? `
+                        <div class="p-3 flex items-center justify-between h-full">
+                            <div class="flex items-center gap-2 overflow-hidden">
+                                <span class="text-xs font-mono font-bold text-slate-400 shrink-0">${node.id}</span>
+                                <span class="text-xs font-bold text-slate-100 truncate">${node.shortLabel || node.title}</span>
+                            </div>
+                            <span class="text-[10px] px-2 py-0.5 rounded border shrink-0 ${style.badgeStyle}">${node.level ? 'L' + node.level : 'Node'}</span>
+                        </div>
+                    ` : `
+                        <!-- Full Card Details -->
+                        <div class="p-3.5 flex flex-col justify-between h-full">
+                            <div>
+                                <div class="flex items-center justify-between mb-2 gap-2">
+                                    <span class="text-[10px] font-mono px-2 py-0.5 rounded border uppercase tracking-wider ${style.badgeStyle}">
+                                        ${style.badge}
+                                    </span>
+                                    <span class="text-[10px] font-mono text-slate-400">Level ${node.level || 1}</span>
+                                </div>
+                                <h3 class="text-xs font-bold text-slate-100 line-clamp-2 leading-snug mb-1.5">
+                                    ${node.title}
+                                </h3>
+                                <p class="text-[11px] text-slate-300 line-clamp-3 leading-relaxed">
+                                    ${node.summary}
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-center justify-between pt-2 border-t border-slate-800/80 mt-2 text-[10px] text-slate-400">
+                                <span class="font-mono text-slate-500">ID: ${node.id}</span>
+                                <span class="text-emerald-400 flex items-center gap-1 font-medium hover:underline">
+                                    Inspect <i class="fa-solid fa-chevron-right text-[8px]"></i>
+                                </span>
+                            </div>
+                        </div>
+                    `;
+
+                    const selectedRing = isSelected ? 'ring-2 ring-emerald-400 scale-[1.02] z-30' : '';
+                    const highlightedGlow = isPathHighlighted ? `${style.glow} border-2` : '';
+                    const opacityClass = searchDim ? 'opacity-25 grayscale' : 'opacity-100';
+
+                    html += `
+                        <div id="node-${node.id}" 
+                             data-node-id="${node.id}"
+                             class="node-card absolute rounded-xl border ${style.border} ${selectedRing} ${highlightedGlow} ${opacityClass} cursor-pointer pointer-events-auto backdrop-blur-md shadow-xl transition-all duration-200"
+                             style="left: ${node.x}px; top: ${node.y}px; width: ${this.nodeWidth}px; min-height: ${isZoomedOut ? '56px' : this.nodeHeight + 'px'};">
+                            
+                            ${cardContent}
+
+                            <!-- Collapse / Expand Toggle Button -->
+                            ${hasChildren ? `
+                                <button data-toggle-id="${node.id}" 
+                                        class="absolute -right-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-slate-800 border border-slate-600 hover:bg-slate-700 text-slate-200 text-[10px] flex items-center justify-center shadow-md z-20 pointer-events-auto transition-transform hover:scale-110"
+                                        title="${isCollapsed ? 'Expand Children' : 'Collapse Subtree'}">
+                                    <i class="fa-solid ${isCollapsed ? 'fa-plus' : 'fa-minus'}"></i>
+                                </button>
+                            ` : ''}
+                        </div>
+                    `;
+                });
+
+                this.nodesContainerEl.innerHTML = html;
+                this.attachNodeClickListeners();
+            }
+
+            /**
+             * Interactivity & Pan Zoom Handlers
+             */
+            attachNodeClickListeners() {
+                // Card Click inspect
+                document.querySelectorAll('.node-card').forEach(card => {
+                    card.addEventListener('click', (e) => {
+                        // Prevent triggering card click when clicking collapse toggle
+                        if (e.target.closest('[data-toggle-id]')) return;
+                        
+                        const nodeId = card.getAttribute('data-node-id');
+                        this.selectNode(nodeId);
+                    });
+                });
+
+                // Collapse Toggle
+                document.querySelectorAll('[data-toggle-id]').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const nodeId = btn.getAttribute('data-toggle-id');
+                        this.toggleCollapse(nodeId);
+                    });
+                });
+            }
+
+            isParentCollapsed(node) {
+                let curr = node.parentId;
+                while (curr) {
+                    if (this.collapsedNodes.has(curr)) return true;
+                    const parentNode = this.nodes.get(curr);
+                    curr = parentNode ? parentNode.parentId : null;
+                }
+                return false;
+            }
+
+            toggleCollapse(nodeId) {
+                if (this.collapsedNodes.has(nodeId)) {
+                    this.collapsedNodes.delete(nodeId);
+                } else {
+                    this.collapsedNodes.add(nodeId);
+                }
+                this.render();
+            }
+
+            selectNode(nodeId) {
+                this.selectedNodeId = nodeId;
+                const node = this.nodes.get(nodeId);
+                if (!node) return;
+
+                this.highlightPathToNode(nodeId);
+                this.openDrawer(node);
+                this.render();
+            }
+
+            highlightPathToNode(nodeId) {
+                this.highlightedPath.clear();
+                let curr = nodeId;
+                while (curr && this.nodes.has(curr)) {
+                    this.highlightedPath.add(curr);
+                    curr = this.nodes.get(curr).parentId;
+                }
+
+                // Show Path Filter Banner if path highlighted
+                const banner = document.getElementById('pathBanner');
+                if (this.highlightedPath.size > 0) {
+                    banner.classList.remove('hidden');
+                } else {
+                    banner.classList.add('hidden');
+                }
+            }
+
+            clearPathHighlight() {
+                this.highlightedPath.clear();
+                document.getElementById('pathBanner').classList.add('hidden');
+                this.render();
+            }
+
+            doesNodeMatchSearch(node) {
+                if (!this.searchQuery) return true;
+                const q = this.searchQuery.toLowerCase();
+                return node.title.toLowerCase().includes(q) ||
+                       node.summary.toLowerCase().includes(q) ||
+                       node.shortLabel.toLowerCase().includes(q) ||
+                       node.id.toLowerCase().includes(q);
+            }
+
+            /**
+             * Side Inspector Drawer Logic
+             */
+            openDrawer(node) {
+                const style = this.getNodeStyle(node);
+
+                document.getElementById('drawerId').innerText = `ID: ${node.id}`;
+                document.getElementById('drawerTitle').innerText = node.title;
+                document.getElementById('drawerShortLabel').innerText = `Short Label: ${node.shortLabel || 'N/A'}`;
+                document.getElementById('drawerSummary').innerText = node.summary;
+                document.getElementById('drawerType').innerText = style.badge;
+                document.getElementById('drawerLevel').innerText = `Level ${node.level || 1}`;
+                
+                const statusEl = document.getElementById('drawerStatus');
+                statusEl.innerText = node.status === 'open_ended' ? 'Open Ended (Terminal)' : 'Active Dialectic';
+                statusEl.className = node.status === 'open_ended' ? 'font-medium text-amber-400 block mt-0.5' : 'font-medium text-emerald-400 block mt-0.5';
+
+                // Lineage Breadcrumbs
+                const breadcrumbsContainer = document.getElementById('drawerBreadcrumbs');
+                const lineage = [];
+                let curr = node.id;
+                while (curr && this.nodes.has(curr)) {
+                    lineage.unshift(this.nodes.get(curr));
+                    curr = this.nodes.get(curr).parentId;
+                }
+
+                breadcrumbsContainer.innerHTML = lineage.map((item, idx) => `
+                    <button onclick="window.kalamTree.selectNode('${item.id}')" 
+                            class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 font-mono text-[10px] flex items-center gap-1 border border-slate-700 transition-all">
+                        <span>${item.id}</span>
+                        ${idx < lineage.length - 1 ? '<i class="fa-solid fa-chevron-right text-[8px] text-slate-500"></i>' : ''}
+                    </button>
+                `).join('');
+
+                // Parent Container
+                const parentContainer = document.getElementById('drawerParentContainer');
+                if (node.parentId && this.nodes.has(node.parentId)) {
+                    const parentNode = this.nodes.get(node.parentId);
+                    parentContainer.innerHTML = `
+                        <div onclick="window.kalamTree.selectNode('${parentNode.id}')" 
+                             class="p-2.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 border border-slate-700/80 cursor-pointer flex items-center justify-between text-xs transition-all">
+                            <div>
+                                <span class="font-mono text-[10px] text-emerald-400 font-bold block">${parentNode.id}</span>
+                                <span class="text-slate-200 font-medium line-clamp-1">${parentNode.title}</span>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 text-xs"></i>
+                        </div>
+                    `;
+                } else {
+                    parentContainer.innerHTML = `<span class="text-xs text-slate-500 italic">None (Root Premise)</span>`;
+                }
+
+                // Children Container
+                const childrenContainer = document.getElementById('drawerChildrenContainer');
+                document.getElementById('drawerChildrenCount').innerText = node.children.length;
+
+                if (node.children.length > 0) {
+                    childrenContainer.innerHTML = node.children.map(cid => {
+                        const childNode = this.nodes.get(cid);
+                        if (!childNode) return '';
+                        const childStyle = this.getNodeStyle(childNode);
+                        return `
+                            <div onclick="window.kalamTree.selectNode('${childNode.id}')" 
+                                 class="p-2 rounded-lg bg-slate-800/60 hover:bg-slate-700 border border-slate-700/60 cursor-pointer flex items-center justify-between text-xs transition-all">
+                                <div class="truncate pr-2">
+                                    <span class="font-mono text-[10px] text-slate-400 font-bold mr-1.5">${childNode.id}</span>
+                                    <span class="text-slate-200">${childNode.title}</span>
+                                </div>
+                                <span class="text-[9px] px-1.5 py-0.2 rounded border shrink-0 ${childStyle.badgeStyle}">${childStyle.badge}</span>
+                            </div>
+                        `;
+                    }).join('');
+                } else {
+                    childrenContainer.innerHTML = `<span class="text-xs text-slate-500 italic">No child arguments registered.</span>`;
+                }
+
+                this.drawerEl.classList.remove('translate-x-full');
+            }
+
+            closeDrawer() {
+                this.drawerEl.classList.add('translate-x-full');
+            }
+
+            /**
+             * Viewport Pan & Zoom Controls
+             */
+            updateTransform() {
+                this.transformEl.style.transform = `translate(${this.panX}px, ${this.panY}px) scale(${this.scale})`;
+                document.getElementById('zoomBadge').innerText = `${Math.round(this.scale * 100)}%`;
+            }
+
+            zoom(delta, mouseX, mouseY) {
+                const oldScale = this.scale;
+                let newScale = oldScale + delta;
+                newScale = Math.min(Math.max(0.25, newScale), 2.2);
+
+                if (newScale === oldScale) return;
+
+                // Zoom relative to viewport cursor coordinates
+                const rect = this.viewportEl.getBoundingClientRect();
+                const cx = mouseX || rect.width / 2;
+                const cy = mouseY || rect.height / 2;
+
+                this.panX = cx - (cx - this.panX) * (newScale / oldScale);
+                this.panY = cy - (cy - this.panY) * (newScale / oldScale);
+                this.scale = newScale;
+
+                this.render();
+            }
+
+            fitToView() {
+                if (this.nodes.size === 0) return;
+
+                let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+                this.nodes.forEach(node => {
+                    if (this.isParentCollapsed(node)) return;
+                    minX = Math.min(minX, node.x);
+                    minY = Math.min(minY, node.y);
+                    maxX = Math.max(maxX, node.x + this.nodeWidth);
+                    maxY = Math.max(maxY, node.y + this.nodeHeight);
+                });
+
+                const vpWidth = this.viewportEl.clientWidth;
+                const vpHeight = this.viewportEl.clientHeight;
+
+                const treeWidth = maxX - minX + 150;
+                const treeHeight = maxY - minY + 150;
+
+                const scaleX = vpWidth / treeWidth;
+                const scaleY = vpHeight / treeHeight;
+                this.scale = Math.min(Math.max(0.35, Math.min(scaleX, scaleY)), 1.1);
+
+                this.panX = (vpWidth - (maxX - minX) * this.scale) / 2 - minX * this.scale;
+                this.panY = (vpHeight - (maxY - minY) * this.scale) / 2 - minY * this.scale;
+
+                this.render();
+            }
+
+            centerNode(nodeId) {
+                const node = this.nodes.get(nodeId);
+                if (!node) return;
+
+                const vpWidth = this.viewportEl.clientWidth;
+                const vpHeight = this.viewportEl.clientHeight;
+
+                this.panX = vpWidth / 2 - (node.x + this.nodeWidth / 2) * this.scale;
+                this.panY = vpHeight / 2 - (node.y + this.nodeHeight / 2) * this.scale;
+
+                this.updateTransform();
+            }
+
+            /**
+             * Window Event Listeners Setup
+             */
+            setupEventListeners() {
+                // Viewport Pan Mouse Dragging
+                this.viewportEl.addEventListener('mousedown', (e) => {
+                    if (e.target.closest('.pointer-events-auto')) return;
+                    this.isPanning = true;
+                    this.startPanX = e.clientX - this.panX;
+                    this.startPanY = e.clientY - this.panY;
+                    this.viewportEl.classList.add('cursor-grabbing');
+                });
+
+                window.addEventListener('mousemove', (e) => {
+                    if (!this.isPanning) return;
+                    this.panX = e.clientX - this.startPanX;
+                    this.panY = e.clientY - this.startPanY;
+                    this.updateTransform();
+                });
+
+                window.addEventListener('mouseup', () => {
+                    if (this.isPanning) {
+                        this.isPanning = false;
+                        this.viewportEl.classList.remove('cursor-grabbing');
+                    }
+                });
+
+                // Mouse Wheel Zooming
+                this.viewportEl.addEventListener('wheel', (e) => {
+                    e.preventDefault();
+                    const delta = e.deltaY < 0 ? 0.08 : -0.08;
+                    this.zoom(delta, e.clientX, e.clientY);
+                }, { passive: false });
+
+                // Control Bar Buttons
+                document.getElementById('zoomInBtn').addEventListener('click', () => this.zoom(0.15));
+                document.getElementById('zoomOutBtn').addEventListener('click', () => this.zoom(-0.15));
+                document.getElementById('fitViewBtn').addEventListener('click', () => this.fitToView());
+                document.getElementById('resetViewHeaderBtn').addEventListener('click', () => this.fitToView());
+
+                document.getElementById('expandAllBtn').addEventListener('click', () => {
+                    this.collapsedNodes.clear();
+                    this.render();
+                });
+
+                document.getElementById('collapseAllBtn').addEventListener('click', () => {
+                    this.nodes.forEach(node => {
+                        if (node.children.length > 0) this.collapsedNodes.add(node.id);
+                    });
+                    this.render();
+                });
+
+                // Search Input
+                const searchInput = document.getElementById('searchInput');
+                const clearSearch = document.getElementById('clearSearch');
+                
+                searchInput.addEventListener('input', (e) => {
+                    this.searchQuery = e.target.value.trim();
+                    if (this.searchQuery) {
+                        clearSearch.classList.remove('hidden');
+                    } else {
+                        clearSearch.classList.add('hidden');
+                    }
+                    this.render();
+                });
+
+                clearSearch.addEventListener('click', () => {
+                    searchInput.value = "";
+                    this.searchQuery = "";
+                    clearSearch.classList.add('hidden');
+                    this.render();
+                });
+
+                // Detail Density Buttons
+                const autoBtn = document.getElementById('viewAutoBtn');
+                const compactBtn = document.getElementById('viewCompactBtn');
+                const fullBtn = document.getElementById('viewFullBtn');
+
+                const resetDetailButtons = () => {
+                    [autoBtn, compactBtn, fullBtn].forEach(b => b.className = "px-2.5 py-1 rounded-md hover:bg-slate-700/50 transition-all");
+                };
+
+                autoBtn.addEventListener('click', () => {
+                    resetDetailButtons();
+                    autoBtn.className = "px-2.5 py-1 rounded-md bg-slate-700 text-white font-medium transition-all";
+                    this.detailMode = 'auto';
+                    this.render();
+                });
+
+                compactBtn.addEventListener('click', () => {
+                    resetDetailButtons();
+                    compactBtn.className = "px-2.5 py-1 rounded-md bg-slate-700 text-white font-medium transition-all";
+                    this.detailMode = 'compact';
+                    this.render();
+                });
+
+                fullBtn.addEventListener('click', () => {
+                    resetDetailButtons();
+                    fullBtn.className = "px-2.5 py-1 rounded-md bg-slate-700 text-white font-medium transition-all";
+                    this.detailMode = 'full';
+                    this.render();
+                });
+
+                // Drawer Action Buttons
+                document.getElementById('closeDrawerBtn').addEventListener('click', () => this.closeDrawer());
+                document.getElementById('clearPathBtn').addEventListener('click', () => this.clearPathHighlight());
+
+                document.getElementById('focusNodeBtn').addEventListener('click', () => {
+                    if (this.selectedNodeId) this.centerNode(this.selectedNodeId);
+                });
+
+                document.getElementById('highlightPathBtn').addEventListener('click', () => {
+                    if (this.selectedNodeId) this.highlightPathToNode(this.selectedNodeId);
+                });
+
+                // Add Custom Node Modal Handler
+                const modal = document.getElementById('addNodeModal');
+                const addRebuttalBtn = document.getElementById('addRebuttalBtn');
+                const closeModalBtn = document.getElementById('closeModalBtn');
+                const cancelModalBtn = document.getElementById('cancelModalBtn');
+                const addNodeForm = document.getElementById('addNodeForm');
+
+                addRebuttalBtn.addEventListener('click', () => {
+                    if (!this.selectedNodeId) return;
+                    const parentNode = this.nodes.get(this.selectedNodeId);
+                    document.getElementById('modalParentTitle').innerText = `${parentNode.title} (${parentNode.id})`;
+                    modal.classList.remove('hidden');
+                });
+
+                [closeModalBtn, cancelModalBtn].forEach(b => {
+                    b.addEventListener('click', () => modal.classList.add('hidden'));
+                });
+
+                addNodeForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    this.handleAddCustomNode();
+                    modal.classList.add('hidden');
+                });
+
+                // Legend collapse toggle
+                document.getElementById('toggleLegendBtn').addEventListener('click', () => {
+                    const body = document.getElementById('legendBody');
+                    body.classList.toggle('hidden');
+                });
+
+                // Theme Toggle (Dark/Light visual mode)
+                document.getElementById('themeToggleBtn').addEventListener('click', () => {
+                    document.documentElement.classList.toggle('dark');
+                    const isDark = document.documentElement.classList.contains('dark');
+                    this.viewportEl.className = `relative w-full h-full cursor-grab active:cursor-grabbing ${isDark ? 'grid-pattern-dark' : 'grid-pattern-light bg-slate-100'} overflow-hidden transition-colors duration-300`;
+                });
+            }
+
+            /**
+             * Adding Dynamic User Nodes
+             */
+            handleAddCustomNode() {
+                const parentNode = this.nodes.get(this.selectedNodeId);
+                if (!parentNode) return;
+
+                const nextSubId = parentNode.children.length + 1;
+                const newLevel = (parentNode.level || 1) + 1;
+                const newId = `${parentNode.id}.${nextSubId}`;
+
+                const newNode = {
+                    id: newId,
+                    parentId: parentNode.id,
+                    level: newLevel,
+                    type: document.getElementById('modalNodeType').value,
+                    shortLabel: document.getElementById('modalShortLabel').value,
+                    title: document.getElementById('modalTitle').value,
+                    summary: document.getElementById('modalSummary').value,
+                    status: document.getElementById('modalNodeStatus').value,
+                    children: []
+                };
+
+                this.nodes.set(newId, newNode);
+                parentNode.children.push(newId);
+
+                // Ensure parent is not collapsed
+                this.collapsedNodes.delete(parentNode.id);
+
+                this.updateCounts();
+                this.selectNode(newId);
+                this.centerNode(newId);
+            }
+
+            updateCounts() {
+                let core = 0, rebuttal = 0, counter = 0, sub = 0, terminal = 0;
+
+                this.nodes.forEach(n => {
+                    if (n.status === 'open_ended' || n.type === 'terminal') terminal++;
+                    else if (n.type === 'core_argument' || n.type === 'stage_2') core++;
+                    else if (n.type === 'rebuttal') rebuttal++;
+                    else if (n.type === 'counter_rebuttal') counter++;
+                    else sub++;
+                });
+
+                document.getElementById('count-core').innerText = core;
+                document.getElementById('count-rebuttal').innerText = rebuttal;
+                document.getElementById('count-counter').innerText = counter;
+                document.getElementById('count-sub').innerText = sub;
+                document.getElementById('count-terminal').innerText = terminal;
+            }
+        }
+
+        window.onload = async function() {
+            try {
+                const response = await fetch('./kalam_tree.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to load tree data: ${response.status} ${response.statusText}`);
+                }
+
+                const treeData = await response.json();
+                window.kalamTree = new KalamTreeEngine(treeData);
+            } catch (error) {
+                console.error('Unable to initialize the Kalam argument tree.', error);
+            }
+        };
+    </script>
+</body>
+</html>
