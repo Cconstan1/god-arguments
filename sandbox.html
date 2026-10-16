@@ -141,7 +141,7 @@
     <main class="card">
       <h1 class="card-title">Media Embed Testing Sandbox</h1>
       <p class="card-subtitle">
-        Isolated preview environment testing automated video clip looping (47:59 to 50:19). 
+        Isolated preview environment testing active time-polling loop (47:59 to 50:19). 
         This standalone page operates independently of <code>index.html</code>.
       </p>
 
@@ -155,16 +155,19 @@
     </footer>
   </div>
 
-  <!-- YouTube IFrame Player API for Infinite Segment Looping -->
+  <!-- YouTube IFrame Player API for Seamless Segment Looping -->
   <script src="https://www.youtube.com/iframe_api"></script>
   <script>
     let player;
+    let loopInterval;
+    const START_TIME = 2879; // 47:59 in seconds
+    const END_TIME = 3019;   // 50:19 in seconds
+
     function onYouTubeIframeAPIReady() {
       player = new YT.Player('player', {
         videoId: 'RMRBrTk4x1I',
         playerVars: {
-          'start': 2879,
-          'end': 3019,
+          'start': START_TIME,
           'rel': 0,
           'modestbranding': 1
         },
@@ -175,10 +178,28 @@
     }
 
     function onPlayerStateChange(event) {
-      // When the clip reaches end (timestamp 3019), jump back to 2879 and loop!
+      if (event.data === YT.PlayerState.PLAYING) {
+        // Poll current playback time every 200ms while playing
+        clearInterval(loopInterval);
+        loopInterval = setInterval(checkLoop, 200);
+      } else {
+        clearInterval(loopInterval);
+      }
+
+      // Safety fallback if it ever reaches end state directly
       if (event.data === YT.PlayerState.ENDED) {
-        player.seekTo(2879);
+        player.seekTo(START_TIME, true);
         player.playVideo();
+      }
+    }
+
+    function checkLoop() {
+      if (player && player.getCurrentTime) {
+        const currentTime = player.getCurrentTime();
+        // Right before hitting 50:19 (3018.5s), seek back to 47:59 and keep playing seamlessly
+        if (currentTime >= END_TIME - 0.5) {
+          player.seekTo(START_TIME, true);
+        }
       }
     }
   </script>
