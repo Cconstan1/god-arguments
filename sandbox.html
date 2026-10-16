@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Embed Test Sandbox | God Arguments</title>
+  <style>
+    /* Dark mode design system matching core site aesthetic */
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent-teal: #14b8a6;
+      --accent-teal-hover: #0d9488;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-main);
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 0.6rem 1.2rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: all 0.2s ease;
+    }
+
+    .back-btn:hover {
+      background-color: var(--card-border);
+      color: var(--accent-teal);
+      border-color: var(--accent-teal);
+    }
+
+    .badge {
+      background-color: rgba(20, 184, 166, 0.15);
+      color: var(--accent-teal);
+      padding: 0.35rem 0.85rem;
+      border-radius: 1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border: 1px solid rgba(20, 184, 166, 0.3);
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 0.75rem;
+      padding: 1.75rem;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+    }
+
+    .card-subtitle {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+
+    /* Responsive 16:9 Video Aspect Ratio Wrapper */
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      background-color: #000;
+      border: 1px solid var(--card-border);
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <a href="index.html" class="back-btn">
+        &larr; Back to Master Map
+      </a>
+      <span class="badge">Isolated Test Sandbox</span>
+    </header>
+
+    <main class="card">
+      <h1 class="card-title">Media Embed Testing Sandbox</h1>
+      <p class="card-subtitle">
+        Isolated preview environment for testing custom YouTube video embeds. 
+        This standalone page operates independently of <code>index.html</code>.
+      </p>
+
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube-nocookie.com/embed/RMRBrTk4x1I?start=2879&end=3019" 
+          title="YouTube Video Embed Test"
+          referrerpolicy="no-referrer-when-downgrade"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </main>
+
+    <footer>
+      God Arguments Web Architecture &bull; Temporary Sandbox Page
+    </footer>
+  </div>
+
+</body>
+</html>
