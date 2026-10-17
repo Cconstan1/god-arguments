@@ -91,27 +91,11 @@
       box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
     }
 
-    .card-meta {
-      font-size: 0.8rem;
-      color: var(--accent-teal);
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 0.4rem;
-    }
-
     .card-title {
       font-size: 1.35rem;
       font-weight: 700;
-      margin-bottom: 0.35rem;
-      color: var(--text-main);
-    }
-
-    .card-subtitle {
-      font-size: 0.95rem;
-      color: var(--text-muted);
       margin-bottom: 1.25rem;
-      line-height: 1.5;
+      color: var(--text-main);
     }
 
     /* Responsive 16:9 Video Aspect Ratio Wrapper */
@@ -126,7 +110,7 @@
       border: 1px solid var(--card-border);
     }
 
-    .video-wrapper iframe, .video-wrapper .player-div {
+    .video-wrapper iframe {
       position: absolute;
       top: 0;
       left: 0;
@@ -157,27 +141,33 @@
 
       <!-- Video Card 1 -->
       <div class="card">
-        <div class="card-meta">Test Clip #1 &bull; Segment: 47:59 &ndash; 50:19</div>
-        <h2 class="card-title">Problem of Evil & Divine Hiddenness Discussion</h2>
-        <p class="card-subtitle">
-          Original Video: <strong>Alex O'Connor & Joe Schmid Evaluation</strong>
-        </p>
+        <h2 class="card-title">Theist Ironically Has No Basis for Morality</h2>
 
         <div class="video-wrapper">
-          <div id="player1" class="player-div"></div>
+          <iframe 
+            id="player1"
+            src="https://www.youtube-nocookie.com/embed/RMRBrTk4x1I?enablejsapi=1&start=2879&rel=0" 
+            title="Theist Ironically Has No Basis for Morality"
+            referrerpolicy="no-referrer-when-downgrade"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
 
       <!-- Video Card 2 -->
       <div class="card">
-        <div class="card-meta">Test Clip #2 &bull; Segment: 1:34:00 &ndash; 1:37:15</div>
-        <h2 class="card-title">Speaking in Tongues ("I bought a Honda; should'a bought a Toyota")</h2>
-        <p class="card-subtitle">
-          Original Video: <strong>Theist Ironically Has No Basis for Morality</strong>
-        </p>
+        <h2 class="card-title">Speaking in Tongues ("Should'a bought a Hyundai, but I bought a Toyota")</h2>
 
         <div class="video-wrapper">
-          <div id="player2" class="player-div"></div>
+          <iframe 
+            id="player2"
+            src="https://www.youtube-nocookie.com/embed/ysDz_LgRWPg?enablejsapi=1&start=5640&rel=0" 
+            title="Speaking in Tongues (&quot;Should'a bought a Hyundai, but I bought a Toyota&quot;)"
+            referrerpolicy="no-referrer-when-downgrade"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
 
@@ -191,10 +181,9 @@
   <!-- YouTube IFrame Player API for Seamless Segment Looping -->
   <script src="https://www.youtube.com/iframe_api"></script>
   <script>
-    // Configuration array for all sandbox clips
     const clips = [
-      { id: 'player1', videoId: 'RMRBrTk4x1I', start: 2879, end: 3019 },
-      { id: 'player2', videoId: 'ysDz_LgRWPg', start: 5640, end: 5835 }
+      { id: 'player1', start: 2879, end: 3019 },
+      { id: 'player2', start: 5640, end: 5835 }
     ];
 
     const players = {};
@@ -203,12 +192,6 @@
     function onYouTubeIframeAPIReady() {
       clips.forEach(clip => {
         players[clip.id] = new YT.Player(clip.id, {
-          videoId: clip.videoId,
-          playerVars: {
-            'start': clip.start,
-            'rel': 0,
-            'modestbranding': 1
-          },
           events: {
             'onStateChange': (event) => handleStateChange(event, clip)
           }
