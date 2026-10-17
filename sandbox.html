@@ -178,7 +178,7 @@
     </footer>
   </div>
 
-  <!-- YouTube IFrame Player API for Seamless Segment Looping -->
+  <!-- YouTube IFrame Player API for Strict Segment Boundary Enforcement -->
   <script src="https://www.youtube.com/iframe_api"></script>
   <script>
     const clips = [
@@ -207,8 +207,13 @@
         intervals[clip.id] = setInterval(() => {
           if (player && player.getCurrentTime) {
             const currentTime = player.getCurrentTime();
-            // Snap back 0.5s before end timestamp to prevent YouTube end-screen overlay
-            if (currentTime >= clip.end - 0.5) {
+            
+            // 1. If user clicks prior to start time, snap forward to start time
+            if (currentTime < clip.start - 0.5) {
+              player.seekTo(clip.start, true);
+            }
+            // 2. If video reaches end boundary, snap back to start time
+            else if (currentTime >= clip.end - 0.5) {
               player.seekTo(clip.start, true);
             }
           }
