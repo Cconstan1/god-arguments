@@ -215,6 +215,55 @@
       border-radius: 3px;
     }
 
+    .tts-controls {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+
+    .tts-option {
+      min-width: 0;
+      padding: 1rem;
+      border: 1px solid var(--card-border);
+      border-radius: 0.5rem;
+      background-color: var(--bg-color);
+    }
+
+    .tts-option h3 {
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+    }
+
+    .tts-option audio {
+      display: block;
+      width: 100%;
+    }
+
+    .tts-audio-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tts-option .btn-control[aria-pressed="true"] {
+      border-color: var(--accent-teal);
+      color: var(--accent-teal);
+    }
+
+    .tts-status {
+      min-height: 1.25rem;
+      margin-top: 0.5rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      .tts-controls {
+        grid-template-columns: 1fr;
+      }
+    }
+
     footer {
       margin-top: 2rem;
       text-align: center;
@@ -284,6 +333,42 @@
             <button id="mute2" class="btn-control">Mute</button>
             <button id="fs2" class="btn-control">⛶ Fullscreen</button>
           </div>
+        </div>
+      </div>
+
+      <!-- Text-to-Speech Comparison Card -->
+      <div class="card">
+        <div class="card-header-area">
+          <h2 class="card-title">TTS Comparison Test: Kalam Cosmological Argument</h2>
+        </div>
+
+        <p id="ttsContent">Premise 1: Whatever begins to exist has a cause. Premise 2: The universe began to exist. Conclusion: Therefore, the universe has a cause.</p>
+
+        <div class="tts-controls">
+          <section class="tts-option" aria-labelledby="browser-tts-heading">
+            <h3 id="browser-tts-heading">Browser-Native Speech</h3>
+            <button id="browserTtsButton" class="btn-control" type="button">🔊 Read Aloud (Browser TTS)</button>
+            <p id="browserTtsStatus" class="tts-status" aria-live="polite"></p>
+          </section>
+
+          <section class="tts-option" aria-labelledby="studio-audio-heading">
+            <h3 id="studio-audio-heading">Public AI Voice Sample</h3>
+            <audio
+              id="aiVoiceAudio"
+              preload="none"
+              src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Wikipedia_-_Fake_news_%28spoken_by_AI_voice%29.mp3"
+              aria-label="Public AI-narrated audio sample"
+            ></audio>
+            <div class="tts-audio-controls">
+              <button id="aiVoicePlayButton" class="btn-control" type="button" aria-pressed="false">▶️ Play Sample</button>
+              <button id="aiVoiceMuteButton" class="btn-control" type="button" aria-pressed="false">🔇 Mute</button>
+            </div>
+            <a class="yt-link" href="https://commons.wikimedia.org/wiki/File:Wikipedia_-_Fake_news_(spoken_by_AI_voice).mp3" target="_blank" rel="noopener noreferrer">
+              Public sample source (Wikimedia Commons)
+            </a>
+            <p class="tts-status">Placeholder sample only: this public AI narration reads its source article, not the argument, and is not Google Cloud-generated.</p>
+            <p id="aiVoiceStatus" class="tts-status" aria-live="polite"></p>
+          </section>
         </div>
       </div>
 
@@ -447,6 +532,88 @@
       const secs = s % 60;
       return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
     }
+
+    const browserTtsButton = document.getElementById('browserTtsButton');
+    const browserTtsStatus = document.getElementById('browserTtsStatus');
+    const speechSynthesis = window.speechSynthesis;
+    let isBrowserTtsPlaying = false;
+
+    function resetBrowserTtsButton() {
+      isBrowserTtsPlaying = false;
+      browserTtsButton.textContent = '🔊 Read Aloud (Browser TTS)';
+    }
+
+    if (!speechSynthesis || typeof SpeechSynthesisUtterance === 'undefined') {
+      browserTtsButton.disabled = true;
+      browserTtsStatus.textContent = 'Browser speech synthesis is not supported.';
+    } else {
+      browserTtsButton.addEventListener('click', () => {
+        if (isBrowserTtsPlaying) {
+          resetBrowserTtsButton();
+          speechSynthesis.cancel();
+          browserTtsStatus.textContent = 'Speech stopped.';
+          return;
+        }
+
+        const utterance = new SpeechSynthesisUtterance(
+          document.getElementById('ttsContent').textContent
+        );
+        utterance.onend = () => {
+          resetBrowserTtsButton();
+          browserTtsStatus.textContent = '';
+        };
+        utterance.onerror = (event) => {
+          resetBrowserTtsButton();
+          if (event.error !== 'canceled' && event.error !== 'interrupted') {
+            browserTtsStatus.textContent = `Speech could not be played: ${event.error}.`;
+          }
+        };
+
+        browserTtsStatus.textContent = '';
+        isBrowserTtsPlaying = true;
+        browserTtsButton.textContent = '⏹️ Stop';
+        speechSynthesis.speak(utterance);
+      });
+    }
+
+    const aiVoiceAudio = document.getElementById('aiVoiceAudio');
+    const aiVoicePlayButton = document.getElementById('aiVoicePlayButton');
+    const aiVoiceMuteButton = document.getElementById('aiVoiceMuteButton');
+    const aiVoiceStatus = document.getElementById('aiVoiceStatus');
+
+    function resetAiVoicePlayButton() {
+      aiVoicePlayButton.textContent = '▶️ Play Sample';
+      aiVoicePlayButton.setAttribute('aria-pressed', 'false');
+    }
+
+    aiVoicePlayButton.addEventListener('click', () => {
+      if (aiVoiceAudio.paused) {
+        aiVoiceAudio.play().catch((error) => {
+          resetAiVoicePlayButton();
+          aiVoiceStatus.textContent = `Audio could not be played: ${error.message}`;
+        });
+      } else {
+        aiVoiceAudio.pause();
+      }
+    });
+
+    aiVoiceMuteButton.addEventListener('click', () => {
+      aiVoiceAudio.muted = !aiVoiceAudio.muted;
+      aiVoiceMuteButton.textContent = aiVoiceAudio.muted ? '🔊 Unmute' : '🔇 Mute';
+      aiVoiceMuteButton.setAttribute('aria-pressed', String(aiVoiceAudio.muted));
+    });
+
+    aiVoiceAudio.addEventListener('play', () => {
+      aiVoicePlayButton.textContent = '⏸️ Pause Sample';
+      aiVoicePlayButton.setAttribute('aria-pressed', 'true');
+      aiVoiceStatus.textContent = '';
+    });
+    aiVoiceAudio.addEventListener('pause', resetAiVoicePlayButton);
+    aiVoiceAudio.addEventListener('ended', resetAiVoicePlayButton);
+    aiVoiceAudio.addEventListener('error', () => {
+      resetAiVoicePlayButton();
+      aiVoiceStatus.textContent = 'The public audio sample could not be loaded.';
+    });
   </script>
 
 </body>

@@ -138,7 +138,10 @@
                     <i class="fa-solid fa-magnifying-glass absolute left-3 top-3 text-xs text-slate-500"></i>
                     <input id="masterSearch" type="search" placeholder="Search arguments, domains, summaries..." class="w-full rounded-lg border border-slate-700 bg-slate-900/90 py-2 pl-8 pr-3 text-xs text-slate-200 outline-none transition focus:border-teal-400">
                 </div>
-                <a href="sandbox.html" class="rounded-lg border border-slate-700 bg-slate-900/90 px-3 py-2 text-xs font-medium text-slate-200 transition hover:bg-slate-800">🧪 Video Sandbox</a>
+                <a href="sandbox.html" class="rounded-lg border border-slate-700 bg-slate-900/90 px-3 py-2 text-xs font-medium text-slate-200 transition hover:bg-slate-800">🧪 Sandbox</a>
+                <button type="button" data-open-settings class="rounded-lg border border-slate-700 bg-slate-900/90 px-3 py-2 text-xs font-medium text-slate-200 transition hover:bg-slate-800">
+                    <i class="fa-solid fa-gear mr-1"></i>Settings
+                </button>
                 <label class="flex cursor-pointer items-center gap-2 text-xs text-slate-300" title="Show or hide academic tier badges">
                     <input id="tierToggle" type="checkbox" checked class="peer sr-only">
                     <span class="relative h-5 w-9 rounded-full bg-slate-700 transition peer-checked:bg-teal-600 after:absolute after:left-1 after:top-1 after:h-3 after:w-3 after:rounded-full after:bg-white after:transition peer-checked:after:translate-x-4"></span>
@@ -210,6 +213,9 @@
 
             <button id="themeToggleBtn" class="p-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-slate-300 transition-all" title="Toggle Light/Dark Visual Theme">
                 <i class="fa-solid fa-moon"></i>
+            </button>
+            <button type="button" data-open-settings class="p-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-slate-300 transition-all" title="Voice settings" aria-label="Voice settings">
+                <i class="fa-solid fa-gear"></i>
             </button>
         </div>
     </header>
@@ -498,6 +504,25 @@
         </div>
     </div>
 
+    <div id="settingsModal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+        <div class="w-full max-w-md rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-2xl">
+            <div class="mb-4 flex items-center justify-between border-b border-slate-800 pb-3">
+                <h2 id="settingsTitle" class="flex items-center gap-2 text-base font-bold text-slate-100">
+                    <i class="fa-solid fa-gear text-emerald-400"></i>
+                    Settings
+                </h2>
+                <button id="closeSettingsBtn" type="button" class="text-slate-500 hover:text-slate-300" aria-label="Close settings">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <label for="voiceSelect" class="mb-1 block text-xs font-medium text-slate-300">Voice Preference</label>
+            <select id="voiceSelect" class="w-full rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-xs text-slate-200 focus:border-emerald-500 focus:outline-none">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+        </div>
+    </div>
+
     <script>
         /**
          * Initial Dataset for the Kalam Cosmological Argument Decision Tree
@@ -732,6 +757,33 @@
         /**
          * State Management Architecture
          */
+        function getPreferredVoice() {
+            return localStorage.getItem('preferredVoice') === 'male' ? 'male' : 'female';
+        }
+
+        function setupSettingsModal() {
+            const modal = document.getElementById('settingsModal');
+            const voiceSelect = document.getElementById('voiceSelect');
+            const savedVoice = localStorage.getItem('preferredVoice');
+            voiceSelect.value = savedVoice === 'male' ? 'male' : 'female';
+
+            document.querySelectorAll('[data-open-settings]').forEach(button => {
+                button.addEventListener('click', () => modal.classList.remove('hidden'));
+            });
+            document.getElementById('closeSettingsBtn').addEventListener('click', () => {
+                modal.classList.add('hidden');
+            });
+            modal.addEventListener('click', event => {
+                if (event.target === modal) modal.classList.add('hidden');
+            });
+            document.addEventListener('keydown', event => {
+                if (event.key === 'Escape') modal.classList.add('hidden');
+            });
+            voiceSelect.addEventListener('change', () => {
+                localStorage.setItem('preferredVoice', voiceSelect.value);
+            });
+        }
+
         class KalamTreeEngine {
             constructor(data) {
                 this.nodes = new Map();
@@ -764,6 +816,19 @@
                 this.svgConnectorsEl = document.getElementById('svgConnectors');
                 this.pathGroupEl = document.getElementById('pathGroup');
                 this.drawerEl = document.getElementById('inspectorDrawer');
+                this.audioPlayer = new Audio();
+                this.playingAudioNodeId = null;
+                this.audioPlayer.addEventListener('play', () => this.updateAudioButtons());
+                this.audioPlayer.addEventListener('pause', () => this.updateAudioButtons());
+                this.audioPlayer.addEventListener('ended', () => {
+                    this.playingAudioNodeId = null;
+                    this.updateAudioButtons();
+                });
+                this.audioPlayer.addEventListener('error', () => {
+                    this.setAudioStatus(this.playingAudioNodeId, 'Audio could not be loaded.');
+                    this.playingAudioNodeId = null;
+                    this.updateAudioButtons();
+                });
 
                 this.initDataset(data);
                 this.setupEventListeners();
@@ -1030,11 +1095,17 @@
                                 </p>
                             </div>
                             
-                            <div class="flex items-center justify-between pt-2 border-t border-slate-800/80 mt-2 text-[10px] text-slate-400">
+                            <div class="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-800/80 mt-2 text-[10px] text-slate-400">
                                 <span class="font-mono text-slate-500">ID: ${node.id}</span>
+                                <button data-play-audio-id="${node.id}" type="button" aria-pressed="false"
+                                        class="rounded-md border border-slate-700 bg-slate-800 px-2 py-1 text-emerald-300 transition hover:border-emerald-500 hover:bg-slate-700"
+                                        title="Play this card using your preferred voice">
+                                    <i class="fa-solid fa-play mr-1"></i>Play
+                                </button>
                                 <span class="text-emerald-400 flex items-center gap-1 font-medium hover:underline">
                                     Inspect <i class="fa-solid fa-chevron-right text-[8px]"></i>
                                 </span>
+                                <span data-audio-status-id="${node.id}" class="basis-full text-right text-[9px] text-rose-300 empty:hidden" aria-live="polite"></span>
                             </div>
                         </div>
                     `;
@@ -1065,6 +1136,7 @@
 
                 this.nodesContainerEl.innerHTML = html;
                 this.attachNodeClickListeners();
+                this.updateAudioButtons();
             }
 
             /**
@@ -1082,6 +1154,13 @@
                     });
                 });
 
+                document.querySelectorAll('[data-play-audio-id]').forEach(button => {
+                    button.addEventListener('click', event => {
+                        event.stopPropagation();
+                        this.playNodeAudio(button.dataset.playAudioId);
+                    });
+                });
+
                 // Collapse Toggle
                 document.querySelectorAll('[data-toggle-id]').forEach(btn => {
                     btn.addEventListener('click', (e) => {
@@ -1089,6 +1168,53 @@
                         const nodeId = btn.getAttribute('data-toggle-id');
                         this.toggleCollapse(nodeId);
                     });
+                });
+            }
+
+            async playNodeAudio(nodeId) {
+                const cardData = this.nodes.get(nodeId);
+                const preferredVoice = getPreferredVoice();
+                const audioUrl = cardData?.audio_urls?.[preferredVoice];
+                if (typeof audioUrl !== 'string' || !audioUrl) {
+                    this.setAudioStatus(nodeId, `No ${preferredVoice} audio is available for this card.`);
+                    return;
+                }
+
+                if (this.playingAudioNodeId === nodeId && !this.audioPlayer.paused) {
+                    this.audioPlayer.pause();
+                    return;
+                }
+
+                this.audioPlayer.pause();
+                this.playingAudioNodeId = nodeId;
+                this.audioPlayer.src = audioUrl;
+                this.setAudioStatus(nodeId, '');
+                try {
+                    await this.audioPlayer.play();
+                } catch (error) {
+                    if (this.playingAudioNodeId === nodeId) {
+                        this.playingAudioNodeId = null;
+                        this.updateAudioButtons();
+                        this.setAudioStatus(nodeId, `Audio could not be played: ${error.message}`);
+                    }
+                }
+            }
+
+            updateAudioButtons() {
+                document.querySelectorAll('[data-play-audio-id]').forEach(button => {
+                    const isPlaying = button.dataset.playAudioId === this.playingAudioNodeId &&
+                        !this.audioPlayer.paused;
+                    button.innerHTML = isPlaying
+                        ? '<i class="fa-solid fa-pause mr-1"></i>Pause'
+                        : '<i class="fa-solid fa-play mr-1"></i>Play';
+                    button.setAttribute('aria-pressed', String(isPlaying));
+                });
+            }
+
+            setAudioStatus(nodeId, message) {
+                if (!nodeId) return;
+                document.querySelectorAll('[data-audio-status-id]').forEach(status => {
+                    if (status.dataset.audioStatusId === nodeId) status.textContent = message;
                 });
             }
 
@@ -1744,6 +1870,7 @@
 
         window.onload = async function() {
             try {
+                setupSettingsModal();
                 const response = await fetch('./arguments_index.json');
                 if (!response.ok) {
                     throw new Error(`Failed to load argument index: ${response.status} ${response.statusText}`);
