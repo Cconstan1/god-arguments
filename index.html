@@ -1174,7 +1174,11 @@
             async playNodeAudio(nodeId) {
                 const cardData = this.nodes.get(nodeId);
                 const preferredVoice = getPreferredVoice();
-                const audioUrl = cardData?.audio_urls?.[preferredVoice];
+                const legacyAudioUrl = cardData?.audio_url;
+                const audioUrl = cardData?.audio_urls?.[preferredVoice] ??
+                    (typeof legacyAudioUrl === 'string' && /\.mp3$/i.test(legacyAudioUrl)
+                        ? legacyAudioUrl.replace(/\.mp3$/i, `_${preferredVoice}.mp3`)
+                        : null);
                 if (typeof audioUrl !== 'string' || !audioUrl) {
                     this.setAudioStatus(nodeId, `No ${preferredVoice} audio is available for this card.`);
                     return;
