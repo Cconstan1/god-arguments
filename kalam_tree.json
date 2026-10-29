@@ -11,26 +11,18 @@
       "title": "Kalam Cosmological Argument (Stage 1)",
       "summary": "Whatever begins to exist has a cause. The universe began to exist. Therefore, the universe has a cause.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/1.0_female.mp3",
-        "male": "audio/1.0_male.mp3"
-      }
+      "summary_5th_grader": "Anything that pops into existence had something make it start. Since our universe had a beginning long ago, something must have caused the universe to start!"
     },
     {
       "id": "1.1",
       "parentId": "1.0",
       "level": 1,
       "type": "stage_2",
-      "nodeType": "core_stage",
-      "side": "theist",
       "shortLabel": "Stage 2 Deduction",
       "title": "Identification of First Cause (Stage 2)",
-      "summary": "If the universe has a cause, that cause must transcend physical space, time, and matter—meaning it is uncaused, timeless, spaceless, immaterial, and enormously powerful.",
+      "summary": "If the universe has a cause, that cause must transcend physical space, time, and matter\u2014meaning it is uncaused, timeless, spaceless, immaterial, and enormously powerful.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/1.1_female.mp3",
-        "male": "audio/1.1_male.mp3"
-      }
+      "summary_5th_grader": "If something made all of space, time, and matter, that maker can't be made of space, time, or matter! It must exist outside of time and space, be super powerful, and not have a maker of its own."
     },
     {
       "id": "2.1",
@@ -41,10 +33,7 @@
       "title": "Equivocation Objection (Ex Nihilo vs Ex Materia)",
       "summary": "Every 'beginning' we observe in daily life is a rearrangement of pre-existing matter. We have no experience with stuff coming into existence out of literal nothing.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/2.1_female.mp3",
-        "male": "audio/2.1_male.mp3"
-      }
+      "summary_5th_grader": "When you build a Lego tower, you're just moving plastic blocks around, not creating plastic out of thin air. We've never seen anything appear out of absolute nothing, so we can't assume the universe started the same way."
     },
     {
       "id": "3.1",
@@ -55,10 +44,7 @@
       "title": "Reframing 'Begins to Exist'",
       "summary": "Defenders reframe Premise 1: 'Everything with an earliest temporal boundary has a cause.' This applies universally whether matter pre-existed or not.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/3.1_female.mp3",
-        "male": "audio/3.1_male.mp3"
-      }
+      "summary_5th_grader": "Defenders say: if something has a starting point on a timeline (a first moment), it needs a reason or cause to start\u2014whether you're reshaping old playdough or making brand new stuff!"
     },
     {
       "id": "4.1",
@@ -69,10 +55,7 @@
       "title": "Material Causality Symmetry/Parody",
       "summary": "If we rely on empirical intuition, every cause is also a material cause. Symmetrical claim: 'Whatever begins to exist has a material cause', which rules out creation ex nihilo.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/4.1_female.mp3",
-        "male": "audio/4.1_male.mp3"
-      }
+      "summary_5th_grader": "Skeptics argue: every cause we've ever seen needs starting ingredients. If making things always requires building materials, you can't create a universe out of total nothingness!"
     },
     {
       "id": "5.1",
@@ -83,10 +66,7 @@
       "title": "Metaphysical Intuition (Ex Nihilo Nihil Fit)",
       "summary": "Premise 1 rests on the metaphysical principle 'out of nothing, nothing comes', not mere empirical induction. Material causality is a feature of physical objects, not causation itself.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/5.1_female.mp3",
-        "male": "audio/5.1_male.mp3"
-      }
+      "summary_5th_grader": "Defenders reply: 'Nothing comes from nothing!' Magic doesn't just happen without a reason. The rule isn't about physical stuff, but about how reality works: absolute nothingness can't produce anything."
     },
     {
       "id": "6.1",
@@ -97,10 +77,7 @@
       "title": "Terminal Node: Material Causality & Metaphysical Limits",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "audio_urls": {
-        "female": "audio/6.1_female.mp3",
-        "male": "audio/6.1_male.mp3"
-      }
+      "summary_5th_grader": "This path ends here: thinkers still debate whether making things always requires starting materials or if a powerful cause can make things out of nothing."
     },
     {
       "id": "2.2",
@@ -111,10 +88,7 @@
       "title": "Quantum Indeterminacy Objection",
       "summary": "Quantum mechanics shows subatomic events (like virtual particle pairs or decay) occur spontaneously without deterministic causes.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/2.2_female.mp3",
-        "male": "audio/2.2_male.mp3"
-      }
+      "summary_5th_grader": "Scientists who study tiny quantum particles notice that tiny bits of energy seem to pop up randomly without any push or reason. Maybe the universe started randomly too!"
     },
     {
       "id": "3.2",
@@ -123,12 +97,9 @@
       "type": "counter_rebuttal",
       "shortLabel": "Vacuum Substrate",
       "title": "Quantum Vacuum Is a Physical System",
-      "summary": "Quantum virtual particles arise within a pre-existing quantum vacuum governed by physical energy and laws—not out of literal non-being.",
+      "summary": "Quantum virtual particles arise within a pre-existing quantum vacuum governed by physical energy and laws\u2014not out of literal non-being.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/3.2_female.mp3",
-        "male": "audio/3.2_male.mp3"
-      }
+      "summary_5th_grader": "Defenders point out: quantum particles pop up inside a sea of energy governed by physics laws, not out of total empty nothingness. So there was still a cause!"
     },
     {
       "id": "4.2",
@@ -139,10 +110,7 @@
       "title": "Terminal Node: Quantum Vacuum & Causality",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "audio_urls": {
-        "female": "audio/4.2_female.mp3",
-        "male": "audio/4.2_male.mp3"
-      }
+      "summary_5th_grader": "This path ends here: the big question is whether tiny quantum physics rules apply to how the whole universe began."
     },
     {
       "id": "2.3",
@@ -153,10 +121,7 @@
       "title": "Eternal / Infinite Past Regress Objection",
       "summary": "The Big Bang may represent local expansion, but the broader cosmos, multiverse, or quantum vacuum could be eternal into the past.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/2.3_female.mp3",
-        "male": "audio/2.3_male.mp3"
-      }
+      "summary_5th_grader": "Maybe the Big Bang was just one balloon popping in a giant cosmic room that has been around forever and ever, with no real beginning at all!"
     },
     {
       "id": "3.3",
@@ -167,10 +132,7 @@
       "title": "Impossibility of Actual Infinites in Time",
       "summary": "An actual infinite series of past events leads to logical paradoxes (Hilbert's Hotel, Grim Reaper). You cannot traverse an infinite series of moments to reach today.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/3.3_female.mp3",
-        "male": "audio/3.3_male.mp3"
-      }
+      "summary_5th_grader": "Defenders say time can't go backwards forever! If you had to count down from infinity to zero, you would never reach today. Since today is here, the past must have had a Day 1."
     },
     {
       "id": "4.3",
@@ -181,10 +143,7 @@
       "title": "Mathematical Infinities & Quantum Cosmology",
       "summary": "Cantorian set theory shows actual infinites are mathematically coherent. Loop Quantum Gravity and bounce models permit continuous past states without an absolute start.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/4.3_female.mp3",
-        "male": "audio/4.3_male.mp3"
-      }
+      "summary_5th_grader": "Skeptics argue math shows infinity works just fine! Advanced physics models suggest the universe might bounce like an endless trampoline without a single starting point."
     },
     {
       "id": "5.3",
@@ -195,10 +154,7 @@
       "title": "Causal Finitism & BGV Theorem",
       "summary": "Causal chains suffer from paradoxes if infinite (Causal Finitism). The Borde-Guth-Vilenkin (BGV) theorem proves any universe expanding on average must have a past boundary.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/5.3_female.mp3",
-        "male": "audio/5.3_male.mp3"
-      }
+      "summary_5th_grader": "Defenders bring up famous math proofs (like the BGV theorem) that show any universe that expands must have a starting line somewhere in the past."
     },
     {
       "id": "6.3",
@@ -209,10 +165,7 @@
       "title": "Terminal Node: BGV Boundary & Quantum Initial State",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "audio_urls": {
-        "female": "audio/6.3_female.mp3",
-        "male": "audio/6.3_male.mp3"
-      }
+      "summary_5th_grader": "This path ends here: physicists and philosophers are still debating if the universe MUST have a starting line or if it could bounce forever."
     },
     {
       "id": "2.4",
@@ -223,10 +176,7 @@
       "title": "Physics of Time Objection",
       "summary": "Space and time were created with the Big Bang. Asking what happened 'before' t=0 is like asking what is 'north of the South Pole'.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/2.4_female.mp3",
-        "male": "audio/2.4_male.mp3"
-      }
+      "summary_5th_grader": "Some scientists say time itself started at the Big Bang! Asking 'what caused it before time began?' makes as much sense as asking 'what is north of the North Pole?'"
     },
     {
       "id": "3.4",
@@ -237,10 +187,7 @@
       "title": "Simultaneous & Ontological Causality",
       "summary": "Causality does not require temporal priority (a cause occurring before an effect in time). Cause and effect can occur simultaneously at t=0.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/3.4_female.mp3",
-        "male": "audio/3.4_male.mp3"
-      }
+      "summary_5th_grader": "Defenders explain: a cause doesn't have to happen before its effect in time. Think of a heavy ball resting on a pillow\u2014the ball causes the dent right at the exact same moment!"
     },
     {
       "id": "4.4",
@@ -251,10 +198,7 @@
       "title": "Special Relativity & Absolute Simultaneity",
       "summary": "Special relativity disproves absolute cosmic simultaneity. Simultaneous physical causation violates relativistic physics.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/4.4_female.mp3",
-        "male": "audio/4.4_male.mp3"
-      }
+      "summary_5th_grader": "Skeptics counter that Einstein's theory of relativity shows 'at the exact same moment' depends on where you are standing, so physics doesn't allow instant causes."
     },
     {
       "id": "5.4",
@@ -265,10 +209,7 @@
       "title": "Terminal Node: Temporal Priority & Relativity",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "audio_urls": {
-        "female": "audio/5.4_female.mp3",
-        "male": "audio/5.4_male.mp3"
-      }
+      "summary_5th_grader": "This path ends here: experts keep discussing how cause and time fit together according to Einstein's rules of physics."
     },
     {
       "id": "2.5",
@@ -279,10 +220,7 @@
       "title": "The Gap / God of the Gaps Fallacy",
       "summary": "Even if the universe has a first cause, jumping to a personal God is an argument from ignorance. The cause could be a natural physical mechanism.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/2.5_female.mp3",
-        "male": "audio/2.5_male.mp3"
-      }
+      "summary_5th_grader": "Skeptics say: even if something started the universe, assuming it's a personal God is jumping to conclusions! It could just be a natural force we haven't discovered yet."
     },
     {
       "id": "3.5",
@@ -293,10 +231,7 @@
       "title": "Personal Agent Choice (Free Will)",
       "summary": "A timeless, unchanging cause can only produce a finite effect in time if it possesses libertarian agency (free will) to choose to create at a specific moment.",
       "status": "active",
-      "audio_urls": {
-        "female": "audio/3.5_female.mp3",
-        "male": "audio/3.5_male.mp3"
-      }
+      "summary_5th_grader": "Defenders answer: if the cause existed forever without changing, the only way it could suddenly make a universe start at a specific moment is if it had a mind and chose to make it!"
     },
     {
       "id": "4.5",
@@ -307,10 +242,7 @@
       "title": "Terminal Node: Agent Causality & Uncaused Will",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "audio_urls": {
-        "female": "audio/4.5_female.mp3",
-        "male": "audio/4.5_male.mp3"
-      }
+      "summary_5th_grader": "This path ends here: the debate reaches whether the universe was started by a conscious choice or a mindless physical process."
     }
   ]
 }
