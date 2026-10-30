@@ -165,6 +165,15 @@
                 <select id="tierFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
                     <option value="all">All tiers</option><option>S</option><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
                 </select>
+                <label for="sortFilter" class="sr-only">Sort arguments</label>
+                <select id="sortFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
+                    <option value="default">Default order</option>
+                    <option value="title-asc">Title (A–Z)</option>
+                    <option value="title-desc">Title (Z–A)</option>
+                    <option value="tier-best">Tier (best first)</option>
+                    <option value="tier-worst">Tier (worst first)</option>
+                    <option value="crossovers">Most crossovers</option>
+                </select>
                 <span id="masterResultCount" class="ml-auto text-xs text-slate-500"></span>
             </div>
         </header>
@@ -1817,6 +1826,7 @@
                 this.domain = 'all';
                 this.tier = 'all';
                 this.search = '';
+                this.sort = 'default';
                 this.showTiers = true;
                 this.activeId = null;
                 this.branchCache = new Map();
@@ -1912,6 +1922,10 @@
                     this.tier = event.target.value;
                     this.render();
                 });
+                document.getElementById('sortFilter').addEventListener('change', event => {
+                    this.sort = event.target.value;
+                    this.render();
+                });
                 document.getElementById('tierToggle').addEventListener('change', event => {
                     this.showTiers = event.target.checked;
                     document.body.classList.toggle('hide-master-tiers', !this.showTiers);
@@ -1938,6 +1952,23 @@
 
             render() {
                 this.filteredArguments = this.arguments.filter(argument => this.matches(argument));
+                const tierRank = 'SABCDEFG';
+                this.filteredArguments.sort((a, b) => {
+                    switch (this.sort) {
+                        case 'title-asc':
+                            return a.title.localeCompare(b.title, undefined, { sensitivity: 'base', numeric: true });
+                        case 'title-desc':
+                            return b.title.localeCompare(a.title, undefined, { sensitivity: 'base', numeric: true });
+                        case 'tier-best':
+                            return tierRank.indexOf(a.tier) - tierRank.indexOf(b.tier);
+                        case 'tier-worst':
+                            return tierRank.indexOf(b.tier) - tierRank.indexOf(a.tier);
+                        case 'crossovers':
+                            return (b.crossovers?.length || 0) - (a.crossovers?.length || 0);
+                        default:
+                            return 0;
+                    }
+                });
                 document.getElementById('masterResultCount').textContent = `${this.filteredArguments.length} of ${this.arguments.length} arguments`;
                 this.grid.innerHTML = this.filteredArguments.map(argument => this.cardMarkup(argument)).join('');
                 this.grid.querySelectorAll('[data-fifth-grade-mode="argument"]').forEach(button => {
@@ -2072,10 +2103,12 @@
                 this.domain = 'all';
                 this.tier = 'all';
                 this.search = '';
+                this.sort = 'default';
                 this.activeId = null;
                 document.getElementById('masterSearch').value = '';
                 document.getElementById('domainFilter').value = 'all';
                 document.getElementById('tierFilter').value = 'all';
+                document.getElementById('sortFilter').value = 'default';
                 document.querySelectorAll('[data-side]').forEach(button => {
                     button.className = button.dataset.side === 'all'
                         ? 'filter-button rounded-md bg-teal-600 px-3 py-1.5 font-semibold text-white'

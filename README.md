@@ -1,6 +1,6 @@
 # God Arguments
 
-An interactive, browser-based map of arguments in the theist–atheist debate, centered on the Kalam cosmological argument. Explore the master map of 75 arguments, filter and search cards, then open the linked argument tree to follow claims, objections, and responses. The interface also includes audio narration, a fifth-grade summary mode, and a media sandbox.
+An interactive, browser-based map of arguments in the theist–atheist debate, centered on the Kalam cosmological argument. Explore the master map of 75 arguments, filter and search cards, sort them by title, tier, or crossover count, then open the linked argument tree to follow claims, objections, and responses. The interface also includes audio narration, a fifth-grade summary mode, and a media sandbox.
 
 ## Run locally
 
