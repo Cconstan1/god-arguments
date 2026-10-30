@@ -33,10 +33,10 @@ $env:GEMINI_API_KEY = "your-api-key"
 python .\generate_5th_grader_text.py
 ```
 
-The script processes `*_tree.json` files and `arguments_index.json` by default, adding `summary_5th_grader` fields to entries that do not already have one. To process specific files, pass them with `--file`; use `--force` to regenerate existing summaries:
+The script processes `*_tree.json` files by default, adding `summary_5th_grader` fields to entries that do not already have one. To process specific files, pass them with `--file`; use `--force` to regenerate existing summaries:
 
 ```powershell
-python .\generate_5th_grader_text.py --file kalam_tree.json arguments_index.json
+python .\generate_5th_grader_text.py --file kalam_tree.json
 python .\generate_5th_grader_text.py --force
 ```
 

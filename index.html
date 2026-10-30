@@ -1835,6 +1835,44 @@
                 })[character]);
             }
 
+            async loadArgumentSummaries() {
+                const results = await Promise.allSettled(this.arguments.map(async argument => {
+                    if (!argument.dataFile) return null;
+
+                    const response = await fetch(`./${encodeURIComponent(argument.dataFile)}`);
+                    if (response.status === 404) return null;
+                    if (!response.ok) {
+                        throw new Error(`Failed to load ${argument.dataFile}: ${response.status} ${response.statusText}`);
+                    }
+
+                    const treeData = await response.json();
+                    if (!Array.isArray(treeData.nodes)) {
+                        throw new Error(`${argument.dataFile} does not contain a nodes array.`);
+                    }
+
+                    const rootNode = treeData.nodes.find(node => node.id === '1.0');
+                    if (!rootNode) {
+                        throw new Error(`${argument.dataFile} does not contain root node 1.0.`);
+                    }
+
+                    this.branchCache.set(argument.dataFile, treeData);
+                    argument.summary = rootNode.summary || '';
+                    argument.summary_5th_grader = rootNode.summary_5th_grader;
+                    return argument;
+                }));
+
+                const errors = results
+                    .filter(result => result.status === 'rejected')
+                    .map(result => result.reason.message);
+                if (errors.length > 0) {
+                    const status = document.getElementById('masterStatus');
+                    status.textContent = `Some argument summaries could not be loaded: ${errors.join(' ')}`;
+                    status.classList.remove('hidden');
+                }
+
+                this.render();
+            }
+
             formatLabel(value) {
                 return String(value || '').split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
             }
@@ -2059,6 +2097,7 @@
 
                 const indexData = await response.json();
                 window.masterMap = new MasterMapController(indexData);
+                await window.masterMap.loadArgumentSummaries();
             } catch (error) {
                 const status = document.getElementById('masterStatus');
                 status.textContent = `Unable to initialize the master map: ${error.message}`;

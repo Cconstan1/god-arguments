@@ -211,9 +211,6 @@ def main() -> None:
         ]
     else:
         json_files = sorted(ROOT.glob("*_tree.json"))
-        index_path = ROOT / "arguments_index.json"
-        if index_path.is_file():
-            json_files.append(index_path)
 
     if not json_files:
         raise FileNotFoundError(f"No supported JSON files found in {ROOT}")

@@ -1,0 +1,270 @@
+{
+  "argument": "Leibnizian Contingency Argument",
+  "description": "A structured branching graph of the Leibnizian Contingency Argument (PSR), showing debate depths across modal necessity, brute facts, regress, quantum cosmology, and divine attributes.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Contingency Core",
+      "title": "Leibnizian Contingency Argument (Stage 1)",
+      "summary": "Everything that exists has an explanation of its existence (either in the necessity of its own nature or in an external cause). The universe exists. Therefore, the universe has an explanation, which must be a necessary being.",
+      "status": "active",
+      "summary_5th_grader": "Everything around us exists for a reason\u2014either because it HAS to exist, or because something else made it. Since our universe doesn't have to exist on its own, there must be a special 'must-exist' maker that explains why the whole universe is here!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Stage 2 Deduction",
+      "title": "Identification of Necessary Ground (Stage 2)",
+      "summary": "If the necessary cause explains all contingent physical realities, it must transcend matter, space, and time, possessing self-existence, immense power, and libertarian personal agency to choose to create.",
+      "status": "active",
+      "summary_5th_grader": "If this first cause explains all physical stuff, it can't be made of physical stuff! It must exist all by itself, outside of space and time, with the personal power to choose to bring everything into being."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Brute Fact",
+      "title": "Brute Fact Objection (Denying the PSR)",
+      "summary": "Skeptics argue that the universe (or its initial state T=0) could simply be an unexplained 'brute fact' with no reason or external cause whatsoever.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: maybe the universe just IS here, like a weird rock sitting in the middle of nowhere, with no reason or cause at all!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Scientific Cost",
+      "title": "Scientific & Epistemic Costs of Denying PSR",
+      "summary": "Denying the PSR undermines scientific inquiry and rational perception: if contingent things can exist without reason, we could never rule out uncaused hallucinations or objects popping into existence without cause.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: if things can pop into existence with zero reason, science stops making sense! We'd have to worry that giant cars or fake memories could pop up out of nowhere for no reason at all."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Restricted PSR",
+      "title": "Restricted PSRs & Methodological Naturalism",
+      "summary": "Opponents argue that we can restrict the PSR to intra-cosmic physical laws without expanding it to cover the entire ensemble of physical reality or abstract metaphysical states.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue back: we can use rules and reasons inside the universe for everyday science without needing a giant rule that applies to the entire universe as a whole."
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "deep_defense",
+      "shortLabel": "Modal Collapse",
+      "title": "Modal Collapse Objection vs. Defeasible Explanations",
+      "summary": "If a strict PSR requires a necessary explanation for everything, then if the necessary being's action is necessary, all contingent facts become necessary (Modal Collapse). Theists respond by holding a defeasible PSR or agent causation.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics warn that if EVERYTHING has an exact reason, then nothing could ever have been different! Defenders answer that God can freely pick choices without forcing every small detail to be locked in stone."
+    },
+    {
+      "id": "6.1",
+      "parentId": "5.1",
+      "level": 6,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Epistemic Limits of the PSR",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended",
+      "summary_5th_grader": "End of this path! What do you think about whether everything needs a reason?"
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Infinite Regress",
+      "title": "Infinite Regress / Hume-Edwards Principle",
+      "summary": "Hume and Edwards argue that if every individual contingent link in an infinite chain is explained by a prior contingent link, the entire chain is fully explained without needing an external necessary being.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: if every domino in an endless line was knocked over by the domino right before it, every single falling domino is explained! You don't need a mystery person outside the line."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Explaining the Set",
+      "title": "Fallacy of Composition & Explaining the Set",
+      "summary": "Pruss and Koons point out that explaining each element in a set by another element in the set does not explain why the set as a whole exists rather than nothing\u2014like borrowing money endlessly without an original source of capital.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: if five friends keep borrowing $10 from each other in a circle, that still doesn't explain where the money came from in the first place! The whole collection of borrowing needs a real source."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Set Explanation & Infinite Regress",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended",
+      "summary_5th_grader": "End of this path! Share your thoughts on endless chains!"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Necessary T=0",
+      "title": "Necessary Initial State (T=0 Naturalism)",
+      "summary": "Skeptics (e.g. Sean Carroll) suggest that the fundamental physical substrate or the initial boundary condition of the universe (T=0) is itself the necessary being, avoiding divine ontological baggage.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: why can't the starting point of physics (the very first second of time, T=0) be the 'must-exist' thing, instead of a God?"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Physical Change",
+      "title": "Physical Change, Potency, & Contingency of Physics",
+      "summary": "Thomistic and Leibnizian defenders argue that physical matter is fundamentally changeable, composed of potentiality and actuality, and governed by fine-tuned constants that could logically have been different.",
+      "status": "active",
+      "summary_5th_grader": "Defenders point out: physical stuff is always changing, moving, and could easily have had different laws or numbers. Real 'must-exist' things can never change or be different."
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Priority Monism",
+      "title": "Quantum Cosmology & Priority Monism",
+      "summary": "Modern naturalists argue Priority Monism: the cosmic quantum wavefunction as a whole is ontologically prior to its changing parts, functioning as an uncreated, self-sustaining system.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics reply: maybe the giant Quantum Wave of the whole cosmos is the single underlying reality that holds all smaller changing parts inside it!"
+    },
+    {
+      "id": "5.3",
+      "parentId": "4.3",
+      "level": 5,
+      "type": "deep_defense",
+      "shortLabel": "Quantum Contingency",
+      "title": "Transcendence Beyond Quantum Fields",
+      "summary": "Defenders argue that quantum fields and wavefunctions are still contingent physical items with specific mathematical structures that require an external explanation for why these laws hold rather than none.",
+      "status": "active",
+      "summary_5th_grader": "Defenders respond: even quantum waves are physical patterns with mathematical rules that could have been different. They still need a reason for why THOSE rules exist instead of nothing!"
+    },
+    {
+      "id": "6.3",
+      "parentId": "5.3",
+      "level": 6,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Material vs Metaphysical Necessity",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended",
+      "summary_5th_grader": "End of this path! Add your own perspective on physics vs metaphysical necessity!"
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Problem of Evil",
+      "title": "Gratuitous Evil Objection to Stage 2",
+      "summary": "Skeptics argue that if the necessary being is an all-good, all-powerful God, the existence of vast, gratuitous evolutionary and moral suffering contradicts this divine nature.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue: if the 'must-exist' creator is all-good and super-powerful, why is there so much painful sickness, animal suffering, and bad stuff in the world?"
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Greater Goods",
+      "title": "Greater Goods, Free Will, & Skeptical Theism",
+      "summary": "Theists respond that suffering is necessary for higher-order virtues (bravery, compassion) or human freedom, or that humans lack the cognitive capacity to judge divine reasons (Skeptical Theism).",
+      "status": "active",
+      "summary_5th_grader": "Defenders explain: some hardships allow people to learn bravery and kindness, and maybe God sees the big picture that tiny humans can't fully understand yet."
+    },
+    {
+      "id": "4.4",
+      "parentId": "3.4",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Modal Evil",
+      "title": "Modal Argument from Possible Evil (Carl Brownson)",
+      "summary": "Skeptics counter with modal logic: it is at least metaphysically possible for a world of pure gratuitous evil to exist. If such a world is possible, God fails to exist in that world, proving God is not a necessary being.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics use logic rules: it's logically possible for a world filled with total suffering to exist. But God couldn't exist in such a world, so God can't be a 'must-exist in every world' being!"
+    },
+    {
+      "id": "5.4",
+      "parentId": "4.4",
+      "level": 5,
+      "type": "deep_defense",
+      "shortLabel": "Evil as Privation",
+      "title": "Symmetry Breakers & Necessity of Divine Goodness",
+      "summary": "Defenders challenge the conceivability premise of pure evil worlds, arguing that evil is a privation of good, or that God's existence is a necessary condition for any modal world to have reality.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: total pure evil can't exist on its own because badness is just spoiled goodness! You can't have a shadow without light."
+    },
+    {
+      "id": "6.4",
+      "parentId": "5.4",
+      "level": 6,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Modal Evil & Divine Attributes",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended",
+      "summary_5th_grader": "End of this path! What do you think about God and suffering?"
+    },
+    {
+      "id": "2.5",
+      "parentId": "1.1",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Gap Fallacy",
+      "title": "Gap Fallacy / Impersonal First Cause Objection",
+      "summary": "Skeptics argue that even if a necessary foundation exists, jumping to a personal God with a mind is an argument from ignorance. The cause could be an unmindful metaphysical principle.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: even if something 'must exist,' why call it God? It could just be a mindless force or cosmic law with no thoughts or feelings."
+    },
+    {
+      "id": "3.5",
+      "parentId": "2.5",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Personal Agency",
+      "title": "Personal Agency & Free Choice",
+      "summary": "Defenders argue that an eternal, unchanging cause can only produce a temporal, finite effect if it possesses libertarian free will to choose to initiate creation without prior deterministic triggers.",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: if the cause is timeless and never changes, the ONLY way it could suddenly make a universe start at a specific moment is if it had a mind and CHOSE to do it!"
+    },
+    {
+      "id": "4.5",
+      "parentId": "3.5",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Indeterminism",
+      "title": "Indeterministic Impersonal Causation",
+      "summary": "Critics (e.g. Joe Schmidt) respond that impersonal indeterministic mechanisms (like quantum decay) can yield spontaneous temporal effects without needing personal free will.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics counter: quantum particles pop up randomly without a conscious mind making a choice! So an impersonal cause could cause a universe spontaneously too."
+    },
+    {
+      "id": "5.5",
+      "parentId": "4.5",
+      "level": 5,
+      "type": "terminal",
+      "shortLabel": "Branch End",
+      "title": "Terminal Node: Agent Causality & Spontaneity",
+      "summary": "End of current source tree; add your own!",
+      "status": "open_ended",
+      "summary_5th_grader": "End of this path! What do you think about whether the First Cause needs a mind?"
+    }
+  ]
+}
