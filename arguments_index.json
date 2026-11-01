@@ -1,10 +1,11 @@
 {
   "totalArguments": 75,
   "schemaVersion": "1.0",
-  "description": "Master Index of 75 Root Arguments for and against the existence of God, including domain, tier, epistemic method, target deity, and dashed crossover links.",
+  "description": "Master Index of 75 Root Arguments for and against the existence of God, including domain, academic tier, fixed accessibility star rating, epistemic method, target deity, and crossover relationships.",
   "arguments": [
     {
       "id": "arg_kalam",
+      "starRating": 5.0,
       "rootNodeId": "1.0",
       "title": "Kalam Cosmological Argument",
       "side": "theist",
@@ -31,6 +32,7 @@
     },
     {
       "id": "arg_contingency",
+      "starRating": 3.5,
       "rootNodeId": "node_2.0",
       "title": "Leibnizian Contingency Argument (PSR)",
       "side": "theist",
@@ -57,6 +59,7 @@
     },
     {
       "id": "arg_thomistic_motion",
+      "starRating": 3.0,
       "rootNodeId": "node_3.0",
       "title": "Thomistic First Way: Motion / Change",
       "side": "theist",
@@ -77,6 +80,7 @@
     },
     {
       "id": "arg_thomistic_causality",
+      "starRating": 3.0,
       "rootNodeId": "node_4.0",
       "title": "Thomistic Second Way: Efficient Causality",
       "side": "theist",
@@ -97,6 +101,7 @@
     },
     {
       "id": "arg_thomistic_sustaining",
+      "starRating": 3.0,
       "rootNodeId": "node_5.0",
       "title": "Thomistic Vertical Sustaining Cause",
       "side": "theist",
@@ -117,6 +122,7 @@
     },
     {
       "id": "arg_geisler_synthesis",
+      "starRating": 2.0,
       "rootNodeId": "node_6.0",
       "title": "Geisler's Horizontal vs. Vertical Synthesis",
       "side": "theist",
@@ -137,6 +143,7 @@
     },
     {
       "id": "arg_ockham_simplicity",
+      "starRating": 3.5,
       "rootNodeId": "node_7.0",
       "title": "Ockham's Razor for God",
       "side": "theist",
@@ -157,6 +164,7 @@
     },
     {
       "id": "arg_fine_tuning",
+      "starRating": 5.0,
       "rootNodeId": "node_8.0",
       "title": "Fine-Tuning Argument (Constants & Low Entropy)",
       "side": "theist",
@@ -183,6 +191,7 @@
     },
     {
       "id": "arg_irreducible_complexity",
+      "starRating": 4.5,
       "rootNodeId": "node_9.0",
       "title": "Biological Irreducible Complexity",
       "side": "theist",
@@ -203,6 +212,7 @@
     },
     {
       "id": "arg_dna_information",
+      "starRating": 4.5,
       "rootNodeId": "node_10.0",
       "title": "Argument from Information in DNA",
       "side": "theist",
@@ -223,6 +233,7 @@
     },
     {
       "id": "arg_math_applicability",
+      "starRating": 3.5,
       "rootNodeId": "node_11.0",
       "title": "Unreasonable Effectiveness of Mathematics",
       "side": "theist",
@@ -243,6 +254,7 @@
     },
     {
       "id": "arg_cosmic_order",
+      "starRating": 4.0,
       "rootNodeId": "node_12.0",
       "title": "Cosmological Order & Interacting Parts",
       "side": "theist",
@@ -263,6 +275,7 @@
     },
     {
       "id": "arg_lawgiver_science",
+      "starRating": 4.0,
       "rootNodeId": "node_13.0",
       "title": "Expectation of Cosmic Order / Science & Lawgiver",
       "side": "theist",
@@ -283,6 +296,7 @@
     },
     {
       "id": "arg_aquinas_fifth",
+      "starRating": 2.5,
       "rootNodeId": "node_14.0",
       "title": "Aquinas's Fifth Way: Governance of Nature",
       "side": "theist",
@@ -303,6 +317,7 @@
     },
     {
       "id": "arg_chesterton_elfland",
+      "starRating": 2.5,
       "rootNodeId": "node_15.0",
       "title": "Chesterton's 'Ethics of Elfland' / Cosmic Recurrence",
       "side": "theist",
@@ -323,6 +338,7 @@
     },
     {
       "id": "arg_anselm_ontological",
+      "starRating": 2.5,
       "rootNodeId": "node_16.0",
       "title": "Anselmian Classical Ontological Argument",
       "side": "theist",
@@ -343,6 +359,7 @@
     },
     {
       "id": "arg_plantinga_modal",
+      "starRating": 2.0,
       "rootNodeId": "node_17.0",
       "title": "Plantinga's Modal Ontological Argument (S5)",
       "side": "theist",
@@ -363,6 +380,7 @@
     },
     {
       "id": "arg_cartesian_ontological",
+      "starRating": 2.5,
       "rootNodeId": "node_18.0",
       "title": "Cartesian Ontological Argument",
       "side": "theist",
@@ -383,6 +401,7 @@
     },
     {
       "id": "arg_maximally_great",
+      "starRating": 2.5,
       "rootNodeId": "node_19.0",
       "title": "Maximally Great Being Definition Proof",
       "side": "theist",
@@ -403,6 +422,7 @@
     },
     {
       "id": "arg_augustine_eternal_truths",
+      "starRating": 3.0,
       "rootNodeId": "node_20.0",
       "title": "Augustine's Argument from Eternal Truths",
       "side": "theist",
@@ -423,6 +443,7 @@
     },
     {
       "id": "arg_moral_realism",
+      "starRating": 4.0,
       "rootNodeId": "node_21.0",
       "title": "Moral Realism Argument",
       "side": "theist",
@@ -449,6 +470,7 @@
     },
     {
       "id": "arg_conscience",
+      "starRating": 4.0,
       "rootNodeId": "node_22.0",
       "title": "Argument from Conscience & Moral Obligation",
       "side": "theist",
@@ -469,6 +491,7 @@
     },
     {
       "id": "arg_euthyphro_resolution",
+      "starRating": 3.0,
       "rootNodeId": "node_23.0",
       "title": "Divine Command Theory & Euthyphro Resolution",
       "side": "theist",
@@ -489,6 +512,7 @@
     },
     {
       "id": "arg_cs_lewis_desire",
+      "starRating": 4.5,
       "rootNodeId": "node_24.0",
       "title": "C.S. Lewis's Argument from Desire",
       "side": "theist",
@@ -509,6 +533,7 @@
     },
     {
       "id": "arg_existential_meaning",
+      "starRating": 4.0,
       "rootNodeId": "node_25.0",
       "title": "Existential Meaning, Purpose & Cosmic Value",
       "side": "theist",
@@ -529,6 +554,7 @@
     },
     {
       "id": "arg_dostoevsky_premise",
+      "starRating": 4.0,
       "rootNodeId": "node_26.0",
       "title": "Dostoevsky's Premise ('If God does not exist...')",
       "side": "theist",
@@ -549,6 +575,7 @@
     },
     {
       "id": "arg_reformed_epistemology",
+      "starRating": 3.5,
       "rootNodeId": "node_27.0",
       "title": "Reformed Epistemology / Properly Basic Belief",
       "side": "theist",
@@ -569,6 +596,7 @@
     },
     {
       "id": "arg_personal_experience",
+      "starRating": 4.5,
       "rootNodeId": "node_28.0",
       "title": "Argument from Personal Experience & NDEs",
       "side": "theist",
@@ -589,6 +617,7 @@
     },
     {
       "id": "arg_transcendental_tag",
+      "starRating": 3.5,
       "rootNodeId": "node_29.0",
       "title": "Transcendental Argument for God (TAG)",
       "side": "theist",
@@ -609,6 +638,7 @@
     },
     {
       "id": "arg_common_consent",
+      "starRating": 3.5,
       "rootNodeId": "node_30.0",
       "title": "Common Consent Argument (Consensus Gentium)",
       "side": "theist",
@@ -629,6 +659,7 @@
     },
     {
       "id": "arg_miracles",
+      "starRating": 4.5,
       "rootNodeId": "node_31.0",
       "title": "Argument from Miracles & Intervention",
       "side": "theist",
@@ -649,6 +680,7 @@
     },
     {
       "id": "arg_resurrection_minimal_facts",
+      "starRating": 5.0,
       "rootNodeId": "node_32.0",
       "title": "Historical Resurrection (Minimal Facts)",
       "side": "theist",
@@ -669,6 +701,7 @@
     },
     {
       "id": "arg_church_preservation",
+      "starRating": 1.0,
       "rootNodeId": "node_33.0",
       "title": "Preservation & Survival of the Church",
       "side": "theist",
@@ -689,6 +722,7 @@
     },
     {
       "id": "arg_cs_lewis_reason",
+      "starRating": 3.5,
       "rootNodeId": "node_34.0",
       "title": "C.S. Lewis's Argument from Reason",
       "side": "theist",
@@ -709,6 +743,7 @@
     },
     {
       "id": "arg_cumulative_forensic",
+      "starRating": 3.0,
       "rootNodeId": "node_35.0",
       "title": "Cumulative Forensic Verdict (Wallace)",
       "side": "theist",
@@ -729,6 +764,7 @@
     },
     {
       "id": "arg_pascals_wager",
+      "starRating": 5.0,
       "rootNodeId": "node_36.0",
       "title": "Pascal's Wager",
       "side": "theist",
@@ -749,6 +785,7 @@
     },
     {
       "id": "arg_general_revelation",
+      "starRating": 1.0,
       "rootNodeId": "node_37.0",
       "title": "Axiomatic General Revelation (Romans 1)",
       "side": "theist",
@@ -769,6 +806,7 @@
     },
     {
       "id": "arg_aquinas_fourth",
+      "starRating": 2.0,
       "rootNodeId": "node_38.0",
       "title": "Aquinas's Fourth Way: Gradation & Perfection",
       "side": "theist",
@@ -789,6 +827,7 @@
     },
     {
       "id": "arg_phenomenology_religion",
+      "starRating": 1.5,
       "rootNodeId": "node_39.0",
       "title": "Phenomenology of Religion & Psychological Value",
       "side": "theist",
@@ -809,6 +848,7 @@
     },
     {
       "id": "arg_trinitarian_metaphysics",
+      "starRating": 2.5,
       "rootNodeId": "node_40.0",
       "title": "Trinitarian Metaphysics (One and the Many)",
       "side": "theist",
@@ -829,6 +869,7 @@
     },
     {
       "id": "arg_logical_evil",
+      "starRating": 4.5,
       "rootNodeId": "node_41.0",
       "title": "Logical Problem of Evil",
       "side": "atheist",
@@ -849,6 +890,7 @@
     },
     {
       "id": "arg_evidential_evil",
+      "starRating": 5.0,
       "rootNodeId": "node_42.0",
       "title": "Evidential Problem of Evil & Gratuitous Pain",
       "side": "atheist",
@@ -875,6 +917,7 @@
     },
     {
       "id": "arg_animal_suffering",
+      "starRating": 5.0,
       "rootNodeId": "node_43.0",
       "title": "Evolutionary & Animal Suffering Argument",
       "side": "atheist",
@@ -895,6 +938,7 @@
     },
     {
       "id": "arg_modal_evil",
+      "starRating": 2.0,
       "rootNodeId": "node_44.0",
       "title": "Modal Argument from Possible Evil (Brownson/Gillett)",
       "side": "atheist",
@@ -915,6 +959,7 @@
     },
     {
       "id": "arg_improvability",
+      "starRating": 2.0,
       "rootNodeId": "node_45.0",
       "title": "Improvability Argument",
       "side": "atheist",
@@ -935,6 +980,7 @@
     },
     {
       "id": "arg_divine_hiddenness",
+      "starRating": 5.0,
       "rootNodeId": "node_46.0",
       "title": "Argument from Divine Hiddenness (Schellenberg)",
       "side": "atheist",
@@ -955,6 +1001,7 @@
     },
     {
       "id": "arg_religious_confusion",
+      "starRating": 4.5,
       "rootNodeId": "node_47.0",
       "title": "Argument from Religious Confusion & Diversity",
       "side": "atheist",
@@ -975,6 +1022,7 @@
     },
     {
       "id": "arg_lottery_of_birth",
+      "starRating": 5.0,
       "rootNodeId": "node_48.0",
       "title": "Geographic Distribution / 'Lottery of Birth'",
       "side": "atheist",
@@ -995,6 +1043,7 @@
     },
     {
       "id": "arg_cross_religious_overgen",
+      "starRating": 2.0,
       "rootNodeId": "node_49.0",
       "title": "Cross-Religious Overgeneration / Apologetic Universality",
       "side": "atheist",
@@ -1015,6 +1064,7 @@
     },
     {
       "id": "arg_hitchens_razor",
+      "starRating": 4.5,
       "rootNodeId": "node_50.0",
       "title": "Hitchens' Razor",
       "side": "atheist",
@@ -1035,6 +1085,7 @@
     },
     {
       "id": "arg_barren_cosmos",
+      "starRating": 3.5,
       "rootNodeId": "node_51.0",
       "title": "Scale of the Universe / Barren Cosmos",
       "side": "atheist",
@@ -1055,6 +1106,7 @@
     },
     {
       "id": "arg_material_causality",
+      "starRating": 1.5,
       "rootNodeId": "node_52.0",
       "title": "Material Causality / Creation Ex Nihilo Objection",
       "side": "atheist",
@@ -1075,6 +1127,7 @@
     },
     {
       "id": "arg_necessary_initial_state",
+      "starRating": 3.0,
       "rootNodeId": "node_53.0",
       "title": "Necessary Initial State (T=0) / Naturalistic Parsimony",
       "side": "atheist",
@@ -1095,6 +1148,7 @@
     },
     {
       "id": "arg_hawking_no_boundary",
+      "starRating": 3.0,
       "rootNodeId": "node_54.0",
       "title": "Hawking's No-Boundary Physics of T=0",
       "side": "atheist",
@@ -1115,6 +1169,7 @@
     },
     {
       "id": "arg_boeing_747",
+      "starRating": 4.5,
       "rootNodeId": "node_55.0",
       "title": "Ultimate Boeing 747 / Dawkins' Improbability",
       "side": "atheist",
@@ -1135,6 +1190,7 @@
     },
     {
       "id": "arg_who_created_god",
+      "starRating": 5.0,
       "rootNodeId": "node_56.0",
       "title": "Infinite Regress of Creators ('Who Created God?')",
       "side": "atheist",
@@ -1155,6 +1211,7 @@
     },
     {
       "id": "arg_god_of_gaps",
+      "starRating": 4.0,
       "rootNodeId": "node_57.0",
       "title": "God of the Gaps Critique",
       "side": "atheist",
@@ -1175,6 +1232,7 @@
     },
     {
       "id": "arg_dispositional_wave",
+      "starRating": 2.0,
       "rootNodeId": "node_58.0",
       "title": "Dispositional Wave Function (Malpass/Cinnababoo)",
       "side": "atheist",
@@ -1195,6 +1253,7 @@
     },
     {
       "id": "arg_universe_selection",
+      "starRating": 2.5,
       "rootNodeId": "node_59.0",
       "title": "Universe Selection Determinism (Dillahunty)",
       "side": "atheist",
@@ -1215,6 +1274,7 @@
     },
     {
       "id": "arg_nothing_created_everything",
+      "starRating": 2.5,
       "rootNodeId": "node_60.0",
       "title": "Scientific Mischaracterization Critique",
       "side": "atheist",
@@ -1235,6 +1295,7 @@
     },
     {
       "id": "arg_special_pleading",
+      "starRating": 2.5,
       "rootNodeId": "node_61.0",
       "title": "Special Pleading Objection",
       "side": "atheist",
@@ -1255,6 +1316,7 @@
     },
     {
       "id": "arg_category_error",
+      "starRating": 3.0,
       "rootNodeId": "node_62.0",
       "title": "Category Error Objection",
       "side": "atheist",
@@ -1275,6 +1337,7 @@
     },
     {
       "id": "arg_evil_god_challenge",
+      "starRating": 4.5,
       "rootNodeId": "node_63.0",
       "title": "Evil God Challenge / Super Demon Parody (Law)",
       "side": "atheist",
@@ -1295,6 +1358,7 @@
     },
     {
       "id": "arg_gaunilo_parody",
+      "starRating": 3.0,
       "rootNodeId": "node_64.0",
       "title": "Guanilo's Parody Island / Overgeneration",
       "side": "atheist",
@@ -1315,6 +1379,7 @@
     },
     {
       "id": "arg_reverse_modal_ontological",
+      "starRating": 2.0,
       "rootNodeId": "node_65.0",
       "title": "Reverse Modal Ontological Argument",
       "side": "atheist",
@@ -1335,6 +1400,7 @@
     },
     {
       "id": "arg_omnipotence_paradoxes",
+      "starRating": 5.0,
       "rootNodeId": "node_66.0",
       "title": "Omnipotence Paradoxes (Stone Paradox)",
       "side": "atheist",
@@ -1355,6 +1421,7 @@
     },
     {
       "id": "arg_omniscience_inherence",
+      "starRating": 2.0,
       "rootNodeId": "node_67.0",
       "title": "Inherence Paradoxes of Divine Omniscience",
       "side": "atheist",
@@ -1375,6 +1442,7 @@
     },
     {
       "id": "arg_parody_wager",
+      "starRating": 3.5,
       "rootNodeId": "node_68.0",
       "title": "Parody Wager (God Who Rewards Honest Skeptics)",
       "side": "atheist",
@@ -1395,6 +1463,7 @@
     },
     {
       "id": "arg_sartrean_freedom",
+      "starRating": 3.5,
       "rootNodeId": "node_69.0",
       "title": "Sartrean Existential Freedom ('Existence Precedes Essence')",
       "side": "atheist",
@@ -1415,6 +1484,7 @@
     },
     {
       "id": "arg_nietzschean_critique",
+      "starRating": 4.0,
       "rootNodeId": "node_70.0",
       "title": "Nietzschean Psychological Crutch & Hostility to Life",
       "side": "atheist",
@@ -1435,6 +1505,7 @@
     },
     {
       "id": "arg_hitchens_moral_critique",
+      "starRating": 3.5,
       "rootNodeId": "node_71.0",
       "title": "Hitchens' Moral Critique / Innate Decency",
       "side": "atheist",
@@ -1455,6 +1526,7 @@
     },
     {
       "id": "arg_critique_of_hell",
+      "starRating": 4.5,
       "rootNodeId": "node_72.0",
       "title": "Critique of Hell vs Divine Benevolence",
       "side": "atheist",
@@ -1475,6 +1547,7 @@
     },
     {
       "id": "arg_textual_contradictions",
+      "starRating": 4.0,
       "rootNodeId": "node_73.0",
       "title": "Textual Contradiction & Retrofitted Prophecy Critique",
       "side": "atheist",
@@ -1495,6 +1568,7 @@
     },
     {
       "id": "arg_pagan_mythology",
+      "starRating": 4.0,
       "rootNodeId": "node_74.0",
       "title": "Comparative Pagan Mythology / Parallel Hero Myths",
       "side": "atheist",
@@ -1515,6 +1589,7 @@
     },
     {
       "id": "arg_neurological_religion",
+      "starRating": 4.0,
       "rootNodeId": "node_75.0",
       "title": "Spiritual Experiences as Neurological Phenomena",
       "side": "atheist",

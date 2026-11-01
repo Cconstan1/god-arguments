@@ -47,16 +47,10 @@
         }
 
         .master-canvas { position: relative; }
-        .master-crossover-svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0; }
-        .master-grid { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr)); gap: 1rem; }
+        .master-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr)); gap: 1rem; }
         .argument-card { transition: transform .2s ease, opacity .2s ease, border-color .2s ease, box-shadow .2s ease; }
-        .argument-card:hover, .argument-card.is-active { transform: translateY(-3px); box-shadow: 0 16px 35px rgba(0, 0, 0, .28); }
-        .argument-card.is-dimmed { opacity: .22; }
+        .argument-card:hover { transform: translateY(-3px); box-shadow: 0 16px 35px rgba(0, 0, 0, .28); }
         .hide-master-tiers .tier-badge { display: none; }
-        .crossover-path { fill: none; stroke-width: 2; stroke-dasharray: 5,5; opacity: 0; transition: opacity .2s ease; }
-        .crossover-path.is-visible { opacity: .8; animation: crossoverDash 1.2s linear infinite; }
-        @keyframes crossoverDash { to { stroke-dashoffset: -10; } }
-
         .deep-view { min-height: calc(100vh - 3.5rem); }
         #deepView > #canvasViewport { flex: 1 1 auto; height: auto; min-height: 0; min-width: 0; }
         
@@ -165,6 +159,18 @@
                 <select id="tierFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
                     <option value="all">All tiers</option><option>S</option><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option>
                 </select>
+                <select id="crossoverFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
+                    <option value="all">All crossovers</option>
+                </select>
+                <select id="methodFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
+                    <option value="all">All epistemic methods</option>
+                </select>
+                <select id="commitmentFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
+                    <option value="all">All metaphysical commitments</option>
+                </select>
+                <select id="ratingFilter" aria-label="Filter by star rating" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
+                    <option value="all">All star ratings</option>
+                </select>
                 <label for="sortFilter" class="sr-only">Sort arguments</label>
                 <select id="sortFilter" class="rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 outline-none focus:border-teal-400">
                     <option value="default">Default order</option>
@@ -172,15 +178,17 @@
                     <option value="title-desc">Title (Z–A)</option>
                     <option value="tier-best">Tier (best first)</option>
                     <option value="tier-worst">Tier (worst first)</option>
+                    <option value="rating-best">Star rating (highest first)</option>
+                    <option value="rating-worst">Star rating (lowest first)</option>
                     <option value="crossovers">Most crossovers</option>
                 </select>
+                <button id="clearFiltersBtn" type="button" class="rounded-lg border border-slate-700 bg-slate-900/70 px-3 py-2 text-xs text-slate-300 transition hover:border-teal-400 hover:text-white">Clear filters</button>
                 <span id="masterResultCount" class="ml-auto text-xs text-slate-500"></span>
             </div>
         </header>
         <main class="mx-auto max-w-[1600px] px-4 py-6 sm:px-6">
             <div id="masterStatus" class="mb-4 hidden rounded-lg border border-rose-500/30 bg-rose-950/30 p-3 text-xs text-rose-200"></div>
             <div id="masterCanvas" class="master-canvas">
-                <svg id="masterCrossoverSvg" class="master-crossover-svg" aria-hidden="true"></svg>
                 <div id="masterGrid" class="master-grid"></div>
             </div>
         </main>
@@ -1825,16 +1833,20 @@
                 this.side = 'all';
                 this.domain = 'all';
                 this.tier = 'all';
+                this.crossoverCount = 'all';
+                this.method = 'all';
+                this.commitment = 'all';
+                this.rating = 'all';
                 this.search = '';
                 this.sort = 'default';
                 this.showTiers = true;
-                this.activeId = null;
                 this.branchCache = new Map();
 
                 this.grid = document.getElementById('masterGrid');
-                this.canvas = document.getElementById('masterCanvas');
-                this.svg = document.getElementById('masterCrossoverSvg');
                 this.populateDomainFilter();
+                this.populateCrossoverFilter();
+                this.populateMetadataFilters();
+                this.populateRatingFilter();
                 this.setupListeners();
                 this.render();
             }
@@ -1909,6 +1921,46 @@
                 select.innerHTML = '<option value="all">All domains</option>' + Object.keys(this.domainGroups).map(domain => `<option value="${domain}">${this.escape(this.domainLabel(domain))}</option>`).join('');
             }
 
+            populateCrossoverFilter() {
+                const select = document.getElementById('crossoverFilter');
+                const counts = [...new Set(this.arguments.map(argument => argument.crossovers?.length || 0))].sort((a, b) => a - b);
+                select.innerHTML = '<option value="all">All crossovers</option>' + counts.map(count => `<option value="${count}">${count} crossovers</option>`).join('');
+            }
+
+            populateRatingFilter() {
+                const select = document.getElementById('ratingFilter');
+                const ratings = [...new Set(this.arguments.map(argument => argument.starRating))].sort((a, b) => b - a);
+                select.innerHTML = '<option value="all">All star ratings</option>' +
+                    ratings.map(rating => `<option value="${rating}">${rating.toFixed(1)} stars</option>`).join('');
+            }
+
+            methodValue(argument) {
+                return argument.epistemicMethod || 'pragmatic';
+            }
+
+            methodLabel(method) {
+                return {
+                    a_priori: 'A Priori · Logic',
+                    a_posteriori: 'A Posteriori · Empirical',
+                    presuppositional: 'Presuppositional',
+                    pragmatic: 'Pragmatic'
+                }[method] || this.formatLabel(method);
+            }
+
+            commitmentValue(argument) {
+                return String(argument.metaphysicalPrice || argument.metaphysicalBaggage || 'light').toLowerCase();
+            }
+
+            populateMetadataFilters() {
+                const methods = [...new Set(this.arguments.map(argument => this.methodValue(argument)))].sort();
+                document.getElementById('methodFilter').innerHTML = '<option value="all">All epistemic methods</option>' +
+                    methods.map(method => `<option value="${this.escape(method)}">${this.escape(this.methodLabel(method))}</option>`).join('');
+
+                const commitments = [...new Set(this.arguments.map(argument => this.commitmentValue(argument)))].sort();
+                document.getElementById('commitmentFilter').innerHTML = '<option value="all">All metaphysical commitments</option>' +
+                    commitments.map(commitment => `<option value="${this.escape(commitment)}">${this.escape(this.formatLabel(commitment))} Baggage</option>`).join('');
+            }
+
             setupListeners() {
                 document.getElementById('masterSearch').addEventListener('input', event => {
                     this.search = event.target.value.trim().toLowerCase();
@@ -1922,24 +1974,68 @@
                     this.tier = event.target.value;
                     this.render();
                 });
+                document.getElementById('crossoverFilter').addEventListener('change', event => {
+                    this.crossoverCount = event.target.value;
+                    this.render();
+                });
+                document.getElementById('methodFilter').addEventListener('change', event => {
+                    this.method = event.target.value;
+                    this.render();
+                });
+                document.getElementById('commitmentFilter').addEventListener('change', event => {
+                    this.commitment = event.target.value;
+                    this.render();
+                });
+                document.getElementById('ratingFilter').addEventListener('change', event => {
+                    this.rating = event.target.value;
+                    this.render();
+                });
                 document.getElementById('sortFilter').addEventListener('change', event => {
                     this.sort = event.target.value;
                     this.render();
                 });
+                document.getElementById('clearFiltersBtn').addEventListener('click', () => this.clearFilters());
                 document.getElementById('tierToggle').addEventListener('change', event => {
                     this.showTiers = event.target.checked;
                     document.body.classList.toggle('hide-master-tiers', !this.showTiers);
                 });
                 document.querySelectorAll('[data-side]').forEach(button => {
                     button.addEventListener('click', () => {
-                        this.side = button.dataset.side;
-                        document.querySelectorAll('[data-side]').forEach(item => item.className = 'filter-button rounded-md px-3 py-1.5 text-slate-400 hover:bg-slate-800');
-                        button.className = 'filter-button rounded-md bg-teal-600 px-3 py-1.5 font-semibold text-white';
-                        this.render();
+                        this.setSideFilter(button.dataset.side);
                     });
                 });
                 document.getElementById('backToMasterBtn').addEventListener('click', () => this.showMasterView());
-                window.addEventListener('resize', () => this.drawCrossovers());
+            }
+
+            setSideFilter(side) {
+                this.side = side;
+                document.querySelectorAll('[data-side]').forEach(button => {
+                    button.className = button.dataset.side === side
+                        ? 'filter-button rounded-md bg-teal-600 px-3 py-1.5 font-semibold text-white'
+                        : 'filter-button rounded-md px-3 py-1.5 text-slate-400 hover:bg-slate-800';
+                });
+            }
+
+            clearFilters() {
+                this.setSideFilter('all');
+                this.domain = 'all';
+                this.tier = 'all';
+                this.crossoverCount = 'all';
+                this.method = 'all';
+                this.commitment = 'all';
+                this.rating = 'all';
+                this.search = '';
+                this.sort = 'default';
+
+                document.getElementById('masterSearch').value = '';
+                document.getElementById('domainFilter').value = 'all';
+                document.getElementById('tierFilter').value = 'all';
+                document.getElementById('crossoverFilter').value = 'all';
+                document.getElementById('methodFilter').value = 'all';
+                document.getElementById('commitmentFilter').value = 'all';
+                document.getElementById('ratingFilter').value = 'all';
+                document.getElementById('sortFilter').value = 'default';
+                this.render();
             }
 
             matches(argument) {
@@ -1947,7 +2043,11 @@
                 return (!this.search || haystack.includes(this.search)) &&
                     (this.side === 'all' || argument.side === this.side) &&
                     (this.domain === 'all' || this.domainGroups[this.domain]?.includes(argument.domain)) &&
-                    (this.tier === 'all' || argument.tier === this.tier);
+                    (this.tier === 'all' || argument.tier === this.tier) &&
+                    (this.crossoverCount === 'all' || (argument.crossovers?.length || 0) === Number(this.crossoverCount)) &&
+                    (this.method === 'all' || this.methodValue(argument) === this.method) &&
+                    (this.commitment === 'all' || this.commitmentValue(argument) === this.commitment) &&
+                    (this.rating === 'all' || argument.starRating === Number(this.rating));
             }
 
             render() {
@@ -1963,6 +2063,10 @@
                             return tierRank.indexOf(a.tier) - tierRank.indexOf(b.tier);
                         case 'tier-worst':
                             return tierRank.indexOf(b.tier) - tierRank.indexOf(a.tier);
+                        case 'rating-best':
+                            return b.starRating - a.starRating;
+                        case 'rating-worst':
+                            return a.starRating - b.starRating;
                         case 'crossovers':
                             return (b.crossovers?.length || 0) - (a.crossovers?.length || 0);
                         default:
@@ -1982,31 +2086,76 @@
                         this.render();
                     });
                 });
-                this.grid.querySelectorAll('[data-explore-id]').forEach(button => button.addEventListener('click', event => {
+                this.grid.querySelectorAll('[data-explore-id]').forEach(link => link.addEventListener('click', event => {
+                    event.preventDefault();
                     event.stopPropagation();
-                    this.openBranch(button.dataset.exploreId);
+                    this.openBranch(link.dataset.exploreId);
+                }));
+                this.grid.querySelectorAll('[data-card-filter]').forEach(link => link.addEventListener('click', event => {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    const value = link.dataset.filterValue;
+                    switch (link.dataset.cardFilter) {
+                        case 'side':
+                            this.setSideFilter(value);
+                            break;
+                        case 'domain':
+                            this.domain = value;
+                            document.getElementById('domainFilter').value = value;
+                            break;
+                        case 'tier':
+                            this.tier = value;
+                            document.getElementById('tierFilter').value = value;
+                            break;
+                        case 'crossovers':
+                            this.crossoverCount = value;
+                            document.getElementById('crossoverFilter').value = value;
+                            break;
+                        case 'method':
+                            this.method = value;
+                            document.getElementById('methodFilter').value = value;
+                            break;
+                        case 'commitment':
+                            this.commitment = value;
+                            document.getElementById('commitmentFilter').value = value;
+                            break;
+                        case 'rating':
+                            this.rating = value;
+                            document.getElementById('ratingFilter').value = value;
+                            break;
+                    }
+                    this.render();
                 }));
                 this.grid.querySelectorAll('.argument-card').forEach(card => {
-                    card.addEventListener('mouseenter', () => this.highlightCrossovers(card.dataset.argumentId));
-                    card.addEventListener('mouseleave', () => this.clearCrossoverHighlight());
+                    card.addEventListener('click', event => {
+                        if (event.target.closest('a, button, input, select, textarea')) return;
+                        this.openBranch(card.dataset.argumentId);
+                    });
                 });
-                requestAnimationFrame(() => this.drawCrossovers());
             }
 
             cardMarkup(argument) {
                 const isTheist = argument.side === 'theist';
                 const sideClass = isTheist ? 'border-teal-500/60 hover:border-teal-300' : 'border-rose-500/60 hover:border-rose-300';
                 const sideText = isTheist ? 'Theistic' : 'Atheistic';
-                const method = argument.epistemicMethod === 'a_priori' ? 'A Priori · Logic' : argument.epistemicMethod === 'a_posteriori' ? 'A Posteriori · Empirical' : 'Pragmatic';
-                const baggage = argument.metaphysicalPrice || argument.metaphysicalBaggage || 'light';
+                const methodValue = this.methodValue(argument);
+                const method = this.methodLabel(methodValue);
+                const baggage = this.commitmentValue(argument);
                 const baggageLabel = String(baggage).includes('heavy') ? '🧳🧳🧳 Heavy Baggage' : String(baggage).includes('medium') ? '🧳🧳 Medium Baggage' : '🧳 Light Baggage';
                 const fifthGradeEnabled = isFifthGradeEnabled('argument', argument.id);
                 const hasSimpleSummary = hasFifthGradeSummary(argument);
                 const displaySummary = getSummaryForDisplay(argument, 'argument', argument.id);
-                return `<article class="argument-card rounded-xl border-l-4 ${sideClass} border-y border-r border-slate-800 bg-slate-900/85 p-4 shadow-lg" data-argument-id="${this.escape(argument.id)}">
-                    <div class="mb-3 flex items-start justify-between gap-2">
-                        <span class="rounded-full border ${isTheist ? 'border-teal-500/30 bg-teal-950/50 text-teal-300' : 'border-rose-500/30 bg-rose-950/50 text-rose-300'} px-2 py-1 text-[10px] font-bold uppercase tracking-wider">${sideText}</span>
-                        <span class="tier-badge rounded border border-slate-700 bg-slate-800 px-2 py-1 text-[10px] font-bold text-slate-300" title="Academic rank">Tier ${this.escape(argument.tier)}</span>
+                const ratingStars = Array.from({ length: 5 }, (_, index) => {
+                    const icon = index + 1 <= argument.starRating
+                        ? 'fa-solid fa-star'
+                        : index < argument.starRating ? 'fa-solid fa-star-half-stroke' : 'fa-regular fa-star';
+                    return `<i class="${icon}"></i>`;
+                }).join('');
+                return `<article class="argument-card cursor-pointer rounded-xl border-l-4 ${sideClass} border-y border-r border-slate-800 bg-slate-900/85 p-4 shadow-lg" data-argument-id="${this.escape(argument.id)}">
+                    <div class="mb-3 flex flex-wrap items-start justify-between gap-2">
+                        <a href="#" data-card-filter="side" data-filter-value="${this.escape(argument.side)}" class="rounded-full border ${isTheist ? 'border-teal-500/30 bg-teal-950/50 text-teal-300' : 'border-rose-500/30 bg-rose-950/50 text-rose-300'} px-2 py-1 text-[10px] font-bold uppercase tracking-wider hover:underline" title="Filter by side">${sideText}</a>
+                        <a href="#" data-card-filter="rating" data-filter-value="${argument.starRating}" class="rounded border border-amber-500/20 bg-amber-500/5 px-2 py-1 text-[10px] font-bold text-amber-300 hover:underline" title="Filter by accessibility rating"><span aria-hidden="true">${ratingStars}</span> <span>${argument.starRating.toFixed(1)}</span></a>
+                        <a href="#" data-card-filter="tier" data-filter-value="${this.escape(argument.tier)}" class="tier-badge rounded border border-slate-700 bg-slate-800 px-2 py-1 text-[10px] font-bold text-slate-300 hover:underline" title="Filter by academic rank">Tier ${this.escape(argument.tier)}</a>
                     </div>
                     <h2 class="mb-2 text-sm font-bold leading-snug text-slate-100">${this.escape(argument.title)}</h2>
                     <p class="mb-2 line-clamp-3 text-xs leading-relaxed text-slate-400">${this.escape(displaySummary)}</p>
@@ -2014,50 +2163,23 @@
                         ${fifthGradeToggleMarkup('argument', argument.id, fifthGradeEnabled, false, hasSimpleSummary)}
                     </div>
                     <div class="mb-4 flex flex-wrap gap-1.5 text-[10px]">
-                        <span class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300" title="Argument domain">${this.domainIcon(argument.domain)} ${this.escape(this.domainLabel(Object.keys(this.domainGroups).find(group => this.domainGroups[group].includes(argument.domain)) || argument.domain))}</span>
-                        <span class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300" title="Epistemic method">${this.escape(method)}</span>
-                        <span class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300" title="Metaphysical commitments">${this.escape(baggageLabel)}</span>
+                        <a href="#" data-card-filter="domain" data-filter-value="${this.escape(Object.keys(this.domainGroups).find(group => this.domainGroups[group].includes(argument.domain)) || argument.domain)}" class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300 hover:underline" title="Filter by argument domain">${this.domainIcon(argument.domain)} ${this.escape(this.domainLabel(Object.keys(this.domainGroups).find(group => this.domainGroups[group].includes(argument.domain)) || argument.domain))}</a>
+                        <a href="#" data-card-filter="method" data-filter-value="${this.escape(methodValue)}" class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300 hover:underline" title="Filter by epistemic method">${this.escape(method)}</a>
+                        <a href="#" data-card-filter="commitment" data-filter-value="${this.escape(baggage)}" class="rounded border border-slate-700 bg-slate-800/70 px-2 py-1 text-slate-300 hover:underline" title="Filter by metaphysical commitments">${this.escape(baggageLabel)}</a>
                     </div>
                     <div class="flex items-center justify-between gap-2 border-t border-slate-800 pt-3">
-                        <span class="text-[10px] text-slate-500"><i class="fa-solid fa-arrows-left-right-to-line mr-1"></i>${argument.crossovers?.length || 0} crossovers</span>
+                        <a href="#" data-card-filter="crossovers" data-filter-value="${argument.crossovers?.length || 0}" class="text-[10px] text-slate-500 hover:text-teal-300 hover:underline"><i class="fa-solid fa-arrows-left-right-to-line mr-1"></i>${argument.crossovers?.length || 0} crossovers</a>
                         <button data-explore-id="${this.escape(argument.id)}" class="rounded-lg bg-teal-600 px-3 py-2 text-[11px] font-semibold text-white transition hover:bg-teal-500"><i class="fa-solid fa-code-branch mr-1"></i>Explore Branch</button>
                     </div>
+                    <div class="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[10px]">
+                        ${(argument.crossovers || []).map(crossover => {
+                            const target = this.arguments.find(item => item.id === crossover.targetArgumentId);
+                            return target
+                                ? `<a href="#" data-explore-id="${this.escape(target.id)}" class="text-teal-300 hover:text-teal-200 hover:underline">${this.escape(target.title)}</a>`
+                                : '';
+                        }).join('')}
+                    </div>
                 </article>`;
-            }
-
-            highlightCrossovers(argumentId) {
-                this.activeId = argumentId;
-                const targets = new Set((this.arguments.find(argument => argument.id === argumentId)?.crossovers || []).map(crossover => crossover.targetArgumentId));
-                this.grid.querySelectorAll('.argument-card').forEach(card => card.classList.toggle('is-dimmed', card.dataset.argumentId !== argumentId && !targets.has(card.dataset.argumentId)));
-                this.drawCrossovers();
-            }
-
-            clearCrossoverHighlight() {
-                this.activeId = null;
-                this.grid.querySelectorAll('.argument-card').forEach(card => card.classList.remove('is-dimmed'));
-                this.drawCrossovers();
-            }
-
-            drawCrossovers() {
-                const active = this.activeId && this.arguments.find(argument => argument.id === this.activeId);
-                if (!active) { this.svg.innerHTML = ''; return; }
-                const source = this.grid.querySelector(`[data-argument-id="${active.id}"]`);
-                if (!source) return;
-                const canvasRect = this.canvas.getBoundingClientRect();
-                const sourceRect = source.getBoundingClientRect();
-                this.svg.setAttribute('viewBox', `0 0 ${canvasRect.width} ${canvasRect.height}`);
-                this.svg.innerHTML = (active.crossovers || []).map(crossover => {
-                    const target = this.grid.querySelector(`[data-argument-id="${crossover.targetArgumentId}"]`);
-                    if (!target) return '';
-                    const targetRect = target.getBoundingClientRect();
-                    const x1 = sourceRect.left - canvasRect.left + sourceRect.width / 2;
-                    const y1 = sourceRect.top - canvasRect.top + sourceRect.height / 2;
-                    const x2 = targetRect.left - canvasRect.left + targetRect.width / 2;
-                    const y2 = targetRect.top - canvasRect.top + targetRect.height / 2;
-                    const curve = Math.max(60, Math.abs(x2 - x1) * .35);
-                    const color = active.side === 'theist' ? '#2dd4bf' : '#fb7185';
-                    return `<path class="crossover-path is-visible" d="M ${x1} ${y1} C ${x1 + curve} ${y1}, ${x2 - curve} ${y2}, ${x2} ${y2}" stroke="${color}" />`;
-                }).join('');
             }
 
             async openBranch(argumentId) {
@@ -2095,26 +2217,6 @@
                 document.getElementById('deepView').classList.add('hidden');
                 document.getElementById('masterMapView').classList.remove('hidden');
                 document.title = 'Master Argument Map';
-                this.resetFilters();
-            }
-
-            resetFilters() {
-                this.side = 'all';
-                this.domain = 'all';
-                this.tier = 'all';
-                this.search = '';
-                this.sort = 'default';
-                this.activeId = null;
-                document.getElementById('masterSearch').value = '';
-                document.getElementById('domainFilter').value = 'all';
-                document.getElementById('tierFilter').value = 'all';
-                document.getElementById('sortFilter').value = 'default';
-                document.querySelectorAll('[data-side]').forEach(button => {
-                    button.className = button.dataset.side === 'all'
-                        ? 'filter-button rounded-md bg-teal-600 px-3 py-1.5 font-semibold text-white'
-                        : 'filter-button rounded-md px-3 py-1.5 text-slate-400 hover:bg-slate-800';
-                });
-                document.getElementById('masterStatus').classList.add('hidden');
                 this.render();
             }
         }
