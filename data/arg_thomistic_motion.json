@@ -1,0 +1,207 @@
+{
+  "id": "arg_thomistic_motion",
+  "title": "Thomistic First Way: Motion / Change",
+  "tier": "B",
+  "starRating": 3.0,
+  "description": "A structured branching graph of Thomas Aquinas's First Way (Argument from Motion and Change), exploring the reduction of potentiality to actuality (act/potency), hierarchical chains of change, the Unmoved Mover, Newtonian inertia objections, quantum spontaneity, and essential causal order.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "First Way Core",
+      "title": "Thomistic First Way: Argument from Motion / Change (Stage 1)",
+      "summary": "Observes that change (motus) occurs in the world, defined as the transition of something from potentiality to actuality. Nothing can reduce itself from potentiality to actuality in the same respect at the same time (e.g., cold coffee cannot heat itself). Whatever is being changed must be changed by another. In an essentially ordered series of simultaneous changers, an infinite regress is impossible because intermediate movers have no power without a primary mover. Therefore, there must exist a First Unmoved Mover\u2014a cause of all change that is itself completely unchanged.",
+      "status": "active",
+      "summary_5th_grader": "Imagine a cold glass of milk. It can't make itself hot\u2014it needs a microwave. But the microwave needs electricity, and the power grid needs a generator, all happening RIGHT NOW. Thomas Aquinas argued that everything changing right now needs something else changing it, leading back to a First Unmoved Mover that starts all change without changing itself!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Stage 2 Unmoved Mover",
+      "title": "Deduction of the Unmoved Mover to God (Stage 2)",
+      "summary": "Because the First Unmoved Mover actualizes all potentiality without possessing unactualized potentiality itself, it is Pure Actuality (Actus Purus). A entity of Pure Actuality must be unchangeable, timeless, immaterial, unique (one), infinitely powerful, and supreme intellect\u2014possessing all divine attributes associated with God.",
+      "status": "active",
+      "summary_5th_grader": "Since this First Mover has no missing potential or unfulfilled parts, it can never change, age, or break. It must be timeless, immaterial, super-smart, and infinitely powerful\u2014which is what everyone calls God!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Newtonian Inertia",
+      "title": "Newtonian Inertia & Uniform Motion Objection",
+      "summary": "Skeptics argue that Newton's First Law of Motion invalidates Aquinas's premise that 'whatever is moved is moved by another'. An object in uniform linear motion continues moving indefinitely in a vacuum without requiring any ongoing external force or active mover.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: Newton's law of physics proves that a hockey puck gliding across smooth ice keeps moving forever without anything pushing it! So things don't need a constant mover to keep moving."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Broad Meaning of Motus",
+      "title": "Aristotelian Motus as Qualitative & Substantive Change",
+      "summary": "Defenders respond that Aquinas used 'motus' in the broad Aristotelian sense of any actualization of potentiality (e.g., heating, chemical transformation, growth, quantum decay), not merely local spatial translation. Uniform inertial movement is a stable physical state, whereas changes in momentum, acceleration, or state transitions still represent actualized potentials requiring a cause.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: when Aquinas talked about 'motion', he meant ANY change\u2014like ice melting, wood burning, or a plant growing! Smooth gliding in space is just staying in one steady state, but any REAL change (like speeding up or changing temperature) still needs a cause."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Reduction to Spatial Translation",
+      "title": "Reductionism & Inertial Field Translation",
+      "summary": "Opponents reply that modern physics reduces all macroscopic changes (thermal, chemical, biological) to fundamental atomic and subatomic particle displacements (local motion). If local motion in spacetime or quantum fields operates inertially, the Thomistic distinction between state and change collapses.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics push back: modern chemistry and biology prove that heating up or growing is really just tiny atoms moving around in space! If tiny particle movements are governed by physics inertia, the whole argument breaks down."
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "sub_counter_response",
+      "shortLabel": "Quantum Transitions & Potency",
+      "title": "Quantum State Transitions as Potency-to-Act",
+      "summary": "Defenders counter that even subatomic spatial shifts, wave-function collapses, and quantum field fluctuations represent transitions from potential states to actual states. Inertial position itself requires continuous actualization of spatial coordinate potentials at every Planck time unit.",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: even tiny subatomic particles jumping between quantum energy states are switching from potential to actual! Every split-second update in universe physics still requires an underlying power keeping it real."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Infinite Regress of Change",
+      "title": "Infinite Regress of Physical Changers Objection",
+      "summary": "Skeptics ask why a chain of changes cannot regress infinitely backward in time or across an endless network of natural causes. Mathematics and modern cosmology demonstrate that infinite sets and eternal dynamic systems can be logically coherent without requiring a 'first' member.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics ask: why can't the chain of changes just go back forever into the infinite past, like an endless line of dominoes knocking each other down without any first domino?"
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Essential vs Accidental Chains",
+      "title": "Essential vs. Accidental Causal Order Distinction",
+      "summary": "Aquinas explicitly conceded that an 'accidentally ordered' linear historical chain (e.g., father begetting son) could hypothetically extend infinitely into the past. However, the First Way targets an 'essentially ordered' chain (simultaneous, hierarchical dependence in the present, e.g., hand moving stick moving stone). An infinite essential series is impossible because derivative movers have zero intrinsic motive power without a primary source.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: Aquinas agreed a chain of past events (like grandfather -> father -> son) could be long! But he was talking about a RIGHT NOW chain (like hand holding stick pushing rock). If you remove the hand right now, the stick stops moving instantly. An infinite chain of sticks holds nothing up!"
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Relativistic Speed of Light",
+      "title": "Special Relativity & Non-Simultaneity of Forces",
+      "summary": "Opponents object that Einstein's Special Relativity disproves instantaneous 'essential' chains: no physical force or change travels faster than light. Therefore, all physical causal chains involve light-speed propagation delays, converting all physical interaction into temporal, accidentally-ordered chains.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics reply: Einstein proved nothing happens instantly! Forces travel at the speed of light, so every push in physics takes time. That means ALL physical chains are step-by-step over time, not instantaneous hierarchical chains!"
+    },
+    {
+      "id": "5.2",
+      "parentId": "4.2",
+      "level": 5,
+      "type": "sub_counter_response",
+      "shortLabel": "Metaphysical Ground Beyond Spacetime",
+      "title": "Ontological Dependence Beyond Spacetime Propagation",
+      "summary": "Defenders argue that physical force propagation speed is irrelevant to metaphysical dependence. Even a light-speed impulse possesses actualized potentiality that depends ontologically on a deeper, non-spatial substrate (Actus Purus) to exist as a physical field from microsecond to microsecond.",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: light speed only tells you how fast waves travel in space, but it doesn't explain why spacetime fields exist right now! Even light waves need a deeper metaphysical foundation to hold their reality together every microsecond."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Biological Self-Motion",
+      "title": "Biological Self-Motion & Organism Autonomy Objection",
+      "summary": "Living organisms (animals, single-celled organisms, humans) appear to move and change themselves spontaneously using internal metabolic energy, contradicting the premise that 'whatever is moved is moved by another'.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: living animals and humans move themselves! A dog decides to jump up and run without anyone pushing it, proving living things can change themselves."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Internal Compartmentalization",
+      "title": "Internal Compartmentalization of Self-Movers",
+      "summary": "Defenders clarify that living organisms do not actualize themselves in the exact same respect at the same time. One part of the organism (e.g., ATP chemical bonds) actualizes another part (muscle tissue). On the molecular level, every organic sub-part remains dependent on external physical inputs and prior actualized states.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: a dog isn't moving itself all at once! Its brain sends electrical signals, which ignite food energy (ATP) in its muscle cells, which pulls its bones. One part moves another part\u2014and the food energy came from outside!"
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Emergent Self-Organization",
+      "title": "Emergent Systems & Self-Organizing Dynamics",
+      "summary": "Opponents respond that complex self-organizing systems (like neural networks or non-equilibrium thermodynamic systems) exhibit genuine emergent causal autonomy, functioning as integrated holistic units rather than mere chains of external pushes.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics push back: living creatures and brain networks act as whole self-organizing systems that control themselves, without needing a supernatural pushed-from-the-outside explanation."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Quantum Spontaneous Decay",
+      "title": "Quantum Indeterminism & Uncaused Transitions Objection",
+      "summary": "Quantum mechanics shows that events like radioactive atomic decay or vacuum fluctuations occur spontaneously without a deterministic antecedent actualizer, directly violating 'whatever is changed is changed by another'.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: quantum physics shows that radioactive atoms pop and decay completely at random with zero prior push or cause! That proves things CAN change without anything causing the change."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Quantum Probability Fields",
+      "title": "Quantum Vacuum & Potentiality Realization",
+      "summary": "Defenders contend that even probabilistic quantum decays represent a transition from a potential decay state to an actual decay state. The underlying quantum field, Hamiltonian parameters, and physical vacuum act as the necessary actualizing environment enabling the probability transition.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: an atom doesn't decay in thin air\u2014it transitions from 'might decay' to 'did decay' inside a real quantum energy field! The quantum field itself is the environment making that probability actual."
+    },
+    {
+      "id": "4.4",
+      "parentId": "3.4",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Fundamental Indeterminism",
+      "title": "Copenhagen Indeterminism vs. Deterministic Actualization",
+      "summary": "Opponents reply that under the widely accepted Copenhagen interpretation, no specific antecedent physical state determines *when* an individual decay event occurs, making the exact moment of actualization uncaused.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics answer: standard quantum physics says NO ONE and NOTHING picks the exact microsecond the atom pops! The timing is fundamentally uncaused and random, which contradicts Thomistic actualization."
+    },
+    {
+      "id": "2.5",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Fallacy of Composition",
+      "title": "Fallacy of Composition & Brute Perpetual Change",
+      "summary": "Skeptics argue that committing the Fallacy of Composition occurs when assuming that because every individual object within the universe undergoes change, the universe as a whole must require an Unmoved Mover. The universe could simply be an eternal, brute dynamic system of continuous change.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: just because every brick in a wall is small doesn't mean the whole wall is small! Similarly, just because things INSIDE the universe change doesn't mean the universe as a whole needs an outside Unmoved Mover."
+    },
+    {
+      "id": "3.5",
+      "parentId": "2.5",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Universal Potency Structure",
+      "title": "Universal Potency & Pure Act Requirement",
+      "summary": "Defenders respond that if every physical constituent of the universe possesses potentiality, then the sum total of physical reality remains intrinsically pervaded by potentiality. A system composed entirely of changing, potential-bearing parts cannot serve as its own unactualized actualizer (Pure Actuality).",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: if every single Lego brick in a house needs to be supported, combining 10 trillion Lego bricks still gives you a house that needs support! A collection of changing things cannot be its own unchanging foundation."
+    }
+  ]
+}

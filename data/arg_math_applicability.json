@@ -1,0 +1,163 @@
+{
+  "id": "arg_math_applicability",
+  "title": "Unreasonable Effectiveness of Mathematics",
+  "tier": "B",
+  "starRating": 3.5,
+  "description": "A structured branching graph of Eugene Wigner's 'Unreasonable Effectiveness of Mathematics in the Natural Sciences' argument (formalized by William Lane Craig), exploring mathematical realism, evolutionary cognitive adaptation, mathematical Platonism, fictionalism, and divine teleological mapping.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Math Applicability Core",
+      "title": "Unreasonable Effectiveness of Mathematics (Stage 1)",
+      "summary": "Observes Eugene Wigner's insight that abstract mathematical structures\u2014developed by mathematicians purely for logical aesthetics\u2014map onto physical reality with uncanny, predictive precision (e.g., Riemannian geometry predicting general relativity, complex numbers in quantum mechanics). If naturalism were true, human cognitive evolution would be selected solely for biological survival, making our capacity to discover subatomic equations an astonishing, unaccountable coincidence. Under Theism, a rational God created both the physical cosmos and human minds according to a unified mathematical design.",
+      "status": "active",
+      "summary_5th_grader": "Imagine you wrote down a made-up code in your notebook just for fun, and years later scientists discovered that the entire universe and every star actually runs on your exact code! Eugene Wigner and philosophers argue that math works way too perfectly in the real world to be a coincidence. A smart Creator built the universe using math and gave humans brains that can read that math code!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Stage 2 Rational Architect",
+      "title": "Deduction of the Rational Architect (Stage 2)",
+      "summary": "Because abstract mathematical laws cannot causally force physical matter to move on their own, the alignment between abstract mathematical structures and physical nature requires an intelligent Cosmic Mind that instantiates physical reality in accordance with mathematical ideas.",
+      "status": "active",
+      "summary_5th_grader": "Since numbers and math formulas are just ideas that can't physically push objects around, there must be a master Mind (God) who uses those mathematical ideas to build and run the physical universe."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Evolutionary Spandrel",
+      "title": "Evolutionary Survival & Cognitive Spandrel Objection",
+      "summary": "Skeptics argue that human mathematical ability evolved as a survival mechanism (tracking predators, counting resources, spatial navigation). Advanced mathematics (like quantum field equations) is simply an evolutionary 'spandrel'\u2014a byproduct of general cognitive pattern-recognition tools selected during hunter-gatherer evolution.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: our brains evolved to count apples and dodge lions! Advanced math (like quantum physics) is just a bonus side-effect of having a smart brain that evolved to help us survive in the wild."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Savanna Survival Gap",
+      "title": "The Vast Gap Between Savanna Survival & Quantum Math",
+      "summary": "Defenders respond that biological survival requires basic counting and 3D spatial awareness, but provides zero evolutionary advantage for discovering non-Euclidean 4D spacetime, Hilbert spaces, or imaginary numbers. Natural selection rewards quick, heuristic approximations, not hyper-precise theoretical physics.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: dodging lions only requires basic counting and quick guesses! Evolution wouldn't spend massive energy giving our brains the ability to figure out 4-dimensional math or quantum physics millions of years before we ever needed them."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Neurological Plasticity",
+      "title": "Neural Plasticity & Symbol Manipulation",
+      "summary": "Skeptics rejoin that human brains possess extreme neurological plasticity, allowing symbolic language networks to be co-opted for abstract mathematics without requiring specialized evolutionary tuning for theoretical physics.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics answer back: human brains are like flexible computers! Once we learned symbolic language, we could re-use our brain wiring to handle math formulas without needing a special divine upgrade."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Mathematical Fictionalism",
+      "title": "Mathematical Fictionalism & Human Invention Objection",
+      "summary": "Skeptics (like Hartry Field) argue that mathematics is a human invention\u2014a convenient linguistic model or useful fiction rather than a discovered cosmic structure. We simply construct mathematical tools tailored to fit physical observations.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: math isn't built into the universe\u2014it's just a tool humans invented, like a ruler or a language! We just invent math models that happen to fit what we see."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Predictive Discovery",
+      "title": "Predictive Discovery Ahead of Observation",
+      "summary": "Defenders point out that pure mathematicians frequently discover abstract concepts decades BEFORE any physical application is known (e.g., Paul Dirac using matrix math to predict anti-matter, or Einstein's use of Riemannian geometry). If math were a post-hoc human invention, it could not accurately predict unknown physical entities.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: mathematicians often invent weird math formulas decades BEFORE physicists discover that real particles actually act that way! Paul Dirac predicted anti-matter using pure math equations before anyone ever saw anti-matter in a lab."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Mapping Confirmation Bias",
+      "title": "Selective Confirmation & Discarded Math Models",
+      "summary": "Opponents reply that mathematicians invent millions of abstract mathematical systems, and scientists simply selectively pick the few that match physical reality while discarding the vast majority that do not work.",
+      "status": "active",
+      "summary_5th_grader": "Opponents say: mathematicians write down millions of different math systems! Scientists just cherry-pick the tiny few that happen to match real life and throw away the rest."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Platonism Without God",
+      "title": "Atheistic Mathematical Platonism Objection",
+      "summary": "Platonists argue that mathematical objects (numbers, sets, geometric forms) exist necessarily in an abstract realm outside of time and space. Nature obeys these laws because they are necessary truths, requiring no God to ground them.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: math ideas just exist forever on their own in an abstract realm, completely independent of God. The universe has to follow math because 2+2=4 is necessarily true everywhere."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Causal Inertia of Abstracta",
+      "title": "Causal Inertia of Abstract Entities",
+      "summary": "Defenders respond (per William Lane Craig) that abstract mathematical entities are causally inert\u2014the number 7 or a matrix equation has no casual power to force physical matter to behave according to its structure. Only a Mind can link abstract mathematical truth to physical instantiation.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: abstract numbers can't push physical matter around! The number '7' or a written formula has zero power to force an electron to move. You need a living Mind to connect math ideas to physical stuff."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Multiverse Mathematical Selection",
+      "title": "Tegmark's Mathematical Multiverse (Level IV)",
+      "summary": "Max Tegmark proposes the Ultimate Ensemble Multiverse, where all mathematically possible structures physically exist. We live in a mathematically elegant universe simply because intelligent observers can only exist in mathematically coherent branches.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: maybe EVERY possible mathematical world actually exists somewhere! We just happen to live in one of the worlds that has clean math because creatures couldn't survive in chaotic worlds."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Extreme Inflation & Complexity",
+      "title": "Ontological Extravagance & The Boltzmann Problem",
+      "summary": "Defenders critique Tegmark's Level IV multiverse as an extreme violation of Ockham's Razor that generates overwhelming probability paradoxes (like Boltzmann Brains outnumbering structured observers). Divine design offers a far more parsimonious explanation.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: inventing infinite physical universes for every single math equation is way too complicated! Believing in one smart Creator is much simpler and avoids weird paradoxes."
+    },
+    {
+      "id": "2.5",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Tautological Math",
+      "title": "Tautological & Definitional Objection",
+      "summary": "Argues that math is fundamentally tautological (definitions following logically from axioms). Physical reality appears mathematical simply because humans define physical measurements in mathematical terms.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: math is just true by definition (like saying all bachelors are unmarried)! Nature looks mathematical only because we measure nature using math terms."
+    },
+    {
+      "id": "3.5",
+      "parentId": "2.5",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Non-Trivial Physics Predictions",
+      "title": "Non-Trivial Empirical Discoveries",
+      "summary": "Rebuts that physics goes far beyond definitional tautologies: mathematical physics discovers non-intuitive phenomena (such as time dilation, gravitational waves, and quantum entanglement) that cannot be deduced from mere word definitions.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: math isn't just word tricks! Math predicted wild things like black holes and time slowing down near heavy gravity long before we ever built telescopes to see them."
+    }
+  ]
+}

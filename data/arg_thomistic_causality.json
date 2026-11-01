@@ -1,0 +1,196 @@
+{
+  "id": "arg_thomistic_causality",
+  "title": "Thomistic Second Way: Efficient Causality",
+  "tier": "B",
+  "starRating": 3.0,
+  "description": "A structured branching graph of Thomas Aquinas's Second Way (Argument from Efficient Causality), exploring essential orders of cause and effect, the impossibility of self-causation, the Uncaused First Cause, modern quantum causation, and infinite regress distinctions.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Second Way Core",
+      "title": "Thomistic Second Way: Argument from Efficient Causality (Stage 1)",
+      "summary": "In the sensible world, there is an order of efficient causes. Nothing can be the efficient cause of itself, for then it would be prior to itself, which is impossible. In an essentially ordered series of concurrent efficient causes, to remove the cause is to remove the effect. If there were no first cause among efficient causes, there would be no ultimate nor intermediate cause. Therefore, it is necessary to admit a First Efficient Cause (Uncaused Cause) sustaining all secondary causes.",
+      "status": "active",
+      "summary_5th_grader": "Think of a long row of falling dominoes. The third domino only falls because the second domino hit it right now. But if no one pushed the very first domino, none of the dominoes would ever fall! Thomas Aquinas argued that cause and effect in our world needs a First Uncaused Cause to start and power all other causes."
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Stage 2 Uncaused Cause",
+      "title": "Deduction of the First Uncaused Cause to God (Stage 2)",
+      "summary": "Since the First Efficient Cause is uncaused, it possesses intrinsic, unborrowed existence (Ipsum Esse Subsistens). It must be self-existent, immaterial, eternal, unique, infinitely powerful, and the source of all causal power in creation\u2014matching the definition of God.",
+      "status": "active",
+      "summary_5th_grader": "Because this First Cause was never caused by anything else, it doesn't borrow its existence from anyone! It is self-existent, timeless, super-powerful, and the source of all power in the universe\u2014which is what we call God."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Infinite Regress Objection",
+      "title": "Mathematical Infinite Regress Objection",
+      "summary": "Skeptics argue that infinite series exist in mathematics (e.g., negative integers leading to zero) and physics (e.g., infinite temporal past), meaning an infinite regress of efficient causes is logically possible without requiring a first term.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: numbers can go backwards into negative infinity forever (-1, -2, -3...), so why couldn't the chain of causes just go backwards forever without a first starting point?"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Essential vs Accidental Regress",
+      "title": "Hierarchical Dependence vs. Temporal Regress",
+      "summary": "Defenders clarify that Aquinas explicitly allowed for an infinite temporal past (accidental ordered series, per se accidens). The Second Way focuses strictly on essential simultaneous dependence (per se), where intermediate instruments have zero causal power without an active principal cause.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: mathematical numbers don't DO anything! But in real life, a train engine moves the cars right now. If you have infinite train cars but no engine, no car can ever move, no matter how many cars you link together!"
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Instrumental Power Ground",
+      "title": "Self-Sustaining Causal Loops & Network Causality",
+      "summary": "Opponents respond that modern systems theory demonstrates feedback loops and network causality, where entities mutually cause and sustain each other's state without a linear or hierarchical primary term.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics respond: what about circular loops? In a food web or ecosystem, animals and plants feed and cause each other in a circle, so you don't need one top boss at the head of a line!"
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "sub_counter_rebuttal",
+      "shortLabel": "Loop Energy Requirement",
+      "title": "Vicious Circularity & Substrate Requirement",
+      "summary": "Defenders counter that causal loops only redistribute existing causal power; the entire loop itself remains contingent and requires an external ontological power source to actualize the loop as a whole.",
+      "status": "active",
+      "summary_5th_grader": "Defenders point out: plug an extension cord into itself in a circle\u2014it still won't light up! A loop of things that need help still needs electricity from the wall outlet to run."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Self-Causation / Spontaneity",
+      "title": "Quantum Vacuum & Spontaneous Pair Creation",
+      "summary": "Skeptics point to quantum field theory, where virtual particles appear spontaneously out of the quantum vacuum without a deterministic prior efficient cause, challenging the claim that every event requires a distinct cause.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: quantum physics shows tiny particles popping into existence out of nowhere without any cause pushing them! So not everything needs an efficient cause."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Vacuum is Not Nothing",
+      "title": "Quantum Vacuum as a Causal Substrate",
+      "summary": "Defenders note that the quantum vacuum is not absolute non-being; it is a physical entity with energy fields, fundamental constants, and mathematical laws that act as the material and formal efficient causes of particle generation.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: the quantum vacuum isn't 'nothing'\u2014it's a sea of energy governed by physics laws! The particle popping up is caused by the energy in the field, not by magical magic out of absolute zero."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Indeterminism in Physics",
+      "title": "Ontological Indeterminism & Non-Causal Transitions",
+      "summary": "Opponents argue that under standard Copenhagen quantum mechanics, individual decay events are strictly acausal and indeterministic, breaking the principle of efficient causation at the micro-level.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue back: even if the field exists, the EXACT moment an atom decays has no cause at all. Nature acts randomly, breaking the rule that every effect must have a cause."
+    },
+    {
+      "id": "5.2",
+      "parentId": "4.2",
+      "level": 5,
+      "type": "sub_counter_rebuttal",
+      "shortLabel": "Deterministic Interpretations",
+      "title": "Bohmian Determinism & PSR Preservation",
+      "summary": "Defenders highlight deterministic quantum interpretations (Bohmian Mechanics, Many-Worlds) which preserve strict causality, and argue that physical indeterminism is merely unpredictable probability, not uncaused creation of being.",
+      "status": "active",
+      "summary_5th_grader": "Defenders show: other scientist views (like Pilot Wave theory) say quantum events ARE fully caused! Plus, being unpredictable to humans doesn't mean it's popping into existence uncaused."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Humean Critique of Causality",
+      "title": "Humean Skepticism & Constant Conjunction",
+      "summary": "David Hume argued that we never observe actual 'causal power' or necessity; we only observe constant conjunction (Event A followed by Event B). Causality is a psychological habit of mind, not an intrinsic metaphysical feature of reality.",
+      "status": "active",
+      "summary_5th_grader": "Philosopher David Hume said: when one billiard ball hits another, you don't actually SEE 'cause'\u2014you just see ball A move, then ball B move. Brains just get used to seeing things happen together, but there's no invisible magic chain!"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Causal Realism & Agency",
+      "title": "Causal Realism & Direct Experience of Agency",
+      "summary": "Defenders counter that Humean skepticism leads to radical solipsism and undermines all scientific practice, which relies on genuine causal mechanisms. Furthermore, humans directly experience causal power through personal volition and agency.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: if causes aren't real, all of science falls apart! Plus, you feel causal power yourself every time you decide to flex your arm\u2014your mind directly causes your body to move."
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Counterfactual Causality",
+      "title": "Counterfactual & Regularity Accounts in Modern Logic",
+      "summary": "Modern naturalists advocate counterfactual accounts of causation (Lewis: 'If A had not occurred, B would not have occurred') which ground causality in physical law relations without needing Thomistic metaphysical efficient causes.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue modern science just uses 'if-then' rules: 'If you didn't strike the match, it wouldn't light.' You don't need mystical medieval powers, just physical rules!"
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Fallacy of Composition",
+      "title": "Part-to-Whole Fallacy of Causality",
+      "summary": "Skeptics argue that just because every object inside the universe has an efficient cause, it is a fallacy of composition to assert that the universe as a whole must have an efficient cause.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: every brick in a wall has a weight of 1 pound, but that doesn't mean the whole wall weighs 1 pound! Just because things inside the universe have causes doesn't mean the whole universe needs one."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Constitutive Dependence",
+      "title": "Constitutive Contingency & Total Effect",
+      "summary": "Defenders argue that when a property (like contingency or causal dependence) applies to every constituent part and their structural relation, it necessarily applies to the whole. A aggregate of caused things is itself caused.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: if every single brick in a wall is made of red clay, the entire wall is made of red clay! If every piece of the universe is caused, the whole collection is also caused."
+    },
+    {
+      "id": "2.5",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Why Must Cause be God?",
+      "title": "Gap Between First Cause & Divine Attributes",
+      "summary": "Critics argue that even if an Uncaused First Cause exists, Aquinas fails to prove it possesses divine personhood, moral goodness, omniscience, or loving care, rather than being a mindless physical force.",
+      "status": "active",
+      "summary_5th_grader": "Critics ask: even if there is a First Cause, why couldn't it just be a dumb physical energy field or quantum law, instead of a God who cares about humans?"
+    },
+    {
+      "id": "3.5",
+      "parentId": "2.5",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Metaphysical Deduction of Attributes",
+      "title": "Aquinas's Systematic Attribute Deduction",
+      "summary": "Defenders point out that Aquinas spends Questions 3 through 26 of the Summa Theologiae systematically deriving divine attributes (unity, intellect, will, perfection) directly from the logical requirements of an uncaused, purely actual first cause.",
+      "status": "active",
+      "summary_5th_grader": "Defenders explain: Aquinas didn't stop at Step 1! He wrote hundreds of pages showing that an uncaused first cause MUST have infinite power, perfect intelligence, and complete goodness to create everything else."
+    }
+  ]
+}

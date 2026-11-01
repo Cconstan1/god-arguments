@@ -1,0 +1,185 @@
+{
+  "id": "arg_dna_information",
+  "title": "Argument from Information in DNA",
+  "tier": "B",
+  "starRating": 4.5,
+  "description": "A structured branching graph of the Argument from Information in DNA (Signature in the Cell), exploring genetic code, specified complexity, Shannon entropy, prebiotic chemistry, gene duplication, and intelligent agency.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "DNA Information Core",
+      "title": "Argument from Information in DNA (Stage 1)",
+      "summary": "DNA stores instructions using a four-letter chemical alphabet (A, T, C, G) that functions as a digital code or software program inside living cells. In all human experience, specified functional information\u2014whether computer code, written language, or hieroglyphics\u2014universally originates from a conscious, intelligent mind. Therefore, the vast digital information in DNA is best explained by an intelligent designer.",
+      "status": "active",
+      "summary_5th_grader": "Inside every single one of your cells sits DNA, which works exactly like computer code or a recipe book written with four letters (A, T, C, G). Whenever we see code, books, or software in real life, we know a smart person wrote it. Since DNA is the most complex software in the universe, it points to a super-smart designer who wrote the original code!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Stage 2 Bio-Architect",
+      "title": "Deduction of the Genetic Architect (Stage 2)",
+      "summary": "Because the information in DNA precedes all terrestrial life and orchestrates intricate molecular machinery, the author of biological information must possess vast intelligence, bio-engineering capability, foresight, and transcendent power independent of biological evolution.",
+      "status": "active",
+      "summary_5th_grader": "Since this biological software was created before any plants or animals existed on Earth, the programmer who wrote it must be immensely powerful, brilliant, and existed before life on Earth ever began!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Prebiotic Chemistry",
+      "title": "Unguided Prebiotic Chemistry & RNA World",
+      "summary": "Skeptics argue that unguided physical and chemical laws\u2014such as chemical self-organization, mineral catalysis, and the RNA World hypothesis\u2014can polymerize nucleotides and assemble functional informational chains without needing a designer.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: basic chemistry laws and warm oceans on early Earth could naturally string together chemical building blocks like beads on a necklace, forming self-copying RNA without needing any magic or designer!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Bonds Don't Dictate Code",
+      "title": "Chemical Bonds Do Not Dictate Code Sequence",
+      "summary": "Defenders reply that the sugar-phosphate backbone of DNA connects to any base (A, T, C, or G) with equal chemical affinity\u2014just as magnetic letters stick equally well to a fridge door. Chemistry explains the bonds holding the letters, but chemical forces cannot explain the specific meaningful order of the message.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: think of fridge magnet letters! The magnets explain why letters stick to the fridge, but chemistry doesn't decide whether the letters spell 'CAT' or random gibberish. The chemical bonds hold the DNA together, but they don't pick the recipe!"
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Ribozyme Selection",
+      "title": "RNA Autocatalysis & Prebiotic Selection",
+      "summary": "Opponents respond that once self-replicating RNA ensembles (ribozymes) emerge, molecular natural selection takes over: sequences that replicate faster or more accurately naturally multiply and dominate the chemical pool.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics push back: once a few RNA pieces learn to copy themselves, the ones that copy fastest take over the whole pool! That's natural selection working at a molecular level before cells even existed."
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "sub_sub_counter",
+      "shortLabel": "Eigen's Error Paradox",
+      "title": "Eigen's Paradox & The Replication Catch-22",
+      "summary": "Proponents point to Eigen's Error Threshold: without large, high-fidelity proofreading enzymes, copying errors accumulate rapidly (error catastrophe). But building those proofreading enzymes requires a long, highly accurate genome\u2014creating an unsolved catch-22 for unguided origins.",
+      "status": "active",
+      "summary_5th_grader": "Proponents answer with a big chicken-and-egg problem: you need accurate copying machinery to make long DNA programs, but you need a long DNA program to build accurate copying machinery! Without proofreading, the chemical code decays into total typos."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Shannon Entropy Metaphor",
+      "title": "Shannon Information vs. Meaning & Chemical Analogy",
+      "summary": "Skeptics argue that calling DNA 'code' or 'software' is a human linguistic metaphor. In physics, any random sequence of chemicals contains high Shannon information (entropy); chemical bases simply react according to thermodynamics without intrinsic 'meaning'.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue: calling DNA 'computer code' is just a human metaphor! In physics, a completely random jumble of letters has a lot of 'information' mathematically. Chemicals are just reacting physically\u2014they don't know what words mean."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Specified Complexity",
+      "title": "Specified Complexity & Functional Sequence Space",
+      "summary": "Defenders respond that DNA is not mere Shannon entropy (randomness); it possesses specified complexity. Out of the vast astronomical number of possible sequence combinations (e.g. 4^1000), only an infinitesimally tiny fraction can fold into functional 3D proteins that sustain life.",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: DNA isn't just random letters! It has 'specified complexity'\u2014meaning out of trillions of possible letter combinations, only an impossibly tiny fraction actually folds into working 3D tools that keep a cell alive."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Abundant Functional Space",
+      "title": "Functional Sequence Abundance & Promiscuous Enzymes",
+      "summary": "Opponents cite laboratory experiments showing that functional peptides and RNA aptamers are far more common in sequence space than ID theorists calculate (e.g. 1 in 10^11 rather than 1 in 10^77), making random search plus selection viable.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics reply: lab tests show that finding a useful chemical sequence isn't 1 in a trillion trillion\u2014it's more like 1 in a hundred billion. In a tiny drop of ocean water with trillions of molecules, finding working sequences happens all the time!"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Gene Duplication",
+      "title": "Gene Duplication, Frameshifts & Neofunctionalization",
+      "summary": "Skeptics contend that biological evolution continuously generates brand-new genetic information through well-understood mutations\u2014such as gene duplication, frameshifts, and exon shuffling\u2014where a spare copy of a gene mutates into a novel function.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: evolution creates new genetic information every day! When a cell accidentally copies a gene twice, one copy keeps doing its normal job while the extra copy mutates and invents a brand new superpower."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Abiogenesis Prerequisite",
+      "title": "Darwinian Evolution Presupposes Prior Code",
+      "summary": "Defenders emphasize that gene duplication and natural selection require a fully functioning, replicating DNA/RNA genome to already be in place. Darwinian evolution cannot explain the origin of the first genetic code because it depends on that code to operate.",
+      "status": "active",
+      "summary_5th_grader": "Defenders point out: gene duplication and natural selection only work AFTER you already have living cells with working DNA! Evolution can tweak existing code, but it can't explain how the first code got written in the first place."
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Physico-Chemical Continuum",
+      "title": "Physico-Chemical Continuum Before Full Cellular Life",
+      "summary": "Opponents reply that life did not appear in a sudden binary jump; a smooth physico-chemical continuum connects simple catalytic molecules to protocells, where chemical natural selection acts on primitive replicators long before full modern genomes.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics answer: life didn't pop up instantly like turning on a light switch! There was a gradual ramp\u2014a smooth continuum where simple chemical systems slowly evolved into protocells over millions of years."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Genetic Algorithms",
+      "title": "Computer Simulations & Genetic Algorithms",
+      "summary": "Skeptics point to computer software (such as Avida or evolutionary algorithms) where unguided random mutations and selection criteria consistently generate complex, highly specified digital code and novel programs from scratch.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue: computer scientists write AI programs where digital organisms mutate randomly, and after thousands of generations, the computer invents complex new software programs all on its own!"
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Teleological Front-Loading",
+      "title": "Teleological Front-Loading in Evolutionary Software",
+      "summary": "Defenders respond that genetic algorithms succeed only because human programmers front-load them with explicit target goals, fitness functions, and engineered success criteria\u2014thereby proving that intelligence is required to guide code generation.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: those computer programs only work because a smart human programmer wrote the rules, target score, and goal! The programmer built the steering wheel\u2014which actually proves intelligence is needed!"
+    },
+    {
+      "id": "2.5",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Junk DNA & Mistakes",
+      "title": "Junk DNA, Pseudogenes & Genomic Imperfection",
+      "summary": "Skeptics argue that vast stretches of genomes consist of non-coding 'junk' DNA, broken viral remnants (ERVs), and dead pseudogenes. This messy, redundant, and error-strewn genome reflects unguided evolutionary tinkering rather than pristine divine bio-code.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics point out: 90% of human DNA doesn't even code for proteins! It's full of broken virus leftovers, repeated gibberish, and dead genes. That mess looks like unguided trial-and-error, not an neat, perfect master program."
+    },
+    {
+      "id": "3.5",
+      "parentId": "2.5",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "ENCODE Regulatory Function",
+      "title": "ENCODE Project & Regulatory Non-Coding Functions",
+      "summary": "Defenders counter with discoveries from genomic projects like ENCODE, which revealed that much supposed 'junk DNA' actually plays vital regulatory, epigenetic, and structural roles\u2014such as controlling when, where, and how genes are expressed.",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: modern genetic projects (like ENCODE) showed that much of that supposed 'junk' actually acts as control switches, volume knobs, and scaffolding that tells genes when and how hard to work!"
+    }
+  ]
+}
