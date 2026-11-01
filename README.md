@@ -17,7 +17,7 @@ Open [http://localhost:8000](http://localhost:8000) in a browser. Use `Ctrl+C` i
 - `index.html` — the interactive argument map and argument-tree views.
 - `sandbox.html` — a standalone media and audio embed sandbox.
 - `arguments_index.json` — the master list of arguments shown on the map.
-- `kalam_tree.json` — argument nodes for the Kalam tree.
+- `data/` — argument trees named `arg_[id].json`; additional trees can be added as they are written.
 - `audio/` — generated MP3 narrations and their generation cache.
 - `generate_5th_grader_text.py` — generates simplified summaries in the JSON data.
 - `generate_audio.py` — generates male and female text-to-speech MP3s for argument-tree nodes.
@@ -33,10 +33,10 @@ $env:GEMINI_API_KEY = "your-api-key"
 python .\generate_5th_grader_text.py
 ```
 
-The script processes `*_tree.json` files by default, adding `summary_5th_grader` fields to entries that do not already have one. To process specific files, pass them with `--file`; use `--force` to regenerate existing summaries:
+The script processes `data/arg_*.json` files by default, adding `summary_5th_grader` fields to entries that do not already have one. To process specific files, pass them with `--file`; use `--force` to regenerate existing summaries:
 
 ```powershell
-python .\generate_5th_grader_text.py --file kalam_tree.json
+python .\generate_5th_grader_text.py --file data\arg_kalam.json
 python .\generate_5th_grader_text.py --force
 ```
 
@@ -52,10 +52,10 @@ $env:GOOGLE_APPLICATION_CREDENTIALS = "C:\path\to\service-account.json"
 python .\generate_audio.py
 ```
 
-By default, the script processes each `*_tree.json` file in the project. It writes MP3s to `audio/`, updates each node's `audio_urls`, and stores a cache in `audio/audio_cache.json`. Use `--file` to process one tree or `--force` to regenerate cached audio:
+By default, the script processes each `data/arg_*.json` file. It writes MP3s to `audio/`, updates each node's `audio_urls`, and stores a cache in `audio/audio_cache.json`. Use `--file` to process one tree or `--force` to regenerate cached audio:
 
 ```powershell
-python .\generate_audio.py --file kalam_tree.json
+python .\generate_audio.py --file data\arg_kalam.json
 python .\generate_audio.py --force
 ```
 

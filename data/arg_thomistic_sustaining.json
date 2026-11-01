@@ -1,0 +1,108 @@
+{
+  "id": "arg_thomistic_sustaining",
+  "title": "Thomistic Vertical Sustaining Cause",
+  "tier": "A",
+  "starRating": 3.0,
+  "description": "A structured branching graph of Aquinas's Vertical (Hierarchical) Sustaining Cause argument, exploring Actus Purus, ontological inertia, conservation laws, essential vs. accidental causal chains, and quantum ground states.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Vertical Sustaining Core",
+      "title": "Thomistic Vertical Sustaining Cause (Stage 1)",
+      "summary": "Distinguishes between accidental causal chains (linear in time, e.g., father begetting son) and essential causal chains (hierarchical/simultaneous in the present moment, e.g., hand moving stick moving rock). Since a physical object cannot sustain its own actualized existence moment-by-moment without a foundational actualizer, reality requires a purely actual sustaining cause (Actus Purus) holding all contingent things in existence right now.",
+      "status": "active",
+      "summary_5th_grader": "Imagine a chandelier hanging from a chain, held up by a ceiling beam right now. If the beam disappears, the chandelier falls immediately! Thomas Aquinas argued that God isn't just someone who pushed dominoes millions of years ago\u2014God is the beam holding up everything in the universe every single second!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Stage 2 Pure Actuality",
+      "title": "Deduction of Pure Actuality (Actus Purus)",
+      "summary": "If the sustaining foundation holds all potentials in actual existence without possessing unactualized potentials itself, it must be Pure Actuality (Actus Purus)\u2014immutable, immaterial, eternal, unique, infinite, and possessing supreme intellect.",
+      "status": "active",
+      "summary_5th_grader": "If this foundation has zero missing pieces or leftover potential, it can never change, get old, or be broken. It must be a perfectly complete, mind-powered foundation that sustains all life every second."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Ontological Inertia",
+      "title": "Ontological Inertia & Natural Persistence Objection",
+      "summary": "Skeptics argue that once physical matter or energy exists, it possesses inherent ontological inertia\u2014it persists naturally through quantum stability and conservation laws without needing a continuous metaphysical 'engine' sustaining it moment-by-moment.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: once physical stuff (like atoms or energy) is created, it just keeps existing naturally on its own, like a rolling bowling ball, without needing a creator to constantly hold it up every second!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Laws vs Sustaining Ground",
+      "title": "Laws Describe Behavior, Not Ontological Ground",
+      "summary": "Defenders argue that conservation laws describe how energy behaves, not why physical energy continues to exist moment-by-moment. Physical fields are themselves composed of actualized potentials at every Planck time unit, requiring a sustaining ontological ground.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: physics laws just describe WHAT happens, not WHY atoms keep existing! Even quantum fields are updating every millisecond, so they still need a foundation to keep them real right now."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Quantum Vacuum Ground",
+      "title": "Quantum Field Theory & Brute Ground States",
+      "summary": "Opponents respond that fundamental quantum fields (or string vacuums) can be treated as self-sustaining brute realities where existence is an intrinsic property of the field rather than a derived state.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue back: maybe quantum fields are just the ultimate rock-bottom layer of reality that naturally exists all by itself."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Fallacy of Composition",
+      "title": "Fallacy of Composition / Macro Analogy Critique",
+      "summary": "Opponents argue Aquinas conflates local physical dependencies (like friction or atomic bonds) with a global metaphysical dependency, treating the entire universe as if it were a physical stick being moved by a hand.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue Aquinas is tricking us with an analogy! Just because a stick needs a hand right now doesn't mean the whole universe works like a stick."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Micro-Substrate Dependency",
+      "title": "Essential Causality in Fundamental Particles",
+      "summary": "Scholastics reply that even subatomic particles rely simultaneously on fundamental forces and quantum field conditions\u2014the argument applies to the fundamental constituents of physical reality, not just macro-objects.",
+      "status": "active",
+      "summary_5th_grader": "Scholastics reply: even tiny quarks and atoms rely on forces pushing and pulling them RIGHT NOW. If those forces stopped for a microsecond, atoms would vanish!"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Quantum Indeterminism",
+      "title": "Quantum Indeterminism & Uncaused Transitions",
+      "summary": "Skeptics point out that quantum mechanics demonstrates events (like radioactive decay) happening spontaneously without an immediate deterministic cause, undermining the claim that every state change requires an active concurrent actualizer.",
+      "status": "active",
+      "summary_5th_grader": "Quantum physics shows that tiny particles change or decay completely at random with no cause pushing them\u2014so not everything needs something constantly pushing it!"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Actuality vs Selection",
+      "title": "Actualization vs. Indeterministic Selection",
+      "summary": "Theists clarify that indeterminism concerns WHICH potential is actualized, not HOW potentiality becomes actuality\u2014quantum probability waves still require an ontological actualizer to collapse into concrete physical reality.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: quantum randomness chooses WHICH path a particle takes, but it still needs reality to make that particle exist in the first place!"
+    }
+  ]
+}

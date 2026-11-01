@@ -12,6 +12,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT / "data"
 MODEL = "gemini-2.0-flash"
 FALLBACK_MODELS = ("gemini-2.0-flash-lite", "gemini-1.5-pro")
 API_URL_TEMPLATE = (
@@ -35,7 +36,7 @@ def parse_args() -> argparse.Namespace:
         nargs="+",
         help=(
             "Process one or more JSON files (relative paths are based on this "
-            "script). By default, process *_tree.json and arguments_index.json."
+            "script). By default, process data/arg_*.json."
         ),
     )
     parser.add_argument(
@@ -210,10 +211,10 @@ def main() -> None:
             for path in args.file
         ]
     else:
-        json_files = sorted(ROOT.glob("*_tree.json"))
+        json_files = sorted(DATA_DIR.glob("arg_*.json"))
 
     if not json_files:
-        raise FileNotFoundError(f"No supported JSON files found in {ROOT}")
+        raise FileNotFoundError(f"No argument tree JSON files found in {DATA_DIR}")
 
     api_key = load_api_key()
     total_generated = 0

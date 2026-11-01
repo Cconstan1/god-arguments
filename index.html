@@ -932,6 +932,7 @@
                 this.isPanning = false;
                 this.startPanX = 0;
                 this.startPanY = 0;
+                this.panAnimationFrame = null;
 
                 // Layout Dimensions
                 this.nodeWidth = 320;
@@ -1604,7 +1605,11 @@
             setupEventListeners() {
                 // Viewport Pan Mouse Dragging
                 this.viewportEl.addEventListener('mousedown', (e) => {
-                    if (e.target.closest('.pointer-events-auto')) return;
+                    if (e.button === 1) {
+                        e.preventDefault();
+                    } else if (e.target.closest('.pointer-events-auto')) {
+                        return;
+                    }
                     this.isPanning = true;
                     this.startPanX = e.clientX - this.panX;
                     this.startPanY = e.clientY - this.panY;
@@ -1615,7 +1620,12 @@
                     if (!this.isPanning) return;
                     this.panX = e.clientX - this.startPanX;
                     this.panY = e.clientY - this.startPanY;
-                    this.updateTransform();
+                    if (this.panAnimationFrame === null) {
+                        this.panAnimationFrame = requestAnimationFrame(() => {
+                            this.panAnimationFrame = null;
+                            this.updateTransform();
+                        });
+                    }
                 });
 
                 window.addEventListener('mouseup', () => {
@@ -1857,42 +1867,39 @@
                 })[character]);
             }
 
-            async loadArgumentSummaries() {
-                const results = await Promise.allSettled(this.arguments.map(async argument => {
-                    if (!argument.dataFile) return null;
-
-                    const response = await fetch(`./${encodeURIComponent(argument.dataFile)}`);
-                    if (response.status === 404) return null;
-                    if (!response.ok) {
-                        throw new Error(`Failed to load ${argument.dataFile}: ${response.status} ${response.statusText}`);
-                    }
-
-                    const treeData = await response.json();
-                    if (!Array.isArray(treeData.nodes)) {
-                        throw new Error(`${argument.dataFile} does not contain a nodes array.`);
-                    }
-
-                    const rootNode = treeData.nodes.find(node => node.id === '1.0');
-                    if (!rootNode) {
-                        throw new Error(`${argument.dataFile} does not contain root node 1.0.`);
-                    }
-
-                    this.branchCache.set(argument.dataFile, treeData);
-                    argument.summary = rootNode.summary || '';
-                    argument.summary_5th_grader = rootNode.summary_5th_grader;
-                    return argument;
-                }));
-
-                const errors = results
-                    .filter(result => result.status === 'rejected')
-                    .map(result => result.reason.message);
-                if (errors.length > 0) {
-                    const status = document.getElementById('masterStatus');
-                    status.textContent = `Some argument summaries could not be loaded: ${errors.join(' ')}`;
-                    status.classList.remove('hidden');
+            async loadArgumentTree(argument) {
+                if (this.branchCache.has(argument.id)) {
+                    return this.branchCache.get(argument.id);
                 }
 
-                this.render();
+                const filePath = `./data/${encodeURIComponent(argument.id)}.json`;
+                const response = await fetch(filePath);
+                if (response.status === 404) {
+                    this.branchCache.set(argument.id, null);
+                    return null;
+                }
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${filePath}: ${response.status} ${response.statusText}`);
+                }
+
+                const treeData = await response.json();
+                if (!Array.isArray(treeData.nodes)) {
+                    throw new Error(`${filePath} does not contain a nodes array.`);
+                }
+
+                const rootNode = treeData.nodes.find(node => !node.parentId);
+                if (!rootNode) {
+                    throw new Error(`${filePath} does not contain a root node.`);
+                }
+
+                this.branchCache.set(argument.id, treeData);
+                return treeData;
+            }
+
+            updateArgumentSummary(argument, treeData) {
+                const rootNode = treeData.nodes.find(node => !node.parentId);
+                argument.summary = rootNode.summary || argument.summary || '';
+                argument.summary_5th_grader = rootNode.summary_5th_grader;
             }
 
             formatLabel(value) {
@@ -2076,14 +2083,26 @@
                 document.getElementById('masterResultCount').textContent = `${this.filteredArguments.length} of ${this.arguments.length} arguments`;
                 this.grid.innerHTML = this.filteredArguments.map(argument => this.cardMarkup(argument)).join('');
                 this.grid.querySelectorAll('[data-fifth-grade-mode="argument"]').forEach(button => {
-                    button.addEventListener('click', event => {
+                    button.addEventListener('click', async event => {
                         event.stopPropagation();
                         const argumentId = button.dataset.fifthGradeId;
-                        fifthGradeModeState.overrides.argument.set(
-                            argumentId,
-                            !isFifthGradeEnabled('argument', argumentId)
-                        );
-                        this.render();
+                        const argument = this.arguments.find(item => item.id === argumentId);
+                        if (!argument) return;
+
+                        try {
+                            const treeData = await this.loadArgumentTree(argument);
+                            if (!treeData) return;
+                            this.updateArgumentSummary(argument, treeData);
+                            fifthGradeModeState.overrides.argument.set(
+                                argumentId,
+                                !isFifthGradeEnabled('argument', argumentId)
+                            );
+                            this.render();
+                        } catch (error) {
+                            const status = document.getElementById('masterStatus');
+                            status.textContent = `Could not load this argument. ${error.message}`;
+                            status.classList.remove('hidden');
+                        }
                     });
                 });
                 this.grid.querySelectorAll('[data-explore-id]').forEach(link => link.addEventListener('click', event => {
@@ -2188,15 +2207,13 @@
                 const status = document.getElementById('masterStatus');
                 status.classList.add('hidden');
                 try {
-                    let treeData = this.branchCache.get(argument.dataFile);
+                    const treeData = await this.loadArgumentTree(argument);
                     if (!treeData) {
-                        const response = await fetch(`./${encodeURIComponent(argument.dataFile)}`);
-                        if (!response.ok) {
-                            throw new Error('BRANCH_UNDER_CONSTRUCTION');
-                        }
-                        treeData = await response.json();
-                        this.branchCache.set(argument.dataFile, treeData);
+                        status.textContent = `A detailed tree is not available yet. Summary: ${argument.summary}`;
+                        status.classList.remove('hidden');
+                        return;
                     }
+                    this.updateArgumentSummary(argument, treeData);
                     document.getElementById('masterMapView').classList.add('hidden');
                     document.getElementById('deepHeader').classList.remove('hidden');
                     document.getElementById('deepHeader').classList.add('flex');
@@ -2204,9 +2221,7 @@
                     document.title = `${argument.title} - Interactive Decision Tree`;
                     window.kalamTree = new KalamTreeEngine(treeData);
                 } catch (error) {
-                    status.textContent = error.message === 'BRANCH_UNDER_CONSTRUCTION'
-                        ? 'Branch JSON under construction. Only Kalam Cosmological Argument (KCA) is currently available.'
-                        : 'Could not load this branch. Make sure the app is being served locally and try again.';
+                    status.textContent = `Could not load this branch. ${error.message}`;
                     status.classList.remove('hidden');
                 }
             }
@@ -2232,7 +2247,6 @@
 
                 const indexData = await response.json();
                 window.masterMap = new MasterMapController(indexData);
-                await window.masterMap.loadArgumentSummaries();
             } catch (error) {
                 const status = document.getElementById('masterStatus');
                 status.textContent = `Unable to initialize the master map: ${error.message}`;

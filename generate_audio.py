@@ -14,6 +14,7 @@ from google.cloud import texttospeech
 
 
 ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT / "data"
 AUDIO_DIR = ROOT / "audio"
 CACHE_PATH = AUDIO_DIR / "audio_cache.json"
 LANGUAGE_CODE = "en-US"
@@ -208,13 +209,13 @@ def process_file(
 def main() -> None:
     args = parse_args()
     if args.file is None:
-        json_files = sorted(ROOT.glob("*_tree.json"))
+        json_files = sorted(DATA_DIR.glob("arg_*.json"))
     else:
         json_path = args.file if args.file.is_absolute() else ROOT / args.file
         json_files = [json_path.resolve()]
 
     if not json_files:
-        raise FileNotFoundError(f"No argument tree JSON files found in {ROOT}")
+        raise FileNotFoundError(f"No argument tree JSON files found in {DATA_DIR}")
 
     for json_path in json_files:
         if not json_path.is_file():

@@ -12,7 +12,7 @@
       "domain": "cosmological",
       "tier": "B",
       "summary": "Whatever begins to exist has a cause; the universe began to exist; therefore, the universe has a cause.",
-      "dataFile": "kalam_tree.json",
+      "dataFile": "arg_kalam.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -39,7 +39,7 @@
       "domain": "cosmological",
       "tier": "S",
       "summary": "Every contingent fact requires an explanation outside the set of contingent facts, pointing to a necessary being.",
-      "dataFile": "contingency_tree.json",
+      "dataFile": "arg_contingency.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -66,7 +66,7 @@
       "domain": "cosmological",
       "tier": "B",
       "summary": "Change is the reduction of potentiality to actuality. An infinite hierarchical regress of actualizers is impossible, requiring Pure Act.",
-      "dataFile": "thomistic_motion_tree.json",
+      "dataFile": "arg_thomistic_motion.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -87,7 +87,7 @@
       "domain": "cosmological",
       "tier": "B",
       "summary": "Nothing can cause itself. An essential, present-moment series of efficient causes requires an uncaused First Efficient Cause.",
-      "dataFile": "thomistic_causality_tree.json",
+      "dataFile": "arg_thomistic_causality.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -108,7 +108,7 @@
       "domain": "cosmological",
       "tier": "A",
       "summary": "Reality requires a necessary sustaining cause right now to hold it in existence moment-to-moment (the glass on the table analogy).",
-      "dataFile": "thomistic_sustaining_tree.json",
+      "dataFile": "arg_thomistic_sustaining.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -129,7 +129,7 @@
       "domain": "cosmological",
       "tier": "C",
       "summary": "Combines origin causation (horizontal) and sustaining causation (vertical) into a unified dual-axis cosmological framework.",
-      "dataFile": "geisler_synthesis_tree.json",
+      "dataFile": "arg_geisler_synthesis.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -150,7 +150,7 @@
       "domain": "cosmological",
       "tier": "C",
       "summary": "Positing a single omnipotent, transcendent entity is ontologically simpler than an infinite sequence of unexplained physical events.",
-      "dataFile": "ockham_simplicity_tree.json",
+      "dataFile": "arg_ockham_simplicity.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -171,7 +171,7 @@
       "domain": "teleological",
       "tier": "A",
       "summary": "The physical constants and initial low-entropy state of the universe fall within an extraordinarily narrow life-permitting range.",
-      "dataFile": "fine_tuning_tree.json",
+      "dataFile": "arg_fine_tuning.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -198,7 +198,7 @@
       "domain": "teleological",
       "tier": "C",
       "summary": "Complex biochemical systems requiring multiple interacting parts could not have evolved by gradual unguided selection.",
-      "dataFile": "irreducible_complexity_tree.json",
+      "dataFile": "arg_irreducible_complexity.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -219,7 +219,7 @@
       "domain": "teleological",
       "tier": "B",
       "summary": "DNA contains specified digital information; in all human experience, complex specified information originates exclusively from a mind.",
-      "dataFile": "dna_information_tree.json",
+      "dataFile": "arg_dna_information.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -240,7 +240,7 @@
       "domain": "teleological",
       "tier": "B",
       "summary": "The uncanny alignment between abstract mathematical concepts and concrete physical universe laws points to a divine mathematician.",
-      "dataFile": "math_applicability_tree.json",
+      "dataFile": "arg_math_applicability.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -261,7 +261,7 @@
       "domain": "teleological",
       "tier": "C",
       "summary": "The harmonious, predictable operation of disparate universal elements points to an overarching cosmic orchestrator.",
-      "dataFile": "cosmic_order_tree.json",
+      "dataFile": "arg_cosmic_order.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -282,7 +282,7 @@
       "domain": "teleological",
       "tier": "B",
       "summary": "Modern scientific discovery was birthed by the theological presupposition that nature is rational because it was designed by a Lawgiver.",
-      "dataFile": "lawgiver_science_tree.json",
+      "dataFile": "arg_lawgiver_science.json",
       "epistemicMethod": "presuppositional",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -303,7 +303,7 @@
       "domain": "teleological",
       "tier": "B",
       "summary": "Unintelligent physical bodies act reliably toward specific ends, requiring an intelligent director (like an arrow shot by an archer).",
-      "dataFile": "aquinas_fifth_tree.json",
+      "dataFile": "arg_aquinas_fifth.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -324,7 +324,7 @@
       "domain": "teleological",
       "tier": "C",
       "summary": "Natural repetition is not dead mechanical law, but the joyful, deliberate, personal exertion of God saying 'Do it again' to the sun.",
-      "dataFile": "chesterton_elfland_tree.json",
+      "dataFile": "arg_chesterton_elfland.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -345,7 +345,7 @@
       "domain": "ontological",
       "tier": "D",
       "summary": "God is defined as that than which nothing greater can be conceived. Existing in reality is greater than existing in mind alone.",
-      "dataFile": "anselm_ontological_tree.json",
+      "dataFile": "arg_anselm_ontological.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -366,7 +366,7 @@
       "domain": "ontological",
       "tier": "E",
       "summary": "If a maximally great being is metaphysically possible, S5 modal logic dictates it exists in all possible worlds, including reality.",
-      "dataFile": "plantinga_modal_tree.json",
+      "dataFile": "arg_plantinga_modal.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -387,7 +387,7 @@
       "domain": "ontological",
       "tier": "D",
       "summary": "The clear and distinct idea of a supremely perfect being necessarily includes existence as one of its essential perfections.",
-      "dataFile": "cartesian_ontological_tree.json",
+      "dataFile": "arg_cartesian_ontological.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -408,7 +408,7 @@
       "domain": "ontological",
       "tier": "D",
       "summary": "Maximal greatness entails omnipotence, omniscience, and moral perfection in every possible world by definition.",
-      "dataFile": "maximally_great_tree.json",
+      "dataFile": "arg_maximally_great.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -429,7 +429,7 @@
       "domain": "ontological",
       "tier": "C",
       "summary": "Unchanging mathematical and logical truths transcend perishable human minds, requiring grounding in an eternal Mind.",
-      "dataFile": "augustine_eternal_truths_tree.json",
+      "dataFile": "arg_augustine_eternal_truths.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -450,7 +450,7 @@
       "domain": "moral",
       "tier": "E",
       "summary": "If objective moral values and duties exist, God exists. Objective moral values do exist; therefore, God exists.",
-      "dataFile": "moral_realism_tree.json",
+      "dataFile": "arg_moral_realism.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -477,7 +477,7 @@
       "domain": "moral",
       "tier": "D",
       "summary": "The universal subjective experience of binding moral guilt and duty implies a moral Lawgiver holding us accountable.",
-      "dataFile": "conscience_tree.json",
+      "dataFile": "arg_conscience.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -498,7 +498,7 @@
       "domain": "moral",
       "tier": "C",
       "summary": "God commands what is good because God's nature IS the essential, unchanging standard of goodness itself.",
-      "dataFile": "euthyphro_resolution_tree.json",
+      "dataFile": "arg_euthyphro_resolution.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -519,7 +519,7 @@
       "domain": "existential",
       "tier": "C",
       "summary": "Innate human desires correspond to real objects (hunger -> food). Our transcendent spiritual longings point to a divine fulfillment.",
-      "dataFile": "cs_lewis_desire_tree.json",
+      "dataFile": "arg_cs_lewis_desire.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -540,7 +540,7 @@
       "domain": "existential",
       "tier": "D",
       "summary": "Without God, ultimate human significance is an illusion; the reality of objective purpose points to a personal author of value.",
-      "dataFile": "existential_meaning_tree.json",
+      "dataFile": "arg_existential_meaning.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -561,7 +561,7 @@
       "domain": "existential",
       "tier": "D",
       "summary": "If there is no immortal soul or divine judge, moral prohibitions collapse into ultimate subjectivism.",
-      "dataFile": "dostoevsky_premise_tree.json",
+      "dataFile": "arg_dostoevsky_premise.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -582,7 +582,7 @@
       "domain": "epistemic",
       "tier": "B",
       "summary": "Belief in God is rationally warranted without inferential argument, functioning as a properly basic belief via divine awareness.",
-      "dataFile": "reformed_epistemology_tree.json",
+      "dataFile": "arg_reformed_epistemology.json",
       "epistemicMethod": "presuppositional",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -603,7 +603,7 @@
       "domain": "epistemic",
       "tier": "C",
       "summary": "Direct mystical encounters, near-death experiences, and answered prayer provide first-person evidential warrant for God.",
-      "dataFile": "personal_experience_tree.json",
+      "dataFile": "arg_personal_experience.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -624,7 +624,7 @@
       "domain": "epistemic",
       "tier": "C",
       "summary": "Logic, truth, and uniform rational laws presuppose a divine Mind as the necessary precondition for human intelligibility.",
-      "dataFile": "transcendental_tag_tree.json",
+      "dataFile": "arg_transcendental_tag.json",
       "epistemicMethod": "presuppositional",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -645,7 +645,7 @@
       "domain": "epistemic",
       "tier": "D",
       "summary": "Near-universal belief in a higher power across human history and geography indicates humanity is tracking a real feature of reality.",
-      "dataFile": "common_consent_tree.json",
+      "dataFile": "arg_common_consent.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -666,7 +666,7 @@
       "domain": "epistemic",
       "tier": "D",
       "summary": "Documented, medically verified extraordinary events that defy natural laws point to direct divine intervention.",
-      "dataFile": "miracles_tree.json",
+      "dataFile": "arg_miracles.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -687,7 +687,7 @@
       "domain": "epistemic",
       "tier": "D",
       "summary": "Historical facts surrounding Jesus's death, empty tomb, and post-crucifixion experiences are best explained by resurrection.",
-      "dataFile": "resurrection_minimal_facts_tree.json",
+      "dataFile": "arg_resurrection_minimal_facts.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -708,7 +708,7 @@
       "domain": "epistemic",
       "tier": "E",
       "summary": "The unique historical persistence, global expansion, and survival of the Church despite severe persecution validates divine origin.",
-      "dataFile": "church_preservation_tree.json",
+      "dataFile": "arg_church_preservation.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -729,7 +729,7 @@
       "domain": "epistemic",
       "tier": "B",
       "summary": "If thoughts are mere physical collisions of atoms, we have no reason to trust rational conclusions, undermining physicalism.",
-      "dataFile": "cs_lewis_reason_tree.json",
+      "dataFile": "arg_cs_lewis_reason.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -750,7 +750,7 @@
       "domain": "epistemic",
       "tier": "C",
       "summary": "Combining cosmological, biological, and moral clues makes naturalism untenable, pointing to God as best overall inference.",
-      "dataFile": "cumulative_forensic_tree.json",
+      "dataFile": "arg_cumulative_forensic.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -771,7 +771,7 @@
       "domain": "epistemic",
       "tier": "F",
       "summary": "Decision theory: betting on God risks finite losses for infinite gain, while disbelief risks infinite loss.",
-      "dataFile": "pascals_wager_tree.json",
+      "dataFile": "arg_pascals_wager.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -792,7 +792,7 @@
       "domain": "epistemic",
       "tier": "E",
       "summary": "God's existence is plainly visible through creation, making unbelief morally inexcusable suppressed truth.",
-      "dataFile": "general_revelation_tree.json",
+      "dataFile": "arg_general_revelation.json",
       "epistemicMethod": "presuppositional",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -813,7 +813,7 @@
       "domain": "epistemic",
       "tier": "D",
       "summary": "Varying degrees of goodness, truth, and nobility require a maximum standard that is the cause of perfection in all things.",
-      "dataFile": "aquinas_fourth_tree.json",
+      "dataFile": "arg_aquinas_fourth.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -834,7 +834,7 @@
       "domain": "existential",
       "tier": "D",
       "summary": "Religious rituals and beliefs provide unmatched psychological grounding and existential resilience across civilizations.",
-      "dataFile": "phenomenology_religion_tree.json",
+      "dataFile": "arg_phenomenology_religion.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -855,7 +855,7 @@
       "domain": "ontological",
       "tier": "C",
       "summary": "The metaphysical puzzle of ultimate unity vs particular diversity is uniquely solved by the multi-personal divine unity of the Trinity.",
-      "dataFile": "trinitarian_metaphysics_tree.json",
+      "dataFile": "arg_trinitarian_metaphysics.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -876,7 +876,7 @@
       "domain": "evil_and_suffering",
       "tier": "B",
       "summary": "The existence of any evil is strictly logically incompatible with an omnipotent, omniscient, omnibenevolent God.",
-      "dataFile": "logical_evil_tree.json",
+      "dataFile": "arg_logical_evil.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -897,7 +897,7 @@
       "domain": "evil_and_suffering",
       "tier": "S",
       "summary": "The sheer scale and intensity of gratuitous suffering make the existence of an all-good God highly improbable.",
-      "dataFile": "evidential_evil_tree.json",
+      "dataFile": "arg_evidential_evil.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -924,7 +924,7 @@
       "domain": "evil_and_suffering",
       "tier": "S",
       "summary": "Hundreds of millions of years of horrific evolutionary animal predation prior to human arrival are expected under naturalism, not theism.",
-      "dataFile": "animal_suffering_tree.json",
+      "dataFile": "arg_animal_suffering.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -945,7 +945,7 @@
       "domain": "evil_and_suffering",
       "tier": "B",
       "summary": "It is possible for a world of exclusive gratuitous evil to exist; if so, God's non-existence is possible, entailing God does not exist in reality.",
-      "dataFile": "modal_evil_tree.json",
+      "dataFile": "arg_modal_evil.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -966,7 +966,7 @@
       "domain": "evil_and_suffering",
       "tier": "D",
       "summary": "Any created world could theoretically be improved; a perfect God who creates an improvable world involves a logical contradiction.",
-      "dataFile": "improvability_tree.json",
+      "dataFile": "arg_improvability.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -987,7 +987,7 @@
       "domain": "divine_silence",
       "tier": "A",
       "summary": "A perfectly loving God would secure relationship with non-resistant non-believers; since non-resistant non-believers exist, God does not.",
-      "dataFile": "divine_hiddenness_tree.json",
+      "dataFile": "arg_divine_hiddenness.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1008,7 +1008,7 @@
       "domain": "divine_silence",
       "tier": "B",
       "summary": "The vast, geographically bound fragmentation of contradictory divine revelations indicates human invention rather than divine clarity.",
-      "dataFile": "religious_confusion_tree.json",
+      "dataFile": "arg_religious_confusion.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -1029,7 +1029,7 @@
       "domain": "divine_silence",
       "tier": "B",
       "summary": "Birth coordinates are the single greatest predictor of religious faith, contradicting a universally accessible deity.",
-      "dataFile": "lottery_of_birth_tree.json",
+      "dataFile": "arg_lottery_of_birth.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -1050,7 +1050,7 @@
       "domain": "divine_silence",
       "tier": "C",
       "summary": "Philosophical arguments for a prime cause can be claimed equally by mutually exclusive religions, failing to validate any specific faith.",
-      "dataFile": "cross_religious_overgen_tree.json",
+      "dataFile": "arg_cross_religious_overgen.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -1071,7 +1071,7 @@
       "domain": "divine_silence",
       "tier": "D",
       "summary": "What can be asserted without evidence can be dismissed without evidence.",
-      "dataFile": "hitchens_razor_tree.json",
+      "dataFile": "arg_hitchens_razor.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1092,7 +1092,7 @@
       "domain": "naturalistic_objections",
       "tier": "D",
       "summary": "The universe is overwhelmingly vast, cold, empty, and hostile to life, making a human-centric deity highly improbable.",
-      "dataFile": "barren_cosmos_tree.json",
+      "dataFile": "arg_barren_cosmos.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1113,7 +1113,7 @@
       "domain": "naturalistic_objections",
       "tier": "D",
       "summary": "Universal induction shows all observed causes involve pre-existing material; creation ex nihilo violates established physical causality.",
-      "dataFile": "material_causality_tree.json",
+      "dataFile": "arg_material_causality.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1134,7 +1134,7 @@
       "domain": "naturalistic_objections",
       "tier": "B",
       "summary": "Positing a necessary physical initial state (T=0) accounts for universal existence without supernatural ontological baggage.",
-      "dataFile": "necessary_initial_state_tree.json",
+      "dataFile": "arg_necessary_initial_state.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1155,7 +1155,7 @@
       "domain": "naturalistic_objections",
       "tier": "C",
       "summary": "Time vanishes at quantum scales near the Big Bang; without a temporal boundary, no prior temporal cause is mathematically required.",
-      "dataFile": "hawking_no_boundary_tree.json",
+      "dataFile": "arg_hawking_no_boundary.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1176,7 +1176,7 @@
       "domain": "naturalistic_objections",
       "tier": "C",
       "summary": "A creator capable of designing a complex universe must be even more complex, substituting a bigger unexplained problem.",
-      "dataFile": "boeing_747_tree.json",
+      "dataFile": "arg_boeing_747.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1197,7 +1197,7 @@
       "domain": "naturalistic_objections",
       "tier": "D",
       "summary": "If every complex or existing entity requires a cause, exempting God creates a special pleading fallacy.",
-      "dataFile": "who_created_god_tree.json",
+      "dataFile": "arg_who_created_god.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1218,7 +1218,7 @@
       "domain": "naturalistic_objections",
       "tier": "C",
       "summary": "Invoking divine agency to explain temporary scientific ignorance is historically unreliable as natural explanations continually replace divine gaps.",
-      "dataFile": "god_of_gaps_tree.json",
+      "dataFile": "arg_god_of_gaps.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1239,7 +1239,7 @@
       "domain": "naturalistic_objections",
       "tier": "B",
       "summary": "A fundamental quantum dispositional wave function serves as a non-personal, non-conscious ground for physical reality.",
-      "dataFile": "dispositional_wave_tree.json",
+      "dataFile": "arg_dispositional_wave.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1260,7 +1260,7 @@
       "domain": "naturalistic_objections",
       "tier": "C",
       "summary": "We can only observe a universe compatible with our existence; calculating probability without access to non-existent universes is flawed.",
-      "dataFile": "universe_selection_tree.json",
+      "dataFile": "arg_universe_selection.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1281,7 +1281,7 @@
       "domain": "naturalistic_objections",
       "tier": "C",
       "summary": "Atheism does not claim 'nothing created everything'; rather, physical state transitions operate via quantum vacuum dynamics.",
-      "dataFile": "nothing_created_everything_tree.json",
+      "dataFile": "arg_nothing_created_everything.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1302,7 +1302,7 @@
       "domain": "naturalistic_objections",
       "tier": "D",
       "summary": "Arbitrarily suspending metaphysical rules (like PSR or causation) solely for God while applying them to nature is unjustified.",
-      "dataFile": "special_pleading_tree.json",
+      "dataFile": "arg_special_pleading.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1323,7 +1323,7 @@
       "domain": "naturalistic_objections",
       "tier": "C",
       "summary": "Applying physical concepts like cause, time, and agency to non-physical timeless realms commits a fundamental category error.",
-      "dataFile": "category_error_tree.json",
+      "dataFile": "arg_category_error.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "generic_cause",
       "crossovers": [
@@ -1344,7 +1344,7 @@
       "domain": "coherence_and_logic",
       "tier": "C",
       "summary": "Symmetry argument: any defense used for a good God can be mirrored for an evil God, showing both hypotheses are equally implausible.",
-      "dataFile": "evil_god_challenge_tree.json",
+      "dataFile": "arg_evil_god_challenge.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1365,7 +1365,7 @@
       "domain": "coherence_and_logic",
       "tier": "D",
       "summary": "Demonstrates that ontological logic overgenerates by 'defining into existence' the greatest conceivable island or perfection.",
-      "dataFile": "gaunilo_parody_tree.json",
+      "dataFile": "arg_gaunilo_parody.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1386,7 +1386,7 @@
       "domain": "coherence_and_logic",
       "tier": "D",
       "summary": "It is possible that God does not exist. Since a necessary being exists in all possible worlds or none, God exists in no world.",
-      "dataFile": "reverse_modal_ontological_tree.json",
+      "dataFile": "arg_reverse_modal_ontological.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1407,7 +1407,7 @@
       "domain": "coherence_and_logic",
       "tier": "E",
       "summary": "Logical coherence check on divine attributes: Can God create a stone so heavy God cannot lift it?",
-      "dataFile": "omnipotence_paradoxes_tree.json",
+      "dataFile": "arg_omnipotence_paradoxes.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1428,7 +1428,7 @@
       "domain": "coherence_and_logic",
       "tier": "D",
       "summary": "Knowing all true propositions creates infinite set-theoretic iterations ('I know that I know P'), generating structural paradoxes.",
-      "dataFile": "omniscience_inherence_tree.json",
+      "dataFile": "arg_omniscience_inherence.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1449,7 +1449,7 @@
       "domain": "coherence_and_logic",
       "tier": "E",
       "summary": "Reverses Pascal's Wager: What if God rewards honest intellectual doubt and punishes credulous belief?",
-      "dataFile": "parody_wager_tree.json",
+      "dataFile": "arg_parody_wager.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1470,7 +1470,7 @@
       "domain": "existential",
       "tier": "D",
       "summary": "If a creator God exists, human nature is predefined. True radical human freedom and moral responsibility entail that existence precedes essence.",
-      "dataFile": "sartrean_freedom_tree.json",
+      "dataFile": "arg_sartrean_freedom.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1491,7 +1491,7 @@
       "domain": "existential",
       "tier": "C",
       "summary": "Belief in God stems from human weakness and suffering, inventing a heavenly world that devalues real physical existence.",
-      "dataFile": "nietzschean_critique_tree.json",
+      "dataFile": "arg_nietzschean_critique.json",
       "epistemicMethod": "pragmatic",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1512,7 +1512,7 @@
       "domain": "moral",
       "tier": "D",
       "summary": "Asserting that humans need divine threats to act decently misrepresents evolved human empathy and moral dignity.",
-      "dataFile": "hitchens_moral_critique_tree.json",
+      "dataFile": "arg_hitchens_moral_critique.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "personal_god",
       "crossovers": [
@@ -1533,7 +1533,7 @@
       "domain": "evil_and_suffering",
       "tier": "C",
       "summary": "Infinite eternal conscious torment for finite human mistakes violates fundamental moral proportionality and divine omnibenevolence.",
-      "dataFile": "critique_of_hell_tree.json",
+      "dataFile": "arg_critique_of_hell.json",
       "epistemicMethod": "a_priori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -1554,7 +1554,7 @@
       "domain": "divine_silence",
       "tier": "D",
       "summary": "Internal contradictions, unverified miraculous claims, and retrofitted prophecies across sacred texts undermine divine revelation.",
-      "dataFile": "textual_contradictions_tree.json",
+      "dataFile": "arg_textual_contradictions.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -1575,7 +1575,7 @@
       "domain": "divine_silence",
       "tier": "D",
       "summary": "Dying-and-rising deity motifs across ancient Mediterranean cultures indicate theological syncretism rather than unique divine revelation.",
-      "dataFile": "pagan_mythology_tree.json",
+      "dataFile": "arg_pagan_mythology.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "revealed_deity",
       "crossovers": [
@@ -1596,7 +1596,7 @@
       "domain": "naturalistic_objections",
       "tier": "C",
       "summary": "Neurotheology demonstrates that transcendent feelings and religious visions correlate with temporal lobe activity and brain state changes.",
-      "dataFile": "neurological_religion_tree.json",
+      "dataFile": "arg_neurological_religion.json",
       "epistemicMethod": "a_posteriori",
       "targetDeity": "personal_god",
       "crossovers": [
