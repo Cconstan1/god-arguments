@@ -315,7 +315,7 @@
         <div id="canvasViewport" class="relative w-full h-full cursor-grab active:cursor-grabbing grid-pattern-dark overflow-hidden transition-colors duration-300">
             
             <!-- Transform Container (Panning + Zooming layer) -->
-            <div id="canvasTransform" class="absolute inset-0 origin-0 transform-gpu" style="transform: translate(0px, 0px) scale(1);">
+            <div id="canvasTransform" class="absolute inset-0 origin-top-left transform-gpu" style="transform: translate(0px, 0px) scale(1);">
                 
                 <!-- SVG Connections Overlay -->
                 <svg id="svgConnectors" class="absolute inset-0 w-[10000px] h-[10000px] pointer-events-none z-0">
@@ -930,6 +930,10 @@
                 this.panX = 120;
                 this.panY = 180;
                 this.isPanning = false;
+                this.panStartedOnCard = false;
+                this.suppressNodeClick = false;
+                this.panStartClientX = 0;
+                this.panStartClientY = 0;
                 this.startPanX = 0;
                 this.startPanY = 0;
                 this.panAnimationFrame = null;
@@ -938,7 +942,7 @@
                 this.nodeWidth = 320;
                 this.nodeHeight = 160;
                 this.levelGapX = 380;
-                this.rowGapY = 170;
+                this.rowGapY = 210;
 
                 // DOM Elements
                 this.viewportEl = document.getElementById('canvasViewport');
@@ -1037,11 +1041,9 @@
                         const childYs = [];
                         visibleChildren.forEach(childId => {
                             const child = this.nodes.get(childId);
-                            const childColumn = child.nodeType === 'core_stage'
-                                ? 0
-                                : isColumnTwoRebuttal(child)
-                                    ? 1
-                                    : column + 1;
+                            const childColumn = isColumnTwoRebuttal(child) && column === 0
+                                ? 1
+                                : column + 1;
                             positionSubtree(childId, childColumn);
                             childYs.push(this.nodes.get(childId).y);
                         });
@@ -1134,8 +1136,17 @@
              */
             render() {
                 this.calculateLayout();
-                this.renderConnectors();
+                this.renderNodes(true);
+                const measuredCards = Array.from(this.nodesContainerEl.querySelectorAll('.node-card'));
+                if (measuredCards.length > 0) {
+                    const requiredRowGap = Math.max(...measuredCards.map(card => card.offsetHeight)) + 24;
+                    if (requiredRowGap !== this.rowGapY) {
+                        this.rowGapY = requiredRowGap;
+                        this.calculateLayout();
+                    }
+                }
                 this.renderNodes();
+                this.renderConnectors();
                 this.updateTransform();
             }
 
@@ -1182,9 +1193,11 @@
                 this.pathGroupEl.innerHTML = svgHtml;
             }
 
-            renderNodes() {
+            renderNodes(forceDetailed = false) {
                 let html = "";
-                const isZoomedOut = this.detailMode === 'compact' || (this.detailMode === 'auto' && this.scale < 0.72);
+                const isZoomedOut = !forceDetailed &&
+                    (this.detailMode === 'compact' || (this.detailMode === 'auto' && this.scale < 0.9));
+                const compactTitleSize = Math.max(14, 14 / this.scale);
 
                 this.nodes.forEach(node => {
                     // Check if parent is collapsed
@@ -1207,7 +1220,7 @@
                         <div class="p-3 flex items-center justify-between h-full">
                             <div class="flex items-center gap-2 overflow-hidden">
                                 <span class="text-xs font-mono font-bold text-slate-400 shrink-0">${node.id}</span>
-                                <span class="text-xs font-bold text-slate-100 truncate">${node.shortLabel || node.title}</span>
+                                <span class="font-bold text-slate-100 truncate" style="font-size: ${compactTitleSize}px; line-height: 1.2;">${node.shortLabel || node.title}</span>
                             </div>
                             <div class="flex items-center gap-1">
                                 ${fifthGradeToggleMarkup('node', node.id, fifthGradeEnabled, true, hasSimpleSummary)}
@@ -1224,10 +1237,10 @@
                                     </span>
                                     <span class="text-[10px] font-mono text-slate-400">Level ${node.level || 1}</span>
                                 </div>
-                                <h3 class="text-xs font-bold text-slate-100 line-clamp-2 leading-snug mb-1.5">
+                                <h3 class="text-sm font-bold text-slate-100 leading-snug mb-1.5">
                                     ${node.title}
                                 </h3>
-                                <p class="text-[11px] text-slate-300 line-clamp-3 leading-relaxed">
+                                <p class="text-[13px] text-slate-300 leading-relaxed">
                                     ${escapeMarkup(displaySummary)}
                                 </p>
                             </div>
@@ -1284,6 +1297,13 @@
                 // Card Click inspect
                 document.querySelectorAll('.node-card').forEach(card => {
                     card.addEventListener('click', (e) => {
+                        if (this.suppressNodeClick) {
+                            this.suppressNodeClick = false;
+                            e.preventDefault();
+                            e.stopPropagation();
+                            return;
+                        }
+
                         // Prevent triggering card click when clicking collapse toggle
                         if (e.target.closest('[data-toggle-id], [data-fifth-grade-mode], [data-play-audio-id]')) return;
                         
@@ -1546,10 +1566,9 @@
 
                 if (newScale === oldScale) return;
 
-                // Zoom relative to viewport cursor coordinates
                 const rect = this.viewportEl.getBoundingClientRect();
-                const cx = mouseX || rect.width / 2;
-                const cy = mouseY || rect.height / 2;
+                const cx = mouseX === undefined ? rect.width / 2 : mouseX - rect.left;
+                const cy = mouseY === undefined ? rect.height / 2 : mouseY - rect.top;
 
                 this.panX = cx - (cx - this.panX) * (newScale / oldScale);
                 this.panY = cy - (cy - this.panY) * (newScale / oldScale);
@@ -1605,21 +1624,40 @@
             setupEventListeners() {
                 // Viewport Pan Mouse Dragging
                 this.viewportEl.addEventListener('mousedown', (e) => {
+                    this.suppressNodeClick = false;
+                    if (e.button !== 0 && e.button !== 1) return;
+
+                    const targetCard = e.target.closest('.node-card');
+                    const isCardControl = e.target.closest('button, a, input, select, textarea');
+                    if (e.button === 0 && isCardControl) return;
+
                     if (e.button === 1) {
                         e.preventDefault();
-                    } else if (e.target.closest('.pointer-events-auto')) {
-                        return;
                     }
-                    this.isPanning = true;
-                    this.startPanX = e.clientX - this.panX;
-                    this.startPanY = e.clientY - this.panY;
-                    this.viewportEl.classList.add('cursor-grabbing');
+                    const rect = this.viewportEl.getBoundingClientRect();
+                    this.panStartClientX = e.clientX;
+                    this.panStartClientY = e.clientY;
+                    this.startPanX = e.clientX - rect.left - this.panX;
+                    this.startPanY = e.clientY - rect.top - this.panY;
+                    this.panStartedOnCard = e.button === 0 && Boolean(targetCard);
+                    this.isPanning = !this.panStartedOnCard;
+                    this.suppressNodeClick = false;
+                    if (this.isPanning) this.viewportEl.classList.add('cursor-grabbing');
                 });
 
                 window.addEventListener('mousemove', (e) => {
+                    if (!this.isPanning && this.panStartedOnCard) {
+                        const deltaX = e.clientX - this.panStartClientX;
+                        const deltaY = e.clientY - this.panStartClientY;
+                        if (Math.hypot(deltaX, deltaY) < 5) return;
+                        this.isPanning = true;
+                        this.suppressNodeClick = true;
+                        this.viewportEl.classList.add('cursor-grabbing');
+                    }
                     if (!this.isPanning) return;
-                    this.panX = e.clientX - this.startPanX;
-                    this.panY = e.clientY - this.startPanY;
+                    const rect = this.viewportEl.getBoundingClientRect();
+                    this.panX = e.clientX - rect.left - this.startPanX;
+                    this.panY = e.clientY - rect.top - this.startPanY;
                     if (this.panAnimationFrame === null) {
                         this.panAnimationFrame = requestAnimationFrame(() => {
                             this.panAnimationFrame = null;
@@ -1632,6 +1670,10 @@
                     if (this.isPanning) {
                         this.isPanning = false;
                         this.viewportEl.classList.remove('cursor-grabbing');
+                    }
+                    this.panStartedOnCard = false;
+                    if (this.suppressNodeClick) {
+                        setTimeout(() => { this.suppressNodeClick = false; }, 0);
                     }
                 });
 
