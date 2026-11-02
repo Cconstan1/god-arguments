@@ -1,0 +1,108 @@
+{
+  "id": "arg_cs_lewis_desire",
+  "title": "C.S. Lewis's Argument from Desire",
+  "tier": "C",
+  "starRating": 3.5,
+  "description": "Formulated by C.S. Lewis in 'Mere Christianity' and 'Surprised by Joy', this argument contends that every natural, innate human desire corresponds to a real object that can satisfy it (e.g., hunger -> food, thirst -> water). Since humans possess a deep, transcendent desire (Sehnsucht) for eternal joy and transcendent completion that nothing in the physical world can satisfy, another world (and a divine fulfiller) must exist.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Desire Core",
+      "title": "Innate Desires & Transcendent Sehnsucht",
+      "summary": "Every natural human desire corresponds to a real object (hunger points to food, thirst to water). Human beings experience a profound transcendent longing ('Sehnsucht') for eternal beauty, joy, and ultimate fulfillment that no earthly experience (possessions, relationships, success) can satisfy. Therefore, human nature was made for another world and a Divine Fulfiller.",
+      "status": "active",
+      "summary_5th_grader": "If you feel hungry, it means food exists. If you feel thirsty, it means water exists. C.S. Lewis noticed that human beings have a deep longing inside them for ultimate happiness and infinite magic that nothing on Earth can satisfy. If we have a hunger that nothing in this world can satisfy, it means we were made for another world!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Evolutionary Byproduct",
+      "title": "Evolutionary Adaptation & Misattributed Imagination",
+      "summary": "Evolutionary psychologists argue that 'spiritual longing' is simply a misattributed psychological byproduct of hyper-active pattern seeking, abstract imaginative capacity, and emotional drives, not a distinct 'natural innate desire' pointing to supernatural reality.",
+      "status": "active",
+      "summary_5th_grader": "Scientists say our brains are just super imaginative! Our desire for magic or heaven is like a child wishing they could fly like a superhero\u2014it's just our imagination combining different feelings, not proof that magical worlds exist."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Sartrean Angst",
+      "title": "Existentialist Absurdity & Self-Creation",
+      "summary": "Jean-Paul Sartre and existentialist philosophers contend that human existence precedes essence: the deep yearning for ultimate meaning is an existential artifact of human consciousness facing an indifferent cosmos ('existential angst'), revealing our fundamental freedom rather than divine purpose.",
+      "status": "active",
+      "summary_5th_grader": "Existentialist thinkers say feeling like something is missing isn't a clue that God exists\u2014it's just what it feels like to be human! We have to create our own meaning instead of expecting a heavenly parent to fix everything for us."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Hedonic Adaptation",
+      "title": "Neurochemistry & The Hedonic Treadmill",
+      "summary": "Neuroscientists and biological naturalists note that hedonic adaptation ('the hedonic treadmill') guarantees that earthly pleasures produce only temporary dopamine surges. Unfulfilled desire is an evolutionary drive keeping organisms striving, not evidence of transcendent destiny.",
+      "status": "active",
+      "summary_5th_grader": "Brain science shows that our brains are built to get bored quickly so we keep trying new things to survive! Feeling like 'nothing on Earth is enough' is just how our brains keep us motivated, not a supernatural message."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Innate Distinction",
+      "title": "The Distinction Between Innate and Artificial Desires",
+      "summary": "Lewis explicitly distinguished between artificial conditioning (wishing to fly like a superhero) and universal innate desires (hunger, thirst, sleep, social connection, transcendent meaning). Cross-cultural consistency in religious and existential longing suggests Sehnsucht is innate to human nature.",
+      "status": "active",
+      "summary_5th_grader": "Lewis said there's a big difference between wishing for a superpower (which is just a fun fantasy) and feeling a real deep hunger that every human culture shares. Everyone across history longs for ultimate peace and purpose because it's built into who we are."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Biological Mismatch",
+      "title": "The Teleological Mismatch Objection",
+      "summary": "Theists respond that if existentialism were correct, nature would have produced a biological entity with a fundamental desire completely unmatchable by reality\u2014a biological anomaly unique to human consciousness that defies naturalistic coherence.",
+      "status": "active",
+      "summary_5th_grader": "If the universe is totally empty and meaningless, it would be really weird for humans to evolve a deep hunger for eternal meaning! Nature doesn't give ducks a desire for water in a universe where water never existed."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Mechanism vs Teleology",
+      "title": "Distinguishing Mechanism from Ultimate Meaning",
+      "summary": "Christian philosophers (e.g., Peter Kreeft) argue that neurochemical mechanisms explain *how* desire operates in the brain, but fail to explain *why* human desire uniquely reaches beyond physical survival to metaphysical completion.",
+      "status": "active",
+      "summary_5th_grader": "Explaining how brain chemicals work when we feel longing is like explaining how a radio works\u2014it tells you about the wires, but it doesn't explain where the music comes from!"
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "rebuttal",
+      "shortLabel": "Cultural Diversity",
+      "title": "Non-Theistic Traditions & Desire Extinction",
+      "summary": "Critics point out that Eastern traditions (e.g., Buddhism) seek the extinction of desire (Nirvana) rather than divine personal fulfillment, demonstrating that 'Sehnsucht' is culturally conditioned rather than a universally uniform vector toward God.",
+      "status": "active",
+      "summary_5th_grader": "Some religions, like Buddhism, say the goal is to stop desiring altogether rather than finding a God to satisfy it! This shows that different cultures feel and understand these deep longings in completely different ways."
+    },
+    {
+      "id": "4.2",
+      "parentId": "4.1",
+      "level": 4,
+      "type": "counter_response",
+      "shortLabel": "Transcendent Trajectory",
+      "title": "Shared Transcendent Orientation",
+      "summary": "Philosophical theists argue that both Christian mystical joy and Buddhist Nirvana reflect a shared human orientation toward ultimate transcendent Reality beyond finite physical limitations, differing primarily in theological formulation rather than basic human trajectory.",
+      "status": "active",
+      "summary_5th_grader": "Even if different religions describe it differently, they are all reaching for something beyond ordinary physical life. Whether called Heaven or ultimate peace, it shows human hearts are all looking for the exact same transcendent home!"
+    }
+  ]
+}

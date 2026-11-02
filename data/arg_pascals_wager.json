@@ -1,0 +1,86 @@
+{
+  "id": "arg_pascals_wager",
+  "title": "Pascal's Wager",
+  "tier": "F",
+  "starRating": 1.5,
+  "description": "Applies decision matrix theory to divine belief, asserting that even if God's existence has low probability, the infinite payout of heaven makes belief the only mathematically rational bet.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Decision Matrix Core",
+      "title": "Pragmatic Expected Utility & The Infinite Wager",
+      "summary": "Formulated by Blaise Pascal in his 'Pens\u00e9es', the argument frames belief in God as a decision under uncertainty. If God exists and you believe, you gain infinite eternal happiness (+\u221e); if you disbelieve, you lose infinitely (-\u221e). If God does not exist, the gains or losses are strictly finite. Because any finite loss multiplied by finite probability is dwarfed by an infinite reward, pragmatic rationality demands betting on God's existence regardless of the evidential probability.",
+      "status": "active",
+      "summary_5th_grader": "Imagine playing a game where entering costs $1. If you win, you get unlimited money forever; if you lose, you lose $1. Blaise Pascal said that even if you think God's existence is a long shot, betting on God is the smartest choice because the prize (heaven) is infinitely huge and the cost of losing is tiny!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Many-Gods Problem",
+      "title": "The Many-Gods Objection (Pascals' Matrix Collapse)",
+      "summary": "Critics (Voltaire, Denis Diderot, J.L. Mackie) point out that Pascal assumes a binary choice between the Christian God and no God. However, infinitely many mutually exclusive deities (e.g., Allah, Zeus, or a deity who punishes Christians) could exist. If choosing God A risks eternal punishment from God B, the decision matrix breaks down into non-calculable expected values.",
+      "status": "active",
+      "summary_5th_grader": "Critics point out: which God are you betting on? What if you bet on the Christian God, but Osiris, Vishnu, or an angry Alien God turns out to be real and punishes you for picked the wrong religion? The bet isn't a 50/50 choice\u2014it's a choice among thousands of possible gods!"
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Faking Belief",
+      "title": "Doxastic Involuntarism & Moral Insincerity",
+      "summary": "Belief is not directly subject to the will (doxastic involuntarism); one cannot simply force oneself to genuinely believe a proposition purely for a reward. Furthermore, an omniscient God would easily detect opportunistic, mercenary 'belief' undertaken solely to hedge a cosmic bet.",
+      "status": "active",
+      "summary_5th_grader": "You can't just force your brain to believe in Santa Claus right now just because someone offers you a million dollars\u2014you either believe it's true or you don't! Plus, if God knows everything, He would easily spot someone who is just 'faking it' to win a ticket to heaven."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Infinite Value Flaw",
+      "title": "The Mathematical Invalidity of Infinite Decision Utilities",
+      "summary": "Modern decision theorists argue that introducing infinity into standard expected utility calculations breaks decision theory. If any non-zero probability multiplied by infinity yields infinite expected utility, then any bizarre hypothesis with infinite payoff (e.g., praying to a toaster) becomes equally 'rational'.",
+      "status": "active",
+      "summary_5th_grader": "Math experts say that adding 'infinity' to decision equations breaks the math! If any tiny chance of infinite reward makes an action smart, then doing weird things like hopping on one foot forever because it might grant infinite magic powers would be considered just as rational."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Live Options",
+      "title": "Pragmatic Narrowing & Genuine Options (James)",
+      "summary": "Defenders (including William James in 'The Will to Believe') argue that Pascal was addressing a specific cultural context where Christianity was the primary 'live option'. Pragmatic decision-making applies only to hypotheses that carry genuine psychological and existential plausibility for the agent.",
+      "status": "active",
+      "summary_5th_grader": "Defenders say Pascal was writing for people in his culture for whom Christianity was the only serious choice being considered. When you have a real choice right in front of you, picking the option with eternal hope makes practical sense."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Habitual Belief",
+      "title": "Cultivating Faith through Action ('Taking Holy Water')",
+      "summary": "Pascal anticipated the involuntarism objection, advising skeptics to act 'as if' they believed\u2014attending services and adopting religious habits\u2014which naturally dampens intellectual skepticism and transforms mercenary self-interest into genuine spiritual disposition over time.",
+      "status": "active",
+      "summary_5th_grader": "Pascal actually answered this! He said if you want to believe but can't, start by going through the motions\u2014pray, sing, and join the community. Over time, your heart and mind will catch up with your actions."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "counter_rebuttal",
+      "shortLabel": "Honest Skeptic Parody",
+      "title": "The Honest Skeptic's Wager (The Parody Wager)",
+      "summary": "Atheist philosophers (e.g., Michael Martin) point out that it is equally plausible that a just God rewards intellectual honesty and critical inquiry above blind self-preservation. In that case, the honest skeptic who rejects Pascal's mercenary wager earns the higher reward.",
+      "status": "active",
+      "summary_5th_grader": "What if God actually respects people who say 'I'm not going to pretend to believe something without proof'? If God rewards intellectual honesty and punishes people who bet on religion out of fear, then being an honest skeptic is actually the safest bet!"
+    }
+  ]
+}

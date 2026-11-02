@@ -1,0 +1,174 @@
+{
+  "id": "arg_moral_realism",
+  "title": "Moral Realism Argument",
+  "tier": "E",
+  "starRating": 5.0,
+  "description": "A structured branching graph of the Moral Realism Argument for God, exploring William Lane Craig's moral syllogism, socio-biological evolutionary ethics, Sam Harris's Moral Landscape, the Euthyphro Dilemma, Atheistic Moral Platonism, and Sharon Street's evolutionary debunking arguments.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Moral Realism Core",
+      "title": "Moral Realism Syllogism (Craig / Moral Argument Core)",
+      "summary": "Formulated by William Lane Craig and classic moral apologists: (1) If God does not exist, objective moral values and duties do not exist. (2) Objective moral values and duties do exist (e.g., torturing children for fun is objectively wrong regardless of human opinion). (3) Therefore, God exists. Objective moral realism requires an eternal, transcendent standard beyond human socio-biological convention.",
+      "status": "active",
+      "summary_5th_grader": "Imagine a world where someone said it was okay to hurt innocent puppies just for fun. You'd say: 'No, that is WRONG everywhere, for everyone, no matter what!' William Lane Craig and other thinkers argue that if moral rules are really true for everyone everywhere, they need a permanent, perfect standard to hold them up\u2014and that standard is God!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Personal Lawgiver",
+      "title": "Deduction of the Divine Moral Lawgiver (Stage 2)",
+      "summary": "Objective moral duties imply a prescriptive binding obligation that commands personal agents. Impersonal physical laws (like gravity or electromagnetism) describe how matter moves but cannot issue moral imperatives or possess intrinsic moral goodness. Therefore, the ground of objective moral reality must be a personal, supreme, morally perfect Being.",
+      "status": "active",
+      "summary_5th_grader": "Gravity can pull a rock down, but gravity can't tell you to be kind or heroic! Rules and moral duties need a living, super-good Person to write them and make them binding on our hearts."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Evolutionary Ethics",
+      "title": "Socio-Biological Evolutionary Ethics (Ruse / Wilson)",
+      "summary": "Skeptics and evolutionary biologists (e.g., Michael Ruse, E.O. Wilson) argue that human morality is merely an evolutionary adaptation selected to foster herd cooperation and survival. Moral feelings of obligation are biological illusions tricking humans into cooperating.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: we only feel bad about lying or hurting others because early humans survived better in herds when they cooperated! Morality is just a clever trick evolution played on our brains to keep our species alive."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Genetic Fallacy",
+      "title": "Genetic Fallacy & Arbitrariness Defeater",
+      "summary": "Theists respond that explaining how we *discovered* or *developed* moral awareness (genetic origin) does not invalidate the *objective truth* of moral facts. Furthermore, if morality is a pure evolutionary trick, then acts like infanticide or rape are not objectively wrong, merely biologically disadvantageous\u2014a conclusion counter to moral reality.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: learning HOW you learned a rule doesn't make the rule fake! Your eyes evolved to see tigers, but tigers are still real. Plus, if morality is just evolutionary instinct, then hurting people isn't REALLY wrong\u2014it's just as arbitrary as preferring chocolate over vanilla ice cream."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Flourishing Science",
+      "title": "Sam Harris's Moral Landscape & Secular Flourishing",
+      "summary": "Secular moral realists like Sam Harris argue that morality concerns the wellbeing of conscious creatures. Science and empirical observation can determine which actions maximize human flourishing without needing divine revelation.",
+      "status": "active",
+      "summary_5th_grader": "Sam Harris and naturalists argue: we don't need God for morality! We can just use science and medicine to figure out what makes human lives happy and healthy instead of miserable."
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "sub_sub_counter",
+      "shortLabel": "Is-Ought Problem",
+      "title": "Hume's Is-Ought Gap & Flourishing Presupposition",
+      "summary": "Theists push back with David Hume's Is-Ought Problem: empirical science describes what *is*, but cannot derive what *ought* to be. Defining 'good' as 'human flourishing' arbitrarily begs the question\u2014under naturalism, why does human flourishing matter more than mosquito flourishing?",
+      "status": "active",
+      "summary_5th_grader": "Theists push deeper: WHY should 'human flourishing' be the ultimate rule under naturalism? Science can tell you what IS happening, but science can NEVER tell you what SHOULD happen without assuming moral values upfront!"
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Euthyphro Dilemma",
+      "title": "Plato's Euthyphro Dilemma Objection",
+      "summary": "Skeptics cite Plato's Euthyphro dilemma: Is something good because God commands it (making morality arbitrary), or does God command it because it is already good (meaning goodness exists independently of God)?",
+      "status": "active",
+      "summary_5th_grader": "Skeptics bring up an ancient trick question: Is something good because God says so (making rules arbitrary), or does God say so because it's ALREADY good (meaning goodness exists above God)?"
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "False Dilemma",
+      "title": "Euthyphro Resolution: God's Essential Nature",
+      "summary": "Christian philosophers show the dilemma is a false dichotomy. God does not issue arbitrary commands, nor does God obey a higher law. God's essential, unchanging nature IS the paradigm standard of Goodness itself. God commands what is good because God commands according to His own holy nature.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: that's a false choice! God doesn't look at outside rules, and God doesn't make random rules on a whim. God's very nature IS Goodness itself! God commands what He is."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Atheistic Platonism",
+      "title": "Atheistic Moral Platonism (Wielenberg / Huemer)",
+      "summary": "Atheist moral realists (e.g., Erik Wielenberg, Michael Huemer) argue that objective moral values exist as brute, abstract, non-physical necessary truths (like mathematical laws) that require no divine foundation.",
+      "status": "active",
+      "summary_5th_grader": "Atheist philosophers argue: moral truths like 'justice is good' just float in reality as necessary facts of universe logic, like 2+2=4, without needing God to hold them up."
+    },
+    {
+      "id": "5.2",
+      "parentId": "4.2",
+      "level": 5,
+      "type": "sub_sub_counter",
+      "shortLabel": "Causal Inefficacy",
+      "title": "Causal Inefficacy of Abstract Moral Properties",
+      "summary": "Theists respond that abstract objects (like numbers or geometric shapes) have zero causal power and cannot issue prescriptive obligations or personal duties. A floating abstract concept cannot command a human mind or hold anyone morally accountable.",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: abstract numbers can't care about you or tell you what to do! A floating abstract truth has no power to obligate your heart or give you moral duty."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Emotivism & Error Theory",
+      "title": "Expressivism, Emotivism & J.L. Mackie's Error Theory",
+      "summary": "Moral anti-realists (A.J. Ayer, J.L. Mackie) contend that moral statements are merely expressions of subjective emotion ('boo/hurrah') or systematic false beliefs (Error Theory) with no objective factual ground in reality.",
+      "status": "active",
+      "summary_5th_grader": "Some skeptics say: moral claims are just feelings! Saying 'murder is wrong' is just like saying 'Yuck, broccoli!' It's just human emotions, not a real fact."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Intuition Defeater",
+      "title": "Moral Atrocity Defeater & Universal Intuition",
+      "summary": "Theists point out that Error Theory contradicts our most fundamental epistemic intuitions. Rejecting objective moral reality requires denying that atrocities like genocide or child torture are genuinely evil, which is far less plausible than accepting moral realism.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: nobody actually lives like that! If someone stole all your things or hurt your family, you wouldn't say 'that's just my opinion'\u2014you know for a fact a real crime was committed."
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Sharon Street Debunking",
+      "title": "Sharon Street's Evolutionary Debunking Argument",
+      "summary": "Sharon Street argues that because evolutionary forces heavily influenced our moral evaluative attitudes, any alignment between our evolved moral beliefs and independent moral facts would be a massive, unbelievable coincidence.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics add: if evolution built your moral feelings, any match between your feelings and 'real universe rules' would be a total lucky guess."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Kantian Constructivism",
+      "title": "Kantian Constructivism & Social Contract Theory",
+      "summary": "Constructivists argue that moral norms do not require God or Platonic objects; rather, they are constructed by rational agents reflecting on mutual social contracts and universalizability.",
+      "status": "active",
+      "summary_5th_grader": "Kantian thinkers argue: smart humans can agree on fair social contracts and rules together just by using clear human reason."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Contract Contingency",
+      "title": "Contingency of Rational Contracts",
+      "summary": "Theists respond that human consensus is contingent and shifting. If a society rationally constructs a consensus permitting slavery or tyranny, constructivism provides no transcendent objective standard by which to judge that society wrong.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: if morality is just a human agreement, then if a whole country agrees that slavery or cruelty is okay, you have no higher rule to tell them they're wrong!"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "arg_church_preservation",
+  "title": "Preservation & Survival of the Church",
+  "tier": "E",
+  "starRating": 2.0,
+  "description": "Argues that the two-millennium survival, continuity, and global expansion of the Christian Church\u2014despite severe persecution, internal division, and empire collapses\u2014evidences divine preservation.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Gamaliel's Principle",
+      "title": "Supernatural Preservation & Institutional Continuity",
+      "summary": "The unlikely survival, institutional continuity, and global expansion of the Christian Church across two millennia\u2014despite intense Roman persecutions, internal heresies, and major geopolitical collapses\u2014is best explained by supernatural divine preservation rather than purely natural human sociology.",
+      "status": "active",
+      "summary_5th_grader": "The Christian church started with a tiny group of poor fishermen, faced giant empires trying to destroy it, survived two thousand years, and grew into the biggest religion on Earth. Supporters argue that no human club or empire lasts that long without God holding it up!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Institutional Parity",
+      "title": "Longevity & Expansion Across Non-Christian Religions",
+      "summary": "Longevity and global persistence are shared by many non-Christian traditions and secular institutions (e.g., Judaism, Hinduism, Buddhism, Islam, San Marino). Attributing Christian survival to divine favor while treating other ancient traditions as purely human products constitutes special pleading.",
+      "status": "active",
+      "summary_5th_grader": "Critics say: 'Wait, Hinduism and Judaism are even older than Christianity! Islam also grew extremely fast and survived major wars. If lasting a long time proves God is on your side, then lots of different religions could claim the exact same thing.'"
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "State Alliance",
+      "title": "Sociological Mechanics & Imperial Alliances",
+      "summary": "The survival and expansion of Christianity can be fully accounted for by natural sociological mechanisms: adopting imperial state power (e.g., Constantine, Roman state religion), enforcing orthodoxy through legal and political coercion, missionary institutionalization, and immense material wealth.",
+      "status": "active",
+      "summary_5th_grader": "Christianity didn't just survive on faith alone\u2014it became the official religion of the massive Roman Empire! With kings, armies, schools, and money backing it for hundreds of years, it had giant human advantages that helped it stay strong."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Survivorship Bias",
+      "title": "Survivorship Bias & Historical Contingency",
+      "summary": "Evaluating surviving institutions suffers from survivorship bias. Countless ancient religious and philosophical movements collapsed and faded into obscurity; observing the handful that succeeded through historical accidents does not logically demonstrate supernatural protection.",
+      "status": "active",
+      "summary_5th_grader": "Imagine a lottery where one person wins out of millions. Winning doesn't mean magic made them win\u2014somebody had to win! We only see the big religions that made it today because thousands of smaller ones faded away over time."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Non-Violent Roots",
+      "title": "Gamaliel's Test & Peaceful Origins",
+      "summary": "Theists reply (referencing Gamaliel's principle in Acts 5:38-39) that unlike military empires, early Christianity expanded rapidly for three centuries as a non-violent, outlawed movement under penalty of death, demonstrating a unique supernatural origin prior to state backing.",
+      "status": "active",
+      "summary_5th_grader": "Supporters answer that unlike ancient empires that used giant armies to conquer lands right away, early Christians were peaceful and persecuted for 300 years before any king helped them. Surviving three centuries of persecution without fighting back shows a unique inner strength!"
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Self-Correction",
+      "title": "Resilience Through Internal Reformation",
+      "summary": "Unlike political empires that permanently disintegrate upon structural failure, the Church repeatedly exhibits internal self-correction and spiritual renewal (e.g., monastic revivals, the Reformation) during severe institutional decay, reflecting a transcendent core.",
+      "status": "active",
+      "summary_5th_grader": "When regular political empires break down, they stay gone forever. But when the church goes through terrible corruption or war, people step up to reform it and make it fresh again, showing its foundation is deeper than just political power."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "synthesis",
+      "shortLabel": "Memetic Fitness",
+      "title": "Cultural Evolution & Organizational Adaptation",
+      "summary": "Secular sociologists respond that organizational resilience and periodic reformation are standard features of cultural evolution and memetic fitness. Social institutions that develop adaptive mechanisms for community support and self-critique naturally endure without divine intervention.",
+      "status": "active",
+      "summary_5th_grader": "Historians point out that ideas and organizations naturally evolve. Ideas that offer comfort, community, and ways to fix mistakes survive better than rigid ones\u2014just like animals adapting to their environment, without needing miracles to explain it."
+    }
+  ]
+}

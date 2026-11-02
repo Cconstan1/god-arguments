@@ -1,0 +1,97 @@
+{
+  "id": "arg_cumulative_forensic",
+  "title": "Cumulative Forensic Verdict (Wallace)",
+  "tier": "C",
+  "starRating": 3.5,
+  "description": "Popularized by cold-case detective J. Warner Wallace, this abductive case argues that combining cosmological, biological, conscious, and moral clues creates a convergent circumstantial case pointing to a personal Divine Creator as the best overall inference.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Forensic Circumstantial Case",
+      "title": "The Cumulative Case for a Divine Creator",
+      "summary": "Applying standard cold-case homicide detective methodologies, no single piece of evidence must prove God independently. Instead, assembling multiple distinct domain clues\u2014cosmological T=0, cosmic fine-tuning, DNA information, conscious experience, objective morality, and historical evidence\u2014creates a convergent circumstantial case where a personal Divine Mind is the most reasonable Inference to the Best Explanation (IBE).",
+      "status": "active",
+      "summary_5th_grader": "Imagine a detective at a crime scene: one footprint isn't enough to solve the case, but footprints, fingerprints, DNA, and eyewitness reports all pointing at the same person prove who did it! Cold-case detectives argue that when you combine space, DNA, consciousness, and right vs. wrong, God is the only clue that fits everything."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Multiplying Improbabilities",
+      "title": "The Conjunction Fallacy & Weak Probability Stacking",
+      "summary": "Critics argue that combining multiple speculative claims does not strengthen a case if each individual claim is improbable or unverified. In probability theory (Bayesian mechanics), multiplying several uncertain hypotheses leads to lower overall probability, not higher certainty, unless each link is independently established.",
+      "status": "active",
+      "summary_5th_grader": "If you guess five wild things in a row, putting them together doesn't make your story stronger\u2014it actually makes it harder to believe! Critics say stack of weak guesses doesn't equal a strong proof."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Cumulative Gaps",
+      "title": "God of the Gaps Multiplied",
+      "summary": "Skeptics assert that Wallace's cumulative case simply aggregates multiple 'God of the Gaps' arguments. Inability to currently explain T=0 physics, abiogenesis, or subjective qualia naturalistically does not justify inserting a supernatural agent into every remaining scientific boundary.",
+      "status": "active",
+      "summary_5th_grader": "Just because scientists don't know every answer yet about space or biology doesn't mean 'God did it' every single time. Stacking up things we don't understand yet is just multiplying mysterious questions!"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Selective Evidence Bias",
+      "title": "Cherry-Picking & Neglect of Disconfirming Clues",
+      "summary": "Philosophers point out that forensic circumstantial cases selectively emphasize positive 'clues' (like fine-tuning) while systematically ignoring major disconfirming evidence at the crime scene\u2014such as gratuitous animal suffering, cosmic barrenness, and widespread divine hiddenness.",
+      "status": "active",
+      "summary_5th_grader": "A bad detective only collects clues that point to their favorite suspect and throws away the rest! Critics say this argument picks nice things like stars and DNA, but ignores horrible things like diseases and animal suffering."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Convergent Abduction",
+      "title": "Legitimate Abductive Reasoning & Convergent Evidence",
+      "summary": "Theists respond that abductive reasoning (Inference to the Best Explanation) is the standard method used in jury trials, historical analysis, and medical diagnosis. When independent lines of evidence from totally different disciplines (physics, biology, ethics) all point toward a single cause (an intelligent Mind), the explanatory power increases.",
+      "status": "active",
+      "summary_5th_grader": "When clues come from totally different places\u2014like physics, biology, and math\u2014and they all hint at the same secret maker, that isn't a guess! That's how doctors diagnose sickness and juries solve mysteries."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Explanatory Unification",
+      "title": "Explanatory Simplicity vs. Ad-Hoc Naturalism",
+      "summary": "Proponents argue that postulating a single supreme Cause (a personal God) provides a unified, parsimonious explanation for physical laws, life, and consciousness, whereas naturalism must invent dozens of unrelated, ad-hoc naturalistic mechanisms to patch over each gap.",
+      "status": "active",
+      "summary_5th_grader": "Is it simpler to believe in one master artist who painted everything, or to invent ten different random magical accidents to explain every single color in the room?"
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "counter_rebuttal",
+      "shortLabel": "Category Error in Forensics",
+      "title": "Category Error Between Legal Trials and Metaphysics",
+      "summary": "Skeptics counter that legal trials evaluate specific events within an established physical universe with known human agents. Applying crime scene forensic analogies to the origin of physical laws and metaphysical ultimate reality commits a category error.",
+      "status": "active",
+      "summary_5th_grader": "Finding footprints on carpet is simple because we already know people have feet! But trying to use detective rules on how the universe was created before people existed is using the wrong tool for the job."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "counter_rebuttal",
+      "shortLabel": "Naturalistic Progress",
+      "title": "The Historical Superiority of Naturalistic Inferences",
+      "summary": "Critics note that historically, every gap previously attributed to supernatural intervention (lightning, disease, planetary orbits) was eventually solved naturalistically. Therefore, naturalism remains the inductively superior inference for remaining gaps.",
+      "status": "active",
+      "summary_5th_grader": "History shows that every time people thought something was supernatural\u2014like lightning or germs\u2014it turned out to be regular natural science. Science keeps closing the gaps!"
+    }
+  ]
+}

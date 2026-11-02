@@ -1,0 +1,163 @@
+{
+  "id": "arg_dispositional_wave",
+  "title": "Dispositional Wave Function (Malpass/Cinnababoo)",
+  "tier": "B",
+  "starRating": 3.5,
+  "description": "A structured branching graph of the Dispositional Wave Function argument (Malpass/Cinnababoo), analyzing fundamental quantum wave functions with intrinsic dispositional properties as a non-personal, non-conscious ground of being for physical reality.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Dispositional Wave Core",
+      "title": "Dispositional Wave Function Ground (Malpass & Cinnababoo)",
+      "summary": "Formulated by philosophers Alex Malpass and Joe Cinnababoo, the ultimate ground of physical reality is a fundamental quantum wave function possessing intrinsic dispositional properties (potencies/powers) to instantiate spacetime, fields, and matter. Because this quantum substrate is uncaused, metaphysically necessary, and possesses the dispositional power to actualize all physical states, it fulfills the sustaining ground-of-being role claimed by classical theism without requiring a conscious, personal, omnibenevolent God.",
+      "status": "active",
+      "summary_5th_grader": "Imagine a giant, invisible quantum energy ocean that has built-in superpowers to naturally create particles, stars, and time! Philosophers Alex Malpass and Joe Cinnababoo argue that this energy ocean is the ultimate starting foundation of reality. It does everything God is supposed to do to hold up universe existence, but it's just a natural physical wave without a brain, feelings, or religion."
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Naturalistic Grounding",
+      "title": "Naturalistic Grounding of Necessity & Causal Potency",
+      "summary": "Demonstrates that key divine attributes\u2014such as self-existence, metaphysical necessity, and foundational causal power\u2014can be coherently attributed to a fundamental physical wave function (dispositional monism), rendering supernatural divine agency ontologically redundant under Ockham's Razor.",
+      "status": "active",
+      "summary_5th_grader": "Since this quantum energy ocean exists naturally on its own and has all the built-in power to make everything work, adding God on top of it is an extra unnecessary step! The physical wave ocean is enough all by itself."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Intentional Actualization",
+      "title": "Thomistic & Leibnizian Teleological Agency Objection",
+      "summary": "Classical theists (Feser, Craig) object that a non-conscious physical wave function cannot explain why specific contingent universe parameters were actualized rather than others, nor why potentiality transitions to actuality without a conscious Mind choosing the outcome.",
+      "status": "active",
+      "summary_5th_grader": "Theists say: a mindless energy ocean can't CHOOSE when or why to make our specific universe! You need a smart Mind with a plan to pick the right rules and push the start button."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Quantum Indeterminacy",
+      "title": "Probabilistic Dispositions & Quantum Superposition",
+      "summary": "Dispositionalists respond that quantum wave functions naturally possess probabilistic dispositions (superposition collapse, quantum amplitudes) that inherently account for physical actualization without requiring conscious deliberation or teleological intent.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: quantum energy doesn't need to 'think' or 'choose' like a human! It naturally rolls out possibilities like a rolling die, popping physical particles into existence automatically."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Wave Function Fine-Tuning",
+      "title": "Sub-Counter: Fine-Tuning of Dispositional Powers",
+      "summary": "Theists push back that the specific dispositional properties of the universal wave function\u2014such as quantum constants and amplitude equations\u2014are themselves delicately tuned, requiring a higher-order Mind to set the dispositional parameters.",
+      "status": "active",
+      "summary_5th_grader": "Theists push back: but why does the energy ocean have such perfectly tuned superpowers to begin with? That power setup itself needs a designer to tune the dials!"
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "sub_sub_counter",
+      "shortLabel": "Brute Ground Parity",
+      "title": "Brute Ground Parity & Ontological Simplicity",
+      "summary": "Dispositionalists counter that all foundational metaphysical systems hit an unexplainable brute floor. A fundamental physical wave function with intrinsic dispositional powers is ontologically simpler than an infinite, uncaused, personal Mind possessing infinite ungrounded attributes.",
+      "status": "active",
+      "summary_5th_grader": "Dispositionalists answer back: EVERY theory stops at a bottom foundation! A simple energy law at the bottom of physics is way simpler than a giant, invisible, all-powerful Mind at the bottom."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Mind-Body Problem",
+      "title": "Hard Problem of Consciousness & Qualia Defeater",
+      "summary": "Opponents argue that a purely physical dispositional substrate cannot account for subjective experience, intentionality, or moral values, committing a category error by trying to derive subjective qualia from physical wave amplitudes.",
+      "status": "active",
+      "summary_5th_grader": "Critics say: a physical energy wave has zero thoughts or feelings. How could a mindless wave ever produce human conscious minds, love, or feelings?"
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Dispositional Emergence",
+      "title": "Physicalist Emergence & Dispositional Monism",
+      "summary": "Proponents reply that under dispositional monism, consciousness is an emergent macro-property of complex neural networks built from fundamental dispositional units, just as liquidity emerges from non-liquid H2O molecules.",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: when energy gets arranged into complex brains, thoughts naturally emerge! Just like hydrogen and oxygen gases combine to make wet water."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Qualitative Gap",
+      "title": "Sub-Counter: The Irreducible Explanatory Gap",
+      "summary": "Theists argue that liquidity is a physical spatial property, whereas subjective first-person experience (qualia) is non-spatial and qualitatively distinct from physical matter, making physical emergence a false analogy.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: wet water is still just physical stuff, but feelings and thoughts are completely non-physical! Physical energy alone can never bridge that gap."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Spacetime Substrate",
+      "title": "Spacetime Substrate Dependence Objection",
+      "summary": "Skeptics argue that wave functions in standard quantum mechanics require a pre-existing spacetime background manifold in which to evolve, meaning the wave function cannot be the absolute uncreated foundation of spacetime itself.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics ask: where does the energy wave live if space doesn't exist yet? A wave needs space to ripple in!"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Hilbert Space Realism",
+      "title": "Hilbert-Space Realism & Spacetime Emergence",
+      "summary": "Modern quantum gravity models (e.g., Sean Carroll's 'Mad-Dog' Quantum Realism) show that spacetime geometry is not a background container, but an emergent property derived directly from entanglement spectrums in abstract Hilbert space.",
+      "status": "active",
+      "summary_5th_grader": "Defenders point to modern physics: space itself is created BY the quantum wave! Space isn't a room the wave sits in; space grows out of quantum connections."
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Concrete vs Abstract",
+      "title": "Abstract Hilbert Vectors vs Concrete Reality",
+      "summary": "Theists counter that mathematical Hilbert spaces are abstract representations. An abstract mathematical vector cannot instantiate concrete physical reality without a concrete Mind or physical substance to instantiate it.",
+      "status": "active",
+      "summary_5th_grader": "Theists argue: math equations are just ideas on a blackboard! You still need a Mind or real concrete stuff to make math equations real."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Divine Simplicity",
+      "title": "Classical Divine Simplicity Defense",
+      "summary": "Classical Thomists argue that God (Actus Purus) is uniquely simple (without distinct parts, potencies, or attributes), whereas a quantum wave function contains distinct mathematical amplitudes and potential states, violating absolute ultimate simplicity.",
+      "status": "active",
+      "summary_5th_grader": "Classical thinkers say: God is perfectly simple with zero parts. A quantum wave function has different parts and changing states, so it can't be the absolute simplest bottom layer."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Ockham Parsimony",
+      "title": "Ontological Parsimony & Naturalistic Realism",
+      "summary": "Dispositionalists respond that a single physical entity (the wave function) utilizes ontological categories we already know exist in physics, whereas Divine Simplicity invents a paradoxical, non-composite, supernatural category that lacks coherent empirical or logical precedent.",
+      "status": "active",
+      "summary_5th_grader": "Dispositionalists answer back: a physical wave function uses real physics we can test in labs. Inventing a magical 'pure simple God' makes up a whole new mystery category!"
+    }
+  ]
+}

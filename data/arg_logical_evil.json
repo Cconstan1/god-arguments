@@ -1,0 +1,174 @@
+{
+  "id": "arg_logical_evil",
+  "title": "Logical Problem of Evil",
+  "tier": "B",
+  "starRating": 4.5,
+  "description": "A structured branching graph of J.L. Mackie's Logical Problem of Evil (The Inconsistent Triad), exploring Alvin Plantinga's Free Will Defense, Transworld Depravity, Soul-Making Theodicies, Natural Evil, Higher-Order Goods, and the shift to the Evidential Problem.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Logical Evil Core",
+      "title": "The Logical Problem of Evil (Mackie's Inconsistent Triad)",
+      "summary": "Formulated explicitly by J.L. Mackie, the argument asserts an absolute logical contradiction between three propositions: (1) God is all-powerful (omnipotent), (2) God is all-loving (wholly good), and (3) Evil exists. Since a wholly good being eliminates evil as far as it can, and an omnipotent being has no limits on its power, an all-powerful, all-loving God cannot logically co-exist with any amount of evil.",
+      "status": "active",
+      "summary_5th_grader": "J.L. Mackie argued that three ideas cannot all be true at the same time: (1) God can do anything, (2) God is 100% good, and (3) Bad stuff happens. If God is super good, He'd want to destroy all bad stuff. If He's all-powerful, He can destroy all bad stuff. So since bad stuff exists, an all-powerful, all-good God is logically impossible!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Deductive Conclusion",
+      "title": "Logical Impossibility of Classical Theism",
+      "summary": "If the existence of evil is logically incompatible with the existence of an omnipotent, omnibenevolent deity, then the traditional God of classical Christian, Jewish, and Islamic theism logically cannot exist.",
+      "status": "active",
+      "summary_5th_grader": "If bad stuff existing makes an all-good, all-powerful God logically impossible, then the traditional God that billions of people pray to literally cannot exist."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Free Will Defense",
+      "title": "Plantinga's Free Will Defense",
+      "summary": "Alvin Plantinga demonstrated that there is no logical contradiction if God has a morally sufficient reason to permit evil. Creating creatures with genuine moral free will is a supreme good, but God cannot logically force free creatures to only choose good without destroying their free will. Therefore, evil results from the misused choices of free creatures, not a limitation in God's goodness or power.",
+      "status": "active",
+      "summary_5th_grader": "Alvin Plantinga replied: God gave us real free will so we could genuinely love and make choices. But God can't FORCE someone to freely choose good\u2014that's a logical contradiction, like drawing a square circle! The bad stuff comes from humans misusing their free choice, not from God being weak or bad."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Possible World Choice",
+      "title": "The 'Possible World' Choice Objection",
+      "summary": "Skeptics (like Mackie) countered that an omnipotent God could have created a possible world populated by free creatures where every creature always freely chooses to do good in every circumstance.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics replied: But God is all-powerful! Couldn't He just create a world full of people who happen to always freely pick the right choice every single time?"
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Transworld Depravity",
+      "title": "Transworld Depravity (Plantinga)",
+      "summary": "Plantinga introduced Transworld Depravity: it is logically possible that every essence/person suffers from transworld depravity\u2014meaning that in every possible world where they possess significantly free choices, they would freely commit at least one wrong act. If so, God could not actualize a world of free creatures without evil.",
+      "status": "active",
+      "summary_5th_grader": "Plantinga countered: It's logically possible that any free person, no matter which world you put them in, will eventually mess up at least once! If everyone has this flaw ('transworld depravity'), God couldn't make a world of free people without someone choosing evil."
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "sub_sub_counter",
+      "shortLabel": "Modal Implausibility",
+      "title": "Implausibility of Universal Depravity",
+      "summary": "Critics argue that asserting every single possible essence suffers from transworld depravity is an ad hoc, logically strange assumption that severely restricts God's creative options.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics argue back: Claiming that EVERY single possible human ever imagined would ALWAYS mess up sounds like a made-up excuse to defend God."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Soul-Making Theodicy",
+      "title": "Irenaean / Hick's Soul-Making Theodicy",
+      "summary": "John Hick argued that God did not create a painless paradise, but a world designed as a 'soul-making' gymnasium. Virtues like courage, compassion, and endurance can only be forged in an environment containing real natural challenges, obstacles, and suffering.",
+      "status": "active",
+      "summary_5th_grader": "John Hick said: Earth isn't supposed to be a cozy water park\u2014it's a training gym for your soul! You can't learn bravery, kindness, or patience unless there are real dangers, struggles, and hard times to overcome."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Natural & Animal Evil",
+      "title": "Unnecessary Natural Evil & Animal Suffering",
+      "summary": "Objectors point out that soul-making cannot explain natural disasters (earthquakes, tsunamis) or millions of years of animal suffering prior to human existence, since non-human animals do not possess immortal souls to forge.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics ask: What about earthquakes, tsunamis, or dinosaurs suffering millions of years before humans even existed? Animals don't have souls to train in a gym, so why did they suffer?"
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Law Regularity & Demons",
+      "title": "Physical Regularity & Angelic Free Will",
+      "summary": "Defenders respond that natural evil results either from stable, predictable physics laws required for moral agency (fire warms but also burns), or from non-human free creatures (Fallen Angels/demons), preserving logical possibility.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: Nature needs fixed rules so we can make real decisions\u2014fire warms you, but it also burns if you touch it! Also, Plantinga pointed out it's logically possible that non-human free beings (like fallen angels) caused natural decay."
+    },
+    {
+      "id": "5.2",
+      "parentId": "4.2",
+      "level": 5,
+      "type": "sub_sub_counter",
+      "shortLabel": "Shift to Evidential",
+      "title": "Shift from Logical to Evidential Problem",
+      "summary": "Critics note that invoking demon hypotheses or extreme physics trade-offs concede that while the strict *logical* contradiction is defeated, the sheer volume of gratuitous suffering makes God's existence improbable (Evidential Problem).",
+      "status": "active",
+      "summary_5th_grader": "Skeptics admit: Okay, maybe it's not LOGICALLY impossible for God to exist, but blaming ghosts or bad physics still makes God's existence look extremely unlikely!"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Higher-Order Goods",
+      "title": "Higher-Order Goods Defense",
+      "summary": "Second-order goods (forgiveness, mercy, heroism) logically require first-order evils (offenses, misery, danger) to exist. God permits lower-level evils to achieve a higher total moral good in the universe.",
+      "status": "active",
+      "summary_5th_grader": "Some things like forgiveness, mercy, and heroism are super amazing, but they CAN'T exist unless someone gets hurt or makes a mistake first! God allows small bad things so bigger, beautiful good things can happen."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Gratuitous Suffering",
+      "title": "Gratuitous Evil Without Higher Good",
+      "summary": "Opponents argue that vast amounts of horrific suffering occur in total secret (e.g., a fawn trapped in a forest fire dying alone), producing zero higher-order human virtues or moral redemption.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics point out: What about a deer dying alone in a forest fire that no human ever sees? No human gets to show mercy or heroism there, so that suffering produced zero higher good!"
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Skeptical Theism",
+      "title": "Skeptical Theism & Limited Vision",
+      "summary": "Skeptical theists argue that due to human cognitive limits, we should not expect to understand all of God's reasons for permitting specific events, just as a toddler cannot grasp why a doctor gives them a painful vaccine.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: Humans are like toddlers! A toddler screams when getting a painful vaccine because they don't understand it saves their life. Just because we can't see God's big reason doesn't mean He doesn't have one."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Philosophical Consensus",
+      "title": "Philosophical Consensus on Logical Solution",
+      "summary": "Most contemporary academic philosophers (both theist and atheist, including J.L. Mackie himself before his death) concede that Plantinga's Free Will Defense successfully dismantled the *Logical* Problem of Evil, shifting the debate entirely to the *Evidential* Problem.",
+      "status": "active",
+      "summary_5th_grader": "Almost all top philosophy professors today\u2014even atheist ones\u2014agree that Plantinga won this specific round! They admit evil doesn't make God LOGICALLY impossible, so the debate moved to whether evil makes God UNLIKELY."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Theological Determinism",
+      "title": "Persistence Against Theological Determinism",
+      "summary": "Critics note the logical problem remains fully active against theological determinists (e.g., strict Calvinists) who reject libertarian free will, as God directly ordains both the evil act and the creature's choice.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics point out: Plantinga's defense only works if humans have REAL free will! If a church teaches that God secretly controls every single thought and choice we make, the Logical Problem of Evil comes roaring back."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "arg_cross_religious_overgen",
+  "title": "Cross-Religious Overgeneration / Apologetic Universality",
+  "tier": "C",
+  "starRating": 3.5,
+  "description": "A structured branching graph of the Cross-Religious Overgeneration argument, examining how generic philosophical proofs (First Cause, Fine-Tuning, Necessary Being) apply equally to mutually exclusive religions (Islam, Hinduism, Mormonism, Christianity), creating an epistemic gap between Deism and specific religious revelation.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Overgeneration Core",
+      "title": "Cross-Religious Overgeneration (Stage 1)",
+      "summary": "Abstract philosophical arguments (e.g., Kalam Cosmological Argument, Fine-Tuning, Leibnizian Contingency) at best establish a generic First Cause, Unmoved Mover, or Cosmic Architect. They do not validate the specific doctrines, historical miracles, or moral commands of any single historical religion (Christianity, Islam, Judaism, Deism). Therefore, using these arguments to prove a specific personal deity commits a gap fallacy, as the exact same philosophical proofs can be claimed with equal validity by mutually exclusive faiths.",
+      "status": "active",
+      "summary_5th_grader": "Imagine arguing that a house must have a builder. That proves someone built the house, but it DOESN'T prove the builder was named Bob, wore a red hat, or likes pizza! Skeptics argue that big math and science proofs for a 'First Cause' might show the universe has a starting cause, but they don't prove that Jesus, Allah, or Krishna is the one who did it!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "The Epistemic Gap",
+      "title": "The Unbridgeable Epistemic Gap (Stage 2)",
+      "summary": "Demonstrates that even if natural theology successfully proves a necessary, non-physical First Cause, an unbridgeable epistemic gap remains between an abstract cosmological entity and the specific, highly localized claims of divine revelation, sacred texts, and sectarian dogma.",
+      "status": "active",
+      "summary_5th_grader": "Even if you prove a super-powerful 'First Cause' created the universe, you're still a million miles away from proving any specific holy book or religion's rules!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Cumulative Two-Stage",
+      "title": "Multi-Stage Apologetics & Cumulative Case",
+      "summary": "Theists respond that natural theology (Stage 1) is never intended to prove Christianity or Islam on its own. Instead, it serves as a foundational step to eliminate atheism and naturalism, after which historical evidence (Stage 2: Resurrection, fulfilled prophecy, internal consistency) establishes the true specific revelation.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: we don't expect one argument to do all the work! Step 1 proves there is a Creator (narrowing down the choices), and Step 2 uses history and miracles to pick the right religion."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Symmetrical Apologetics",
+      "title": "Symmetrical Apologetic Mirroring Across Faiths",
+      "summary": "Skeptics counter that every major world religion (Islam, Mormonism, Hinduism) has developed its own historical evidence, miracle claims, and martyr testimonies that mirror Christian historical arguments with equal subjective conviction and historical ambiguity.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics answer back: every single major religion has its own stories of miracles, holy books, and martyrs! Islam, Mormonism, and Hinduism all use the exact same 'Step 2' arguments to claim THEIR faith is the one true key."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Resurrection Uniqueness",
+      "title": "Historical Resurrections & Minimal Facts Standard",
+      "summary": "Christian apologists argue that the historical evidence for the Resurrection of Jesus (empty tomb, post-crucifixion appearances, transformation of disciples) meets a rigorous 'minimal facts' historical standard superior to non-historical myths or private subjective visions.",
+      "status": "active",
+      "summary_5th_grader": "Christian scholars argue that Jesus's resurrection has unique historical proof\u2014like empty tomb eyewitnesses\u2014that other religion stories don't have."
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "sub_sub_counter",
+      "shortLabel": "Historical Parity",
+      "title": "Epistemic Peer Disagreement & Ancient Parity",
+      "summary": "Historians and secular scholars respond that ancient historical claims from 2,000 years ago suffer from inherent documentary scarcity and bias, leaving neutral observers with epistemic peer disagreement across competing religious miracle claims.",
+      "status": "active",
+      "summary_5th_grader": "Historians reply: ancient stories from 2,000 years ago are always hard to prove 100%, so neutral people still see equal claims from all sides."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Personal First Cause",
+      "title": "Personal Agency Deduction from Kalam & Contingency",
+      "summary": "Christian philosophers (e.g., William Lane Craig, Richard Swinburne) argue that a First Cause must possess intellect and volition to freely choose to initiate a temporal effect from eternity, ruling out impersonal physical forces and pointing toward a personal God.",
+      "status": "active",
+      "summary_5th_grader": "Defenders say a First Cause MUST have a mind and a choice, which rules out mindless energy waves and points to a personal God."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Polytheism / Evil God",
+      "title": "Overgeneration to Polytheism & Non-Standard Deities",
+      "summary": "Critics point out that positing a personal creator does not isolate traditional monotheism. The First Cause could be a team of finite deities (polytheism), a morally indifferent designer, or an evil creator (Evil God Challenge), leaving the specific attributes of God unproven.",
+      "status": "active",
+      "summary_5th_grader": "Critics say: a personal creator could be a team of alien builders, or a chaotic group of gods, or even an evil creator! A First Cause doesn't automatically mean one good God."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Ockham's Divine Simplicity",
+      "title": "Ockham's Razor & Divine Simplicity for Unity",
+      "summary": "Monotheists invoke Ockham's Razor: positing a single omnipotent, uncaused cause is epistemically simpler and more parsimonious than positing multiple finite deities or complex cosmic teams.",
+      "status": "active",
+      "summary_5th_grader": "Theists use Ockham's Razor: assuming ONE Creator is much simpler than guessing a whole team of builders!"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Abrahamic Alignment",
+      "title": "Historical Alignment with Abrahamic Monotheism",
+      "summary": "Monotheistic scholars note that arguments like Kalam and Contingency were historically crafted by Jewish, Christian, and Islamic philosophers precisely because the concept of Creation Ex Nihilo naturally aligns with Abrahamic theology.",
+      "status": "active",
+      "summary_5th_grader": "Muslim and Jewish thinkers note that they actually invented some of these arguments to prove ONE God, showing how well it fits Abrahamic faith!"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Incompatible Salvation",
+      "title": "The Incompatible Salvation Claims Paradox",
+      "summary": "Skeptics emphasize that Islam and Christianity both use the Kalam argument to validate mutually exclusive, contradictory salvation doctrines (e.g., Jesus as divine Son of God vs. Jesus as human Prophet), proving natural theology cannot resolve core doctrinal conflicts.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics point out: if Islam AND Christianity both use Kalam to prove opposite divine rules, Kalam doesn't help you figure out who is actually right!"
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "General Revelation",
+      "title": "General Revelation as Common Spiritual Intuition",
+      "summary": "Theologians argue that diverse world religions all capture partial reflections of divine General Revelation (C.S. Lewis's 'Tao'), which explains why disparate human cultures independently converge on the intuition of a supreme transcendent source.",
+      "status": "active",
+      "summary_5th_grader": "Theologians say: every culture catches a glimpse of God's big picture, which is why different religions all agree that a Creator exists!"
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Agency Projection",
+      "title": "Evolutionary Agency Projection (HADD)",
+      "summary": "Cognitive scientists respond that cross-cultural agreement on divine agency is better explained by Hyperactive Agency Detection Devices (HADD)\u2014an evolved psychological bias to project intentional minds onto complex natural phenomena.",
+      "status": "active",
+      "summary_5th_grader": "Naturalists reply: humans naturally imagine invisible people causing storms or sickness\u2014that's evolutionary psychology, not divine hints."
+    }
+  ]
+}

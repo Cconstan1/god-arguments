@@ -1,0 +1,163 @@
+{
+  "id": "arg_lottery_of_birth",
+  "title": "Geographic Distribution / 'Lottery of Birth'",
+  "tier": "B",
+  "starRating": 5.0,
+  "description": "A structured branching graph of the Geographic Distribution ('Lottery of Birth') argument, examining geography as the primary predictor of religious affiliation, divine justice, Molinism, inclusivism, post-mortem evangelization, and the symmetry of epistemic luck.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Lottery of Birth Core",
+      "title": "Geographic Distribution / Lottery of Birth Argument (Stage 1)",
+      "summary": "Observes that a person's geographic location, culture, and era of birth are the single strongest statistical predictors of their religious affiliation (e.g., being born in Saudi Arabia vs. Thailand vs. Texas). If salvation or ultimate truth depends on holding specific religious doctrines, billions of sincere people are effectively doomed or excluded simply due to the accidents of birth and geography, which is incompatible with an all-loving, non-arbitrary God.",
+      "status": "active",
+      "summary_5th_grader": "If you were born in Saudi Arabia, you'd almost certainly be Muslim; if born in Thailand, Buddhist; if born in Texas, Christian! Skeptics argue that it's unfair for God to base your eternal destiny on a 'lottery of birth' where you just happened to be born."
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Stage 2 Moral Implication",
+      "title": "Deduction of Moral Arbitrariness in Exclusivism (Stage 2)",
+      "summary": "If God assigns eternal rewards or punishments based on specific doctrinal beliefs while placing billions in geographic regions devoid of access to those doctrines, God acts with moral partiality and arbitrariness\u2014contradicting the nature of a supreme, perfectly just God.",
+      "status": "active",
+      "summary_5th_grader": "If God punishes people for not believing a specific recipe book they never even heard of, God wouldn't be fair or loving. A truly good God wouldn't play favorites based on map coordinates!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Molinism & Optimal Geography",
+      "title": "Molinist Defense: Optimal Placement & Transworld Damnation",
+      "summary": "William Lane Craig uses Molinism (God's Middle Knowledge) to argue that God knows how every person would freely choose in any circumstance. God optimally places people in geographic regions such that anyone who would freely accept salvation is placed where they receive the gospel, while those who never hear it would have rejected it under any circumstances ('transworld damnation').",
+      "status": "active",
+      "summary_5th_grader": "Defenders (like William Lane Craig) reply: God has super-foresight! God puts people on the map so that anyone who WOULD say yes to Him gets to hear the message, while people born in distant places are ones who wouldn't have believed anyway."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Transworld Damnation Critique",
+      "title": "Incoherence of Transworld Damnation & Damnation Creeds",
+      "summary": "Critics respond that assuming whole unreached populations across millennia possessed 'transworld damnation' is a ad-hoc, speculative theological assertion. It implies entire geographic regions were filled with uniquely stubborn souls, making God's creation of them gratuitously cruel.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics reply: that sounds like a made-up excuse! Claiming that whole countries across 2,000 years were filled only with stubborn people who would NEVER believe is wildly unbelievable."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Middle Knowledge Limits",
+      "title": "Counterfactuals of Freedom & World Selection",
+      "summary": "Defenders maintain that if libertarian free will is real, God must work within the feasible world choices created by human freedom counterfactuals, optimizing total saved souls globally.",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: if humans have real choice, even God can't force people to choose right, so God builds the best possible world map out of all real human choices."
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "further_rebuttal",
+      "shortLabel": "Determined Geography",
+      "title": "Geographic Determinism vs. Personal Responsibility",
+      "summary": "Opponents note that if geography pre-determines exposure, human responsibility is severely compromised, reducing salvation to environmental determinism.",
+      "status": "active",
+      "summary_5th_grader": "Opponents say: if your environment shapes almost everything you believe, you can't blame people for believing what everyone around them taught them!"
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Inclusivism & Post-Mortem",
+      "title": "Inclusivism & Post-Mortem Salvation Defense",
+      "summary": "Theologians (e.g., C.S. Lewis, Karl Rahner, John Hick) argue that God does not evaluate people on explicit doctrinal labels, but on their response to the light and moral conscience available to them (Inclusivism). Others propose post-mortem evangelization, where every soul receives a clear, uncorrupted choice after death.",
+      "status": "active",
+      "summary_5th_grader": "Other theologians reply: God doesn't judge you by label or sticker! People are judged by how they love others and follow their heart's light. And if they never heard the truth on Earth, God gives them a clear choice after they die."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Undermines Exclusivism",
+      "title": "Inclusivism Undermines Traditional Exclusivist Doctrines",
+      "summary": "Exclusivist critics and skeptical philosophers note that Inclusivism undermines traditional missionary mandates and core doctrines that explicitly claim exclusive salvation through specific historical creeds.",
+      "status": "active",
+      "summary_5th_grader": "Strict believers and skeptics both point out: if everyone can be saved without knowing the specific religion, why spend millions sending missionaries around the world?"
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "General Revelation",
+      "title": "General Revelation in Nature & Conscience",
+      "summary": "Inclusivist defenders maintain that General Revelation (nature, conscience, moral sense) provides sufficient light for genuine faith, making global mission a fulfillment rather than a prerequisite.",
+      "status": "active",
+      "summary_5th_grader": "Inclusivists answer: nature and your conscience already show God's beauty! Missionaries just bring the full story to help what people already sense."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Symmetry of Epistemic Luck",
+      "title": "Epistemic Luck Applies Equally to Secular Beliefs",
+      "summary": "Philosophers note that the 'lottery of birth' applies equally to all beliefs, including science, secularism, and democracy. Being born in 21st-century Oxford gives one a secular epistemic advantage over someone born in ancient Sparta, but this epistemic luck does not make modern scientific beliefs false.",
+      "status": "active",
+      "summary_5th_grader": "Defenders say: being lucky doesn't make something wrong! You were lucky to be born in a time with modern science and computers. That luck doesn't mean science is fake, so spiritual luck doesn't mean religion is fake."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Science Verification vs Faith",
+      "title": "Empirical Verification vs. Unverifiable Dogma",
+      "summary": "Skeptics counter that scientific and secular claims can be independently verified through empirical observation regardless of geography, whereas religious creeds rely on unrepeatable historical claims and subjective authority.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics counter: science can be tested in any lab in the world with microscopes! Religious stories rely on trusting old books that can't be re-tested in a lab."
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Phenomenological Grounding",
+      "title": "Internal Experience & Universal Moral Intuition",
+      "summary": "Theists reply that spiritual experiences and basic moral intuitions are universally experienced across all cultures, providing cross-geographic grounding.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: feeling awe at a starry sky or knowing that murder is wrong happens in every country on Earth\u2014it's not limited to one map spot."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Divine Love Universalism",
+      "title": "Universal Reconciliation & Christian Universalism",
+      "summary": "Christian Universalists (e.g., Origen, Gregory of Nyssa, David Bentley Hart) resolve the lottery of birth by asserting that God's ultimate purpose is the eventual redemption and reconciliation of all human souls, rendering geographic origin irrelevant to eternal destiny.",
+      "status": "active",
+      "summary_5th_grader": "Universalist thinkers say: God's love is so big that EVERYONE eventually gets saved and brought home! Geographic birth doesn't ruin anyone's ultimate happy ending."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Free Will Overrule",
+      "title": "Overriding Human Freedom & Traditional Damnation Text",
+      "summary": "Opponents argue that Universalism either overrides human libertarian freedom by forcing salvation or contradicts explicit historical scriptural warnings regarding eternal separation.",
+      "status": "active",
+      "summary_5th_grader": "Critics object: if God forces everyone to be saved, He overrides their freedom to say 'no'. Plus, major religious texts warn about real consequences."
+    }
+  ]
+}

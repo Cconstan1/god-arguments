@@ -1,0 +1,97 @@
+{
+  "id": "arg_general_revelation",
+  "title": "Axiomatic General Revelation (Romans 1)",
+  "tier": "E",
+  "starRating": 2.5,
+  "description": "Asserts that God's existence and glory are self-evident through creation (Romans 1:19-20), rendering unbelief an act of suppressed moral truth rather than honest evidential lack.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Romans 1 Axiom",
+      "title": "Universal Manifestation of God in Creation & Inexcusable Unbelief",
+      "summary": "Grounded in Romans 1:19-20 and presuppositional theology (e.g., Cornelius Van Til, Alvin Plantinga's sensus divinitatis), the argument holds that God has made His eternal power and divine nature self-evident through the created order. Therefore, all human beings possess an innate awareness of God, and atheism or agnosticism is not an innocent lack of evidence, but an intentional psychological and moral suppression of known truth ('suppressing the truth in unrighteousness').",
+      "status": "active",
+      "summary_5th_grader": "This Christian idea says that looking at the stars, trees, and the world makes God so obvious that everyone deep down already knows God is real! According to this view, people who say they don't believe in God are just trying to hide from what they secretly know is true."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Divine Hiddenness Clash",
+      "title": "Direct Contradiction with Non-Resistant Non-Belief",
+      "summary": "Philosophers of religion (e.g., J.L. Schellenberg) point out that millions of honest, non-resistant seekers search sincerely for God and find no compelling evidence or subjective awareness. Claiming that every atheist secretly knows God exists is a dogmatic ad hominem that misrepresents human psychology, invalidates genuine epistemic struggle, and ignores the reality of divine hiddenness.",
+      "status": "active",
+      "summary_5th_grader": "Critics say this argument isn't fair! Millions of people honestly look for God with all their heart and want to believe, but find no proof. Calling everyone who disagrees 'secretly lying' ignores how hard people genuinely search."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Psychological Projection",
+      "title": "Hyperactive Agency Detection & Cognitive Science of Religion",
+      "summary": "Cognitive science of religion (CSR) demonstrates that human brains evolved a 'Hyperactive Agency Detection Device' (HADD) to attribute agency to natural phenomena for evolutionary survival (e.g., hearing rustling leaves as a predator). What Paul in Romans 1 called 'general revelation' is an evolutionary artifact of human pattern-seeking, not a divine broadcast.",
+      "status": "active",
+      "summary_5th_grader": "Scientists point out that our brains naturally imagine an invisible person causing things (like thinking a shadow is a ghost). Seeing a 'creator' behind nature is just how our brain evolved to keep us safe from predators, not magic proof of God."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Religious Diversity Objection",
+      "title": "Failure to Reveal Specific Monotheism",
+      "summary": "Even if nature inspired awe, 'general revelation' produces thousands of wildly conflicting religions\u2014polytheism, animism, pantheism, and non-theistic traditions\u2014rather than Christian monotheism. If creation were clear revelation, it should generate uniform awareness of the true God rather than massive religious confusion.",
+      "status": "active",
+      "summary_5th_grader": "If nature made God super clear to everyone, why did people invent thousands of completely different gods, spirits, and religions across history instead of all seeing the exact same Christian God?"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Noetic Effects of Sin",
+      "title": "The Noetic Effects of Sin & Self-Deception",
+      "summary": "Presuppositionalists and Reformed theologians respond that human sin corrupts human cognitive faculties (the 'noetic effects of sin'). Sinful human nature creates subconscious self-deception, allowing individuals to genuinely feel like honest seekers while unconsciously suppressing their innate awareness of God to maintain autonomous moral self-rule.",
+      "status": "active",
+      "summary_5th_grader": "Reformed Christians answer that human minds are so clouded by selfish desire that people can trick themselves into believing they are being honest seekers, while subconsciously pushing God away so they can run their own lives."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Sensus Divinitatis Design",
+      "title": "Evolutionary Mechanisms as Divine Instruments",
+      "summary": "Theists (e.g., Alvin Plantinga) argue that God could design human cognitive architecture\u2014including evolutionary agency detection mechanisms\u2014precisely to produce a reliable sensus divinitatis (sense of the divine) when humans behold the natural world.",
+      "status": "active",
+      "summary_5th_grader": "Theologians reply that even if God used evolution to shape our brains, He specifically designed our brain mechanisms so that looking at nature would naturally trigger a true awareness of Him."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "General vs Special",
+      "title": "Distinction Between General and Special Revelation",
+      "summary": "Theologians clarify that General Revelation reveals God's existence, power, and glory, but not specific doctrines (like the Trinity or redemption). Specific theological details require Special Revelation (scripture and Christ); conflicting religions result from human culture misinterpreting general light.",
+      "status": "active",
+      "summary_5th_grader": "Christians explain that nature is like a giant billboard saying 'A Creator Exists!', but it doesn't give you the full story manual. For detailed rules and salvation, you need the Bible and Jesus."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "synthesis",
+      "shortLabel": "Unfalsifiable Dogma",
+      "title": "Epistemic Unfalsifiability & Circular Accusation",
+      "summary": "Atheists and secular ethicists highlight that asserting 'all non-believers are lying or self-deceived' renders the claim epistemically unfalsifiable. It creates a closed, circular dogmatic trap where any honest disagreement is automatically dismissed as moral corruption, preventing genuine intellectual dialogue.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics conclude that saying 'if you don't agree with me, you are secretly lying to yourself' is an unfair mental trap. It makes it impossible to have a real, respectful conversation because one side refuses to believe the other is being honest."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "arg_euthyphro_resolution",
+  "title": "Divine Command Theory & Euthyphro Resolution",
+  "tier": "C",
+  "starRating": 3.5,
+  "description": "Defends Divine Command Theory against Plato's Euthyphro Dilemma by grounding moral goodness in God's immutable nature rather than arbitrary divine will or an independent external law.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Euthyphro Essentialism",
+      "title": "Grounding Goodness in God's Immutable Nature",
+      "summary": "Resolves Plato's Euthyphro Dilemma ('Is something good because God commands it, or does God command it because it is good?') by rejecting the false dichotomy. Goodness is neither arbitrary divine caprice nor a standard existing above God; rather, God's necessary, immutable nature IS the objective paradigm of the Good, and His commands flow logically from His character.",
+      "status": "active",
+      "summary_5th_grader": "Socrates asked a famous trick question: 'Is something good just because God says so, or does God say it's good because it was already good on its own?' Christians answer that it's neither! God doesn't make up random rules on a whim, nor does He obey rules made by someone else. Instead, God's very nature IS goodness itself\u2014like the master meter stick that defines what a meter is."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Arbitrariness Shift",
+      "title": "The Modified Dilemma & Tautology Objection",
+      "summary": "Critics (e.g., Erik Wielenberg, Graham Oppy) argue that pushing goodness into 'God's nature' merely relocates the dilemma. Either God's nature is arbitrarily defined as good (making 'God is good' a tautology like 'God is God'), or God's nature conforms to an independent standard of goodness.",
+      "status": "active",
+      "summary_5th_grader": "Critics say: 'Wait a second, that just pushes the trick question back one step! Is God's nature good because God says so, or is His nature fitting a rule of goodness that exists outside Him?' If God's nature defines goodness, then saying 'God is good' is like saying 'water is wet'\u2014it doesn't explain why love is better than hatred."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Horrible Commands",
+      "title": "The Problem of Horrible Commands",
+      "summary": "If moral obligations depend entirely on divine commands, then if God commanded torture or genocide, those actions would become morally obligatory. If the theist replies 'God's loving nature prevents such commands,' critics ask whether 'loving' is a necessary constraint or an arbitrary divine preference.",
+      "status": "active",
+      "summary_5th_grader": "What if God suddenly commanded people to hurt innocent children? Under Divine Command Theory, whatever God commands becomes good! If you say 'God would never command that because He is loving,' critics ask: 'Why is being loving considered good in the first place?'"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Atheistic Realism",
+      "title": "Platonic Atheistic Moral Realism",
+      "summary": "Secular philosophers argue that objective moral values can exist as necessary, ungrounded abstract facts or naturalistic facts about conscious well-being (Sam Harris, Philippa Foot), making God's commands ontologically redundant for moral truth.",
+      "status": "active",
+      "summary_5th_grader": "Some philosophers argue that moral truths (like 'hurting others is bad') don't need a creator at all\u2014just like the rules of math (2 + 2 = 4) don't need a creator. We can know right from wrong simply by looking at human suffering and happiness."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Necessary Axiom",
+      "title": "God as the Ultimate Explanatory Stop",
+      "summary": "Theists (e.g., William Lane Craig, Robert Adams) reply that ultimate foundational explanations must stop somewhere. Just as physicalists stop at fundamental laws of physics, theists stop at a necessary personal Mind whose essential nature is ultimate Goodness. This is not arbitrary because God is a necessary being.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply that every explanation has to stop somewhere! Scientists stop at the ultimate laws of physics, and believers stop at God. Since God's nature is necessary (meaning He couldn't be any other way), His goodness isn't a random choice\u2014it's the foundation of reality."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Impossible Antecedents",
+      "title": "Counterfactuals of Impossible Antecedents",
+      "summary": "Theists point out that 'If God commanded cruelty' contains a logically impossible antecedent (like 'If 2+2=5'). Because God's nature is necessarily loving and holy, a command to inflict gratuitous suffering is a logical impossibility, rendering counterfactual objections unsound.",
+      "status": "active",
+      "summary_5th_grader": "Believers say asking 'What if God commanded cruelty?' is like asking 'What if a round square existed?' or 'What if 2+2 equaled 5?' Because God is love by definition, Him commanding cruelty is logically impossible\u2014it's a nonsensical question!"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Abstract Grounding Failure",
+      "title": "Failure of Abstract Moral Grounding",
+      "summary": "Theists argue that Atheistic Moral Realism leaves abstract moral truths floating without an explanatory ontology or causal power ('moral facts hanging in mid-air'). Divine Command Theory provides a concrete personal agent with the normative authority to issue binding duties.",
+      "status": "active",
+      "summary_5th_grader": "Theists counter that 'floating rules' in the sky can't actually give you orders or make you feel duty. Rules need a real authority figure to give them weight\u2014a cosmic law needs a Cosmic Lawgiver."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "rebuttal",
+      "shortLabel": "Tautology Trap",
+      "title": "The Semantic Tautology Trap",
+      "summary": "Skeptics note that if 'Good' is defined as 'God's nature,' praising God as 'Good' becomes empty praise ('God is godly'). It renders divine worship semantically trivial unless we possess a prior, independent grasp of goodness to evaluate God's character.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics answer back: If 'good' just means 'whatever God is like,' then saying 'God is good' is just saying 'God is like God!' To genuinely praise God as good, we must already know what 'good' means before we even look at God."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "rebuttal",
+      "shortLabel": "Epistemic Independence",
+      "title": "Epistemic Autonomy of Human Conscience",
+      "summary": "Critics observe that humans possess epistemically autonomous moral intuitions (e.g., recognizing that murder is wrong) without knowing or accepting Divine Command Theory. If moral duties were strictly bound to divine commands, moral knowledge would require divine revelation.",
+      "status": "active",
+      "summary_5th_grader": "Critics point out that millions of people\u2014including atheists who don't believe in God\u2014know that lying and stealing are wrong. If morality required knowing God's commands, non-believers wouldn't have moral conscience, but they clearly do!"
+    },
+    {
+      "id": "4.3",
+      "parentId": "4.2",
+      "level": 4,
+      "type": "counter_response",
+      "shortLabel": "Epistemic vs Ontological",
+      "title": "The Epistemic vs. Ontological Distinction",
+      "summary": "Theists clarify the crucial distinction between epistemic moral knowledge (how we come to know right from wrong via human conscience) and ontological moral grounding (what makes moral values objectively real). Divine Command Theory addresses ontology, not epistemology.",
+      "status": "active",
+      "summary_5th_grader": "Believers wrap up by explaining the difference between *knowing* a rule and *where the rule comes from*. An atheist can know that murder is bad using their conscience, but God is the foundation that makes murder *actually* wrong in reality, whether people realize it or not."
+    }
+  ]
+}

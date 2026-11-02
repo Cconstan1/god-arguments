@@ -1,0 +1,119 @@
+{
+  "id": "arg_dostoevsky_premise",
+  "title": "Dostoevsky's Premise ('If God does not exist...')",
+  "tier": "D",
+  "starRating": 3.0,
+  "description": "Explores Fyodor Dostoevsky's famous literary-philosophical maxim ('If God does not exist, everything is permitted') from The Brothers Karamazov, arguing that without a supreme divine Judge and objective transcendent reality, ultimate moral duty collapses into subjective human preference.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Dostoevsky Maxim",
+      "title": "Dostoevsky's Maxim: The Ontological Collapse of Obligation",
+      "summary": "Popularized by Fyodor Dostoevsky's character Ivan Karamazov, the argument asserts that without an omniscient, eternal Moral Judge and immortal accountability, all human rules are mere social conventions. If death is absolute annihilation and no transcendent moral lawgiver exists, ultimate moral duties cannot exist, rendering any action permissible in an cosmic sense.",
+      "status": "active",
+      "summary_5th_grader": "In a famous story by Dostoevsky, a character says that if God doesn't exist and there is no life after death, then nothing is truly forbidden\u2014anyone can make up their own rules! Without a supreme judge to set real rules and reward good or punish bad, right and wrong are just human opinions."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Secular Ethics",
+      "title": "Secular Autonomy & Social Contract Realism",
+      "summary": "Philosophers like Jean-Paul Sartre, T.M. Scanlon, and John Rawls argue that morality does not require divine command; rather, human empathy, social cooperation, rational reflection, and contractual agreements create binding obligations rooted in mutual human flourishing.",
+      "status": "active",
+      "summary_5th_grader": "Atheists and secular thinkers argue that we don't need a God in the sky to care about people. We care about not hurting others because we have empathy, we live together in society, and we know that treat others well leads to a happier, safer world for everyone."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Textual Misattribution",
+      "title": "Literary Context & Misreading of Dostoevsky",
+      "summary": "Scholars note that Ivan Karamazov's phrase is a dramatic warning about moral nihilism, not a rigorous philosophical proof. Moreover, psychological and evolutionary evidence demonstrates that pro-social behavior and moral disgust evolved independently of theological belief.",
+      "status": "active",
+      "summary_5th_grader": "Literary experts point out that the quote was said by a fictional character who was going crazy in a story, not a literal science proof! Plus, history and science show that human beings were caring for each other long before modern religions were invented."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Euthyphro Counter",
+      "title": "The Arbitrariness of Divine Permission",
+      "summary": "Critics contend that anchoring morality in divine permission creates severe moral hazards: if God commands atrocities (e.g., historical genocides or holy wars), theism makes atrocities obligatory, whereas humanistic ethics judges harm objectively.",
+      "status": "active",
+      "summary_5th_grader": "If right and wrong only depend on what God allows or forbids, what happens if someone believes God ordered them to do something horrible? Humanism says hurting innocent people is wrong no matter who tells you to do it."
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Subjective Conventionalism",
+      "title": "Social Contracts Lack Ultimate Binding Force",
+      "summary": "Theists respond that social contracts and evolutionary empathy provide pragmatic descriptions of behavior, but fail to generate binding prescriptive duty. Without an objective grounding beyond human minds, moral consensus remains subjective and changeable.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: 'Social contracts are just rules humans voted on! If a society votes that something bad is now okay, a social contract has no power to stop them. Only an unchangeable God gives rules real, absolute power.'"
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Existential Weight",
+      "title": "The Psychological Reality of Nihilism",
+      "summary": "Defenders of Dostoevsky's insight highlight that major atheist existentialists (like Sartre and Camus) acknowledged the scary freedom and loss of objective objective anchors when abandoning God, validating Ivan's psychological diagnosis.",
+      "status": "active",
+      "summary_5th_grader": "Even famous atheist thinkers like Sartre agreed that taking God out of the picture leaves humans with total freedom and no built-in cheat sheet for life, which can be scary and overwhelming."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Essential Goodness",
+      "title": "Divine Nature as Non-Arbitrary Anchor",
+      "summary": "Christian apologists maintain that God's nature is essential goodness itself, making it impossible for God to command true evil, thus securing moral realism against both arbitrariness and moral chaos.",
+      "status": "active",
+      "summary_5th_grader": "Christians answer that God is fundamentally loving and good by nature, so He could never command true cruelty. His rules aren't random; they reflect His perfect character."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "rebuttal_defense",
+      "shortLabel": "Evolved Normativity",
+      "title": "Naturalistic Grounding of Objective Harm",
+      "summary": "Secular ethicists argue that suffering and conscious well-being provide fully objective, naturalistic anchors for moral claims without requiring a supernatural lawgiver.",
+      "status": "active",
+      "summary_5th_grader": "Secular thinkers respond: 'We don't need magic to know pain hurts! Minimizing suffering and helping people thrive gives us a solid, real-world baseline for what is good and bad.'"
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "rebuttal_defense",
+      "shortLabel": "Meaning Construction",
+      "title": "Constructed Meaning Beyond Absurdity",
+      "summary": "Existentialists counter that constructing human meaning and ethical responsibility in a universe without God is a noble, mature achievement rather than a fatal flaw.",
+      "status": "active",
+      "summary_5th_grader": "Creating our own purpose and being good to each other because we care\u2014not because we are scared of punishment\u2014is actually a more mature and heroic way to live!"
+    },
+    {
+      "id": "4.3",
+      "parentId": "3.3",
+      "level": 4,
+      "type": "rebuttal_defense",
+      "shortLabel": "Epistemic Circularity",
+      "title": "The Problem of Discerning Divine Command",
+      "summary": "Skeptics point out that humans must rely on their own fallible secular moral intuition to judge whether a purported divine command matches 'God's loving nature,' showing that human moral intuition remains epistemically primary.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics conclude: 'How do you know God's commands are loving? You have to use your own human brain and moral judgment to decide! So human conscience is doing the real work anyway.'"
+    }
+  ]
+}

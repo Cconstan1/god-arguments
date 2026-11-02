@@ -1,0 +1,119 @@
+{
+  "id": "arg_irreducible_complexity",
+  "title": "Biological Irreducible Complexity (Behe)",
+  "tier": "C",
+  "starRating": 3.0,
+  "description": "A structured branching graph of Michael Behe's Biological Irreducible Complexity argument, analyzing the bacterial flagellum, blood clotting cascade, evolutionary co-option/exaptation rebuttals, indirect evolutionary pathways, and the Kitzmiller v. Dover court rulings.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Irreducible Complexity Core",
+      "title": "Behe's Irreducible Complexity: Core Premise",
+      "summary": "Formulated by biochemist Michael Behe in 'Darwin's Black Box', an irreducibly complex system is a single system composed of several well-matched, interacting parts that contribute to the basic function, wherein the removal of any one of the parts causes the system to effectively cease functioning. Behe argues that such systems (e.g., the bacterial flagellum, blood clotting cascade) cannot evolve by gradual, step-by-step Darwinian natural selection because any precursor lacking a necessary part would be non-functional and unselected.",
+      "status": "active",
+      "summary_5th_grader": "Michael Behe argued that some microscopic machine parts inside living cells\u2014like a tiny boat motor called a bacterial flagellum\u2014need all 40 of their parts working at the exact same time to do anything! If you take away just one part, the whole motor breaks down and becomes useless. Since evolution moves in tiny baby steps, Behe says evolution couldn't build a machine that only works when all parts are already put together."
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Mousetrap Analogy",
+      "title": "The Mousetrap Analogy & Specified Machinery",
+      "summary": "Behe illustrates the concept using a standard mechanical mousetrap (baseboard, spring, hammer, catch, hold-down bar). A mousetrap with only 4 of the 5 parts catches zero mice\u2014it is not 80% efficient, but 0% functional. Likewise, complex molecular machinery cannot provide survival advantages to an organism until all components are fully integrated.",
+      "status": "active",
+      "summary_5th_grader": "Think of a mechanical mousetrap made of 5 pieces: a wooden base, a spring, a hammer, a catch, and a bar. A mousetrap with 4 pieces doesn't catch 80% of the mice\u2014it catches ZERO mice! It only works if every single piece is there. Behe claims cell machinery works the exact same way."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Co-option & Exaptation",
+      "title": "Rebuttal: Evolutionary Co-option & Exaptation",
+      "summary": "Evolutionary biologists (e.g., Kenneth Miller) demonstrate that evolution does not build irreducibly complex systems from scratch for their current function. Components initially evolve for a completely different purpose (exaptation) and are later co-opted. For instance, 10 proteins in the bacterial flagellum form the fully functional Type III Secretion System (TTSS), a molecular syringe used by pathogens to inject toxins.",
+      "status": "active",
+      "summary_5th_grader": "Biologists (like Kenneth Miller) showed that evolution doesn't build parts from scratch for just one job! It borrows old parts that were doing different jobs. For example, 10 pieces of that tiny boat motor were ALREADY being used by bacteria as a little needle syringe to inject toxins. Evolution didn't make 40 useless parts\u2014it recycled working parts!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Flagellum Homology Defeater",
+      "title": "Flagellum vs. TTSS Degradation Counter-Argument",
+      "summary": "ID proponents respond that phylogenetic analysis suggests the TTSS may be a devolved, simplified subsystem derived *from* the flagellum, rather than an evolutionary ancestor to it. Furthermore, co-option still requires novel genetic instructions to assemble disparate parts into a functional rotary motor.",
+      "status": "active",
+      "summary_5th_grader": "ID supporters answer back: genetic testing shows the needle syringe might actually be a broken piece that fell OFF the motor later, not the ancestor! Plus, even if you collect 40 spare parts, you still need a blueprint to snap them together into a working motor."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Gene Duplication Pathways",
+      "title": "Gene Duplication & Indirect Evolutionary Trajectories",
+      "summary": "Biologists reply that molecular evolution operates via gene duplication, mutation, and scaffolding deletion. A system can start with redundant parts or external scaffolding that later disappears, leaving behind a system that appears 'irreducible' only in hindsight.",
+      "status": "active",
+      "summary_5th_grader": "Biologists reply: imagine building a stone archway! Builders use wooden scaffolding underneath to hold the stones up. Once the archway is locked in place, they take the wood away, making the arch LOOK like it's floating magically. Evolution uses temporary scaffolding that disappears!"
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Blood Clotting Cascade",
+      "title": "Rebuttal: Comparative Genomics of Blood Clotting",
+      "summary": "Behe claimed the blood clotting cascade in mammals is irreducibly complex (missing one clotting factor causes fatal bleeding or runaway thrombosis). However, comparative genomics revealed that jawless fish (dolphins, sea lampreys) lack several key clotting factors (e.g., Factor XII) yet possess fully functional, simpler blood clotting systems.",
+      "status": "active",
+      "summary_5th_grader": "Behe claimed that mammal blood clotting needs every single chemical factor or an animal bleeds to death. But scientists discovered that sea lampreys and dolphins are missing key clotting factors, yet their blood clots just fine! This proved that blood clotting CAN work with fewer parts."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Cascade Specificity",
+      "title": "Cascade Specificity & Fine-Tuned Thresholds",
+      "summary": "ID advocates argue that simpler clotting in primitive vertebrates does not explain how novel serine protease duplication events were recruited and regulatory feedback loops synchronized without causing lethal systemic intravascular coagulation.",
+      "status": "active",
+      "summary_5th_grader": "ID defenders reply: having a simpler blood system in a fish doesn't explain how mammals added extra chemicals without causing heart attacks or dangerous blood clots along the way."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Kitzmiller v. Dover",
+      "title": "Kitzmiller v. Dover Judicial Rulings & Peer Review",
+      "summary": "In the landmark 2005 Kitzmiller v. Dover Area School District federal court trial, judge John E. Jones III ruled that Irreducible Complexity had been thoroughly tested and rejected by the mainstream scientific community, citing hundreds of peer-reviewed papers detailing molecular evolutionary pathways.",
+      "status": "active",
+      "summary_5th_grader": "In a famous court trial in 2005 (Kitzmiller v. Dover), a judge listened to top scientists and ruled that Irreducible Complexity was not scientific because scientists had already published hundreds of research papers showing step-by-step evolution of cell machinery."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Philosophical Naturalism",
+      "title": "Methodological Naturalism vs. Empirical Dogma",
+      "summary": "ID proponents claim that mainstream science rejects intelligent design not due to empirical evidence, but due to a dogmatic commitment to Methodological Naturalism, which excludes divine agency by definition regardless of evidence.",
+      "status": "active",
+      "summary_5th_grader": "ID supporters claim: mainstream science only rejected ID because science rules BAN any mention of a Creator by definition, not because the cell machinery evidence was bad."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Redundant Systems",
+      "title": "Redundant Systems & Computer Evolutionary Simulations",
+      "summary": "Computer scientists using genetic algorithms (e.g., Avida software) have repeatedly demonstrated that digital organisms under random mutation and natural selection naturally evolve irreducibly complex logic gates from simple precursor functions.",
+      "status": "active",
+      "summary_5th_grader": "Computer scientists ran computer simulations (like the Avida project) where digital creatures mutated randomly. The simulation showed digital machines naturally evolving complex, multi-part features step-by-step!"
+    }
+  ]
+}

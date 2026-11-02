@@ -1,0 +1,119 @@
+{
+  "id": "arg_cartesian_ontological",
+  "title": "Cartesian Ontological Argument",
+  "tier": "D",
+  "starRating": 2.5,
+  "description": "A structured branching graph of Ren\u00e9 Descartes's Ontological Argument from Meditation V, analyzing the clear and distinct perception of supreme perfection, the triangle analogy, existence as a necessary property, and classic critiques by Caterus, Gassendi, and Kant.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Cartesian Core",
+      "title": "Descartes's Ontological Argument (Meditation V)",
+      "summary": "Formulated by Ren\u00e9 Descartes, whatever is clearly and distinctly perceived to belong to the essential nature of a concept must truly belong to it. We clearly and distinctly perceive that necessary existence belongs to the nature of a supremely perfect being. Therefore, a supremely perfect being necessarily exists.",
+      "status": "active",
+      "summary_5th_grader": "Ren\u00e9 Descartes argued that whenever you understand an idea completely clearly in your mind, its core features MUST be true! When we think of a completely perfect God, necessary real existence is part of perfection\u2014just like having three angles is part of a triangle. So God must exist!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Triangle Analogy",
+      "title": "The Geometric Analogy (Triangle & Mountain/Valley)",
+      "summary": "Descartes illustrates that existence can no more be separated from the essence of God than the fact that a triangle's interior angles sum to 180 degrees can be separated from the essence of a triangle, or a mountain separated from a valley.",
+      "status": "active",
+      "summary_5th_grader": "Descartes compared God to geometry: you can't have a triangle whose angles don't add up to 180 degrees, and you can't have a mountain without a valley! In the same way, you can't picture a perfect God without real existence."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Caterus's Conceptual Objection",
+      "title": "Johannes Caterus's Intentional vs Real Existence Objection",
+      "summary": "First set of objections (Caterus): Even if the concept of an existing being includes existence in its definition, this only proves that the CONCEPT includes existence ('in intellectu'), not that an actual entity exists in external reality ('in re').",
+      "status": "active",
+      "summary_5th_grader": "Philosopher Johannes Caterus objected: putting 'real existence' into your definition of God only changes how you define your thought, not whether something actually exists outside your brain!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "True & Immutable Natures",
+      "title": "Descartes's Reply: True and Immutable Natures",
+      "summary": "Descartes responds that God's essence is not a arbitrary human mental fiction (like a winged horse), but a 'true and immutable nature' whose properties are discovered, not invented, by the intellect.",
+      "status": "active",
+      "summary_5th_grader": "Descartes replied: God's perfection isn't just a made-up fantasy like a flying horse! God's essence is a permanent mathematical-style fact that we discover, not something we invent."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Gassendi's Existence Critique",
+      "title": "Pierre Gassendi's Objection: Existence is Not a Perfection",
+      "summary": "Fifth set of objections (Gassendi): Existence is not a property or perfection that can be added to an essence. A thing must first exist in order to have any perfections at all.",
+      "status": "active",
+      "summary_5th_grader": "Pierre Gassendi argued: existence isn't a bonus feature! Something has to exist FIRST before it can have any cool features or perfections."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Kant's Predicate Critique",
+      "title": "Immanuel Kant's Critique: 'Existence is Not a Real Predicate'",
+      "summary": "Immanuel Kant targeted Descartes directly: 'Being' is obviously not a real predicate; that is, it is not a concept of something which could be added to the concept of a thing. It is merely the positing of a thing with all its predicates.",
+      "status": "active",
+      "summary_5th_grader": "Immanuel Kant famously argued: saying something 'exists' doesn't add any new detail to it! A description of 100 real gold coins has the exact same details as 100 imaginary gold coins."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Necessary Existence Difference",
+      "title": "Defenders' Response: Necessary Existence vs Contingent Existence",
+      "summary": "Modern Cartesian defenders (e.g., Norman Malcolm) argue that while contingent existence may not be a predicate, NECESSARY existence (inability to fail to exist) IS a real perfection and logical predicate that sets God apart from contingent things.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: regular existence might not add detail, but IMPOSSIBLE-TO-DESTROY existence definitely IS a special quality that sets a divine being apart!"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Cartesian Circle",
+      "title": "The Epistemic 'Cartesian Circle' Objection",
+      "summary": "Critics point out a foundational circularity: Descartes relies on clear and distinct perceptions to prove God's existence, but in Meditation III & IV he argues that clear and distinct perceptions are only reliable because a non-deceiving God exists.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics flag a circle trap: Descartes uses clear thinking to prove God exists, but earlier he said clear thinking is only trustworthy because God made our brains! That's circular logic!"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Immediate Intuition",
+      "title": "Descartes's Memory/Intuition Defense",
+      "summary": "Descartes clarifies that current, active clear and distinct intuitions require no divine guarantee to be known with certainty; God's veracity is only required to guarantee the reliability of remembered past intuitions.",
+      "status": "active",
+      "summary_5th_grader": "Descartes defended himself: when you're looking directly at a clear truth right now, you don't need God to prove it. You only need God to make sure your brain's memory isn't playing tricks later!"
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Leibniz's Possibility Condition",
+      "title": "G.W. Leibniz's Revision: Proof of Possibility Required",
+      "summary": "Gottfried Wilhelm Leibniz argued that Descartes's argument is incomplete: it only proves that IF God is possible, God exists. Descartes failed to demonstrate that the concept of a supremely perfect being contains no hidden logical contradictions.",
+      "status": "active",
+      "summary_5th_grader": "Philosopher Leibniz pointed out a missing step: Descartes assumed a perfect God is logically possible without proving it! You first have to prove that all perfections can fit together without clashing."
+    }
+  ]
+}

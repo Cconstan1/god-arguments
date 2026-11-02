@@ -1,0 +1,97 @@
+{
+  "id": "arg_transcendental_tag",
+  "title": "Transcendental Argument for God (TAG)",
+  "tier": "C",
+  "starRating": 3.5,
+  "description": "Argues that logic, truth, and the preconditions of knowledge presuppose a transcendent divine Mind, without which rational thought itself is impossible.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "TAG Preconditions",
+      "title": "Transcendental Argument for God (Preconditions of Intelligibility)",
+      "summary": "Popularized by Cornelius Van Til and Greg Bahnsen, TAG asserts that logic, objective truth, and the uniformity of nature presuppose a transcendent, omniscient divine Mind. Rationality cannot ground its own foundation; therefore, God is the necessary precondition for all human intelligibility.",
+      "status": "active",
+      "summary_5th_grader": "TAG says that in order to think, make sense of rules, or use math and logic, you already have to assume there is an all-smart God behind the universe making everything make sense. Without God, using rules of logic would be like building a house without any ground underneath!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Begging Question",
+      "title": "Question-Begging and Circularity Objection",
+      "summary": "Skeptics argue that TAG begs the question by asserting without independent proof that abstract logical laws require a divine mind, failing to consider that logical laws might be ungrounded, necessary truths or intrinsic features of existence.",
+      "status": "active",
+      "summary_5th_grader": "Critics say: 'You are just assuming logic needs God! Why can't the rules of thinking just be true on their own, without needing a giant mind to hold them up?'"
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Naturalist Logic",
+      "title": "Autonomous Epistemology & Evolutionary Rationality",
+      "summary": "Naturalistic philosophers contend that logic and reasoning faculties evolved pragmatically to navigate the physical environment. Abstract principles of identity and non-contradiction reflect natural invariants, not theological decrees.",
+      "status": "active",
+      "summary_5th_grader": "Science thinkers say our brains learned to think logically because it helped our ancestors survive in the wild\u2014not because a divine voice gave us a textbook on logic."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Specificity Deficit",
+      "title": "Underdetermination & Non-Theistic Transcendental Grounding",
+      "summary": "Even if rational preconditions require an absolute transcendent foundation, TAG fails to uniquely prove a personal God or specific religion, as non-theistic metaphysics (e.g., Neoplatonic Monism or Brahman) could fulfill the same role.",
+      "status": "active",
+      "summary_5th_grader": "Even if logic needed a foundation, why does it have to be a personal God? Why couldn't it be an abstract cosmic energy or a completely different universe rule?"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Transcendental Proof",
+      "title": "Transcendental Proof vs. Vicious Circularity",
+      "summary": "Presuppositionalists reply that transcendental arguments operate on the level of ultimate worldviews. Because logic is foundational, any evaluation of logic must presuppose logic; theistic metaphysics provides the only coherent framework where abstract, invariant laws are intelligibly grounded.",
+      "status": "active",
+      "summary_5th_grader": "Theists answer: Every foundational worldview has to use its own rules! The real question is which worldview makes sense of logic: one made by a logical God, or a random cosmic accident?"
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Reliability Deficit",
+      "title": "The Evolutionary Argument Against Unassisted Naturalism",
+      "summary": "Theists (drawing on Alvin Plantinga) respond that naturalistic evolution selects for adaptive survival behaviors, not true belief. If naturalism is true, human confidence in purely abstract logical faculties is self-defeating.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: If your brain is just a survival tool evolved by accident, why should you trust it to uncover absolute truth about philosophy or the universe?"
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Personal Mind Ground",
+      "title": "The Absolute Personal Mind Ground",
+      "summary": "Presuppositionalists maintain that impersonal abstractions cannot issue normative rational duties or connect thoughts to truth; only an absolute personal Creator can ground both objective norms and human minds.",
+      "status": "active",
+      "summary_5th_grader": "Presuppositionalists say an impersonal principle can't tell you how you *ought* to think\u2014only a real, intelligent Mind can create rules for other minds."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "synthesis",
+      "shortLabel": "Brute Logic Realism",
+      "title": "Pragmatic Realism & Brute Invariance",
+      "summary": "Secular epistemologists conclude that logical laws are self-verifying, brute structural features of any possible reality, making the addition of a divine Mind an unnecessary multiplication of metaphysical entities.",
+      "status": "active",
+      "summary_5th_grader": "Modern philosophers wrap up by saying: We don't need a super-explanation for logic. The rules of logic work because that's just how reality has to be, and adding God doesn't explain how a mind makes a rule anyway."
+    }
+  ]
+}

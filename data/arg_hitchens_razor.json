@@ -1,0 +1,141 @@
+{
+  "id": "arg_hitchens_razor",
+  "title": "Hitchens' Razor",
+  "tier": "D",
+  "starRating": 2.0,
+  "description": "A structured branching graph of Hitchens' Razor ('What can be asserted without evidence can be dismissed without evidence'), analyzing epistemic burdens of proof, extraordinary claims, and divine revelation.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Hitchens' Razor Core",
+      "title": "Hitchens' Razor: Epistemic Burden of Proof",
+      "summary": "Formulated by journalist Christopher Hitchens ('What can be asserted without evidence can be dismissed without evidence'), this epistemic razor dictates that the burden of proof rests entirely on the party making an affirmative claim. Unevidenced metaphysical claims about divine intervention or supernatural entities carry zero epistemic weight and warrant immediate rejection without requiring counter-disproof.",
+      "status": "active",
+      "summary_5th_grader": "Christopher Hitchens famously said: 'What can be asserted without evidence can be dismissed without evidence!' If someone claims there is an invisible unicorn standing in your room but brings zero proof, you don't have to spend all day proving the unicorn isn't there\u2014you can simply ignore the claim until they show real evidence."
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Sagan Standard",
+      "title": "Sagan Standard & Extraordinary Claims (Stage 2)",
+      "summary": "Complemented by Carl Sagan's maxim ('Extraordinary claims require extraordinary evidence'), Hitchens' Razor establishes that because divine intervention violates established regularities of nature, the quality and quantity of evidence must match the extraordinary magnitude of the claim.",
+      "status": "active",
+      "summary_5th_grader": "Carl Sagan added: 'Extraordinary claims need extraordinary evidence!' If your friend says they ate an apple for lunch, you believe them easily. But if they say they flew to Jupiter on a magic broom, you need massive, incredible proof before taking them seriously!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Self-Defeat Objection",
+      "title": "Self-Defeat & Epistemic Razor Incoherence",
+      "summary": "Theists object that Hitchens' Razor is itself an unevidenced philosophical assertion. If Hitchens' Razor must be supported by empirical evidence to be accepted, but no empirical evidence can prove an abstract epistemic rule, the razor defeats itself.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: Hitchens' Razor shoots itself in the foot! Where is the scientific laboratory experiment that proves Hitchens' Razor is true? If you need scientific proof for every rule, you can't even prove Hitchens' Razor!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Pragmatic Norm",
+      "title": "Epistemic Norm vs. Propositional Claim",
+      "summary": "Defenders respond that Hitchens' Razor is a methodological rule (an epistemic norm of rational conversation) rather than a factual proposition. Without this rule, rational discourse collapses into accepting infinitely many arbitrary fabrications (Russell's Teapot).",
+      "status": "active",
+      "summary_5th_grader": "Defenders answer: Hitchens' Razor isn't a fact about atoms\u2014it's a basic rule of fair conversation! Without this rule, anyone could demand you believe in fairies, ghosts, or giant space teapots unless you could disprove them."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Reformed Epistemology",
+      "title": "Properly Basic Beliefs & Asymmetry",
+      "summary": "Reformed epistemologists argue that basic beliefs (e.g., trust in memory, external world realism, or immediate divine awareness) are justified without inferential evidence, creating a false equivalence in Hitchens' framing.",
+      "status": "active",
+      "summary_5th_grader": "Christian thinkers reply: you don't need lab proof to know your mom loves you or that yesterday really happened! Trusting God can be a basic feeling in your heart that doesn't need a science experiment."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Substantial Evidence Exists",
+      "title": "Rebuttal: Theism Provides Substantial Evidence",
+      "summary": "Apologists contend that the premise 'asserted without evidence' is false. Natural theology provides extensive empirical evidence (cosmological fine-tuning, origin of life, origin of the universe, historical resurrection facts).",
+      "status": "active",
+      "summary_5th_grader": "Apologists object: believers DON'T make claims without evidence! We bring evidence from the Big Bang, life's DNA code, fine-tuned physics laws, and history."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Disputed Evidence",
+      "title": "Evidence vs. Flawed Interpretation",
+      "summary": "Skeptics reply that natural theology arguments do not constitute unambiguous evidence for a specific God, but represent gaps in scientific knowledge or circular interpretations of physical laws.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics reply: pointing at mysteries in science isn't proof of God! Just because we don't know everything about physics doesn't mean you get to claim your specific religion's God did it."
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Presuppositionalism",
+      "title": "Presuppositionalist Precondition Critique",
+      "summary": "Presuppositionalists argue that 'evidence' itself requires a divine Mind as a necessary precondition for logic, truth, and empirical uniformity, making Hitchens' demand for evidence under naturalism incoherent.",
+      "status": "active",
+      "summary_5th_grader": "Presuppositionalists argue: you can't even define what 'evidence' or 'logic' means without God! Asking for evidence while denying God is like using light while claiming the sun doesn't exist."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Transcendental Fallacy",
+      "title": "Begging the Question in Epistemic Grounding",
+      "summary": "Skeptics respond that asserting logic requires a specific Christian deity is an unproven assertion that directly violates Hitchens' Razor, committing a transcendental question-begging fallacy.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics answer back: saying 'logic requires my specific God' is just ANOTHER big claim with zero proof! You are proving Hitchens' point by making another unproven statement."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Russell's Teapot",
+      "title": "Russell's Celestial Teapot Parallelism",
+      "summary": "Bertrand Russell's celestial teapot analogy reinforces Hitchens' Razor: if one posited a china teapot orbiting the sun between Earth and Mars, no one could disprove it, but the burden of proof rests entirely on the believer.",
+      "status": "active",
+      "summary_5th_grader": "Bertrand Russell gave a famous example: if someone says a tiny teapot is floating in space near Mars, you can't disprove it! But nobody should believe in the floating teapot until the speaker brings proof."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Teapot Disanalogy",
+      "title": "Philosophical Disanalogy of God vs. Teapot",
+      "summary": "Theists respond that God is not a physical object in space (like a teapot), but the ground of being and cause of physical laws, making the teapot comparison a category error.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: God isn't a random teapot floating in space! God is the creator of space, time, and math rules, so comparing God to a teapot is mixing up totally different ideas."
+    },
+    {
+      "id": "2.5",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Clifford's Credal Ethics",
+      "title": "Clifford's Principle: Ethics of Belief",
+      "summary": "W.K. Clifford famously stated: 'It is wrong always, everywhere, and for anyone, to believe anything upon insufficient evidence,' grounding Hitchens' Razor in moral and intellectual duty.",
+      "status": "active",
+      "summary_5th_grader": "Philosopher W.K. Clifford said it's actually morally wrong to believe things without good evidence, because believing fake stuff makes you easily tricked and hurts society!"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "arg_anselm_ontological",
+  "title": "Anselmian Classical Ontological Argument",
+  "tier": "D",
+  "starRating": 2.5,
+  "description": "A structured branching graph of St. Anselm's Classical Ontological Argument (Proslogion 2 & 3), detailing 'that than which nothing greater can be conceived', Gaunilo's Perfect Island parody, Kant's predicate critique, Aquinas's epistemological objection, and modal necessity defenses.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Anselmian Core",
+      "title": "Anselmian Classical Ontological Argument (Proslogion 2)",
+      "summary": "Formulated by St. Anselm of Canterbury, God is defined as 'that than which nothing greater can be conceived' (TTNGCBC). Even the skeptic understands this concept in the mind (in intellectu). If TTNGCBC existed only in the mind, a greater being could be conceived that exists in reality (in re). Therefore, to remain the greatest conceivable being, God must exist both in the mind and in reality.",
+      "status": "active",
+      "summary_5th_grader": "Imagine the absolute ultimate superhero\u2014the most perfect, powerful, awesome being you could ever dream of! St. Anselm argued that if this ultimate being only existed in your head as an idea, an even MORE awesome superhero would be one that actually exists in real life! So to be the absolute greatest being possible, God HAS to exist in real life, not just in your imagination."
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 1,
+      "type": "stage_2",
+      "shortLabel": "Necessary Existence",
+      "title": "Proslogion 3: Necessary Existence Deduction (Stage 2)",
+      "summary": "Anselm extends the argument in Proslogion 3: a being whose non-existence is inconceivable (necessary being) is far greater than a being whose non-existence is conceivable (contingent being). Thus, TTNGCBC cannot even be conceived not to exist, possessing necessary existence by definition.",
+      "status": "active",
+      "summary_5th_grader": "Anselm took it a step further: a being that can NEVER stop existing or die is way greater than one that can fade away! So God doesn't just exist like a table or a car\u2014God exists in a way where it's impossible for Him to ever NOT exist."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Gaunilo's Island",
+      "title": "Gaunilo's Perfect Island Parody (Reductio)",
+      "summary": "Gaunilo of Marmoutier objects using the 'Lost Island' parody: one can conceive of the 'Island than which no greater island can be conceived.' By Anselm's logic, since existing in reality is greater than existing in mind alone, this perfect island must exist in reality, proving the logic overgenerates absurdities.",
+      "status": "active",
+      "summary_5th_grader": "A monk named Gaunilo said: imagine the most perfect tropical island with infinite coconut trees and golden beaches! By Anselm's logic, that island HAS to exist in real life, otherwise it wouldn't be the most perfect island. But that's silly\u2014you can't just wish an island into real life by defining it!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Intrinsic vs Extrinsic",
+      "title": "Anselm's Reply: Intrinsic vs. Extrinsic Perfections",
+      "summary": "Anselm replied that islands are contingent, material objects with extrinsic, open-ended qualities (you can always add more palm trees). 'That than which nothing greater can be conceived' applies strictly to a unique necessary being possessing intrinsic maximal perfections (omnipotence, omniscience, moral perfection).",
+      "status": "active",
+      "summary_5th_grader": "Anselm replied: islands are just physical stuff! You can always add one more tree or beach to an island, so there is no absolute 'maximum' island. But God isn't a physical thing\u2014God represents the absolute maximum of power, knowledge, and goodness."
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "No Maximum Ceiling",
+      "title": "Infinite Scales & Arbitrary Maximum Bounds",
+      "summary": "Modern critics (e.g., Graham Oppy, Howard Sobel) respond that even non-physical properties like power or knowledge might lack a non-arbitrary intrinsic maximum, or that combining maximal properties might introduce hidden logical contradictions.",
+      "status": "active",
+      "summary_5th_grader": "Modern thinkers argue: how do we know 'maximum smarts' or 'maximum power' has a ceiling? What if properties can just keep growing bigger forever, like numbers?"
+    },
+    {
+      "id": "5.1",
+      "parentId": "4.1",
+      "level": 5,
+      "type": "sub_sub_counter",
+      "shortLabel": "Bounded Greatness",
+      "title": "Plantinga's Bounded Maximal Greatness Response",
+      "summary": "Alvin Plantinga responds that maximal greatness has a logical ceiling: knowing all true propositions (omniscience) and having the power to perform all logically possible actions (omnipotence). These are non-arbitrary, logically bounded maximums.",
+      "status": "active",
+      "summary_5th_grader": "Plantinga answers: knowing everything true IS a real limit! You can't know more than 100% of all true facts. So God's power and knowledge have real logical ceilings."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Kant: Not a Predicate",
+      "title": "Immanuel Kant: 'Existence is Not a Real Predicate'",
+      "summary": "Immanuel Kant famously argued that existence is not a real predicate or property that adds conceptual content to a subject. Stating '100 thalers exist in my pocket' adds zero descriptive properties to '100 imaginary thalers'; it merely posits the subject in reality. Thus, existence cannot be defined into a concept.",
+      "status": "active",
+      "summary_5th_grader": "Famous philosopher Immanuel Kant said: saying something 'exists' doesn't add a new description to it! 100 real gold coins have the exact same description as 100 imaginary gold coins\u2014the real ones are just in your pocket. You can't list 'existence' as a feature to prove something is real."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Necessary Existence",
+      "title": "Necessary Existence IS a Real Predicate",
+      "summary": "Defenders (Norman Malcolm, Alvin Plantinga) respond that while contingent existence may not be a predicate, NECESSARY existence (the inability to fail to exist) IS a genuine logical property that distinguishes a necessary being from a contingent one.",
+      "status": "active",
+      "summary_5th_grader": "Defenders reply: regular existence might not be a description, but IMPOSSIBLE-TO-DESTROY existence definitely IS a special property! A being that CANNOT stop existing is fundamentally different from things that can fade away."
+    },
+    {
+      "id": "4.2",
+      "parentId": "3.2",
+      "level": 4,
+      "type": "sub_counter",
+      "shortLabel": "Begging Possibility",
+      "title": "Begging the Question on Metaphysical Possibility",
+      "summary": "Skeptics counter that attributing 'necessary existence' to a concept assumes that a necessary being is metaphysically possible, which is the very claim that needs empirical or logical demonstration.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say: just putting the label 'impossible to destroy' on an idea doesn't prove that such a being can actually exist in real life!"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Aquinas: A Posteriori",
+      "title": "Aquinas's Epistemological Objection (A Priori Rejection)",
+      "summary": "Thomas Aquinas rejected Anselm's argument, arguing that humans do not possess a direct, intuitive grasp of God's essence to reason a priori. We cannot know God's nature self-evidently; we must reason a posteriori from observed effects in the physical world to their First Cause.",
+      "status": "active",
+      "summary_5th_grader": "Thomas Aquinas disagreed with Anselm! Aquinas said human brains aren't smart enough to figure out God just by playing with word definitions. We have to look out at the real world (causes, design, physics) to prove God exists."
+    },
+    {
+      "id": "3.3",
+      "parentId": "2.3",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Rationalist Intuition",
+      "title": "Rationalist Defense of Innate Concepts",
+      "summary": "Rationalist philosophers (Descartes, Leibniz) reply that the human mind possesses innate, clear, and distinct ideas of perfection, allowing valid a priori metaphysical deductions independent of sensory observation.",
+      "status": "active",
+      "summary_5th_grader": "Rationalist thinkers reply: your mind DOES have built-in ideas about perfection and infinity! Analyzing true concepts in your mind is a valid way to discover reality."
+    },
+    {
+      "id": "2.4",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Conceivability Gap",
+      "title": "Linguistic Definition vs. Metaphysical Essence",
+      "summary": "Critics argue that defining a string of words ('that than which nothing greater can be conceived') does not prove the concept is free of hidden internal contradictions or that it maps onto a real metaphysical essence.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics point out: just stringing fancy words together doesn't mean the idea makes sense inside! You can say 'the highest prime number', but mathematically that's impossible."
+    },
+    {
+      "id": "3.4",
+      "parentId": "2.4",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Coherence Defense",
+      "title": "Logical Consistency of Maximal Divine Attributes",
+      "summary": "Theists respond by demonstrating that maximal power, knowledge, and moral goodness can be systematically formalized without logical paradoxes, establishing conceptual coherence.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: we CAN show that all of God's traits fit together without crashing into logical paradoxes, proving the idea is clean and coherent."
+    },
+    {
+      "id": "2.5",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Reverse Disproof",
+      "title": "Reverse Ontological Disproof (Parody Disproof)",
+      "summary": "Opponents argue: if it is conceivable that God does not exist, and what is conceivable is possible, then God's non-existence is possible. Since a necessary being must exist in all worlds or none, God exists in no world.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics turn the logic around: if we can easily imagine a world WITHOUT God, and imagining it means it's possible, then God's non-existence is possible. And if a necessary God CAN fail to exist, then He CANNOT exist anywhere!"
+    }
+  ]
+}
