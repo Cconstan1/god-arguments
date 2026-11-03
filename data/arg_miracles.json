@@ -12,9 +12,13 @@
       "type": "core_argument",
       "shortLabel": "Miracle Evidence Core",
       "title": "Documented Divine Intervention & Miracle Claims",
-      "summary": "Purported miracles\u2014such as unexplained medical healings verified by peer-reviewed panels (e.g. Lourdes Medical Bureau), weeping icons, or spontaneous resuscitations\u2014defy all known natural physical laws. Theists argue that when natural explanations are probabilistically impossible, the most reasonable conclusion is direct, intentional supernatural intervention.",
+      "summary": "Purported miracles—such as unexplained medical healings verified by peer-reviewed panels (e.g. Lourdes Medical Bureau), weeping icons, or spontaneous resuscitations—defy all known natural physical laws. Theists argue that when natural explanations are probabilistically impossible, the most reasonable conclusion is direct, intentional supernatural intervention.",
       "status": "active",
-      "summary_5th_grader": "Sometimes incredible things happen\u2014like someone instantly recovering from an incurable illness after prayer\u2014that doctors say is science-fiction impossible! Believers argue that when nature can't do something, God must have stepped in."
+      "summary_5th_grader": "Sometimes incredible things happen—like someone instantly recovering from an incurable illness after prayer—that doctors say is science-fiction impossible! Believers argue that when nature can't do something, God must have stepped in.",
+      "audio_urls": {
+        "female": "audio/arg_miracles_1.0_female.mp3",
+        "male": "audio/arg_miracles_1.0_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -25,7 +29,11 @@
       "title": "Hume's Principle & Epistemic Prior Probability",
       "summary": "Following David Hume's famous essay 'Of Miracles', no testimony is sufficient to establish a miracle unless the falsehood of the testimony would be more miraculous than the event itself. Because human error, deceit, exaggeration, and cognitive bias are common human occurrences, it is always epistemically more rational to believe the witness is mistaken or lying than that a law of nature was suspended.",
       "status": "active",
-      "summary_5th_grader": "The philosopher David Hume said: people make mistakes, trick themselves, or exaggerate all the time. Since humans lying or misremembering happens every day, it is always much smarter to guess that someone made a mistake than to believe a law of physics broke!"
+      "summary_5th_grader": "The philosopher David Hume said: people make mistakes, trick themselves, or exaggerate all the time. Since humans lying or misremembering happens every day, it is always much smarter to guess that someone made a mistake than to believe a law of physics broke!",
+      "audio_urls": {
+        "female": "audio/arg_miracles_2.1_female.mp3",
+        "male": "audio/arg_miracles_2.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -36,7 +44,11 @@
       "title": "God of the Gaps & Scientific Progress",
       "summary": "Labeling an unexplained event a 'miracle' commits the God of the Gaps fallacy. Historically, phenomena once attributed to divine action (lightning, disease, eclipses) were later fully explained by natural science. Unexplained medical anomalies reflect current scientific ignorance, not supernatural activity.",
       "status": "active",
-      "summary_5th_grader": "Long ago, people thought lightning was Zeus throwing spears. Later, science discovered electricity! Just because doctors don't understand a sudden healing today doesn't mean God did it\u2014it just means science hasn't figured it out yet."
+      "summary_5th_grader": "Long ago, people thought lightning was Zeus throwing spears. Later, science discovered electricity! Just because doctors don't understand a sudden healing today doesn't mean God did it—it just means science hasn't figured it out yet.",
+      "audio_urls": {
+        "female": "audio/arg_miracles_2.2_female.mp3",
+        "male": "audio/arg_miracles_2.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -47,7 +59,11 @@
       "title": "Selective Miracles & Moral Inconsistency",
       "summary": "The divine intervention claim creates severe theological contradictions. If God intervenes to heal minor ailments or display weeping statues, His failure to intervene during massive atrocities (e.g., child cancer, genocide, natural disasters) implies either divine impotence, arbitrary favoritism, or callous indifference.",
       "status": "active",
-      "summary_5th_grader": "If God can magically cure one person's knee pain or make a statue cry tears, why doesn't God step in to stop terrible things like childhood cancer or wars? A God who does tiny parlor tricks while ignoring huge disasters seems unfair or uncaring."
+      "summary_5th_grader": "If God can magically cure one person's knee pain or make a statue cry tears, why doesn't God step in to stop terrible things like childhood cancer or wars? A God who does tiny parlor tricks while ignoring huge disasters seems unfair or uncaring.",
+      "audio_urls": {
+        "female": "audio/arg_miracles_2.3_female.mp3",
+        "male": "audio/arg_miracles_2.3_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -58,7 +74,11 @@
       "title": "Methodological Rigor & Medical Bureau Vetting",
       "summary": "Modern miracle claims (such as the 70 official Lourdes healings vetted by atheist and secular medical panels) undergo decades of rigorous testing, requiring instant, permanent, and medically inexplicable cures. Dismissing all testimony a priori as Hume suggests is an unscientific bias that begs the question in favor of physicalism.",
       "status": "active",
-      "summary_5th_grader": "Supporters say some miracle cases are checked by teams of secular doctors for years using X-rays and medical records. Completely ignoring all evidence just because you don't believe in miracles isn't being open-minded\u2014it's ignoring real facts!"
+      "summary_5th_grader": "Supporters say some miracle cases are checked by teams of secular doctors for years using X-rays and medical records. Completely ignoring all evidence just because you don't believe in miracles isn't being open-minded—it's ignoring real facts!",
+      "audio_urls": {
+        "female": "audio/arg_miracles_3.1_female.mp3",
+        "male": "audio/arg_miracles_3.1_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -69,7 +89,11 @@
       "title": "Distinction Between Mechanism and Agency",
       "summary": "Explaining how a physiological change occurs (mechanism) does not disprove who caused it (agency). If God uses or alters physical mechanisms to produce a precise, meaningful answer to prayer, natural description does not negate divine intent.",
       "status": "active",
-      "summary_5th_grader": "If a pool player hits a ball into a pocket, physics explains how the ball rolled, but the player is the one who took the shot! Finding a physical process in a healing doesn't mean God didn't cause it."
+      "summary_5th_grader": "If a pool player hits a ball into a pocket, physics explains how the ball rolled, but the player is the one who took the shot! Finding a physical process in a healing doesn't mean God didn't cause it.",
+      "audio_urls": {
+        "female": "audio/arg_miracles_3.2_female.mp3",
+        "male": "audio/arg_miracles_3.2_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -80,7 +104,11 @@
       "title": "Higher-Order Divine Purpose & Predictable Natural Laws",
       "summary": "Theists respond that divine interventions are rare signs intended to reveal spiritual truths rather than replace the stable, predictable natural order necessary for human moral agency. Constant intervention would destroy moral consequences and scientific predictability.",
       "status": "active",
-      "summary_5th_grader": "If God stepped in to change physics every second to stop every mistake, the world would be chaotic and no one could learn right from wrong! Miracles are meant to be rare special signs, not daily life."
+      "summary_5th_grader": "If God stepped in to change physics every second to stop every mistake, the world would be chaotic and no one could learn right from wrong! Miracles are meant to be rare special signs, not daily life.",
+      "audio_urls": {
+        "female": "audio/arg_miracles_3.3_female.mp3",
+        "male": "audio/arg_miracles_3.3_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -91,7 +119,11 @@
       "title": "Spontaneous Remission & Confirmation Bias",
       "summary": "Skeptics note that out of millions of pilgrims, a handful of unexplained remissions matches expected statistical anomalies (spontaneous regression in oncology). Millions pray without result, and positive cases are retroactively singled out due to confirmation bias.",
       "status": "active",
-      "summary_5th_grader": "Out of millions of sick people who go to holy sites, a tiny few get better naturally\u2014which happens in ordinary hospitals too! People only remember the rare ones who got better and ignore the millions who didn't."
+      "summary_5th_grader": "Out of millions of sick people who go to holy sites, a tiny few get better naturally—which happens in ordinary hospitals too! People only remember the rare ones who got better and ignore the millions who didn't.",
+      "audio_urls": {
+        "female": "audio/arg_miracles_4.1_female.mp3",
+        "male": "audio/arg_miracles_4.1_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -102,7 +134,11 @@
       "title": "The Arbitrary Boundary Problem",
       "summary": "The 'predictable order' defense fails to explain why divine intervention is moral in trivial cases (e.g. finding lost keys or mild sickness) but immoral if applied to prevent catastrophic suffering. The boundary line for divine intervention remains arbitrarily defendable only by divine hiddenness excuses.",
       "status": "active",
-      "summary_5th_grader": "It still doesn't make sense why God would intervene for minor things while staying silent during huge tragedies. Saying 'God has mysterious reasons' isn't an answer\u2014it's just admitting we can't explain it."
+      "summary_5th_grader": "It still doesn't make sense why God would intervene for minor things while staying silent during huge tragedies. Saying 'God has mysterious reasons' isn't an answer—it's just admitting we can't explain it.",
+      "audio_urls": {
+        "female": "audio/arg_miracles_4.2_female.mp3",
+        "male": "audio/arg_miracles_4.2_male.mp3"
+      }
     }
   ]
 }

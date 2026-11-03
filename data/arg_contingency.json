@@ -236,7 +236,11 @@
       "title": "Gratuitous Evil Objection to Stage 2",
       "summary": "Skeptics argue that if the necessary being is an all-good, all-powerful God, the existence of vast, gratuitous evolutionary and moral suffering contradicts this divine nature.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue: if the 'must-exist' creator is all-good and super-powerful, why is there so much painful sickness, animal suffering, and bad stuff in the world?"
+      "summary_5th_grader": "Skeptics argue: if the 'must-exist' creator is all-good and super-powerful, why is there so much painful sickness, animal suffering, and bad stuff in the world?",
+      "audio_urls": {
+        "female": "audio/arg_contingency_2.4_female.mp3",
+        "male": "audio/arg_contingency_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -247,7 +251,11 @@
       "title": "Greater Goods, Free Will, & Skeptical Theism",
       "summary": "Theists respond that suffering is necessary for higher-order virtues (bravery, compassion) or human freedom, or that humans lack the cognitive capacity to judge divine reasons (Skeptical Theism).",
       "status": "active",
-      "summary_5th_grader": "Defenders explain: some hardships allow people to learn bravery and kindness, and maybe God sees the big picture that tiny humans can't fully understand yet."
+      "summary_5th_grader": "Defenders explain: some hardships allow people to learn bravery and kindness, and maybe God sees the big picture that tiny humans can't fully understand yet.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_3.4_female.mp3",
+        "male": "audio/arg_contingency_3.4_male.mp3"
+      }
     },
     {
       "id": "4.4",
@@ -258,7 +266,11 @@
       "title": "Modal Argument from Possible Evil (Carl Brownson)",
       "summary": "Skeptics counter with modal logic: it is at least metaphysically possible for a world of pure gratuitous evil to exist. If such a world is possible, God fails to exist in that world, proving God is not a necessary being.",
       "status": "active",
-      "summary_5th_grader": "Skeptics use logic rules: it's logically possible for a world filled with total suffering to exist. But God couldn't exist in such a world, so God can't be a 'must-exist in every world' being!"
+      "summary_5th_grader": "Skeptics use logic rules: it's logically possible for a world filled with total suffering to exist. But God couldn't exist in such a world, so God can't be a 'must-exist in every world' being!",
+      "audio_urls": {
+        "female": "audio/arg_contingency_4.4_female.mp3",
+        "male": "audio/arg_contingency_4.4_male.mp3"
+      }
     },
     {
       "id": "5.4",
@@ -269,7 +281,11 @@
       "title": "Symmetry Breakers & Necessity of Divine Goodness",
       "summary": "Defenders challenge the conceivability premise of pure evil worlds, arguing that evil is a privation of good, or that God's existence is a necessary condition for any modal world to have reality.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: total pure evil can't exist on its own because badness is just spoiled goodness! You can't have a shadow without light."
+      "summary_5th_grader": "Defenders reply: total pure evil can't exist on its own because badness is just spoiled goodness! You can't have a shadow without light.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_5.4_female.mp3",
+        "male": "audio/arg_contingency_5.4_male.mp3"
+      }
     },
     {
       "id": "6.4",
@@ -280,7 +296,11 @@
       "title": "Terminal Node: Modal Evil & Divine Attributes",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this path! What do you think about God and suffering?"
+      "summary_5th_grader": "End of this path! What do you think about God and suffering?",
+      "audio_urls": {
+        "female": "audio/arg_contingency_6.4_female.mp3",
+        "male": "audio/arg_contingency_6.4_male.mp3"
+      }
     },
     {
       "id": "2.5",
@@ -291,7 +311,11 @@
       "title": "Gap Fallacy / Impersonal First Cause Objection",
       "summary": "Skeptics argue that even if a necessary foundation exists, jumping to a personal God with a mind is an argument from ignorance. The cause could be an unmindful metaphysical principle.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: even if something 'must exist,' why call it God? It could just be a mindless force or cosmic law with no thoughts or feelings."
+      "summary_5th_grader": "Skeptics say: even if something 'must exist,' why call it God? It could just be a mindless force or cosmic law with no thoughts or feelings.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_2.5_female.mp3",
+        "male": "audio/arg_contingency_2.5_male.mp3"
+      }
     },
     {
       "id": "3.5",
@@ -302,7 +326,11 @@
       "title": "Personal Agency & Free Choice",
       "summary": "Defenders argue that an eternal, unchanging cause can only produce a temporal, finite effect if it possesses libertarian free will to choose to initiate creation without prior deterministic triggers.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: if the cause is timeless and never changes, the ONLY way it could suddenly make a universe start at a specific moment is if it had a mind and CHOSE to do it!"
+      "summary_5th_grader": "Defenders answer: if the cause is timeless and never changes, the ONLY way it could suddenly make a universe start at a specific moment is if it had a mind and CHOSE to do it!",
+      "audio_urls": {
+        "female": "audio/arg_contingency_3.5_female.mp3",
+        "male": "audio/arg_contingency_3.5_male.mp3"
+      }
     },
     {
       "id": "4.5",
@@ -313,7 +341,11 @@
       "title": "Indeterministic Impersonal Causation",
       "summary": "Critics (e.g. Joe Schmidt) respond that impersonal indeterministic mechanisms (like quantum decay) can yield spontaneous temporal effects without needing personal free will.",
       "status": "active",
-      "summary_5th_grader": "Skeptics counter: quantum particles pop up randomly without a conscious mind making a choice! So an impersonal cause could cause a universe spontaneously too."
+      "summary_5th_grader": "Skeptics counter: quantum particles pop up randomly without a conscious mind making a choice! So an impersonal cause could cause a universe spontaneously too.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_4.5_female.mp3",
+        "male": "audio/arg_contingency_4.5_male.mp3"
+      }
     },
     {
       "id": "5.5",
@@ -324,7 +356,11 @@
       "title": "Terminal Node: Agent Causality & Spontaneity",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this path! What do you think about whether the First Cause needs a mind?"
+      "summary_5th_grader": "End of this path! What do you think about whether the First Cause needs a mind?",
+      "audio_urls": {
+        "female": "audio/arg_contingency_5.5_female.mp3",
+        "male": "audio/arg_contingency_5.5_male.mp3"
+      }
     }
   ]
 }

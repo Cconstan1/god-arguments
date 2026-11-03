@@ -14,7 +14,11 @@
       "title": "Argument from Divine Hiddenness (Schellenberg)",
       "summary": "If a perfectly loving God exists, He would desire a meaningful personal relationship with all humans capable of it. A necessary condition for relationship is belief in God's existence. Therefore, if non-resistant non-belief exists (sincere people who want God but lack belief), a perfectly loving God does not exist.",
       "status": "active",
-      "summary_5th_grader": "If a super loving God wanted to be best friends with everyone, He would make sure everybody knows He is real! But since there are good people who sincerely look for God and can't find any proof, a loving God must be hiding or not there."
+      "summary_5th_grader": "If a super loving God wanted to be best friends with everyone, He would make sure everybody knows He is real! But since there are good people who sincerely look for God and can't find any proof, a loving God must be hiding or not there.",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_1.0_female.mp3",
+        "male": "audio/arg_divine_hiddenness_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Belief as Prerequisite for Divine-Human Relationship",
       "summary": "Personal relationship requires mutual awareness. One cannot trust, love, or commune with an entity whose existence one sincerely doubts. Thus, God would ensure sufficient evidence for any non-resistant person.",
       "status": "active",
-      "summary_5th_grader": "You can't be close friends with someone if you aren't even sure they exist! So if God wants us to know Him, He has to give us enough evidence to be sure He is really there."
+      "summary_5th_grader": "You can't be close friends with someone if you aren't even sure they exist! So if God wants us to know Him, He has to give us enough evidence to be sure He is really there.",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_1.1_female.mp3",
+        "male": "audio/arg_divine_hiddenness_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Skeptical Theism / Greater Good Reasons for Silence",
       "summary": "Theists argue God may have hidden, beyond-human reasons for allowing period of silence, such as preventing human complacency or fostering deeper spiritual maturity.",
       "status": "active",
-      "summary_5th_grader": "Theists say: maybe God has secret, super smart reasons for staying quiet that our small human brains just can't understand yet."
+      "summary_5th_grader": "Theists say: maybe God has secret, super smart reasons for staying quiet that our small human brains just can't understand yet.",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_2.1_female.mp3",
+        "male": "audio/arg_divine_hiddenness_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Hiddenness Destroys the Relational Goal",
       "summary": "Schellenberg replies that while God might allow pain for greater goods, He would never allow non-belief for greater goods, because non-belief completely prevents the ultimate good: divine-human relationship.",
       "status": "active",
-      "summary_5th_grader": "Skeptics reply: secret reasons don't work here! Staying completely silent stops the main goal of making friends with us in the first place."
+      "summary_5th_grader": "Skeptics reply: secret reasons don't work here! Staying completely silent stops the main goal of making friends with us in the first place.",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_3.1_female.mp3",
+        "male": "audio/arg_divine_hiddenness_3.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -58,7 +74,11 @@
       "title": "Free Will & Overwhelming Presence Defense",
       "summary": "Swinburne argues that if God's presence were unmistakably obvious, human freedom to choose good or evil would be coerced by fear of immediate judgment.",
       "status": "active",
-      "summary_5th_grader": "Some say: if God showed up in the sky like a giant superhero, everybody would be too scared to do anything wrong, and we wouldn't have real free choice!"
+      "summary_5th_grader": "Some say: if God showed up in the sky like a giant superhero, everybody would be too scared to do anything wrong, and we wouldn't have real free choice!",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_2.2_female.mp3",
+        "male": "audio/arg_divine_hiddenness_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -69,7 +89,11 @@
       "title": "Knowledge of Existence is Not Ethical Coercion",
       "summary": "Knowing a parent or judge exists does not destroy free choice. Furthermore, Satan and the angels knew God existed and still retained the free choice to rebel.",
       "status": "active",
-      "summary_5th_grader": "Defenders counter: knowing your parents exist doesn't stop you from breaking their rules! Even the devil knows God exists, so knowing isn't forcing."
+      "summary_5th_grader": "Defenders counter: knowing your parents exist doesn't stop you from breaking their rules! Even the devil knows God exists, so knowing isn't forcing.",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_3.2_female.mp3",
+        "male": "audio/arg_divine_hiddenness_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -80,7 +104,11 @@
       "title": "Presuppositional / Paulinian Resistance Claim (Romans 1)",
       "summary": "Some theologians claim that non-resistant non-belief does not actually exist; all non-believers are secretly suppressing divine truth due to pride or moral preference.",
       "status": "active",
-      "summary_5th_grader": "Some religious thinkers argue that deep down, nobody is genuinely seeking God\u2014they claim everyone secretly knows God exists but wants to act naughty."
+      "summary_5th_grader": "Some religious thinkers argue that deep down, nobody is genuinely seeking God—they claim everyone secretly knows God exists but wants to act naughty.",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_2.3_female.mp3",
+        "male": "audio/arg_divine_hiddenness_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -91,7 +119,11 @@
       "title": "Empirical Reality of Sincere Deconstruction & Painful Agnosticism",
       "summary": "Millions of former believers actively pray, weep, and beg God for a sign during deconstruction, suffering deep psychological distress when no response comes.",
       "status": "active",
-      "summary_5th_grader": "Skeptics reply: that's not true or fair! Millions of people cry, pray, and beg God for a sign every day while losing their faith, feeling totally abandoned."
+      "summary_5th_grader": "Skeptics reply: that's not true or fair! Millions of people cry, pray, and beg God for a sign every day while losing their faith, feeling totally abandoned.",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_3.3_female.mp3",
+        "male": "audio/arg_divine_hiddenness_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -102,7 +134,11 @@
       "title": "Soul-Making Value of the Search",
       "summary": "Pascal and Hick argue that God hides so humans must actively search, building moral determination, humility, and desire for truth through struggle.",
       "status": "active",
-      "summary_5th_grader": "Others say: hiding makes us play hide-and-seek! Searching hard for God makes us work harder, stay humble, and appreciate the truth more when we find it."
+      "summary_5th_grader": "Others say: hiding makes us play hide-and-seek! Searching hard for God makes us work harder, stay humble, and appreciate the truth more when we find it.",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_2.4_female.mp3",
+        "male": "audio/arg_divine_hiddenness_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -113,7 +149,11 @@
       "title": "Silence Causes Despair, Not Soul-Making",
       "summary": "Prolonged unanswered silence frequently leads to disillusionment, trauma, and moral despair rather than spiritual growth, failing as a pedagogical tool.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: if a parent hides from a little kid in a dark woods for years, the kid doesn't grow stronger\u2014they get terrified and give up!"
+      "summary_5th_grader": "Defenders answer: if a parent hides from a little kid in a dark woods for years, the kid doesn't grow stronger—they get terrified and give up!",
+      "audio_urls": {
+        "female": "audio/arg_divine_hiddenness_3.4_female.mp3",
+        "male": "audio/arg_divine_hiddenness_3.4_male.mp3"
+      }
     }
   ]
 }

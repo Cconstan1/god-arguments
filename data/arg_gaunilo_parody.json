@@ -12,9 +12,13 @@
       "type": "core_argument",
       "shortLabel": "Gaunilo Parody Core",
       "title": "Gaunilo's Lost Island Parody & Overgeneration Reductio",
-      "summary": "Formulated in 1079 AD by the Benedictine monk Gaunilo of Marmoutier in 'In Behalf of the Fool', the argument serves as a classic reductio ad absurdum against Anselm's Ontological Argument. Gaunilo invited readers to conceive of an unknown island\u2014'the island than which no greater can be conceived' (the Lost Island). Applying Anselm's logic: if this supreme island existed only in the mind, a greater island could be conceived that exists in reality; therefore, the Lost Island must exist in reality. Since it is manifestly absurd to 'define' a physical island into existence merely by positing its mental perfection, Gaunilo demonstrated that ontological reasoning suffers from fatal overgeneration\u2014proving that pure conceptual definitions cannot bridge the logical gulf to extramental existence.",
+      "summary": "Formulated in 1079 AD by the Benedictine monk Gaunilo of Marmoutier in 'In Behalf of the Fool', the argument serves as a classic reductio ad absurdum against Anselm's Ontological Argument. Gaunilo invited readers to conceive of an unknown island—'the island than which no greater can be conceived' (the Lost Island). Applying Anselm's logic: if this supreme island existed only in the mind, a greater island could be conceived that exists in reality; therefore, the Lost Island must exist in reality. Since it is manifestly absurd to 'define' a physical island into existence merely by positing its mental perfection, Gaunilo demonstrated that ontological reasoning suffers from fatal overgeneration—proving that pure conceptual definitions cannot bridge the logical gulf to extramental existence.",
       "status": "active",
-      "summary_5th_grader": "Imagine saying: 'I can think of the most perfect tropical island ever created\u2014with free ice cream, perfect beach weather, and unlimited games. If this island only existed in my head, it wouldn't be perfect. So it MUST exist in real life!' A monk named Gaunilo pointed out that you can't just define a magical island into existence using mind-tricks, so using that same mind-trick to prove God exists doesn't work either!"
+      "summary_5th_grader": "Imagine saying: 'I can think of the most perfect tropical island ever created—with free ice cream, perfect beach weather, and unlimited games. If this island only existed in my head, it wouldn't be perfect. So it MUST exist in real life!' A monk named Gaunilo pointed out that you can't just define a magical island into existence using mind-tricks, so using that same mind-trick to prove God exists doesn't work either!",
+      "audio_urls": {
+        "female": "audio/arg_gaunilo_parody_1.0_female.mp3",
+        "male": "audio/arg_gaunilo_parody_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -23,9 +27,13 @@
       "type": "rebuttal",
       "shortLabel": "Anselm Asymmetry Defense",
       "title": "Anselm's Asymmetry & Intrinsic Maxima Distinction",
-      "summary": "Anselm (in his response to Gaunilo) and later philosophers like Alvin Plantinga argued that Gaunilo's island parody fails because of a fundamental asymmetry between islands and God. An 'island' is a contingent physical object that lacks an intrinsic maximum or upper bound of perfection\u2014one can always conceive of an island with one more palm tree, clearer water, or more diamonds. In contrast, 'that than which nothing greater can be conceived' applies strictly to a Necessary Being possessing maximal, non-scalar perfections (such as total omniscience, omnipotence, and necessary existence) that have logical intrinsic limits.",
+      "summary": "Anselm (in his response to Gaunilo) and later philosophers like Alvin Plantinga argued that Gaunilo's island parody fails because of a fundamental asymmetry between islands and God. An 'island' is a contingent physical object that lacks an intrinsic maximum or upper bound of perfection—one can always conceive of an island with one more palm tree, clearer water, or more diamonds. In contrast, 'that than which nothing greater can be conceived' applies strictly to a Necessary Being possessing maximal, non-scalar perfections (such as total omniscience, omnipotence, and necessary existence) that have logical intrinsic limits.",
       "status": "active",
-      "summary_5th_grader": "Supporters of the God argument replied: 'Islands can always get better! You can always add one more palm tree or one more waterslide, so there is no such thing as a 'most perfect island.' But God's traits\u2014like knowing everything or being everywhere\u2014have a natural maximum limit. So the mind-trick only applies to God, not islands!'"
+      "summary_5th_grader": "Supporters of the God argument replied: 'Islands can always get better! You can always add one more palm tree or one more waterslide, so there is no such thing as a 'most perfect island.' But God's traits—like knowing everything or being everywhere—have a natural maximum limit. So the mind-trick only applies to God, not islands!'",
+      "audio_urls": {
+        "female": "audio/arg_gaunilo_parody_1.1_female.mp3",
+        "male": "audio/arg_gaunilo_parody_1.1_male.mp3"
+      }
     },
     {
       "id": "1.1.1",
@@ -34,9 +42,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Generalized Overgeneration",
       "title": "Generalized Parodies & Intrinsic Maxima Reformulations",
-      "summary": "Skeptical philosophers (including Douglas Gasking, Peter Millican, and Graham Oppy) show that Gaunilo's critique can easily be reformulated to bypass the 'island' objection. By framing parodies around non-physical, intrinsically maximal, or logically necessary entities\u2014such as the 'Maximally Great Universe-Creating Pixie', the 'Maximally Evil Being', or the 'Most Perfect Necessary Island'\u2014the same ontological logic forces an infinite array of bizarre, mutually exclusive entities into necessary existence. This confirms that Anselm's formula still suffers from catastrophic overgeneration.",
+      "summary": "Skeptical philosophers (including Douglas Gasking, Peter Millican, and Graham Oppy) show that Gaunilo's critique can easily be reformulated to bypass the 'island' objection. By framing parodies around non-physical, intrinsically maximal, or logically necessary entities—such as the 'Maximally Great Universe-Creating Pixie', the 'Maximally Evil Being', or the 'Most Perfect Necessary Island'—the same ontological logic forces an infinite array of bizarre, mutually exclusive entities into necessary existence. This confirms that Anselm's formula still suffers from catastrophic overgeneration.",
       "status": "active",
-      "summary_5th_grader": "Skeptics answered back: 'Fine, if you don't like islands, what about a Maximally Great Magic Space Pixie, or a Maximally Evil Monster God? If your rule lets you define God into existence, it also lets us define magical pixies and evil monsters into existence! That proves the rule is broken.'"
+      "summary_5th_grader": "Skeptics answered back: 'Fine, if you don't like islands, what about a Maximally Great Magic Space Pixie, or a Maximally Evil Monster God? If your rule lets you define God into existence, it also lets us define magical pixies and evil monsters into existence! That proves the rule is broken.'",
+      "audio_urls": {
+        "female": "audio/arg_gaunilo_parody_1.1.1_female.mp3",
+        "male": "audio/arg_gaunilo_parody_1.1.1_male.mp3"
+      }
     },
     {
       "id": "1.2",
@@ -47,7 +59,11 @@
       "title": "Modal Category Distinction: Contingent vs. Necessary Objects",
       "summary": "Modern modal defenders (such as Plantinga) contend that Gaunilo's parody confuses contingent physical objects with necessary metaphysical realities. A physical island is composed of contingent matter, meaning it is logically possible for it not to exist in any given world. Necessary existence cannot be coherently ascribed to contingent matter without creating a logical contradiction. Therefore, ontological arguments apply exclusively to a unique class of being whose non-existence is logically impossible.",
       "status": "active",
-      "summary_5th_grader": "Defenders argued that physical things made of dirt and water are always temporary and optional. You can't force a temporary thing to be permanent just by giving it a fancy name. God is completely different because God isn't made of physical parts, so God is the only thing that COULD be necessary."
+      "summary_5th_grader": "Defenders argued that physical things made of dirt and water are always temporary and optional. You can't force a temporary thing to be permanent just by giving it a fancy name. God is completely different because God isn't made of physical parts, so God is the only thing that COULD be necessary.",
+      "audio_urls": {
+        "female": "audio/arg_gaunilo_parody_1.2_female.mp3",
+        "male": "audio/arg_gaunilo_parody_1.2_male.mp3"
+      }
     },
     {
       "id": "1.2.1",
@@ -56,9 +72,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Kantian Predicate Critique",
       "title": "Kant's Critique: Existence is Not a Real Predicate",
-      "summary": "Immanuel Kant's classic objection reinforces Gaunilo's parody by targeting the core assumption of all ontological reasoning: that existence is a 'perfection' or 'predicate' that adds content to a concept. Kant demonstrated that stating an entity 'exists' does not add any qualitative features to the mental concept of that entity\u2014it merely asserts that the concept has an instantiation in reality. Stating 'a necessary island exists' or 'a necessary God exists' smuggles the conclusion into the concept without providing a logical reason why the concept must be instantiated.",
+      "summary": "Immanuel Kant's classic objection reinforces Gaunilo's parody by targeting the core assumption of all ontological reasoning: that existence is a 'perfection' or 'predicate' that adds content to a concept. Kant demonstrated that stating an entity 'exists' does not add any qualitative features to the mental concept of that entity—it merely asserts that the concept has an instantiation in reality. Stating 'a necessary island exists' or 'a necessary God exists' smuggles the conclusion into the concept without providing a logical reason why the concept must be instantiated.",
       "status": "active",
-      "summary_5th_grader": "Famous philosopher Immanuel Kant explained why the whole argument falls apart: saying something 'exists' doesn't actually describe what it is like! Saying 'I have 100 dollars in my head' and 'I have 100 dollars in my pocket' describes the exact same amount of money. You can't make something real just by adding the word 'real' to your mental shopping list!"
+      "summary_5th_grader": "Famous philosopher Immanuel Kant explained why the whole argument falls apart: saying something 'exists' doesn't actually describe what it is like! Saying 'I have 100 dollars in my head' and 'I have 100 dollars in my pocket' describes the exact same amount of money. You can't make something real just by adding the word 'real' to your mental shopping list!",
+      "audio_urls": {
+        "female": "audio/arg_gaunilo_parody_1.2.1_female.mp3",
+        "male": "audio/arg_gaunilo_parody_1.2.1_male.mp3"
+      }
     },
     {
       "id": "1.3",
@@ -69,7 +89,11 @@
       "title": "Synthesis: The Permanent Epistemic Check on A Priori Realism",
       "summary": "Gaunilo's parody endures as one of philosophy's most influential epistemic reality-checks. Whether or not Anselm's specific formulation can be defended against the 'island' example, Gaunilo permanently established a foundational rule of philosophical inquiry: pure conceptual definitions, linguistic manipulations, and a priori mental concepts cannot logically establish existential claims about reality without independent synthetic or empirical justification.",
       "status": "active",
-      "summary_5th_grader": "In the end, Gaunilo's story taught philosophers an important rule: no matter how clever your word games or thoughts are, thinking really hard about something will never magically turn it into a real, living thing without real proof!"
+      "summary_5th_grader": "In the end, Gaunilo's story taught philosophers an important rule: no matter how clever your word games or thoughts are, thinking really hard about something will never magically turn it into a real, living thing without real proof!",
+      "audio_urls": {
+        "female": "audio/arg_gaunilo_parody_1.3_female.mp3",
+        "male": "audio/arg_gaunilo_parody_1.3_male.mp3"
+      }
     }
   ]
 }

@@ -12,9 +12,13 @@
       "type": "core_argument",
       "shortLabel": "Category Error Core",
       "title": "Category Error in Timeless Immaterial Causation",
-      "summary": "The objection, famously rooted in Gilbert Ryle's critique of Cartesian dualism and modern philosophical logic, asserts that applying concepts derived exclusively from physical, temporal experience\u2014such as 'cause', 'effect', 'action', 'choice', and 'agency'\u2014to a timeless, immaterial, non-physical realm commits a fundamental category error. Causation in physics and everyday logic inherently involves temporal sequence (a cause preceding or coinciding with an effect) and energy transfer. Claiming an immaterial mind 'causes' physical space-time into existence without time, space, or material interaction mixes incompatible logical categories.",
+      "summary": "The objection, famously rooted in Gilbert Ryle's critique of Cartesian dualism and modern philosophical logic, asserts that applying concepts derived exclusively from physical, temporal experience—such as 'cause', 'effect', 'action', 'choice', and 'agency'—to a timeless, immaterial, non-physical realm commits a fundamental category error. Causation in physics and everyday logic inherently involves temporal sequence (a cause preceding or coinciding with an effect) and energy transfer. Claiming an immaterial mind 'causes' physical space-time into existence without time, space, or material interaction mixes incompatible logical categories.",
       "status": "active",
-      "summary_5th_grader": "Imagine trying to ask 'What color is the number 5?' or 'How heavy is a secret?' Numbers don't have colors and secrets don't have weight! Asking those questions mixes up different types of things. The category error objection says that asking 'What caused time and space before time existed?' or 'How does a floating mind push physical matter?' mixes up words like 'cause' and 'action' that only make sense inside our physical world."
+      "summary_5th_grader": "Imagine trying to ask 'What color is the number 5?' or 'How heavy is a secret?' Numbers don't have colors and secrets don't have weight! Asking those questions mixes up different types of things. The category error objection says that asking 'What caused time and space before time existed?' or 'How does a floating mind push physical matter?' mixes up words like 'cause' and 'action' that only make sense inside our physical world.",
+      "audio_urls": {
+        "female": "audio/arg_category_error_1.0_female.mp3",
+        "male": "audio/arg_category_error_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -23,9 +27,13 @@
       "type": "rebuttal",
       "shortLabel": "Theist Response",
       "title": "Simultaneous Causation & Analogical Agency",
-      "summary": "Theists respond (notably William Lane Craig and Thomistic philosophers) that causation does not logically require temporal sequence or physical energy transfer. First, simultaneous causation\u2014where a cause and effect occur at the exact same instant (like a heavy ball resting on a cushion causing a depression)\u2014shows that priority can be causal rather than temporal. God's creative act is timeless at T=0 and temporal simultaneously with the universe's beginning. Second, personal agency (willing an effect) is an analogical concept, where mental intention directly grounds efficient causation without needing physical contact mechanics.",
+      "summary": "Theists respond (notably William Lane Craig and Thomistic philosophers) that causation does not logically require temporal sequence or physical energy transfer. First, simultaneous causation—where a cause and effect occur at the exact same instant (like a heavy ball resting on a cushion causing a depression)—shows that priority can be causal rather than temporal. God's creative act is timeless at T=0 and temporal simultaneously with the universe's beginning. Second, personal agency (willing an effect) is an analogical concept, where mental intention directly grounds efficient causation without needing physical contact mechanics.",
       "status": "active",
-      "summary_5th_grader": "Supporters of God answer that a cause doesn't always have to happen before its effect! Think of a heavy bowling ball sitting on a soft pillow: the ball causes the dip in the pillow at the exact same instant, not before. They also argue that a mind deciding to do something is a special kind of cause that doesn't need physical gears or levers to work."
+      "summary_5th_grader": "Supporters of God answer that a cause doesn't always have to happen before its effect! Think of a heavy bowling ball sitting on a soft pillow: the ball causes the dip in the pillow at the exact same instant, not before. They also argue that a mind deciding to do something is a special kind of cause that doesn't need physical gears or levers to work.",
+      "audio_urls": {
+        "female": "audio/arg_category_error_1.1_female.mp3",
+        "male": "audio/arg_category_error_1.1_male.mp3"
+      }
     },
     {
       "id": "1.1.1",
@@ -36,7 +44,11 @@
       "title": "Coincidence vs. Sequence & Mental Physics",
       "summary": "Critics counter that 'simultaneous causation' in physical examples (like the ball on a cushion) still relies on continuous temporal physical forces (gravity, molecular compression) operating over time. Without time, the concept of 'simultaneous' is meaningless because simultaneity is itself a temporal relation. Furthermore, claiming a purely immaterial mind can 'will' physical matter into existence without any physical interface or energy transfer invokes a 'magic word' rather than an explanatory mechanism, leaving the mental-physical interaction problem unresolved.",
       "status": "active",
-      "summary_5th_grader": "Skeptics reply that even the bowling ball on the pillow needs time and gravity pushing down to work! Without time, calling things 'at the same time' doesn't make any sense. Plus, saying an invisible mind just 'willed' the universe to appear doesn't explain how a mind pushes physical stuff any more than saying 'magic' did it."
+      "summary_5th_grader": "Skeptics reply that even the bowling ball on the pillow needs time and gravity pushing down to work! Without time, calling things 'at the same time' doesn't make any sense. Plus, saying an invisible mind just 'willed' the universe to appear doesn't explain how a mind pushes physical stuff any more than saying 'magic' did it.",
+      "audio_urls": {
+        "female": "audio/arg_category_error_1.1.1_female.mp3",
+        "male": "audio/arg_category_error_1.1.1_male.mp3"
+      }
     },
     {
       "id": "1.2",
@@ -45,9 +57,13 @@
       "type": "rebuttal",
       "shortLabel": "Abstract Entity Defense",
       "title": "Mathematical & Abstract Entities Analogy",
-      "summary": "Proponents of divine agency point out that non-physical, timeless entities are routinely used in philosophy and mathematics\u2014such as numbers, sets, and logical truths\u2014which exert structural necessity over reality. If abstract structures can logically condition physical reality without spatial presence, an unembodied mind can similarly ground physical existence.",
+      "summary": "Proponents of divine agency point out that non-physical, timeless entities are routinely used in philosophy and mathematics—such as numbers, sets, and logical truths—which exert structural necessity over reality. If abstract structures can logically condition physical reality without spatial presence, an unembodied mind can similarly ground physical existence.",
       "status": "active",
-      "summary_5th_grader": "Supporters also point to math: numbers and geometry aren't physical objects you can touch, but their rules still control how real bridges stand up and planets orbit! If invisible math rules can affect the physical world, an invisible God can too."
+      "summary_5th_grader": "Supporters also point to math: numbers and geometry aren't physical objects you can touch, but their rules still control how real bridges stand up and planets orbit! If invisible math rules can affect the physical world, an invisible God can too.",
+      "audio_urls": {
+        "female": "audio/arg_category_error_1.2_female.mp3",
+        "male": "audio/arg_category_error_1.2_male.mp3"
+      }
     },
     {
       "id": "1.2.1",
@@ -56,9 +72,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Causal Inefficacy Counter",
       "title": "Causal Inefficacy of Abstracta",
-      "summary": "Atheists respond that abstract mathematical entities are causally inert\u2014numbers do not 'do' anything, push matter, or create events; they merely describe patterns. Comparing God to an abstract entity undermines theism, because if God is like a number or geometric theorem, God cannot possess personal volition, perform miracles, or act as an efficient cause.",
+      "summary": "Atheists respond that abstract mathematical entities are causally inert—numbers do not 'do' anything, push matter, or create events; they merely describe patterns. Comparing God to an abstract entity undermines theism, because if God is like a number or geometric theorem, God cannot possess personal volition, perform miracles, or act as an efficient cause.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out that numbers don't actually do anything or make decisions! The number 7 never built a house or answered a prayer; it's just a description humans use. If God is like a number, then God can't be a personal being who makes choices or performs miracles."
+      "summary_5th_grader": "Skeptics point out that numbers don't actually do anything or make decisions! The number 7 never built a house or answered a prayer; it's just a description humans use. If God is like a number, then God can't be a personal being who makes choices or performs miracles.",
+      "audio_urls": {
+        "female": "audio/arg_category_error_1.2.1_female.mp3",
+        "male": "audio/arg_category_error_1.2.1_male.mp3"
+      }
     },
     {
       "id": "1.3",
@@ -69,7 +89,11 @@
       "title": "Transcendent Language and Apophatic Theology",
       "summary": "Classical theologians argue that human language about God is necessarily analogical or apophatic (negation-based). When we say God 'creates' or 'causes', we are not placing God in a finite physical category, but using the closest human concepts to describe an ultimate metaphysical dependency.",
       "status": "active",
-      "summary_5th_grader": "Religious thinkers say that our human words are just shadow pictures trying to describe something way bigger than us. When we say God 'caused' the world, we don't mean like a carpenter making a chair, but that everything depends on God to exist."
+      "summary_5th_grader": "Religious thinkers say that our human words are just shadow pictures trying to describe something way bigger than us. When we say God 'caused' the world, we don't mean like a carpenter making a chair, but that everything depends on God to exist.",
+      "audio_urls": {
+        "female": "audio/arg_category_error_1.3_female.mp3",
+        "male": "audio/arg_category_error_1.3_male.mp3"
+      }
     },
     {
       "id": "1.3.1",
@@ -78,9 +102,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Semantic Vacuity",
       "title": "Semantic Vacuity Dilemma",
-      "summary": "Skeptics contend that if 'cause' and 'agency' are stripped of temporal, physical, and relational meaning, the words lose all explanatory content. If 'divine causing' shares no logical structure with any known causation, saying 'God caused the universe' becomes semantically empty\u2014a pseudo-explanation that disguises total ignorance behind high-sounding language.",
+      "summary": "Skeptics contend that if 'cause' and 'agency' are stripped of temporal, physical, and relational meaning, the words lose all explanatory content. If 'divine causing' shares no logical structure with any known causation, saying 'God caused the universe' becomes semantically empty—a pseudo-explanation that disguises total ignorance behind high-sounding language.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say that if you change the meaning of words so much that 'cause' doesn't mean anything like what cause usually means, then the sentence 'God caused the universe' doesn't actually mean anything at all! It's just using fancy words to say 'we don't know.'"
+      "summary_5th_grader": "Skeptics say that if you change the meaning of words so much that 'cause' doesn't mean anything like what cause usually means, then the sentence 'God caused the universe' doesn't actually mean anything at all! It's just using fancy words to say 'we don't know.'",
+      "audio_urls": {
+        "female": "audio/arg_category_error_1.3.1_female.mp3",
+        "male": "audio/arg_category_error_1.3.1_male.mp3"
+      }
     }
   ]
 }

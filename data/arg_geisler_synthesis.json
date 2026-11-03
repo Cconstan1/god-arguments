@@ -14,7 +14,11 @@
       "title": "Geisler's Dual-Axis Cosmological Synthesis (Stage 1)",
       "summary": "Formulated by Christian philosopher Norman Geisler, cosmological arguments should not be restricted to either temporal origin (horizontal) or present-moment sustaining (vertical) alone. Horizontal causality demonstrates that the universe had a temporal beginning requiring an Originating First Cause (Kalam), while vertical causality demonstrates that the universe requires an Absolute Sustaining Being right now (Thomism). Together, they form a unified two-axis defense against naturalism.",
       "status": "active",
-      "summary_5th_grader": "Imagine a line of dominos falling over across a table (horizontal time) AND the physical table holding up all the dominos right now (vertical support)! Norman Geisler argued that God is both the First Person who pushed the very first domino in the past AND the solid table holding up reality right now."
+      "summary_5th_grader": "Imagine a line of dominos falling over across a table (horizontal time) AND the physical table holding up all the dominos right now (vertical support)! Norman Geisler argued that God is both the First Person who pushed the very first domino in the past AND the solid table holding up reality right now.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_1.0_female.mp3",
+        "male": "audio/arg_geisler_synthesis_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Dual-Axis Explanatory Completeness (Stage 2)",
       "summary": "By combining horizontal origin (answering 'how did physical time start?') with vertical grounding (answering 'why does physical existence persist right now?'), Geisler's framework prevents naturalists from escaping through either infinite temporal regresses or brute physical law persistence.",
       "status": "active",
-      "summary_5th_grader": "If you only ask how the universe started, skeptics might guess weird physics at the beginning. If you only ask why things exist now, skeptics might guess current physics holds it up. But when you ask BOTH questions together, naturalism gets trapped!"
+      "summary_5th_grader": "If you only ask how the universe started, skeptics might guess weird physics at the beginning. If you only ask why things exist now, skeptics might guess current physics holds it up. But when you ask BOTH questions together, naturalism gets trapped!",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_1.1_female.mp3",
+        "male": "audio/arg_geisler_synthesis_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Rebuttal: Equivocation on 'Causation'",
       "summary": "Skeptics argue that combining horizontal (temporal state transitions) and vertical (metaphysical actualization) causation equivocates on the definition of 'cause,' conflating physical efficient events with scholastic ontological grounding.",
       "status": "active",
-      "summary_5th_grader": "Skeptics object: pushing a domino in time is completely different from a table holding up a book! You can't just mix two totally different meanings of the word 'cause' into one giant argument."
+      "summary_5th_grader": "Skeptics object: pushing a domino in time is completely different from a table holding up a book! You can't just mix two totally different meanings of the word 'cause' into one giant argument.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_2.1_female.mp3",
+        "male": "audio/arg_geisler_synthesis_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Complementary Ontological Dimensions",
       "summary": "Geislerians reply that horizontal and vertical causality are complementary dimensions of finite contingency. A temporal cause can pass along physical effects across time (horizontal) only because its own existence is actively sustained at every instant by an uncaused Ground of Being (vertical).",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: a flashlight can only shine light across the room (horizontal) if its battery is supplying power right now (vertical)! The two kinds of causes work together like battery power and light beams."
+      "summary_5th_grader": "Defenders reply: a flashlight can only shine light across the room (horizontal) if its battery is supplying power right now (vertical)! The two kinds of causes work together like battery power and light beams.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_3.1_female.mp3",
+        "male": "audio/arg_geisler_synthesis_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Redundancy & Ockham's Razor Objection",
       "summary": "Naturalists push back: if vertical sustaining causation is sufficient to ground present reality, adding a temporal beginning (Kalam) is redundant, multiplying explanatory entities unnecessarily under Ockham's Razor.",
       "status": "active",
-      "summary_5th_grader": "Skeptics push back: if the table (vertical support) holds up the book right now, why do you need to add a whole story about who built the table in the past? Adding extra steps violates Ockham's Razor."
+      "summary_5th_grader": "Skeptics push back: if the table (vertical support) holds up the book right now, why do you need to add a whole story about who built the table in the past? Adding extra steps violates Ockham's Razor.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_4.1_female.mp3",
+        "male": "audio/arg_geisler_synthesis_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -69,7 +89,11 @@
       "title": "Empirical Proof of Physical Contingency",
       "summary": "Geislerians answer that temporal origination provides crucial empirical confirmation (e.g., Big Bang, thermodynamics) that physical matter is inherently finite and contingent, strengthening the metaphysical premise for a vertical sustaining cause.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: knowing the table was built in the past proves it's not an indestructible magic table! Seeing that space and time started in the Big Bang proves the universe really needs a power source right now."
+      "summary_5th_grader": "Defenders answer: knowing the table was built in the past proves it's not an indestructible magic table! Seeing that space and time started in the Big Bang proves the universe really needs a power source right now.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_5.1_female.mp3",
+        "male": "audio/arg_geisler_synthesis_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -80,7 +104,11 @@
       "title": "Rebuttal: Vulnerability to Infinite Temporal Regress",
       "summary": "Critics argue that if the universe is horizontally infinite (past-eternal steady state or cyclic universe), Geisler's horizontal pillar collapses, leaving the framework entirely dependent on contested Thomistic metaphysics.",
       "status": "active",
-      "summary_5th_grader": "Critics argue: if the universe had no beginning and goes back in time forever, the horizontal part of Geisler's argument fails completely."
+      "summary_5th_grader": "Critics argue: if the universe had no beginning and goes back in time forever, the horizontal part of Geisler's argument fails completely.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_2.2_female.mp3",
+        "male": "audio/arg_geisler_synthesis_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -91,7 +119,11 @@
       "title": "The Impossibility of Actual Temporal Infinities",
       "summary": "Geislerians defend the horizontal axis by appealing to philosophical proofs against actual infinite temporal regresses (e.g., Hilbert's Hotel, traversal of the infinite) and modern BGV cosmic expansion theorems.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: you can't actually count to infinity! Time couldn't have gone on forever in the past, or we would never have reached today."
+      "summary_5th_grader": "Defenders reply: you can't actually count to infinity! Time couldn't have gone on forever in the past, or we would never have reached today.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_3.2_female.mp3",
+        "male": "audio/arg_geisler_synthesis_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -102,7 +134,11 @@
       "title": "Rebuttal: Naturalistic Quantum Dual-Axis Models",
       "summary": "Modern physicalists propose naturalistic dual-axis models: horizontal state transitions governed by quantum field theory, and vertical grounding provided by a fundamental quantum wave function, eliminating divine agency from both axes.",
       "status": "active",
-      "summary_5th_grader": "Science thinkers argue: quantum physics explains both parts! Quantum rules explain how the Big Bang started (horizontal) AND how particles stay glued together right now (vertical), with no God needed."
+      "summary_5th_grader": "Science thinkers argue: quantum physics explains both parts! Quantum rules explain how the Big Bang started (horizontal) AND how particles stay glued together right now (vertical), with no God needed.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_2.3_female.mp3",
+        "male": "audio/arg_geisler_synthesis_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -113,7 +149,11 @@
       "title": "Contingency of Quantum Wave Functions",
       "summary": "Geislerians respond that quantum fields and mathematical physical laws are themselves contingent and non-necessary, meaning they require an absolute, non-contingent vertical ground (Actus Purus).",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: quantum energy and physical math rules are still things that could have been different! They need a reason to exist just as much as matter does."
+      "summary_5th_grader": "Defenders reply: quantum energy and physical math rules are still things that could have been different! They need a reason to exist just as much as matter does.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_3.3_female.mp3",
+        "male": "audio/arg_geisler_synthesis_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -124,7 +164,11 @@
       "title": "Rebuttal: Anthropomorphic Category Error",
       "summary": "Critics argue that analyzing the universe using human architectural analogies ('builders' horizontally and 'foundations' vertically) commits a category error by projecting macroscopic human engineering concepts onto the cosmos as a whole.",
       "status": "active",
-      "summary_5th_grader": "Critics say: using human stories like builders and foundations to describe the entire cosmos is like treating the universe like a house, when the universe obeys crazy quantum physics we don't fully understand."
+      "summary_5th_grader": "Critics say: using human stories like builders and foundations to describe the entire cosmos is like treating the universe like a house, when the universe obeys crazy quantum physics we don't fully understand.",
+      "audio_urls": {
+        "female": "audio/arg_geisler_synthesis_2.4_female.mp3",
+        "male": "audio/arg_geisler_synthesis_2.4_male.mp3"
+      }
     }
   ]
 }

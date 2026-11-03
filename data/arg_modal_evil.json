@@ -14,7 +14,11 @@
       "title": "Modal Argument from Possible Evil (Stage 1)",
       "summary": "Utilizes S5 modal logic to argue that if an omnipotent, omnibenevolent God exists, God exists necessarily across all possible worlds. However, it is broadly logically possible that a world contains gratuitous evil (suffering with no outweighing moral reason). Since God cannot exist in a world with gratuitous evil, God's non-existence is possible in that world. Under S5 modal logic, if a necessary being's non-existence is possible in one world, that being cannot exist in ANY possible world.",
       "status": "active",
-      "summary_5th_grader": "In special logic (called modal logic), if something is necessary, it HAS to be true in every single possible universe. Skeptics argue: it's easy to imagine a universe where meaningless suffering happens. But God couldn't exist in a universe with meaningless suffering! And if God doesn't exist in even ONE possible universe, then under logic rules, God can't exist in ANY universe at all!"
+      "summary_5th_grader": "In special logic (called modal logic), if something is necessary, it HAS to be true in every single possible universe. Skeptics argue: it's easy to imagine a universe where meaningless suffering happens. But God couldn't exist in a universe with meaningless suffering! And if God doesn't exist in even ONE possible universe, then under logic rules, God can't exist in ANY universe at all!",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_1.0_female.mp3",
+        "male": "audio/arg_modal_evil_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Deduction of Divine Non-Existence (Stage 2)",
       "summary": "If the premise holds that gratuitous evil is logically possible in at least one world W, then God is absent in W. Because God is defined as a necessary being (existing in all possible worlds or none), being absent in W logically entails that God's existence is impossible across all worlds.",
       "status": "active",
-      "summary_5th_grader": "If God is the kind of being that MUST exist everywhere or nowhere, then finding even ONE possible universe where God isn't present means God can't exist anywhere!"
+      "summary_5th_grader": "If God is the kind of being that MUST exist everywhere or nowhere, then finding even ONE possible universe where God isn't present means God can't exist anywhere!",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_1.1_female.mp3",
+        "male": "audio/arg_modal_evil_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Plantinga's Modal Response & Compossibility",
       "summary": "Theists respond that a world containing gratuitous evil is NOT broadly logically possible if God exists. Skeptics confuse epistemic conceivability (imagining a scenario) with broad logical compossibility. If God exists necessarily, then worlds with gratuitous evil are as logically impossible as square circles.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: just because you can picture a scary movie in your head doesn't mean it's actually logically possible! If an all-good God is real, a universe with pointless evil is a logical contradiction\u2014like a square circle\u2014so it's not a real possible universe."
+      "summary_5th_grader": "Defenders reply: just because you can picture a scary movie in your head doesn't mean it's actually logically possible! If an all-good God is real, a universe with pointless evil is a logical contradiction—like a square circle—so it's not a real possible universe.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_2.1_female.mp3",
+        "male": "audio/arg_modal_evil_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Conceivability as Prima Facie Evidence of Possibility",
       "summary": "Skeptics counter that conceivability is standard prima facie evidence for logical possibility in modal metaphysics. Since we can coherently conceive of a fawn dying painfully in a forest fire with no human or divine outcome, the burden of proof is on the theist to prove logical impossibility.",
       "status": "active",
-      "summary_5th_grader": "Skeptics counter: in science and philosophy, if you can clearly imagine something without any contradiction (like a baby deer trapped in a forest fire alone), we assume it's possible unless someone proves it's mathematically impossible!"
+      "summary_5th_grader": "Skeptics counter: in science and philosophy, if you can clearly imagine something without any contradiction (like a baby deer trapped in a forest fire alone), we assume it's possible unless someone proves it's mathematically impossible!",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_3.1_female.mp3",
+        "male": "audio/arg_modal_evil_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Skeptical Theism & Cognitive Limitations",
       "summary": "Defenders reply using Skeptical Theism: our inability to see a contradiction between divine goodness and a specific instance of suffering stems from our limited human cognition, not from logical compossibility.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: a toddler might think getting a shot at the doctor is pointless torture because they don't understand medicine! Just because we can't see the reason for suffering doesn't mean no reason exists."
+      "summary_5th_grader": "Defenders reply: a toddler might think getting a shot at the doctor is pointless torture because they don't understand medicine! Just because we can't see the reason for suffering doesn't mean no reason exists.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_4.1_female.mp3",
+        "male": "audio/arg_modal_evil_4.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -69,7 +89,11 @@
       "title": "The Reverse Modal Symmetry (Maximally Great Being)",
       "summary": "Theists note that modal arguments cut both ways. If it is broadly logically possible that God exists (a Maximally Great Being), then by S5 modal logic, God exists in ALL possible worlds. The skeptic's claim that gratuitous evil is possible simply begs the question against the possibility of God.",
       "status": "active",
-      "summary_5th_grader": "Defenders say: modal logic works both ways! If it's even POSSIBLY true that a Maximally Great God exists, then S5 logic says God MUST exist in every universe. Saying pointless evil is possible just assumes God isn't possible."
+      "summary_5th_grader": "Defenders say: modal logic works both ways! If it's even POSSIBLY true that a Maximally Great God exists, then S5 logic says God MUST exist in every universe. Saying pointless evil is possible just assumes God isn't possible.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_2.2_female.mp3",
+        "male": "audio/arg_modal_evil_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -80,7 +104,11 @@
       "title": "The Modal Symmetry Trap & Epistemic Standoff",
       "summary": "Skeptics argue this reveals a modal symmetry trap: both the claim 'God is possible' and 'gratuitous evil is possible' rely on raw intuition, resulting in a modal stalemate where modal logic alone cannot decide the issue without independent empirical evidence.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: this shows a tie! Both sides are just guessing what is 'possible' in imaginary universes. We need real-world evidence, not just playing word games with modal logic."
+      "summary_5th_grader": "Skeptics say: this shows a tie! Both sides are just guessing what is 'possible' in imaginary universes. We need real-world evidence, not just playing word games with modal logic.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_3.2_female.mp3",
+        "male": "audio/arg_modal_evil_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -91,7 +119,11 @@
       "title": "The 'No Best Possible World' Paradox",
       "summary": "Philosophers like Kraay and Leibniz discuss whether there is a 'best possible world'. If for any good world there is always a better world, God's creation of a world with sub-optimal elements (or some evil) does not violate divine perfection, as no maximum ceiling exists.",
       "status": "active",
-      "summary_5th_grader": "Defenders point out: there might be no such thing as the single 'best possible universe'\u2014just like there's no highest number! No matter how awesome a universe God makes, He could always add one more happy puppy."
+      "summary_5th_grader": "Defenders point out: there might be no such thing as the single 'best possible universe'—just like there's no highest number! No matter how awesome a universe God makes, He could always add one more happy puppy.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_2.3_female.mp3",
+        "male": "audio/arg_modal_evil_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -100,9 +132,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Minimum Moral Threshold",
       "title": "The Minimum Moral Floor Threshold",
-      "summary": "Skeptics clarify that the modal evil argument does not demand the single best possible world, but rather a world above a moral threshold\u2014specifically one lacking unredeemed, horrific suffering.",
+      "summary": "Skeptics clarify that the modal evil argument does not demand the single best possible world, but rather a world above a moral threshold—specifically one lacking unredeemed, horrific suffering.",
       "status": "active",
-      "summary_5th_grader": "Skeptics reply: we aren't asking God to make a universe with infinite ice cream! We're just asking Him not to make a universe where innocent children suffer horrific diseases."
+      "summary_5th_grader": "Skeptics reply: we aren't asking God to make a universe with infinite ice cream! We're just asking Him not to make a universe where innocent children suffer horrific diseases.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_3.3_female.mp3",
+        "male": "audio/arg_modal_evil_3.3_male.mp3"
+      }
     },
     {
       "id": "4.3",
@@ -113,7 +149,11 @@
       "title": "Soul-Making & Free Will Redefining Thresholds",
       "summary": "Defenders respond that a world containing genuine moral agency and soul-making necessarily includes the possibility (and actualization) of severe suffering, which falls above God's moral creation threshold when eternal outcomes are included.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: a universe where people can make real choices, grow brave, and overcome challenges has to allow real danger. When you look at heaven and eternity, allowing earthly challenges is worth it."
+      "summary_5th_grader": "Defenders reply: a universe where people can make real choices, grow brave, and overcome challenges has to allow real danger. When you look at heaven and eternity, allowing earthly challenges is worth it.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_4.3_female.mp3",
+        "male": "audio/arg_modal_evil_4.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -124,7 +164,11 @@
       "title": "Molinism & Middle Knowledge (Scientia Media)",
       "summary": "Under Luis de Molina's framework, God possesses 'Middle Knowledge' of what free creatures would do in any scenario. If in all feasible worlds with free creatures, those creatures freely commit evil, God creates the world with the optimal balance of good over evil.",
       "status": "active",
-      "summary_5th_grader": "Molinist thinkers say God knows exactly what every person WOULD choose in every situation. If every universe with real freedom has people choosing some bad things, God picked the universe with the most good overall."
+      "summary_5th_grader": "Molinist thinkers say God knows exactly what every person WOULD choose in every situation. If every universe with real freedom has people choosing some bad things, God picked the universe with the most good overall.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_2.4_female.mp3",
+        "male": "audio/arg_modal_evil_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -135,7 +179,11 @@
       "title": "The Grounding Problem of Counterfactuals of Freedom",
       "summary": "Skeptics object that subjunctive conditionals of freedom ('what X would freely do') have no truth-makers prior to creation, rendering Middle Knowledge metaphysically ungrounded.",
       "status": "active",
-      "summary_5th_grader": "Skeptics ask: how can God know what you WOULD do before you even exist? There's no reality there to make that statement true yet!"
+      "summary_5th_grader": "Skeptics ask: how can God know what you WOULD do before you even exist? There's no reality there to make that statement true yet!",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_3.4_female.mp3",
+        "male": "audio/arg_modal_evil_3.4_male.mp3"
+      }
     },
     {
       "id": "2.5",
@@ -146,7 +194,11 @@
       "title": "The Epistemological Defense vs. Structural Theodicy",
       "summary": "Emphasizes that a modal defense does not need to prove the actual reason God permits evil, but merely demonstrate that divine existence and evil are logically compossible in at least one possible world.",
       "status": "active",
-      "summary_5th_grader": "Defenders remind us: we don't need to prove EXACTLY why God allows every bad thing. We just have to show it's logically possible that God has a good reason, which defeats the logical argument."
+      "summary_5th_grader": "Defenders remind us: we don't need to prove EXACTLY why God allows every bad thing. We just have to show it's logically possible that God has a good reason, which defeats the logical argument.",
+      "audio_urls": {
+        "female": "audio/arg_modal_evil_2.5_female.mp3",
+        "male": "audio/arg_modal_evil_2.5_male.mp3"
+      }
     }
   ]
 }

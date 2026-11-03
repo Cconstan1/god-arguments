@@ -14,7 +14,11 @@
       "title": "Dawkins' Ultimate Boeing 747 Gambit: The Improbability of the Designer",
       "summary": "Popularized by Richard Dawkins, the argument adapts Fred Hoyle's 'hurricane blowing through a junkyard assembling a Boeing 747' analogy against naturalism. Dawkins turns the objection back on theism: a God capable of calculating, designing, and sustaining a fine-tuned, complex universe must be at least as complex and informationally rich as the universe itself. Consequently, explaining a complex cosmos by invoking an even more improbable and complex designer constitutes an ultimate failure of scientific and logical explanation, merely substituting a greater unexplained entity.",
       "status": "active",
-      "summary_5th_grader": "If you think the universe is so complicated that it couldn't happen by accident\u2014like a hurricane blowing through a scrapyard and accidentally building a Boeing 747 jet\u2014then the God who made it must be even smarter and more complicated than the jet! That means God would be the ultimate 'Boeing 747'\u2014an even bigger mystery that needs an explanation!"
+      "summary_5th_grader": "If you think the universe is so complicated that it couldn't happen by accident—like a hurricane blowing through a scrapyard and accidentally building a Boeing 747 jet—then the God who made it must be even smarter and more complicated than the jet! That means God would be the ultimate 'Boeing 747'—an even bigger mystery that needs an explanation!",
+      "audio_urls": {
+        "female": "audio/arg_boeing_747_1.0_female.mp3",
+        "male": "audio/arg_boeing_747_1.0_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -25,7 +29,11 @@
       "title": "Classical Doctrine of Divine Simplicity",
       "summary": "Philosophers and theologians (e.g., Alvin Plantinga, William Lane Craig, and Thomistic scholars) respond that Dawkins equivocates on the meaning of 'complexity'. In biology, complexity means having many physical, separable parts functioning together. According to classical theology, God is a pure, immaterial Mind without physical parts or composition (Divine Simplicity). A simple, indivisible spirit with infinite knowledge and power is ontologically simple, making the statistical improbability of physical composition inapplicable to God.",
       "status": "active",
-      "summary_5th_grader": "Philosophers answer that God isn't made of 'parts' like an engine or a computer. In science, things are complex if they have millions of tiny pieces put together. But God is a spirit without physical parts\u2014making God deeply simple, not a complicated machine made of pieces!"
+      "summary_5th_grader": "Philosophers answer that God isn't made of 'parts' like an engine or a computer. In science, things are complex if they have millions of tiny pieces put together. But God is a spirit without physical parts—making God deeply simple, not a complicated machine made of pieces!",
+      "audio_urls": {
+        "female": "audio/arg_boeing_747_2.1_female.mp3",
+        "male": "audio/arg_boeing_747_2.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -36,7 +44,11 @@
       "title": "Functional and Information-Theoretic Complexity of a Mind",
       "summary": "Skeptics counter that even if God lacks physical parts, an omniscient mind holding infinite thoughts, choices, and memories possesses maximum 'information-theoretic' and functional complexity. A mind capable of monitoring billions of galaxies, listening to millions of simultaneous prayers, and choosing cosmic constants exhibits immense cognitive structure. Calling such an entity 'simple' is a verbal trick that ignores functional complexity.",
       "status": "active",
-      "summary_5th_grader": "Even if God doesn't have a physical body, thinking infinite thoughts at once, knowing everything in the universe, and listening to everyone's prayers at the same time is still super complicated! Calling a mind that knows everything 'simple' is just playing with words."
+      "summary_5th_grader": "Even if God doesn't have a physical body, thinking infinite thoughts at once, knowing everything in the universe, and listening to everyone's prayers at the same time is still super complicated! Calling a mind that knows everything 'simple' is just playing with words.",
+      "audio_urls": {
+        "female": "audio/arg_boeing_747_2.2_female.mp3",
+        "male": "audio/arg_boeing_747_2.2_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Science Explains Complex Data Through Simple Intentions",
       "summary": "Theists point out that in science and forensics, we routinely explain complex physical evidence by inferring a single conscious intention (e.g., archaeologists inferring ancient human builders upon finding stone arrowheads, without needing to first explain the complex evolutionary biology of the humans). Explaining complex effects via a single cause is standard inference to the best explanation (IBE), regardless of whether the cause itself has internal depth.",
       "status": "active",
-      "summary_5th_grader": "When detectives find a coded message, they say 'a human wrote this' to explain it. They don't have to explain how human brains evolved before accepting that a person wrote the message! Explaining something complicated by pointing to someone's intention is normal and smart."
+      "summary_5th_grader": "When detectives find a coded message, they say 'a human wrote this' to explain it. They don't have to explain how human brains evolved before accepting that a person wrote the message! Explaining something complicated by pointing to someone's intention is normal and smart.",
+      "audio_urls": {
+        "female": "audio/arg_boeing_747_3.1_female.mp3",
+        "male": "audio/arg_boeing_747_3.1_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -58,7 +74,11 @@
       "title": "The True Direction of Scientific Explanation: Simple to Complex",
       "summary": "Atheist philosophers reinforce Dawkins' point by contrasting scientific progress with theistic explanations. Science explains complex phenomena by breaking them down into simpler underlying laws and elementary particles (bottom-up explanation). Theism reverses this healthy direction by proposing a top-down model where a maximally complex entity exists at the very beginning without antecedent explanation.",
       "status": "active",
-      "summary_5th_grader": "Science works by explaining big, complex things using smaller, simpler rules\u2014like explaining animals using cells, and cells using atoms. Saying everything started with a God who already knows everything is doing science backwards!"
+      "summary_5th_grader": "Science works by explaining big, complex things using smaller, simpler rules—like explaining animals using cells, and cells using atoms. Saying everything started with a God who already knows everything is doing science backwards!",
+      "audio_urls": {
+        "female": "audio/arg_boeing_747_3.2_female.mp3",
+        "male": "audio/arg_boeing_747_3.2_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -69,7 +89,11 @@
       "title": "Statistical Improbability vs. Necessary Existence",
       "summary": "Theistic philosophers conclude that probability calculations apply only to contingent physical arrangements that could have been otherwise. If God is a Necessary Being whose non-existence is impossible, probability equals 1 (certainty). Statistical mechanics and evolutionary improbability cannot be extrapolated to necessary metaphysical foundations.",
       "status": "active",
-      "summary_5th_grader": "Dice rolls and probabilities only apply to things in the world that could happen or not happen. But if God is the ultimate foundation of reality that HAS to exist, talking about the 'odds' of God existing is like asking the odds of math being true!"
+      "summary_5th_grader": "Dice rolls and probabilities only apply to things in the world that could happen or not happen. But if God is the ultimate foundation of reality that HAS to exist, talking about the 'odds' of God existing is like asking the odds of math being true!",
+      "audio_urls": {
+        "female": "audio/arg_boeing_747_4.1_female.mp3",
+        "male": "audio/arg_boeing_747_4.1_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -80,7 +104,11 @@
       "title": "Avoiding the Infinite Regress of Design",
       "summary": "Atheist thinkers conclude that naturalistic evolution and fundamental physics succeed because they demonstrate how immense complexity (like life) emerges gradually from simple initial conditions (e.g., natural selection operating on self-replicating molecules). Invoking divine design terminates investigation prematurely by placing ultimate complexity at the start.",
       "status": "active",
-      "summary_5th_grader": "Nature shows us how simple rules like natural selection can build amazing things over millions of years starting from simple beginnings. That makes way more sense than starting with a super-smart designer already fully made!"
+      "summary_5th_grader": "Nature shows us how simple rules like natural selection can build amazing things over millions of years starting from simple beginnings. That makes way more sense than starting with a super-smart designer already fully made!",
+      "audio_urls": {
+        "female": "audio/arg_boeing_747_4.2_female.mp3",
+        "male": "audio/arg_boeing_747_4.2_male.mp3"
+      }
     }
   ]
 }

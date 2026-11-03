@@ -14,7 +14,11 @@
       "title": "C.S. Lewis's Argument from Reason (Stage 1)",
       "summary": "If naturalism is true, human thoughts and beliefs are ultimately produced by non-rational physical processes (atomic collisions, neurological chemistry, and evolutionary survival pressures). But a belief produced entirely by non-rational physical causes cannot be rationally trusted to yield objective truth. Therefore, naturalism undermines the very rational validity of science and philosophy, proving that human reason requires a rational, transcendent Mind as its foundation.",
       "status": "active",
-      "summary_5th_grader": "If your brain is just a computer made of bumping atoms and chemical reactions, those atoms don't care about truth\u2014they just obey physics! C.S. Lewis argued that if naturalism is true, your thoughts are like milk spilling on the floor. You wouldn't trust spilled milk to solve a math problem, so you shouldn't trust a brain built by pure accident either!"
+      "summary_5th_grader": "If your brain is just a computer made of bumping atoms and chemical reactions, those atoms don't care about truth—they just obey physics! C.S. Lewis argued that if naturalism is true, your thoughts are like milk spilling on the floor. You wouldn't trust spilled milk to solve a math problem, so you shouldn't trust a brain built by pure accident either!",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_1.0_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Deduction of Transcendent Rational Ground (Stage 2)",
       "summary": "Because human reason presupposes real logical insight, intentionality (aboutness), and truth-directed cognition, the ultimate origin of mind cannot be non-rational matter. Reason must derive from a self-existent, omniscient, transcendent Rational Being (God).",
       "status": "active",
-      "summary_5th_grader": "Since our brains can really think, solve logic puzzles, and discover real truths, our minds must come from a super-smart Master Mind, not just random rocks and chemistry."
+      "summary_5th_grader": "Since our brains can really think, solve logic puzzles, and discover real truths, our minds must come from a super-smart Master Mind, not just random rocks and chemistry.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_1.1_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Evolutionary Adaptation & Epistemic Survival Objection",
       "summary": "Skeptics argue that natural selection favors organisms whose cognitive faculties accurately represent reality because accurate sensory perception and logical inferences produce superior survival and reproductive success.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: evolution makes sure our brains tell the truth! If a tiger is chasing you and your brain sees a puppy instead, you get eaten. So evolution naturally picked brains that see truth accurately."
+      "summary_5th_grader": "Skeptics say: evolution makes sure our brains tell the truth! If a tiger is chasing you and your brain sees a puppy instead, you get eaten. So evolution naturally picked brains that see truth accurately.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_2.1_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Plantinga's EAAN: Evolution Selects Behavior, Not Truth",
       "summary": "Alvin Plantinga's Evolutionary Argument Against Naturalism (EAAN) demonstrates that natural selection filters strictly for adaptive physical behaviors, not true neuro-semantic beliefs. An organism can survive perfectly fine under false beliefs paired with beneficial escape actions.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply (Plantinga): evolution only cares about what your BODY DOES, not what your brain thinks! If a caveman runs from a bear because he thinks the bear wants to give him a hug, he survives just as well as the guy who knows bears are dangerous. Evolution picks survival, not true math!"
+      "summary_5th_grader": "Defenders reply (Plantinga): evolution only cares about what your BODY DOES, not what your brain thinks! If a caveman runs from a bear because he thinks the bear wants to give him a hug, he survives just as well as the guy who knows bears are dangerous. Evolution picks survival, not true math!",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_3.1_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Neuro-Semantic Alignment & Predictive Processing Response",
       "summary": "Materialist neuroscientists argue that neurological states and semantic contents are tightly coupled; inaccurate internal representations consistently yield fatal coordination failures over millions of generations.",
       "status": "active",
-      "summary_5th_grader": "Skeptics push back: if your brain map of the world is wrong, you will constantly trip, crash into trees, or miss food. Accuracy in thoughts is tied directly to staying alive."
+      "summary_5th_grader": "Skeptics push back: if your brain map of the world is wrong, you will constantly trip, crash into trees, or miss food. Accuracy in thoughts is tied directly to staying alive.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_4.1_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -69,7 +89,11 @@
       "title": "Semantic Epiphenomenalism in Physical Systems",
       "summary": "Under strict physicalism, the physical mass and electrical charge of neurons drive action potentials, leaving the 'meaning' or 'truth' of the belief causally inert (epiphenomenal).",
       "status": "active",
-      "summary_5th_grader": "Defenders respond: under physics, electric currents and chemicals move your muscles, not the abstract 'truth' of an idea! Chemistry doesn't know what 'truth' is."
+      "summary_5th_grader": "Defenders respond: under physics, electric currents and chemicals move your muscles, not the abstract 'truth' of an idea! Chemistry doesn't know what 'truth' is.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_5.1_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -80,7 +104,11 @@
       "title": "Computational Mind & Physicalist Functionalism",
       "summary": "Materialists point to computers and AI: silicon microchips follow purely physical laws yet perform accurate mathematical and logical calculations without needing a transcendent soul or God.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: look at computers and smartphones! They are made of wires and metal running on electricity, but they can solve harder math problems than any human without needing God."
+      "summary_5th_grader": "Skeptics say: look at computers and smartphones! They are made of wires and metal running on electricity, but they can solve harder math problems than any human without needing God.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_2.2_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -91,7 +119,11 @@
       "title": "Derived Intentionality & The Searle Chinese Room",
       "summary": "Computers do not understand truth or possess intrinsic intentionality; their symbols carry 'derived intentionality' programmed by human conscious designers (John Searle's Chinese Room paradox).",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: a calculator doesn't actually KNOW what numbers mean! It's just flipping electrical switches designed by human engineers. The computer gets its smarts from human minds who programmed it."
+      "summary_5th_grader": "Defenders reply: a calculator doesn't actually KNOW what numbers mean! It's just flipping electrical switches designed by human engineers. The computer gets its smarts from human minds who programmed it.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_3.2_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -102,7 +134,11 @@
       "title": "Emergent Neural Connectionism & Deep Learning",
       "summary": "Materialists argue that neural networks show how complex semantic understanding and logical inference emerge naturally from self-organizing physical feedback loops.",
       "status": "active",
-      "summary_5th_grader": "Skeptics answer: new AI neural networks learn on their own by adjusting connections! Meaning and logic can grow out of simple physical feedback systems."
+      "summary_5th_grader": "Skeptics answer: new AI neural networks learn on their own by adjusting connections! Meaning and logic can grow out of simple physical feedback systems.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_4.2_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_4.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -113,7 +149,11 @@
       "title": "Anscombe's Linguistic Critique of 'Cause' vs 'Ground'",
       "summary": "G.E.M. Anscombe famously critiqued Lewis by arguing he conflated 'Cause and Effect' (physical events) with 'Ground and Consequent' (logical relationships), claiming physical causation does not invalidate logical validity.",
       "status": "active",
-      "summary_5th_grader": "Philosopher G.E.M. Anscombe criticized Lewis: saying a brain event is caused by chemistry doesn't mean your logic is wrong! Logical reasons and physical causes are just two different ways of describing the same event."
+      "summary_5th_grader": "Philosopher G.E.M. Anscombe criticized Lewis: saying a brain event is caused by chemistry doesn't mean your logic is wrong! Logical reasons and physical causes are just two different ways of describing the same event.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_2.3_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -124,7 +164,11 @@
       "title": "Lewis & Reppert's Revised Argument from Reason",
       "summary": "Victor Reppert and Lewis (in his revised chapter 3) clarified that for a thought to be rational, the perception of the logical ground MUST be the actual physical cause of the belief. If non-rational physical laws dictate the next brain state, logical grounding is rendered irrelevant.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply (Lewis & Reppert): for a thought to be truly smart, you MUST believe it BECAUSE of the logic! If your brain state was completely determined by chemicals before you even thought about the logic, the logic didn't actually cause your belief."
+      "summary_5th_grader": "Defenders reply (Lewis & Reppert): for a thought to be truly smart, you MUST believe it BECAUSE of the logic! If your brain state was completely determined by chemicals before you even thought about the logic, the logic didn't actually cause your belief.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_3.3_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -135,7 +179,11 @@
       "title": "Hard Determinism & The Illusion of Rational Agency",
       "summary": "Some physicalist determinists accept the radical implication: human rational agency and objective free choice are simply useful cognitive illusions generated by physical brain states.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: fine, maybe real free choice and pure objective reasoning ARE just illusions! Our brains are just complex machines, and we have to accept that."
+      "summary_5th_grader": "Skeptics say: fine, maybe real free choice and pure objective reasoning ARE just illusions! Our brains are just complex machines, and we have to accept that.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_2.4_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -146,7 +194,11 @@
       "title": "Self-Defeating Nature of Rational Skepticism",
       "summary": "If rational agency is an illusion, then the determinist's own argument for hard determinism is also just an unguided physical impulse, stripping determinism of any rational claim to truth.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: if thinking is just an illusion, then your argument for determinism is ALSO just an accident! You are asking us to rationally choose to accept a theory that says rational choice is impossible."
+      "summary_5th_grader": "Defenders reply: if thinking is just an illusion, then your argument for determinism is ALSO just an accident! You are asking us to rationally choose to accept a theory that says rational choice is impossible.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_3.4_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_3.4_male.mp3"
+      }
     },
     {
       "id": "2.5",
@@ -157,7 +209,11 @@
       "title": "Prevalence of Human Fallacies & Cognitive Illusions",
       "summary": "Skeptics note that human brains are filled with cognitive biases, fallacies, and irrationalities, proving that our minds resemble flawed evolutionary organs rather than divinely calibrated instruments.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out: humans fall for optical illusions, fake news, and logical fallacies all the time! If God built our minds to reason perfectly, why are we so bad at it?"
+      "summary_5th_grader": "Skeptics point out: humans fall for optical illusions, fake news, and logical fallacies all the time! If God built our minds to reason perfectly, why are we so bad at it?",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_2.5_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_2.5_male.mp3"
+      }
     },
     {
       "id": "3.5",
@@ -168,7 +224,11 @@
       "title": "Reason Requires Grounded Capacity, Not Flawless Performance",
       "summary": "Defenders emphasize that the Argument from Reason does not claim human minds are infallible, but rather that our capacity for genuine correction and logical oversight requires a transcendent rational foundation.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: we can spot our own mistakes and fix fallacies ONLY because we have a working standard of real logic! Flawed thinking proves we can make mistakes, but recognizing a mistake proves real reason exists."
+      "summary_5th_grader": "Defenders reply: we can spot our own mistakes and fix fallacies ONLY because we have a working standard of real logic! Flawed thinking proves we can make mistakes, but recognizing a mistake proves real reason exists.",
+      "audio_urls": {
+        "female": "audio/arg_cs_lewis_reason_3.5_female.mp3",
+        "male": "audio/arg_cs_lewis_reason_3.5_male.mp3"
+      }
     }
   ]
 }

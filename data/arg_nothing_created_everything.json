@@ -14,7 +14,11 @@
       "title": "Mischaracterization of Secular Cosmology & Quantum Physics",
       "summary": "Apologetic slogans frequently claim that atheism demands believing 'nothing created everything out of nothing by chance.' This is a fundamental strawman of secular cosmology and quantum physics. Contemporary naturalism does not assert that absolute philosophical non-being spontaneously produced matter; rather, physics investigates quantum vacuum states, spacetime geometries, and zero-energy universe hypotheses where physical laws and quantum fields describe natural state transitions rather than creation ex nihilo by agency.",
       "status": "active",
-      "summary_5th_grader": "Popular religious slogans often say atheists believe 'nothing created everything out of nowhere.' But scientists don't say that at all! Science shows that the early universe came from physical laws, energy fields, and quantum physics\u2014not from literal empty magic nothingness."
+      "summary_5th_grader": "Popular religious slogans often say atheists believe 'nothing created everything out of nowhere.' But scientists don't say that at all! Science shows that the early universe came from physical laws, energy fields, and quantum physics—not from literal empty magic nothingness.",
+      "audio_urls": {
+        "female": "audio/arg_nothing_created_everything_1.0_female.mp3",
+        "male": "audio/arg_nothing_created_everything_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -23,9 +27,13 @@
       "type": "primary_rebuttal",
       "shortLabel": "Krauss 'Nothing' Critique",
       "title": "The Philosophical 'Nothing' vs. Quantum Vacuum Equivocation",
-      "summary": "Philosophers and theologians critique physicists for equivocating on the term 'nothing.' A quantum vacuum or field is a complex physical state governed by quantum mechanics, containing zero-point energy and potential particles\u2014it is emphatically not absolute non-being. If quantum fields or physical laws exist prior to or at the Big Bang, they themselves require an ontological explanation, leaving the philosophical question of why anything exists at all unanswered.",
+      "summary": "Philosophers and theologians critique physicists for equivocating on the term 'nothing.' A quantum vacuum or field is a complex physical state governed by quantum mechanics, containing zero-point energy and potential particles—it is emphatically not absolute non-being. If quantum fields or physical laws exist prior to or at the Big Bang, they themselves require an ontological explanation, leaving the philosophical question of why anything exists at all unanswered.",
       "status": "active",
-      "summary_5th_grader": "Critics answer back: 'Calling a quantum field or physics equations 'nothing' is cheating! A space filled with quantum energy and physical laws is still SOMETHING. You still haven't explained where those physical laws and energy came from in the first place!'"
+      "summary_5th_grader": "Critics answer back: 'Calling a quantum field or physics equations 'nothing' is cheating! A space filled with quantum energy and physical laws is still SOMETHING. You still haven't explained where those physical laws and energy came from in the first place!'",
+      "audio_urls": {
+        "female": "audio/arg_nothing_created_everything_1.1_female.mp3",
+        "male": "audio/arg_nothing_created_everything_1.1_male.mp3"
+      }
     },
     {
       "id": "1.1.1",
@@ -36,7 +44,11 @@
       "title": "Quantum Spontaneous Transitions & Zero-Energy Universe Models",
       "summary": "Physical naturalists respond that in inflationary cosmology and general relativity, the total positive energy of matter is exactly balanced by the negative gravitational potential energy, yielding a total cosmic net energy of zero (the Zero-Energy Universe hypothesis). Under quantum mechanics, systems with zero net energy can spontaneously undergo state transitions or quantum tunneling without violating conservation laws or requiring external causal triggers, demonstrating how a universe can emerge naturally without input energy.",
       "status": "active",
-      "summary_5th_grader": "Scientists reply: The total energy of the whole universe might actually equal zero because gravity cancels out all matter! In quantum physics, things that equal zero can change state all on their own without needing someone to push them."
+      "summary_5th_grader": "Scientists reply: The total energy of the whole universe might actually equal zero because gravity cancels out all matter! In quantum physics, things that equal zero can change state all on their own without needing someone to push them.",
+      "audio_urls": {
+        "female": "audio/arg_nothing_created_everything_1.1.1_female.mp3",
+        "male": "audio/arg_nothing_created_everything_1.1.1_male.mp3"
+      }
     },
     {
       "id": "1.1.2",
@@ -47,7 +59,11 @@
       "title": "The Fallacy of Applying Macroscopic Causal Intuition to T=0",
       "summary": "Skeptics emphasize that human causal intuitions are formed strictly within established spacetime frameworks where time already flows. Asking what caused or created the initial boundary condition at T=0 misapplies time-bound, cause-and-effect language to a realm where time itself is a bounded dimension. Demanding a temporal 'creator' for time itself is a category error, akin to asking what lies north of the North Pole.",
       "status": "active",
-      "summary_5th_grader": "Skeptics add: Cause and effect only make sense inside time. Asking what 'caused' the start of time before time existed is like asking 'What is north of the North Pole?' It's a trick question that misuses words!"
+      "summary_5th_grader": "Skeptics add: Cause and effect only make sense inside time. Asking what 'caused' the start of time before time existed is like asking 'What is north of the North Pole?' It's a trick question that misuses words!",
+      "audio_urls": {
+        "female": "audio/arg_nothing_created_everything_1.1.2_female.mp3",
+        "male": "audio/arg_nothing_created_everything_1.1.2_male.mp3"
+      }
     },
     {
       "id": "1.2",
@@ -58,7 +74,11 @@
       "title": "Asymmetry of Requiring a Cause for Physics but Exempting God",
       "summary": "If the theist insists that uncaused quantum fields or timeless mathematical laws cannot exist as an ultimate brute reality without a prior cause, they face an immediate double standard when asserting that God is an uncaused, uncreated, timeless brute reality. Naturalistic parsimony suggests that if any uncaused fundamental reality must exist at the bedrock of explanation, it is simpler and less assumption-heavy to stop at physical laws or quantum grounds than to invent an immaterial Mind.",
       "status": "active",
-      "summary_5th_grader": "If believers say physical laws can't just exist on their own without God making them, why can God just exist on his own without anyone making him? Cutting out the middleman and stopping with physical laws is much simpler!"
+      "summary_5th_grader": "If believers say physical laws can't just exist on their own without God making them, why can God just exist on his own without anyone making him? Cutting out the middleman and stopping with physical laws is much simpler!",
+      "audio_urls": {
+        "female": "audio/arg_nothing_created_everything_1.2_female.mp3",
+        "male": "audio/arg_nothing_created_everything_1.2_male.mp3"
+      }
     },
     {
       "id": "1.2.1",
@@ -69,7 +89,11 @@
       "title": "Mind vs. Mindless Brute Fact: The Personal Choice Distinction",
       "summary": "Theists counter that mindless physical laws lack personal intent, agency, or the ability to choose to initiate a temporal effect from an eternal state. An impersonal set of laws or quantum field existing eternally would either produce its effect eternally or not at all. Only a free personal agent with volition can timelessly intend to create a temporal universe with a beginning.",
       "status": "active",
-      "summary_5th_grader": "Theists answer: Inanimate physics laws can't 'decide' when to start a universe. A personal God with a mind can choose to create time and space, whereas mindless rules can't make choices!"
+      "summary_5th_grader": "Theists answer: Inanimate physics laws can't 'decide' when to start a universe. A personal God with a mind can choose to create time and space, whereas mindless rules can't make choices!",
+      "audio_urls": {
+        "female": "audio/arg_nothing_created_everything_1.2.1_female.mp3",
+        "male": "audio/arg_nothing_created_everything_1.2.1_male.mp3"
+      }
     },
     {
       "id": "1.2.1.1",
@@ -80,7 +104,11 @@
       "title": "Timeless Volition and the Incoherence of Uncaused Decision",
       "summary": "Naturalists reply that a 'timeless personal decision' to create at a specific moment is logically incoherent. A decision implies a mental state transition from 'not intending/deciding' to 'intending/deciding,' which inherently requires temporal succession. Furthermore, attributing unexplained, uncaused volition to a supreme mind explains a physical mystery by invoking an even greater, unexaminable mental mystery.",
       "status": "active",
-      "summary_5th_grader": "Atheists respond: Making a choice means changing your mind from 'before choosing' to 'after choosing,' which requires time! A timeless mind making a sudden decision makes no sense."
+      "summary_5th_grader": "Atheists respond: Making a choice means changing your mind from 'before choosing' to 'after choosing,' which requires time! A timeless mind making a sudden decision makes no sense.",
+      "audio_urls": {
+        "female": "audio/arg_nothing_created_everything_1.2.1.1_female.mp3",
+        "male": "audio/arg_nothing_created_everything_1.2.1.1_male.mp3"
+      }
     }
   ]
 }

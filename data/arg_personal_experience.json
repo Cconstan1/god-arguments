@@ -14,7 +14,11 @@
       "title": "Argument from Personal Experience & NDEs (Stage 1)",
       "summary": "Observes that millions of people across history report direct, transformative encounters with the Divine, numinous awe, or Near-Death Experiences (NDEs). Following Richard Swinburne's Principle of Credulity, in the absence of positive grounds for doubt, what a person seems to perceive ought to be taken as real. Personal experience is the most epistemically immediate, intuitive, and refutation-resistant ground for religious belief.",
       "status": "active",
-      "summary_5th_grader": "If you see a bright red fire truck outside your window, you naturally believe it's real unless someone proves you were hallucinating! Philosophers like Richard Swinburne argue that if millions of people feel, hear, or experience God or have Near-Death Experiences, we should trust their experiences unless there's a really good reason not to."
+      "summary_5th_grader": "If you see a bright red fire truck outside your window, you naturally believe it's real unless someone proves you were hallucinating! Philosophers like Richard Swinburne argue that if millions of people feel, hear, or experience God or have Near-Death Experiences, we should trust their experiences unless there's a really good reason not to.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_1.0_female.mp3",
+        "male": "audio/arg_personal_experience_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -23,9 +27,13 @@
       "type": "stage_2",
       "shortLabel": "Stage 2 Divine Personal Encounter",
       "title": "Attribution of Experiential Realism to the Transcendent",
-      "summary": "Argues that deep religious experiences\u2014characterized by overwhelming feelings of unconditioned love, holy awe, moral clarity, and ego dissolution\u2014are qualitatively distinct from random hallucinations and point specifically to a transcendent, personal, and loving Source.",
+      "summary": "Argues that deep religious experiences—characterized by overwhelming feelings of unconditioned love, holy awe, moral clarity, and ego dissolution—are qualitatively distinct from random hallucinations and point specifically to a transcendent, personal, and loving Source.",
       "status": "active",
-      "summary_5th_grader": "When people experience God or NDEs, they don't just see random shapes\u2014they feel unconditional love, total peace, and a personal presence. That unique feeling points to a living, loving God rather than just random brain noise."
+      "summary_5th_grader": "When people experience God or NDEs, they don't just see random shapes—they feel unconditional love, total peace, and a personal presence. That unique feeling points to a living, loving God rather than just random brain noise.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_1.1_female.mp3",
+        "male": "audio/arg_personal_experience_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Unreliability & Cognitive Bias Objection",
       "summary": "Skeptics argue that human perception is highly unreliable and prone to cognitive biases, hyperactive agency detection (HADD), grief-induced visions, confirmation bias, and neurological disorders, making subjective experience an insufficient proof of external reality.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: human brains trick us all the time! We see faces in clouds, hear footsteps in empty houses, and dream crazy things when we're sad or tired. You can't rely on feelings alone to prove something exists."
+      "summary_5th_grader": "Skeptics say: human brains trick us all the time! We see faces in clouds, hear footsteps in empty houses, and dream crazy things when we're sad or tired. You can't rely on feelings alone to prove something exists.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_2.1_female.mp3",
+        "male": "audio/arg_personal_experience_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Swinburne's Principle of Credulity & Parity",
       "summary": "Defenders reply that rejecting subjective perception entirely leads to radical skepticism. Just as we trust our eyes that a tree exists without scientifically verifying our visual cortex every second, we must apply equal epistemic trust to spiritual perception unless specific defeaters exist.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: if you refuse to trust your own senses, you'd have to doubt EVERYTHING\u2014including whether the trees outside or your friends are real! Unless you have a specific reason to doubt, you should trust what you experience."
+      "summary_5th_grader": "Defenders reply: if you refuse to trust your own senses, you'd have to doubt EVERYTHING—including whether the trees outside or your friends are real! Unless you have a specific reason to doubt, you should trust what you experience.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_3.1_female.mp3",
+        "male": "audio/arg_personal_experience_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Presence of Overwhelming Neurological Defeaters",
       "summary": "Opponents respond that we DO possess specific neurological defeaters for spiritual experiences: brain chemistry, evolutionary survival mechanisms, and cultural conditioning provide better naturalistic explanations than supernatural intervention.",
       "status": "active",
-      "summary_5th_grader": "Skeptics counter: but we DO have a specific reason to doubt! We know science can explain how drugs, brain stress, and culture manufacture those exact feelings inside your head."
+      "summary_5th_grader": "Skeptics counter: but we DO have a specific reason to doubt! We know science can explain how drugs, brain stress, and culture manufacture those exact feelings inside your head.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_4.1_female.mp3",
+        "male": "audio/arg_personal_experience_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -69,7 +89,11 @@
       "title": "Brain as the Receiver / Instrument for Experiencing God",
       "summary": "Theists clarify that finding neurological activity during prayer or NDEs does not disprove God. Just as radio circuitry explains how music is received without proving the radio station invented the music, the brain is the physical hardware God uses to interact with consciousness.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: showing that a radio's speakers vibrate when music plays doesn't mean the radio invented the song! The brain is just the receiver God built to let us experience Him."
+      "summary_5th_grader": "Defenders answer: showing that a radio's speakers vibrate when music plays doesn't mean the radio invented the song! The brain is just the receiver God built to let us experience Him.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_5.1_female.mp3",
+        "male": "audio/arg_personal_experience_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -80,7 +104,11 @@
       "title": "Near-Death Experience Dying Brain & Hypoxia Hypothesis",
       "summary": "Skeptics argue that Near-Death Experiences (out-of-body sensations, tunnels of light, euphoria, life reviews) are naturalistic artifacts of a crashing brain suffering from oxygen deprivation (hypoxia), endorphin/DMT surges, temporal-parietal junction (TPJ) breakdown, or G-LOCK acceleration.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue: when a body is dying or low on oxygen, the brain floods itself with calming chemicals, producing tunnels of light, peaceful feelings, and out-of-body dreams as a final biological soothing gift."
+      "summary_5th_grader": "Skeptics argue: when a body is dying or low on oxygen, the brain floods itself with calming chemicals, producing tunnels of light, peaceful feelings, and out-of-body dreams as a final biological soothing gift.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_2.2_female.mp3",
+        "male": "audio/arg_personal_experience_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -91,7 +119,11 @@
       "title": "Veridical Perception During Flatline EEG",
       "summary": "Defenders highlight cases of 'veridical perception' where cardiac arrest patients with zero measurable brain activity (flatline EEG) accurately report specific, verifiable details in the operating room or distant locations that they could not have perceived through normal physical senses.",
       "status": "active",
-      "summary_5th_grader": "Defenders highlight amazing cases where patients whose heart and brain monitors were completely flat later described exact doctor conversations or hidden objects in the room that they couldn't possibly have known!"
+      "summary_5th_grader": "Defenders highlight amazing cases where patients whose heart and brain monitors were completely flat later described exact doctor conversations or hidden objects in the room that they couldn't possibly have known!",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_3.2_female.mp3",
+        "male": "audio/arg_personal_experience_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -102,7 +134,11 @@
       "title": "Awareness Studies & Reconstructed Memory Timing",
       "summary": "Opponents note that rigorous scientific trials (e.g., Sam Parnia's AWARE studies placing hidden symbols on ceiling shelves) have consistently failed to confirm out-of-body perception of hidden targets, suggesting NDE memories are formed during brain reactivation or anesthesia awareness.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out: in official hospital tests where secret pictures were hidden up on top shelves, NOT A SINGLE NDE patient ever reported the secret picture! Most 'amazing details' come from subconscious hearing while waking up."
+      "summary_5th_grader": "Skeptics point out: in official hospital tests where secret pictures were hidden up on top shelves, NOT A SINGLE NDE patient ever reported the secret picture! Most 'amazing details' come from subconscious hearing while waking up.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_4.2_female.mp3",
+        "male": "audio/arg_personal_experience_4.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -113,7 +149,11 @@
       "title": "Contradictory Doctrines Across World Religions",
       "summary": "Skeptics argue that personal experiences mutually cancel out: Christians experience Jesus, Muslims experience Islamic revelations, Hindus experience Krishna or Yama, and Buddhists experience ego-dissolution into Nirvana. If divine encounters confirm mutually exclusive doctrines, subjective experience is unreliable.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out: a Christian experiences Jesus, a Muslim experiences the Quran, and a Hindu experiences Krishna! Since these religions disagree with each other, personal feelings can't prove who is right."
+      "summary_5th_grader": "Skeptics point out: a Christian experiences Jesus, a Muslim experiences the Quran, and a Hindu experiences Krishna! Since these religions disagree with each other, personal feelings can't prove who is right.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_2.3_female.mp3",
+        "male": "audio/arg_personal_experience_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -124,7 +164,11 @@
       "title": "Shared Transcendent Core & Cultural Filtering",
       "summary": "Defenders respond that all genuine spiritual experiences share an underlying core reality (a transcendent, loving Mind), but human minds interpret that ultimate reality through their local cultural, linguistic, and symbolic frameworks (the 'Blind Men and the Elephant' metaphor).",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: it's like blind men touching different parts of an elephant! The underlying divine reality is real, but people use their own local culture and language to describe what they felt."
+      "summary_5th_grader": "Defenders reply: it's like blind men touching different parts of an elephant! The underlying divine reality is real, but people use their own local culture and language to describe what they felt.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_3.3_female.mp3",
+        "male": "audio/arg_personal_experience_3.3_male.mp3"
+      }
     },
     {
       "id": "4.3",
@@ -133,9 +177,13 @@
       "type": "sub_counter",
       "shortLabel": "Substantive Incompatibility",
       "title": "Irreconcilable Doctrinal Conflict",
-      "summary": "Opponents reply that core religious claims are logically contradictory\u2014a personal, eternal God (Theism) cannot be reconciled with an impersonal ultimate void (Anatta/Monism)\u2014proving cultural filtering cannot rescue experiential reliability.",
+      "summary": "Opponents reply that core religious claims are logically contradictory—a personal, eternal God (Theism) cannot be reconciled with an impersonal ultimate void (Anatta/Monism)—proving cultural filtering cannot rescue experiential reliability.",
       "status": "active",
-      "summary_5th_grader": "Skeptics counter: believing in a Personal Creator God is the exact OPPOSITE of believing there is no God and no soul! You can't just smooth over total logical opposites by saying 'everyone is touching the same elephant'."
+      "summary_5th_grader": "Skeptics counter: believing in a Personal Creator God is the exact OPPOSITE of believing there is no God and no soul! You can't just smooth over total logical opposites by saying 'everyone is touching the same elephant'.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_4.3_female.mp3",
+        "male": "audio/arg_personal_experience_4.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -146,7 +194,11 @@
       "title": "Pharmaceutically Replicable Mysticism (Psilocybin & DMT)",
       "summary": "Skeptics point out that profound mystical experiences, ego death, and feelings of cosmic unity can be reliably duplicated in laboratory settings using chemical substances like psilocybin, DMT, or electrical temporal lobe stimulation (Persinger's 'God Helmet').",
       "status": "active",
-      "summary_5th_grader": "Skeptics note: scientists can give someone a magic mushroom pill or put a special helmet on their head in a lab, and instantly trigger the exact same 'God feeling'! If a pill causes it, it's just chemistry."
+      "summary_5th_grader": "Skeptics note: scientists can give someone a magic mushroom pill or put a special helmet on their head in a lab, and instantly trigger the exact same 'God feeling'! If a pill causes it, it's just chemistry.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_2.4_female.mp3",
+        "male": "audio/arg_personal_experience_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -157,7 +209,11 @@
       "title": "Neurochemical Antennas & Long-Term Transformation",
       "summary": "Defenders reply that molecules like psilocybin act as chemical keys that temporarily suppress the brain's ego-focused Default Mode Network (DMN), allowing consciousness to perceive a real, transcendent dimension normally filtered out by daily survival mechanisms.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: a telescope uses glass lenses to let you see distant galaxies, but the glass didn't create the stars! Certain chemicals might just turn off our brain's filters so we can see the spiritual reality that was always there."
+      "summary_5th_grader": "Defenders reply: a telescope uses glass lenses to let you see distant galaxies, but the glass didn't create the stars! Certain chemicals might just turn off our brain's filters so we can see the spiritual reality that was always there.",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_3.4_female.mp3",
+        "male": "audio/arg_personal_experience_3.4_male.mp3"
+      }
     },
     {
       "id": "2.5",
@@ -166,9 +222,13 @@
       "type": "rebuttal",
       "shortLabel": "Social Contagion & Rituals",
       "title": "Social Contagion & Environmental Manipulation",
-      "summary": "Skeptics emphasize that intense group dynamics\u2014communal worship, emotional music, fasting, sleep deprivation, and peer expectation\u2014artificially induce euphoria and spiritual highs through social contagion and sensory manipulation.",
+      "summary": "Skeptics emphasize that intense group dynamics—communal worship, emotional music, fasting, sleep deprivation, and peer expectation—artificially induce euphoria and spiritual highs through social contagion and sensory manipulation.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: loud music, flashing lights, emotional stories, and big crowds in a stadium can make anyone get goosebumps and feel emotional energy, whether it's a church service or a rock concert!"
+      "summary_5th_grader": "Skeptics say: loud music, flashing lights, emotional stories, and big crowds in a stadium can make anyone get goosebumps and feel emotional energy, whether it's a church service or a rock concert!",
+      "audio_urls": {
+        "female": "audio/arg_personal_experience_2.5_female.mp3",
+        "male": "audio/arg_personal_experience_2.5_male.mp3"
+      }
     }
   ]
 }

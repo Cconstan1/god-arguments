@@ -14,7 +14,11 @@
       "title": "Internal Contradictions, Historical Anachronisms, and Retrofitted Prophecies",
       "summary": "Historical-critical scholarship (popularized by scholars such as Bart Ehrman and Richard Carrier) demonstrates that sacred scriptures contain demonstrable internal factual contradictions (e.g., diverging resurrection accounts, conflicting genealogies of Jesus in Matthew and Luke), historical anachronisms (e.g., Quirinius's governorship vs. Herod the Great's reign), and prophecies retrofitted post eventum or extracted out of context. For instance, Old Testament passages like Isaiah 7:14 originally referred to an 8th-century BC young woman (almah), but were retranslated in the Septuagint as 'virgin' (parthenos) and retrofitted as Messianic predictions in Matthew. Such pervasive textual instability and contextual manipulation undermine claims that these texts constitute infallible, omniscient divine revelation.",
       "status": "active",
-      "summary_5th_grader": "If a book was written by an all-knowing God who never makes mistakes, every single fact in it should be 100% true and match up perfectly! But when historians examine holy scriptures, they find many places where the book contradicts itself on dates, numbers, and family trees, or where 'predictions' were translated incorrectly or written after events already happened."
+      "summary_5th_grader": "If a book was written by an all-knowing God who never makes mistakes, every single fact in it should be 100% true and match up perfectly! But when historians examine holy scriptures, they find many places where the book contradicts itself on dates, numbers, and family trees, or where 'predictions' were translated incorrectly or written after events already happened.",
+      "audio_urls": {
+        "female": "audio/arg_textual_contradictions_1.0_female.mp3",
+        "male": "audio/arg_textual_contradictions_1.0_male.mp3"
+      }
     },
     {
       "id": "2.0",
@@ -25,7 +29,11 @@
       "title": "Apologetic Harmonization, Ancient Genre Conventions, and Scribal Distinctions",
       "summary": "Theistic apologists and evangelical scholars (such as Gleason Archer and Craig Blomberg) argue that alleged contradictions stem from misapplying modern journalistic standards to ancient literary genres. Ancient historiography routinely utilized paraphrase, topical arranging, hyperbole, and complementary perspectives without intent to deceive. Furthermore, apologists distinguish between the 'original autographs' (which they maintain were inerrant) and minor scribal copying errors introduced across centuries of manual transmission. Progressive revelation also explains why divine commands shifted across distinct historical covenants.",
       "status": "active",
-      "summary_5th_grader": "Defending scholars say you have to read holy books like ancient history reports, not modern math textbooks! Four different witnesses to a car crash will describe different details without lying. Minor spelling or number mistakes made by human copiers over thousands of years don't mean God made a mistake in the original message."
+      "summary_5th_grader": "Defending scholars say you have to read holy books like ancient history reports, not modern math textbooks! Four different witnesses to a car crash will describe different details without lying. Minor spelling or number mistakes made by human copiers over thousands of years don't mean God made a mistake in the original message.",
+      "audio_urls": {
+        "female": "audio/arg_textual_contradictions_2.0_female.mp3",
+        "male": "audio/arg_textual_contradictions_2.0_male.mp3"
+      }
     },
     {
       "id": "3.0",
@@ -36,7 +44,11 @@
       "title": "Unfalsifiability of Missing Autographs and Typological Distortion",
       "summary": "Critics respond that appealing to non-existent 'original autographs' renders the claim of biblical inerrancy scientifically and logically unfalsifiable, as no original manuscript survives for empirical testing. Furthermore, forced harmonizations often strain linguistic integrity, creating contorted explanations (e.g., positing two distinct cleansings of the Temple or separate Jairus daughter events). In terms of prophecy, retroactively applying typological allegories to OT passages disrupts their original Hebrew grammar and historical context, proving that prophetic 'fulfillments' are post-hoc literary creations rather than genuine predictive foresight.",
       "status": "active",
-      "summary_5th_grader": "Saying 'the original handwritten pages were perfect, but we lost them all' is an excuse you can never prove! Also, contorting stories into pretzels just to make conflicting accounts match up ignores what the words actually say, showing that 'fulfilled prophecies' were often twisted later to fit Jesus after the fact."
+      "summary_5th_grader": "Saying 'the original handwritten pages were perfect, but we lost them all' is an excuse you can never prove! Also, contorting stories into pretzels just to make conflicting accounts match up ignores what the words actually say, showing that 'fulfilled prophecies' were often twisted later to fit Jesus after the fact.",
+      "audio_urls": {
+        "female": "audio/arg_textual_contradictions_3.0_female.mp3",
+        "male": "audio/arg_textual_contradictions_3.0_male.mp3"
+      }
     },
     {
       "id": "4.0",
@@ -47,7 +59,11 @@
       "title": "Textual Criticism and the Robustness of Manuscript Attestation",
       "summary": "Textual critics (such as Daniel B. Wallace) counter that the vast library of extant ancient manuscripts (over 5,800 Greek NT manuscripts and tens of thousands in Latin and Syriac) allows scholars to reconstruct original readings with over 99% accuracy. Comparative manuscript analysis easily isolates scribal variants (which are overwhelming minor spelling or word-order differences), proving that no core theological doctrine depends on a corrupted text. Therefore, the historical reliability of the underlying revelation remains remarkably intact compared to any other ancient document.",
       "status": "active",
-      "summary_5th_grader": "Because we have thousands of ancient copies compared to just a few for ancient kings like Julius Caesar, scholars can compare them side-by-side to easily spot human typos. This proves that the core story and messages haven't been lost or changed!"
+      "summary_5th_grader": "Because we have thousands of ancient copies compared to just a few for ancient kings like Julius Caesar, scholars can compare them side-by-side to easily spot human typos. This proves that the core story and messages haven't been lost or changed!",
+      "audio_urls": {
+        "female": "audio/arg_textual_contradictions_4.0_female.mp3",
+        "male": "audio/arg_textual_contradictions_4.0_male.mp3"
+      }
     },
     {
       "id": "5.0",
@@ -56,9 +72,13 @@
       "type": "sub_argument",
       "shortLabel": "Moral Evolution in Text",
       "title": "Divergent Moral Frameworks and Cultural Evolution",
-      "summary": "Beyond factual discrepancies, critics highlight stark moral contradictions within sacred texts\u2014such as Old Testament regulations permitting chattel slavery, genocide, and brutal penal codes versus New Testament emphasis on universal love, forgiveness, and spiritual equality. Rather than reflecting an immutable divine moral lawgiver, these shifting moral standards match the gradual, naturalistic evolution of human cultural and ethical norms over centuries.",
+      "summary": "Beyond factual discrepancies, critics highlight stark moral contradictions within sacred texts—such as Old Testament regulations permitting chattel slavery, genocide, and brutal penal codes versus New Testament emphasis on universal love, forgiveness, and spiritual equality. Rather than reflecting an immutable divine moral lawgiver, these shifting moral standards match the gradual, naturalistic evolution of human cultural and ethical norms over centuries.",
       "status": "active",
-      "summary_5th_grader": "In early parts of holy books, God approves of slavery, violent conquests, and harsh punishments, but in later parts, God preaches mercy, love, and forgiveness. This shows human culture was slowly improving over time, rather than God giving one unchanging rule for all time."
+      "summary_5th_grader": "In early parts of holy books, God approves of slavery, violent conquests, and harsh punishments, but in later parts, God preaches mercy, love, and forgiveness. This shows human culture was slowly improving over time, rather than God giving one unchanging rule for all time.",
+      "audio_urls": {
+        "female": "audio/arg_textual_contradictions_5.0_female.mp3",
+        "male": "audio/arg_textual_contradictions_5.0_male.mp3"
+      }
     },
     {
       "id": "6.0",
@@ -69,7 +89,11 @@
       "title": "Unfulfilled First-Century Eschatological Predictions",
       "summary": "A significant category of unfulfilled prophecy involves imminent eschatological predictions. In the Gospels, Jesus repeatedly tells his disciples that the end of the age and the Son of Man's return in glory would occur within the lifetime of his contemporaries (e.g., Matthew 16:28, Matthew 24:34, Mark 9:1). The historical passage of two millennia without this apocalyptic return demonstrates a clear failure of predictive prophecy, forcing later generations to re-interpret 'soon' as figurative or non-temporal.",
       "status": "active",
-      "summary_5th_grader": "Jesus explicitly told his first followers that some of them would still be alive when he returned in glory to end the world. But thousands of years have passed, forcing later believers to change the meaning of 'soon' from a human lifespan to thousands of years later."
+      "summary_5th_grader": "Jesus explicitly told his first followers that some of them would still be alive when he returned in glory to end the world. But thousands of years have passed, forcing later believers to change the meaning of 'soon' from a human lifespan to thousands of years later.",
+      "audio_urls": {
+        "female": "audio/arg_textual_contradictions_6.0_female.mp3",
+        "male": "audio/arg_textual_contradictions_6.0_male.mp3"
+      }
     }
   ]
 }

@@ -14,7 +14,11 @@
       "title": "The Minimal Facts Inference to the Best Explanation",
       "summary": "Pioneered by Gary Habermas and William Lane Craig, this argument relies exclusively on historical data accepted by virtually all critical scholars (theist and non-theist alike): (1) Jesus died by Roman crucifixion, (2) his disciples sincerely believed he appeared to them alive, (3) persecutor Paul and skeptic James were suddenly converted by post-crucifixion experiences, and (4) the empty tomb was discovered by women. Theists contend that divine resurrection is the only hypothesis with sufficient explanatory scope and power to account for all facts simultaneously.",
       "status": "active",
-      "summary_5th_grader": "Historians\u2014even non-Christian ones\u2014agree on several facts: Jesus died on a cross, His followers genuinely believed they saw Him alive afterward, His enemy Paul suddenly changed into a believer, and His tomb was empty. Theists argue that Jesus actually rising from the dead is the only logical explanation that makes sense of all these clues together."
+      "summary_5th_grader": "Historians—even non-Christian ones—agree on several facts: Jesus died on a cross, His followers genuinely believed they saw Him alive afterward, His enemy Paul suddenly changed into a believer, and His tomb was empty. Theists argue that Jesus actually rising from the dead is the only logical explanation that makes sense of all these clues together.",
+      "audio_urls": {
+        "female": "audio/arg_resurrection_minimal_facts_1.0_female.mp3",
+        "male": "audio/arg_resurrection_minimal_facts_1.0_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -23,9 +27,13 @@
       "type": "rebuttal",
       "shortLabel": "Hallucination / Grief",
       "title": "Grief Hallucination & Visionary Experience Hypothesis",
-      "summary": "Critical scholars (e.g., Gerd L\u00fcdemann, Richard Carrier) argue that post-crucifixion sightings are best explained by psychological grief hallucinations and subjective bereavement visions. Bereaved individuals frequently experience vivid sensory apparitions of loved ones, which can spark collective enthusiasm and belief in exaltation without requiring a physical miracle.",
+      "summary": "Critical scholars (e.g., Gerd Lüdemann, Richard Carrier) argue that post-crucifixion sightings are best explained by psychological grief hallucinations and subjective bereavement visions. Bereaved individuals frequently experience vivid sensory apparitions of loved ones, which can spark collective enthusiasm and belief in exaltation without requiring a physical miracle.",
       "status": "active",
-      "summary_5th_grader": "Skeptics suggest that after Jesus died, His heartbroken followers had powerful grief dreams or hallucinations where they felt His presence. Because they missed Him so much, their minds tricked them into believing He had come back to life."
+      "summary_5th_grader": "Skeptics suggest that after Jesus died, His heartbroken followers had powerful grief dreams or hallucinations where they felt His presence. Because they missed Him so much, their minds tricked them into believing He had come back to life.",
+      "audio_urls": {
+        "female": "audio/arg_resurrection_minimal_facts_2.1_female.mp3",
+        "male": "audio/arg_resurrection_minimal_facts_2.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -34,9 +42,13 @@
       "type": "rebuttal",
       "shortLabel": "Legendary Accretion",
       "title": "Oral Tradition & Mythological Accretion",
-      "summary": "New Testament scholars like Bart Ehrman emphasize that the Gospels were written decades after the events (40\u201370 years later) by anonymous, non-eyewitness authors in distant Greco-Roman cities. Over decades of oral retelling, subjective visions evolved into physical touch stories, empty tomb narratives, and dramatic apocalyptic claims (e.g., resurrected saints in Matthew 27).",
+      "summary": "New Testament scholars like Bart Ehrman emphasize that the Gospels were written decades after the events (40–70 years later) by anonymous, non-eyewitness authors in distant Greco-Roman cities. Over decades of oral retelling, subjective visions evolved into physical touch stories, empty tomb narratives, and dramatic apocalyptic claims (e.g., resurrected saints in Matthew 27).",
       "status": "active",
-      "summary_5th_grader": "The Gospels weren't written down until 40 to 70 years after Jesus died. Over decades of storytelling like a game of 'telephone,' simple spiritual beliefs gradually grew into wild tales of open tombs, zombie saints walking around, and physical touching."
+      "summary_5th_grader": "The Gospels weren't written down until 40 to 70 years after Jesus died. Over decades of storytelling like a game of 'telephone,' simple spiritual beliefs gradually grew into wild tales of open tombs, zombie saints walking around, and physical touching.",
+      "audio_urls": {
+        "female": "audio/arg_resurrection_minimal_facts_2.2_female.mp3",
+        "male": "audio/arg_resurrection_minimal_facts_2.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -45,9 +57,13 @@
       "type": "rebuttal",
       "shortLabel": "Humean Epistemic Bar",
       "title": "Humean Historical Skepticism & Prior Probability",
-      "summary": "Applying David Hume's essay 'Of Miracles,' naturalistic historians argue that no human testimony is sufficient to establish a miracle unless its falsehood would be more miraculous. Because human error, psychological illusion, and ancient legend are commonplace, any naturalistic explanation\u2014no matter how improbable\u2014is infinitely more probable than a physical resurrection.",
+      "summary": "Applying David Hume's essay 'Of Miracles,' naturalistic historians argue that no human testimony is sufficient to establish a miracle unless its falsehood would be more miraculous. Because human error, psychological illusion, and ancient legend are commonplace, any naturalistic explanation—no matter how improbable—is infinitely more probable than a physical resurrection.",
       "status": "active",
-      "summary_5th_grader": "Philosopher David Hume pointed out that humans lie or make mistakes all the time, but nature's laws never break. Therefore, it is always more reasonable to believe that ancient stories got mixed up than to believe a dead body came back to life."
+      "summary_5th_grader": "Philosopher David Hume pointed out that humans lie or make mistakes all the time, but nature's laws never break. Therefore, it is always more reasonable to believe that ancient stories got mixed up than to believe a dead body came back to life.",
+      "audio_urls": {
+        "female": "audio/arg_resurrection_minimal_facts_2.3_female.mp3",
+        "male": "audio/arg_resurrection_minimal_facts_2.3_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -58,7 +74,11 @@
       "title": "Inadequacy of the Hallucination Hypothesis",
       "summary": "Apologists contend that hallucinations are private psychological phenomena that cannot be experienced simultaneously by multiple people across diverse settings (e.g., individuals, group gatherings, indoor/outdoor). Furthermore, hallucinations cannot account for the empty tomb, physical eating/touching claims, or the conversion of hostile skeptic Paul.",
       "status": "active",
-      "summary_5th_grader": "Theists respond that hallucinations happen inside one person's mind\u2014two people can't see the exact same hallucination any more than they can share the exact same dream! Plus, a hallucination couldn't explain why Jesus's body was missing from the tomb or why his enemy Paul converted."
+      "summary_5th_grader": "Theists respond that hallucinations happen inside one person's mind—two people can't see the exact same hallucination any more than they can share the exact same dream! Plus, a hallucination couldn't explain why Jesus's body was missing from the tomb or why his enemy Paul converted.",
+      "audio_urls": {
+        "female": "audio/arg_resurrection_minimal_facts_3.1_female.mp3",
+        "male": "audio/arg_resurrection_minimal_facts_3.1_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -66,10 +86,14 @@
       "level": 3,
       "type": "counter_response",
       "shortLabel": "Early Creedal Evidence",
-      "title": "Early Paul Creed (1 Cor 15:3\u20137)",
-      "summary": "Historians confirm that Paul's early creed in 1 Corinthians 15:3\u20137 dates to within 2 to 5 years of the crucifixion (formulated in Jerusalem with Peter and James). This extremely early date leaves virtually zero time for legendary accretion, demonstrating that bodily resurrection and group appearances were taught immediately at Christianity's birth.",
+      "title": "Early Paul Creed (1 Cor 15:3–7)",
+      "summary": "Historians confirm that Paul's early creed in 1 Corinthians 15:3–7 dates to within 2 to 5 years of the crucifixion (formulated in Jerusalem with Peter and James). This extremely early date leaves virtually zero time for legendary accretion, demonstrating that bodily resurrection and group appearances were taught immediately at Christianity's birth.",
       "status": "active",
-      "summary_5th_grader": "Historical records show that the earliest statement about Jesus rising from the dead was written down in a church chant just 2 to 3 years after his death. That is way too fast for fairy tales or rumors to have been invented!"
+      "summary_5th_grader": "Historical records show that the earliest statement about Jesus rising from the dead was written down in a church chant just 2 to 3 years after his death. That is way too fast for fairy tales or rumors to have been invented!",
+      "audio_urls": {
+        "female": "audio/arg_resurrection_minimal_facts_3.2_female.mp3",
+        "male": "audio/arg_resurrection_minimal_facts_3.2_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -80,7 +104,11 @@
       "title": "Sincerity & Willingness to Suffer",
       "summary": "The early apostles were willing to face torture and execution for testifying specifically to physical encounters with the resurrected Jesus. While people often die for false beliefs they inherited, nobody willingly dies for something they know to be a fabricated lie, proving at minimum their utter sincerity.",
       "status": "active",
-      "summary_5th_grader": "People might die for a belief they were taught, but nobody lets themselves be executed for a lie they made up themselves! The followers' willingness to die proves they genuinely believed they saw the risen Jesus with their own eyes."
+      "summary_5th_grader": "People might die for a belief they were taught, but nobody lets themselves be executed for a lie they made up themselves! The followers' willingness to die proves they genuinely believed they saw the risen Jesus with their own eyes.",
+      "audio_urls": {
+        "female": "audio/arg_resurrection_minimal_facts_3.3_female.mp3",
+        "male": "audio/arg_resurrection_minimal_facts_3.3_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -91,7 +119,11 @@
       "title": "Spiritual Vision vs. Physical Resuscitation",
       "summary": "Critical scholars note that 1 Corinthians 15 describes a 'spiritual body' (*soma pneumatikon*) and groups Paul's own vision (a light on the road to Damascus) with the appearances to the apostles, suggesting the earliest belief was in spiritual exaltation rather than physical flesh-and-blood resuscitation.",
       "status": "active",
-      "summary_5th_grader": "Scholars point out that in the earliest letters, Paul calls it a 'spiritual body' and puts his own vision of a bright light in the sky in the exact same list as the disciples' experiences\u2014meaning early Christians may have meant a spiritual appearance, not a walking corpse."
+      "summary_5th_grader": "Scholars point out that in the earliest letters, Paul calls it a 'spiritual body' and puts his own vision of a bright light in the sky in the exact same list as the disciples' experiences—meaning early Christians may have meant a spiritual appearance, not a walking corpse.",
+      "audio_urls": {
+        "female": "audio/arg_resurrection_minimal_facts_4.1_female.mp3",
+        "male": "audio/arg_resurrection_minimal_facts_4.1_male.mp3"
+      }
     }
   ]
 }

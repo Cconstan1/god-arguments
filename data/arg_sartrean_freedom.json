@@ -12,9 +12,13 @@
       "type": "core_argument",
       "shortLabel": "Sartrean Freedom Core",
       "title": "Existence Precedes Essence & Radical Human Freedom",
-      "summary": "Formulated by Jean-Paul Sartre in 'Existentialism is a Humanism' (1946), the argument posits that if a creator God exists, God conceives human essence before creating humans\u2014like a craftsman designing a paperknife according to a blueprint. In this theological framework, human nature, purpose, and moral obligations are pre-determined before individual birth ('essence precedes existence'). However, if God does not exist, humans first exist, encounter themselves in the world, and only afterwards define who they are through their choices and actions ('existence precedes essence'). Radical freedom and genuine moral responsibility require that human beings are not manufactured tools with a predefined divine essence.",
+      "summary": "Formulated by Jean-Paul Sartre in 'Existentialism is a Humanism' (1946), the argument posits that if a creator God exists, God conceives human essence before creating humans—like a craftsman designing a paperknife according to a blueprint. In this theological framework, human nature, purpose, and moral obligations are pre-determined before individual birth ('essence precedes existence'). However, if God does not exist, humans first exist, encounter themselves in the world, and only afterwards define who they are through their choices and actions ('existence precedes essence'). Radical freedom and genuine moral responsibility require that human beings are not manufactured tools with a predefined divine essence.",
       "status": "active",
-      "summary_5th_grader": "Imagine a factory worker making a pair of scissors. Before making the scissors, the worker knows exactly what they are for (cutting paper). Sartre said if God created humans, we would be just like those scissors\u2014manufactured objects with our purpose already picked out for us. But because we can choose who we want to be and invent our own life goals, we are truly free\u2014meaning we exist first, and figure out our meaning afterwards!"
+      "summary_5th_grader": "Imagine a factory worker making a pair of scissors. Before making the scissors, the worker knows exactly what they are for (cutting paper). Sartre said if God created humans, we would be just like those scissors—manufactured objects with our purpose already picked out for us. But because we can choose who we want to be and invent our own life goals, we are truly free—meaning we exist first, and figure out our meaning afterwards!",
+      "audio_urls": {
+        "female": "audio/arg_sartrean_freedom_1.0_female.mp3",
+        "male": "audio/arg_sartrean_freedom_1.0_male.mp3"
+      }
     },
     {
       "id": "2.0",
@@ -25,7 +29,11 @@
       "title": "The Teleological Fulfillment & Imago Dei Defense",
       "summary": "Theistic thinkers (such as C.S. Lewis, Thomas Aquinas, and Jacques Maritain) argue that Sartre presents a false dichotomy between creation and freedom. In Christian theology, being created in the 'Image of God' (Imago Dei) endows human beings with genuine moral agency, rational volition, and creative potential. A predefined divine essence does not turn humans into inanimate tools like paperknives; rather, it provides the essential normative framework (goodness, love, truth) within which human freedom can meaningfully flourish rather than collapsing into existential angst, nihilism, or self-destructive absurdity.",
       "status": "active",
-      "summary_5th_grader": "Religious thinkers answer that God creating us doesn't turn us into tools like scissors. Instead, God made us like artists with minds and freedom! Having a God-given purpose isn't a cage; it's like having a map so our choices actually lead to real happiness instead of getting lost in a confusing, meaningless world."
+      "summary_5th_grader": "Religious thinkers answer that God creating us doesn't turn us into tools like scissors. Instead, God made us like artists with minds and freedom! Having a God-given purpose isn't a cage; it's like having a map so our choices actually lead to real happiness instead of getting lost in a confusing, meaningless world.",
+      "audio_urls": {
+        "female": "audio/arg_sartrean_freedom_2.0_female.mp3",
+        "male": "audio/arg_sartrean_freedom_2.0_male.mp3"
+      }
     },
     {
       "id": "3.0",
@@ -34,9 +42,13 @@
       "type": "counter_response",
       "shortLabel": "Bad Faith & Determinism",
       "title": "The Paperknife Analogy & Bad Faith (Mauvaise Foi)",
-      "summary": "Existentialists respond that relying on a divine blueprint or external moral order to justify human choices constitutes 'bad faith' (mauvaise foi)\u2014an evasion of the terrifying weight of radical responsibility. If God determines what constitutes human flourishing, then human choices are merely evaluations of compliance with an external standard, not authentic self-creation. Furthermore, if God commands certain behaviors under threat of eternal damnation or reward, moral action becomes heteronomous and coerced rather than autonomously chosen.",
+      "summary": "Existentialists respond that relying on a divine blueprint or external moral order to justify human choices constitutes 'bad faith' (mauvaise foi)—an evasion of the terrifying weight of radical responsibility. If God determines what constitutes human flourishing, then human choices are merely evaluations of compliance with an external standard, not authentic self-creation. Furthermore, if God commands certain behaviors under threat of eternal damnation or reward, moral action becomes heteronomous and coerced rather than autonomously chosen.",
       "status": "active",
-      "summary_5th_grader": "Sartre replied that using God's rules as an excuse for your choices is called 'bad faith'\u2014trying to hide from the scariest part of being human, which is taking 100% personal responsibility for your life. If you only do good things because God told you to or because you're scared of hell, you aren't choosing good out of true freedom."
+      "summary_5th_grader": "Sartre replied that using God's rules as an excuse for your choices is called 'bad faith'—trying to hide from the scariest part of being human, which is taking 100% personal responsibility for your life. If you only do good things because God told you to or because you're scared of hell, you aren't choosing good out of true freedom.",
+      "audio_urls": {
+        "female": "audio/arg_sartrean_freedom_3.0_female.mp3",
+        "male": "audio/arg_sartrean_freedom_3.0_male.mp3"
+      }
     },
     {
       "id": "4.0",
@@ -47,7 +59,11 @@
       "title": "The Reality of Universal Human Nature & Objective Value",
       "summary": "Christian and natural law philosophers argue that if existence truly precedes essence with no objective human nature or transcendent baseline, then all human values are arbitrary subjective inventions. Without a predefined essence, there is no objective grounding to condemn atrocities like torture or oppression, as perpetrators are merely exercising their 'self-created essence.' True freedom requires a human nature endowed with intrinsic dignity and purpose, without which human action lacks intelligibility and objective moral worth.",
       "status": "active",
-      "summary_5th_grader": "If there is no built-in human nature and everyone invents their own rules, then a bad person doing terrible things is just 'creating their own purpose.' Without a God-given baseline that human life is sacred, you can't say anyone is objectively wrong!"
+      "summary_5th_grader": "If there is no built-in human nature and everyone invents their own rules, then a bad person doing terrible things is just 'creating their own purpose.' Without a God-given baseline that human life is sacred, you can't say anyone is objectively wrong!",
+      "audio_urls": {
+        "female": "audio/arg_sartrean_freedom_4.0_female.mp3",
+        "male": "audio/arg_sartrean_freedom_4.0_male.mp3"
+      }
     },
     {
       "id": "5.0",
@@ -58,7 +74,11 @@
       "title": "Intersubjectivity & Inescapable Moral Responsibility",
       "summary": "Sartre explicitly rejected total ethical relativism through the concept of intersubjectivity: in choosing for oneself, one necessarily chooses for all humanity. Because humans are 'condemned to be free,' we bear absolute, un-evadable responsibility for the values we project into the world without hiding behind divine mandates. Creating meaning in a universe without a predefined divine blueprint requires far greater courage, moral seriousness, and authentic accountability than submitting to a celestial lawgiver.",
       "status": "active",
-      "summary_5th_grader": "Sartre showed that not having God doesn't mean 'anything goes.' Whenever you make a choice, you are setting an example for how you think all humans should live! Carrying that huge responsibility on your own shoulders takes way more bravery than just following orders from the sky."
+      "summary_5th_grader": "Sartre showed that not having God doesn't mean 'anything goes.' Whenever you make a choice, you are setting an example for how you think all humans should live! Carrying that huge responsibility on your own shoulders takes way more bravery than just following orders from the sky.",
+      "audio_urls": {
+        "female": "audio/arg_sartrean_freedom_5.0_female.mp3",
+        "male": "audio/arg_sartrean_freedom_5.0_male.mp3"
+      }
     },
     {
       "id": "6.0",
@@ -69,7 +89,11 @@
       "title": "Divine Sustaining as the Pre-condition of Volitional Agency",
       "summary": "Thomistic and Reformed theologians note that divine creation is not mechanical manufacturing but a continuous sustaining of being (creatio continuans). God does not impose an external straightjacket on human volition; rather, divine power is the very ontological ground that makes human agency, consciousness, and real choice possible in every moment. Radical self-creation ex nihilo is an ontological impossibility for contingent creatures.",
       "status": "active",
-      "summary_5th_grader": "Philosophers point out that God isn't like a puppeteer pulling strings. God is the source of life that powers your brain so you can make choices at all! You can't 'create yourself out of nowhere'\u2014you need God to keep you existing so you can have freedom in the first place."
+      "summary_5th_grader": "Philosophers point out that God isn't like a puppeteer pulling strings. God is the source of life that powers your brain so you can make choices at all! You can't 'create yourself out of nowhere'—you need God to keep you existing so you can have freedom in the first place.",
+      "audio_urls": {
+        "female": "audio/arg_sartrean_freedom_6.0_female.mp3",
+        "male": "audio/arg_sartrean_freedom_6.0_male.mp3"
+      }
     }
   ]
 }

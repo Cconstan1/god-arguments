@@ -11,7 +11,11 @@
       "title": "Evidential Problem of Evil (Rowe's Inductive Formulation)",
       "summary": "There exist instances of intense suffering which an omnipotent, omniscient being could have prevented without losing a greater good or permitting an equal or worse evil. An all-good, all-powerful God would prevent such gratuitous suffering. Therefore, it is highly improbable that God exists.",
       "status": "active",
-      "summary_5th_grader": "There is so much terrible, pointless suffering in the world\u2014like a fawn trapped in a forest fire\u2014that a completely good and powerful God could easily stop without breaking anything good. Since all that awful pain keeps happening, it's very unlikely that a loving God is running the universe."
+      "summary_5th_grader": "There is so much terrible, pointless suffering in the world—like a fawn trapped in a forest fire—that a completely good and powerful God could easily stop without breaking anything good. Since all that awful pain keeps happening, it's very unlikely that a loving God is running the universe.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_1.0_female.mp3",
+        "male": "audio/arg_evidential_evil_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -22,7 +26,11 @@
       "title": "Draper's Hypothesis of Indifference",
       "summary": "The observed facts about the scale, distribution, and intensity of pain and pleasure in sentient life are far better explained by the Hypothesis of Indifference (that nature is neutral toward us) than by Theism.",
       "status": "active",
-      "summary_5th_grader": "If you look at who gets hurt and who feels good, nature acts like it doesn't care about us at all. A world created by an indifferent universe fits what we actually see much better than a world run by a loving God."
+      "summary_5th_grader": "If you look at who gets hurt and who feels good, nature acts like it doesn't care about us at all. A world created by an indifferent universe fits what we actually see much better than a world run by a loving God.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_1.1_female.mp3",
+        "male": "audio/arg_evidential_evil_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -33,7 +41,11 @@
       "title": "Skeptical Theism (Wykstra's CORNEA Principle)",
       "summary": "Our cognitive limitations mean we should not expect to understand all divine motives or consequences. The absence of a visible reason for suffering does not mean no reason exists.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: humans are like toddlers compared to God! Just because a toddler doesn't understand why a doctor gives them a painful shot doesn't mean the doctor is bad. We just can't see God's giant plan."
+      "summary_5th_grader": "Skeptics say: humans are like toddlers compared to God! Just because a toddler doesn't understand why a doctor gives them a painful shot doesn't mean the doctor is bad. We just can't see God's giant plan.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_2.1_female.mp3",
+        "male": "audio/arg_evidential_evil_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -44,7 +56,11 @@
       "title": "Moral & Epistemic Paralysis Objection",
       "summary": "If we cannot trust our moral intuitions about extreme, pointless suffering, we lose the ability to make moral judgments or trust divine promises, leading to total moral skepticism.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: if we can't trust our brains when we see horrible cruelty, we can't trust our brains for anything! We wouldn't even know if stopping a crime is good or if God is telling us the truth."
+      "summary_5th_grader": "Defenders reply: if we can't trust our brains when we see horrible cruelty, we can't trust our brains for anything! We wouldn't even know if stopping a crime is good or if God is telling us the truth.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_3.1_female.mp3",
+        "male": "audio/arg_evidential_evil_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -55,7 +71,11 @@
       "title": "Modest Skeptical Theism (Restricted CORNEA)",
       "summary": "Proponents restrict skepticism specifically to divine goods beyond human comprehension, preserving everyday human moral duties and empirical reasoning within the physical world.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue back: we can still know right from wrong in daily life! We are only humble about big, cosmic reasons that only an all-knowing mind could grasp."
+      "summary_5th_grader": "Skeptics argue back: we can still know right from wrong in daily life! We are only humble about big, cosmic reasons that only an all-knowing mind could grasp.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_4.1_female.mp3",
+        "male": "audio/arg_evidential_evil_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -66,7 +86,11 @@
       "title": "Inductive Evidential Weight & Base Rates",
       "summary": "Even if individual cases are mysterious, the vast sheer quantity and pattern of unprevented agonies creates a massive cumulative probability against theism.",
       "status": "active",
-      "summary_5th_grader": "Opponents point out: if you see thousands of unexplained bad things happening every day, at some point saying 'it's a secret mystery' stops being a good excuse!"
+      "summary_5th_grader": "Opponents point out: if you see thousands of unexplained bad things happening every day, at some point saying 'it's a secret mystery' stops being a good excuse!",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_5.1_female.mp3",
+        "male": "audio/arg_evidential_evil_5.1_male.mp3"
+      }
     },
     {
       "id": "6.1",
@@ -77,7 +101,11 @@
       "title": "Terminal Node: Skeptical Limits & Cumulative Probability",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this branch! You can add your own arguments here."
+      "summary_5th_grader": "End of this branch! You can add your own arguments here.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_6.1_female.mp3",
+        "male": "audio/arg_evidential_evil_6.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -88,7 +116,11 @@
       "title": "Soul-Making Theodicy (Hick / Irenaean)",
       "summary": "God created a world with suffering not as a comfortable paradise, but as a challenging gymnasium where humans can freely grow virtues like bravery, compassion, and perseverance.",
       "status": "active",
-      "summary_5th_grader": "Some thinkers say: the world isn't meant to be a comfortable playground\u2014it's a training gym! We need difficult challenges and pain so we can learn courage, kindness, and patience."
+      "summary_5th_grader": "Some thinkers say: the world isn't meant to be a comfortable playground—it's a training gym! We need difficult challenges and pain so we can learn courage, kindness, and patience.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_2.2_female.mp3",
+        "male": "audio/arg_evidential_evil_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -99,7 +131,11 @@
       "title": "Horrific & Ruinous Suffering Objection",
       "summary": "Much suffering crushes, traumatizes, or kills people (and infants) before any moral growth can occur, making 'soul-making' impossible for millions of victims.",
       "status": "active",
-      "summary_5th_grader": "Critics answer: terrible agony often crushes people instead of helping them grow! Babies and animals die in pain before they can ever learn a lesson, so 'training' doesn't explain their suffering."
+      "summary_5th_grader": "Critics answer: terrible agony often crushes people instead of helping them grow! Babies and animals die in pain before they can ever learn a lesson, so 'training' doesn't explain their suffering.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_3.2_female.mp3",
+        "male": "audio/arg_evidential_evil_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -110,7 +146,11 @@
       "title": "Eschatological Restoration & Universal Healing",
       "summary": "Theistic defenders argue soul-making continues into the afterlife, where all earthly trauma is healed and transformed into eternal joy.",
       "status": "active",
-      "summary_5th_grader": "Defenders suggest: soul-building doesn't end when we die! In heaven, God heals every injury and trauma, turning all past pain into endless joy."
+      "summary_5th_grader": "Defenders suggest: soul-building doesn't end when we die! In heaven, God heals every injury and trauma, turning all past pain into endless joy.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_4.2_female.mp3",
+        "male": "audio/arg_evidential_evil_4.2_male.mp3"
+      }
     },
     {
       "id": "5.2",
@@ -121,7 +161,11 @@
       "title": "Terminal Node: Character Building & Afterlife Healing",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this branch! You can add your own arguments here."
+      "summary_5th_grader": "End of this branch! You can add your own arguments here.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_5.2_female.mp3",
+        "male": "audio/arg_evidential_evil_5.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -132,7 +176,11 @@
       "title": "Extended Free Will & Moral Consequences",
       "summary": "Real human free agency requires that humans have the actual power to hurt one another; constantly stepping in to shield victims would render human choices meaningless.",
       "status": "active",
-      "summary_5th_grader": "Another view: for real freedom to exist, people must have the power to make bad choices that hurt others. If God stopped every bad decision instantly, choices wouldn't mean anything!"
+      "summary_5th_grader": "Another view: for real freedom to exist, people must have the power to make bad choices that hurt others. If God stopped every bad decision instantly, choices wouldn't mean anything!",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_2.3_female.mp3",
+        "male": "audio/arg_evidential_evil_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -143,7 +191,11 @@
       "title": "Natural Evils & Bystander Responsibility",
       "summary": "Free will fails to explain natural disasters (earthquakes, tsunamis) and doesn't explain why a good God wouldn't intervene like a good human bystander to stop horrific abuse.",
       "status": "active",
-      "summary_5th_grader": "Critics point out: human choices don't cause earthquakes, hurricanes, or tsunamis! Plus, if a human sees a child in danger and can easily help, they stop it\u2014why wouldn't God?"
+      "summary_5th_grader": "Critics point out: human choices don't cause earthquakes, hurricanes, or tsunamis! Plus, if a human sees a child in danger and can easily help, they stop it—why wouldn't God?",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_3.3_female.mp3",
+        "male": "audio/arg_evidential_evil_3.3_male.mp3"
+      }
     },
     {
       "id": "4.3",
@@ -154,7 +206,11 @@
       "title": "Natural Law Regularity & Substrate",
       "summary": "A physical universe requires consistent, dependable natural laws for free choices to have predictable outcomes, making physical hazards an inevitable cosmic feature.",
       "status": "active",
-      "summary_5th_grader": "Defenders respond: gravity and physics must work the exact same way every day so we can plan our actions. A world where physics constantly bends would be chaotic and unpredictable."
+      "summary_5th_grader": "Defenders respond: gravity and physics must work the exact same way every day so we can plan our actions. A world where physics constantly bends would be chaotic and unpredictable.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_4.3_female.mp3",
+        "male": "audio/arg_evidential_evil_4.3_male.mp3"
+      }
     },
     {
       "id": "5.3",
@@ -165,7 +221,11 @@
       "title": "Terminal Node: Free Will & Natural Laws",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this branch! You can add your own arguments here."
+      "summary_5th_grader": "End of this branch! You can add your own arguments here.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_5.3_female.mp3",
+        "male": "audio/arg_evidential_evil_5.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -176,7 +236,11 @@
       "title": "Biological Warning System Function",
       "summary": "Physical pain is a vital biological evolutionary mechanism that alerts living organisms to danger, tissue damage, and life-threatening conditions.",
       "status": "active",
-      "summary_5th_grader": "Some explain: pain is an alarm system! Touching a hot stove hurts so you pull your hand back before you get permanently burned."
+      "summary_5th_grader": "Some explain: pain is an alarm system! Touching a hot stove hurts so you pull your hand back before you get permanently burned.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_2.4_female.mp3",
+        "male": "audio/arg_evidential_evil_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -187,7 +251,11 @@
       "title": "Gratuitous & Terminal Agony Objection",
       "summary": "Pain often continues long after its warning function is useless (such as terminal cancer or an animal trapped under a rock), producing pure gratuitous torment.",
       "status": "active",
-      "summary_5th_grader": "Critics answer: but pain keeps hurting long after the warning is useless! Terminal illness or an animal dying alone trapped under a rock gets zero benefit from that extra pain."
+      "summary_5th_grader": "Critics answer: but pain keeps hurting long after the warning is useless! Terminal illness or an animal dying alone trapped under a rock gets zero benefit from that extra pain.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_3.4_female.mp3",
+        "male": "audio/arg_evidential_evil_3.4_male.mp3"
+      }
     },
     {
       "id": "4.4",
@@ -198,7 +266,11 @@
       "title": "Elegant General Laws & Emergent Byproducts",
       "summary": "God creates simple, uniform physical laws that produce complex life; individual instances of useless pain are unintended emergent side-effects of a elegant system.",
       "status": "active",
-      "summary_5th_grader": "Defenders say: God designed simple, beautiful laws of nature. Sometimes those rules produce unwanted side-effects, but keeping the laws simple is worth it."
+      "summary_5th_grader": "Defenders say: God designed simple, beautiful laws of nature. Sometimes those rules produce unwanted side-effects, but keeping the laws simple is worth it.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_4.4_female.mp3",
+        "male": "audio/arg_evidential_evil_4.4_male.mp3"
+      }
     },
     {
       "id": "5.4",
@@ -209,7 +281,11 @@
       "title": "Terminal Node: Biological Alarms vs Gratuitous Pain",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this branch! You can add your own arguments here."
+      "summary_5th_grader": "End of this branch! You can add your own arguments here.",
+      "audio_urls": {
+        "female": "audio/arg_evidential_evil_5.4_female.mp3",
+        "male": "audio/arg_evidential_evil_5.4_male.mp3"
+      }
     }
   ]
 }

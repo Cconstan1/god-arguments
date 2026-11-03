@@ -14,7 +14,11 @@
       "title": "The Improvability Paradox & Non-Optimality of Creation",
       "summary": "Formulated by philosophers like Nicholas Rescher and Klaas Kraay, the Improvability Argument asserts that for any created world W, a logically possible world W* exists that contains more net goodness or less gratuitous suffering. If God is infinitely good, powerful, and knowledgeable, God would actualize the best achievable world. If an absolute 'best possible world' exists, our world is clearly not it (given observable flaws and suffering). If no best possible world exists because the scale of possible worlds is infinitely ascending (like prime numbers), then creating any world forces God to choose an arbitrarily inferior world when a better one was always available, creating a fundamental tension in divine omnibenevolence.",
       "status": "active",
-      "summary_5th_grader": "Think of worlds like video game levels with high scores. For any world God creates, you can always imagine a slightly better one with a higher score\u2014for example, a world just like ours but without painful diseases. If God could always make a better world, then whichever world God picks is always worse than millions of other worlds He could have picked instead!"
+      "summary_5th_grader": "Think of worlds like video game levels with high scores. For any world God creates, you can always imagine a slightly better one with a higher score—for example, a world just like ours but without painful diseases. If God could always make a better world, then whichever world God picks is always worse than millions of other worlds He could have picked instead!",
+      "audio_urls": {
+        "female": "audio/arg_improvability_1.0_female.mp3",
+        "male": "audio/arg_improvability_1.0_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -25,7 +29,11 @@
       "title": "The 'No Best Possible World' Pseudo-Concept",
       "summary": "Theists (such as Alvin Plantinga and Richard Swinburne) respond that the concept of a 'best possible world' is a pseudo-concept, analogous to the 'highest prime number' or 'largest integer.' Just as God cannot create a square circle, God cannot actualize a 'highest possible world' if the scale of goodness is infinite. God is not morally defective for failing to do what is logically impossible, and God fulfills omnibenevolence by creating a world that is inherently good and worth creating.",
       "status": "active",
-      "summary_5th_grader": "Some philosophers say asking God to make the 'best possible world' is like asking someone to name the 'biggest number.' Numbers go on forever, so there is no biggest number! God can't do things that don't make sense, so God shouldn't be blamed for not picking a 'biggest number' world."
+      "summary_5th_grader": "Some philosophers say asking God to make the 'best possible world' is like asking someone to name the 'biggest number.' Numbers go on forever, so there is no biggest number! God can't do things that don't make sense, so God shouldn't be blamed for not picking a 'biggest number' world.",
+      "audio_urls": {
+        "female": "audio/arg_improvability_2.1_female.mp3",
+        "male": "audio/arg_improvability_2.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -34,9 +42,13 @@
       "type": "rebuttal",
       "shortLabel": "Moral Satisficing",
       "title": "Divine Satisficing & Worthwhileness",
-      "summary": "Robert Adams argues for 'divine satisficing'\u2014the view that God does not need to maximize goodness to be perfectly good, but merely needs to actualize a world where life is good and worth living for its inhabitants. God's grace and love are shown by creating and sustaining creatures who are not perfect, rather than strictly optimizing a cosmological calculus.",
+      "summary": "Robert Adams argues for 'divine satisficing'—the view that God does not need to maximize goodness to be perfectly good, but merely needs to actualize a world where life is good and worth living for its inhabitants. God's grace and love are shown by creating and sustaining creatures who are not perfect, rather than strictly optimizing a cosmological calculus.",
       "status": "active",
-      "summary_5th_grader": "Imagine an artist who paints a beautiful picture. It might not be the most flawless painting in the universe, but it's still wonderful and full of love. God doesn't have to follow a strict math formula to make a world\u2014He just creates a world where life is good and meaningful."
+      "summary_5th_grader": "Imagine an artist who paints a beautiful picture. It might not be the most flawless painting in the universe, but it's still wonderful and full of love. God doesn't have to follow a strict math formula to make a world—He just creates a world where life is good and meaningful.",
+      "audio_urls": {
+        "female": "audio/arg_improvability_2.2_female.mp3",
+        "male": "audio/arg_improvability_2.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -47,7 +59,11 @@
       "title": "Feasibility & Transworld Depravity Constraints",
       "summary": "Under Molinist and Free Will Defense frameworks, the range of worlds 'possible' in the abstract is vastly larger than the range of worlds 'feasible' for God to actualize. If free creatures exercise genuine agency, God cannot force them to freely choose good in every scenario without causing logical contradiction.",
       "status": "active",
-      "summary_5th_grader": "If God gives people real free choice, God can't force them to always make good decisions. A world where everyone freely chooses to be nice every single time might not actually be possible if people have real freedom!"
+      "summary_5th_grader": "If God gives people real free choice, God can't force them to always make good decisions. A world where everyone freely chooses to be nice every single time might not actually be possible if people have real freedom!",
+      "audio_urls": {
+        "female": "audio/arg_improvability_2.3_female.mp3",
+        "male": "audio/arg_improvability_2.3_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -58,7 +74,11 @@
       "title": "The Problem of Arbitrary Divine Choice",
       "summary": "Atheists counter that if the spectrum of worlds is infinite, any world God actualizes is infinitely surpassed by superior alternatives. Choosing any specific world on an infinite scale means God acted arbitrarily, lacking a sufficient reason for selecting W over the vastly superior W*, undermining classical divine rationality (Leibniz's Principle of Sufficient Reason).",
       "status": "active",
-      "summary_5th_grader": "If there's an infinite ladder of better and better worlds, why did God stop at step 50 instead of step 1,000,000? Stopping anywhere seems completely random and unfair to the people living in the lower world."
+      "summary_5th_grader": "If there's an infinite ladder of better and better worlds, why did God stop at step 50 instead of step 1,000,000? Stopping anywhere seems completely random and unfair to the people living in the lower world.",
+      "audio_urls": {
+        "female": "audio/arg_improvability_3.1_female.mp3",
+        "male": "audio/arg_improvability_3.1_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -69,7 +89,11 @@
       "title": "Conceivability of Trivial Local Improvements",
       "summary": "Critics contend that the argument does not rely on demanding an infinite paradise; rather, it highlights that obvious, local, trivial improvements (such as eliminating genetic childhood diseases or horrific parasites) are easily achievable without sacrificing human free will or moral growth. The presence of gratuitous suffering proves our world falls far below reasonable standards of divine satisficing.",
       "status": "active",
-      "summary_5th_grader": "We don't need a world where everyone gets free ice cream forever\u2014we just want a world without painful diseases in toddlers! Fixing those small things wouldn't take away our free choice, so why didn't God make at least those simple fixes?"
+      "summary_5th_grader": "We don't need a world where everyone gets free ice cream forever—we just want a world without painful diseases in toddlers! Fixing those small things wouldn't take away our free choice, so why didn't God make at least those simple fixes?",
+      "audio_urls": {
+        "female": "audio/arg_improvability_3.2_female.mp3",
+        "male": "audio/arg_improvability_3.2_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -80,7 +104,11 @@
       "title": "Independence of Natural Evil from Free Agency",
       "summary": "The feasibility defense fails to account for vast swathes of natural evil (earthquakes, tsunamis, animal suffering before humans existed) that have no connection to human free agency. God could easily actualize a world with stable geology and less natural destruction without encroaching on free choice.",
       "status": "active",
-      "summary_5th_grader": "Free choice explains why bad people do bad things, but it doesn't explain earthquakes, volcanoes, or animal diseases that existed millions of years before humans were even born. God could have fixed those natural dangers easily!"
+      "summary_5th_grader": "Free choice explains why bad people do bad things, but it doesn't explain earthquakes, volcanoes, or animal diseases that existed millions of years before humans were even born. God could have fixed those natural dangers easily!",
+      "audio_urls": {
+        "female": "audio/arg_improvability_3.3_female.mp3",
+        "male": "audio/arg_improvability_3.3_male.mp3"
+      }
     }
   ]
 }

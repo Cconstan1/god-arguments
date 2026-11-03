@@ -14,7 +14,11 @@
       "title": "The Skeptic's Wager & Decision-Theoretic Asymmetry",
       "summary": "Formulated as a direct decision-theoretic counter to Pascal's Wager (and explored by philosophers like Richard Carrier, Michael Martin, and Graham Oppy), the Parody Wager posits an alternative divine payout matrix: What if God values intellectual integrity, honest skepticism, and rigorous evidential evaluation above blind faith? If such a deity exists, genuine skeptics who suspend judgment based on insufficient evidence receive infinite or substantial positive reward, whereas those who adopt credulous, wishful, or self-interested belief (as advocated in Pascal's Wager) are punished or excluded for intellectual dishonesty. This demonstrates that Pascal's decision matrix depends entirely on an arbitrary, unevidenced assumption about divine preferences.",
       "status": "active",
-      "summary_5th_grader": "Pascal said 'You should bet on God just in case!' But what if God is an honest judge who loves thinkers that demand real evidence, and hates people who pretend to believe just to win a prize? If God rewards honest doubters and punishes fake believers, then betting on God out of fear is actually the most dangerous bet you could make!"
+      "summary_5th_grader": "Pascal said 'You should bet on God just in case!' But what if God is an honest judge who loves thinkers that demand real evidence, and hates people who pretend to believe just to win a prize? If God rewards honest doubters and punishes fake believers, then betting on God out of fear is actually the most dangerous bet you could make!",
+      "audio_urls": {
+        "female": "audio/arg_parody_wager_1.0_female.mp3",
+        "male": "audio/arg_parody_wager_1.0_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -25,7 +29,11 @@
       "title": "Divine Self-Revelation & Historical Moral Character",
       "summary": "Theists contend that the Parody Wager assumes a hypothetical God devoid of historical or self-revealed character. Classical monotheism holds that God has explicitly revealed His nature, moral expectations, and the necessity of trusting faith through sacred scriptures, historical interventions, and personal spiritual experience. Therefore, the payout matrix of Pascal's Wager is not an arbitrary invention, but grounded in actual claimed divine revelation, whereas the 'Skeptic-Rewarding God' is a purely fabricated, ad-hoc counter-hypothesis without historical or experiential grounding.",
       "status": "active",
-      "summary_5th_grader": "Believers argue that we don't have to guess what God wants because God already told us in holy books and history! They say God specifically asked for trust and faith, so inventing a hypothetical 'God who hates faith' is just making up fairy tales that have no real-world backing."
+      "summary_5th_grader": "Believers argue that we don't have to guess what God wants because God already told us in holy books and history! They say God specifically asked for trust and faith, so inventing a hypothetical 'God who hates faith' is just making up fairy tales that have no real-world backing.",
+      "audio_urls": {
+        "female": "audio/arg_parody_wager_2.1_female.mp3",
+        "male": "audio/arg_parody_wager_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -36,7 +44,11 @@
       "title": "Contradictory Revelations & Epistemic Equivalence",
       "summary": "Skeptics respond that invoking historical revelation re-introduces the Many-Gods Objection and the exact problem of epistemic parity. Thousands of mutually exclusive religions claim divine revelation, many threatening damnation for believing competing revelations. Without an objective, non-circular way to evaluate which revelation is true, relying on claimed revelation to validate Pascal's payoff matrix circularizes the argument. Under epistemic uncertainty across competing revelation claims, the possibility of a God who rewards epistemic honesty remains on equal probabilistic footing with any particular sectarian deity.",
       "status": "active",
-      "summary_5th_grader": "Doubters answer that almost every religion claims to have the 'one true book' and promises bad things to anyone who believes other books! Since these books contradict each other, an honest person cannot know which one to pick without checking evidence. A fair God would understand that honest people can't just pick a book at random!"
+      "summary_5th_grader": "Doubters answer that almost every religion claims to have the 'one true book' and promises bad things to anyone who believes other books! Since these books contradict each other, an honest person cannot know which one to pick without checking evidence. A fair God would understand that honest people can't just pick a book at random!",
+      "audio_urls": {
+        "female": "audio/arg_parody_wager_3.1_female.mp3",
+        "male": "audio/arg_parody_wager_3.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -47,7 +59,11 @@
       "title": "Doxastic Voluntarism & Moral Worth of Trust",
       "summary": "Traditional theologians argue that faith is not merely intellectual assent or a pragmatic gamble, but a moral virtue involving personal commitment, humility, and trust in a relational creator. From this perspective, pragmatic belief is a gateway to authentic spiritual transformation, whereas skeptical detachment can represent intellectual pride or moral resistance to divine authority, making divine favor toward faith morally fitting rather than arbitrary.",
       "status": "active",
-      "summary_5th_grader": "Traditional believers say that having faith isn't just about guessing facts\u2014it's like trusting a parent or a friend. They think stepping out in faith shows humility and love, while demanding endless proof can sometimes just be an excuse to stay stubborn."
+      "summary_5th_grader": "Traditional believers say that having faith isn't just about guessing facts—it's like trusting a parent or a friend. They think stepping out in faith shows humility and love, while demanding endless proof can sometimes just be an excuse to stay stubborn.",
+      "audio_urls": {
+        "female": "audio/arg_parody_wager_2.2_female.mp3",
+        "male": "audio/arg_parody_wager_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -56,9 +72,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Ethics of Belief",
       "title": "W.K. Clifford's Principle & Epistemic Conscientiousness",
-      "summary": "Advocates of the Parody Wager invoke W.K. Clifford's principle ('It is wrong always, everywhere, and for anyone, to believe anything upon insufficient evidence'). They argue that forming beliefs based on wishful thinking, pragmatic fear, or self-preservation damages individual and social rationality. If God is the ultimate source of truth and rational order, divine justice would logically honor epistemic conscientiousness\u2014refusing to believe without sufficient evidence\u2014as the highest form of cognitive virtue, making unevidenced belief a moral failing.",
+      "summary": "Advocates of the Parody Wager invoke W.K. Clifford's principle ('It is wrong always, everywhere, and for anyone, to believe anything upon insufficient evidence'). They argue that forming beliefs based on wishful thinking, pragmatic fear, or self-preservation damages individual and social rationality. If God is the ultimate source of truth and rational order, divine justice would logically honor epistemic conscientiousness—refusing to believe without sufficient evidence—as the highest form of cognitive virtue, making unevidenced belief a moral failing.",
       "status": "active",
-      "summary_5th_grader": "Thinkers like Clifford argued that it is wrong to force yourself to believe something just because you're scared of missing a reward. If God gave us minds to think clearly, using our minds honestly to seek truth\u2014even when evidence is missing\u2014is the highest form of honesty, which a good God would respect!"
+      "summary_5th_grader": "Thinkers like Clifford argued that it is wrong to force yourself to believe something just because you're scared of missing a reward. If God gave us minds to think clearly, using our minds honestly to seek truth—even when evidence is missing—is the highest form of honesty, which a good God would respect!",
+      "audio_urls": {
+        "female": "audio/arg_parody_wager_3.2_female.mp3",
+        "male": "audio/arg_parody_wager_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -69,7 +89,11 @@
       "title": "Infinite Utility Breakdown & Return to Evidentialism",
       "summary": "Decision theorists point out that when an infinite number of mutually exclusive, infinitely high-stakes payout hypotheses are introduced (a God who rewards believers, a God who rewards skeptics, a God who rewards only specific sects, a God who punishes pragmatic gamblers), the mathematical expected utility calculation completely breaks down. Summing infinite positive and negative utilities across infinite contradictory possibilities yields an undefined expected value, neutralizing pragmatic arguments for belief and forcing a return to evidential evaluation.",
       "status": "active",
-      "summary_5th_grader": "Math experts show that when you have infinite different 'what if' bets pointing in opposite directions\u2014bet on A, bet on B, bet on C\u2014the math cancels itself out completely! You end up with zero guidance, so you're forced to step back and look for real evidence instead of playing scary betting games."
+      "summary_5th_grader": "Math experts show that when you have infinite different 'what if' bets pointing in opposite directions—bet on A, bet on B, bet on C—the math cancels itself out completely! You end up with zero guidance, so you're forced to step back and look for real evidence instead of playing scary betting games.",
+      "audio_urls": {
+        "female": "audio/arg_parody_wager_2.3_female.mp3",
+        "male": "audio/arg_parody_wager_2.3_male.mp3"
+      }
     }
   ]
 }

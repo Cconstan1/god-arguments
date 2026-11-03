@@ -14,7 +14,11 @@
       "title": "The God of the Gaps Critique & Historical Explanatory Asymmetry",
       "summary": "Invoking divine intervention to account for temporary gaps in current scientific knowledge relies on a logical fallacy (argumentum ad ignorantiam). Across human history, scientific progress exhibits an absolute one-way explanatory direction: supernatural attributions (e.g., lightning as divine wrath, disease as demonic possession, planetary motion pushed by angels, or the 'breath of life' / ruach as an immaterial divine substance animating dust) have been systematically replaced by testable natural mechanisms. Never in history has a validated natural explanation been overturned and replaced by a supernatural one. Reducing God to an explanation for current scientific ignorance makes divine agency shrinking, fragile, and historically unreliable.",
       "status": "active",
-      "summary_5th_grader": "Throughout history, whenever humans didn't understand something\u2014like thunderbolts, plagues, why planets move, or why we stop breathing when we die\u2014they said 'God did it!' But as science discovered electricity, germs, gravity, and lungs, every single mystery turned out to have a natural explanation. Saying 'God did it' just because science hasn't solved a puzzle yet has been proven wrong over and over again!"
+      "summary_5th_grader": "Throughout history, whenever humans didn't understand something—like thunderbolts, plagues, why planets move, or why we stop breathing when we die—they said 'God did it!' But as science discovered electricity, germs, gravity, and lungs, every single mystery turned out to have a natural explanation. Saying 'God did it' just because science hasn't solved a puzzle yet has been proven wrong over and over again!",
+      "audio_urls": {
+        "female": "audio/arg_god_of_gaps_1.0_female.mp3",
+        "male": "audio/arg_god_of_gaps_1.0_male.mp3"
+      }
     },
     {
       "id": "2.0",
@@ -23,9 +27,13 @@
       "type": "rebuttal",
       "shortLabel": "Primary Causality Defense",
       "title": "God as the Sustaining Author of Natural Law (Primary Causality)",
-      "summary": "Christian and classical theists contend that the 'God of the gaps' critique mischaracterizes orthodox theology. God is not a divine plug used to fill missing physical mechanisms (secondary causality) within creation; rather, God is the primary cause that creates and continuously sustains the very natural laws and physical fabric that science explores. Discovering how pulmonary respiration oxygenates blood or how meteorology forms storm clouds does not displace God\u2014it reveals the ordered, mathematical rationality by which God upholds the universe.",
+      "summary": "Christian and classical theists contend that the 'God of the gaps' critique mischaracterizes orthodox theology. God is not a divine plug used to fill missing physical mechanisms (secondary causality) within creation; rather, God is the primary cause that creates and continuously sustains the very natural laws and physical fabric that science explores. Discovering how pulmonary respiration oxygenates blood or how meteorology forms storm clouds does not displace God—it reveals the ordered, mathematical rationality by which God upholds the universe.",
       "status": "active",
-      "summary_5th_grader": "Believers reply that God isn't hiding in the dark corners of what science hasn't figured out yet. Instead, God created the rules of science themselves! Learning how lungs absorb oxygen or how lightning works doesn't disprove God\u2014it just shows us the amazing blueprints God designed for how the world runs every single day."
+      "summary_5th_grader": "Believers reply that God isn't hiding in the dark corners of what science hasn't figured out yet. Instead, God created the rules of science themselves! Learning how lungs absorb oxygen or how lightning works doesn't disprove God—it just shows us the amazing blueprints God designed for how the world runs every single day.",
+      "audio_urls": {
+        "female": "audio/arg_god_of_gaps_2.0_female.mp3",
+        "male": "audio/arg_god_of_gaps_2.0_male.mp3"
+      }
     },
     {
       "id": "3.0",
@@ -34,9 +42,13 @@
       "type": "counter_response",
       "shortLabel": "Historical Shift to Abstract Background",
       "title": "The Retreat to Metaphysical Irrelevance",
-      "summary": "While modern theologians reframe God as an abstract primary cause behind physical laws, historical religious texts explicitly claimed direct, empirical divine interventions\u2014such as hurling atmospheric tempests, breathing literal spirit into dust, or smiting populations with disease. As empirical science explains these once-sacred phenomena naturalistically, retreating to a God who merely 'sustains the laws' renders divine action empirically indistinguishable from a purely natural, unguided universe.",
+      "summary": "While modern theologians reframe God as an abstract primary cause behind physical laws, historical religious texts explicitly claimed direct, empirical divine interventions—such as hurling atmospheric tempests, breathing literal spirit into dust, or smiting populations with disease. As empirical science explains these once-sacred phenomena naturalistically, retreating to a God who merely 'sustains the laws' renders divine action empirically indistinguishable from a purely natural, unguided universe.",
       "status": "active",
-      "summary_5th_grader": "Critics argue that religions didn't start out treating God as just a quiet lawgiver behind the scenes\u2014they claimed God was literally throwing lightning bolts and blowing life into dust! As science explains every single one of those acts, moving God further and further into the background makes God sound like a shrinking excuse rather than a real force in the world."
+      "summary_5th_grader": "Critics argue that religions didn't start out treating God as just a quiet lawgiver behind the scenes—they claimed God was literally throwing lightning bolts and blowing life into dust! As science explains every single one of those acts, moving God further and further into the background makes God sound like a shrinking excuse rather than a real force in the world.",
+      "audio_urls": {
+        "female": "audio/arg_god_of_gaps_3.0_female.mp3",
+        "male": "audio/arg_god_of_gaps_3.0_male.mp3"
+      }
     },
     {
       "id": "4.0",
@@ -47,7 +59,11 @@
       "title": "The Fragility of Basing Theology on Unexplained Complexity",
       "summary": "Apologists who point to current scientific frontiers (such as the origin of self-replicating RNA or abiogenesis) as positive proof of God repeat the exact inductive error of medieval thinkers. Basing faith on what science cannot currently explain creates a 'theological time-bomb': whenever science subsequently solves the mystery (e.g., prebiotic chemistry or evolutionary developmental biology), another piece of divine evidence is demolished.",
       "status": "active",
-      "summary_5th_grader": "Basing your belief in God on things science hasn't solved yet\u2014like how life first started\u2014is building on shaky ground. People used to say science could never explain how rainbows form or how diseases spread\u2014until it did! Every time science solves a new mystery, a 'God of the gaps' argument falls apart."
+      "summary_5th_grader": "Basing your belief in God on things science hasn't solved yet—like how life first started—is building on shaky ground. People used to say science could never explain how rainbows form or how diseases spread—until it did! Every time science solves a new mystery, a 'God of the gaps' argument falls apart.",
+      "audio_urls": {
+        "female": "audio/arg_god_of_gaps_4.0_female.mp3",
+        "male": "audio/arg_god_of_gaps_4.0_male.mp3"
+      }
     },
     {
       "id": "5.0",
@@ -58,7 +74,11 @@
       "title": "Inference to the Best Explanation (Abduction) vs. Argument from Ignorance",
       "summary": "Intelligent Design theorists (such as Stephen Meyer and Michael Behe) argue that design inferences are not 'gap arguments' rooted in ignorance, but legitimate abductive inferences (inference to the best explanation) rooted in positive empirical knowledge. We know from uniform human experience that specified, complex functional information (such as digital code in DNA or fine-tuned physical constants) exclusively originates from intelligent minds. Inferring a divine mind is therefore based on what we *do* know about cause-and-effect, not what we don't.",
       "status": "active",
-      "summary_5th_grader": "Supporters of design say they aren't just guessing because they're confused! They argue that when we see complex software code inside DNA or fine-tuned cosmic numbers, we recognize patterns that only smart minds create\u2014just like finding a smartphone in the jungle proves an engineer built it, even if you didn't see them make it."
+      "summary_5th_grader": "Supporters of design say they aren't just guessing because they're confused! They argue that when we see complex software code inside DNA or fine-tuned cosmic numbers, we recognize patterns that only smart minds create—just like finding a smartphone in the jungle proves an engineer built it, even if you didn't see them make it.",
+      "audio_urls": {
+        "female": "audio/arg_god_of_gaps_5.0_female.mp3",
+        "male": "audio/arg_god_of_gaps_5.0_male.mp3"
+      }
     },
     {
       "id": "6.0",
@@ -67,9 +87,13 @@
       "type": "counter_response",
       "shortLabel": "Methodological Naturalism Superiority",
       "title": "Methodological Naturalism & the Predictive Power of Science",
-      "summary": "Science relies on methodological naturalism because natural hypotheses yield testable, falsifiable predictions and mechanisms that can be independently verified. Invoking a divine agent serves as a scientific 'explanation stopper'\u2014it explains everything and therefore predicts nothing. If medical science had accepted divine judgment as the explanation for sickness, modern pathology, pharmacology, and germ theory would never have been discovered.",
+      "summary": "Science relies on methodological naturalism because natural hypotheses yield testable, falsifiable predictions and mechanisms that can be independently verified. Invoking a divine agent serves as a scientific 'explanation stopper'—it explains everything and therefore predicts nothing. If medical science had accepted divine judgment as the explanation for sickness, modern pathology, pharmacology, and germ theory would never have been discovered.",
       "status": "active",
-      "summary_5th_grader": "Science works because scientists keep looking for natural rules they can test and measure. Saying 'God made it' stops people from asking questions or doing experiments. If ancient doctors just said 'God made this sickness,' we would never have discovered germs, vaccines, or modern medicine!"
+      "summary_5th_grader": "Science works because scientists keep looking for natural rules they can test and measure. Saying 'God made it' stops people from asking questions or doing experiments. If ancient doctors just said 'God made this sickness,' we would never have discovered germs, vaccines, or modern medicine!",
+      "audio_urls": {
+        "female": "audio/arg_god_of_gaps_6.0_female.mp3",
+        "male": "audio/arg_god_of_gaps_6.0_male.mp3"
+      }
     },
     {
       "id": "7.0",
@@ -80,7 +104,11 @@
       "title": "The Philosophical Danger of Dogmatic Scientism",
       "summary": "Theists respond that restricting all valid knowledge strictly to naturalistic scientific methods commits the philosophical error of *scientism*. If a transcendent Mind truly created the universe and occasionally intervenes, an a priori commitment to methodological naturalism guarantees that science will misinterpret divine action as either an eternal mystery or an irrational anomaly, closing its eyes to genuine transcendent truth.",
       "status": "active",
-      "summary_5th_grader": "Believers warn that if scientists decide ahead of time that miracles or God are totally impossible, they will refuse to see evidence of God even if it's staring them right in the face! Science is a great tool for physical objects, but it shouldn't rule out divine reality before even looking."
+      "summary_5th_grader": "Believers warn that if scientists decide ahead of time that miracles or God are totally impossible, they will refuse to see evidence of God even if it's staring them right in the face! Science is a great tool for physical objects, but it shouldn't rule out divine reality before even looking.",
+      "audio_urls": {
+        "female": "audio/arg_god_of_gaps_7.0_female.mp3",
+        "male": "audio/arg_god_of_gaps_7.0_male.mp3"
+      }
     }
   ]
 }

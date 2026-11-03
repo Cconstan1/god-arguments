@@ -14,7 +14,11 @@
       "title": "Plantinga's Modal Ontological Premise (Stage 1)",
       "summary": "Formulated by Alvin Plantinga, if it is broadly logically possible that a Maximally Great Being (a being omnipotent, omniscient, and morally perfect in every possible world) exists, then by S5 modal logic, that being exists in at least one possible world. In S5 modal logic, if a necessary truth is possible in one world, it is necessary in ALL possible worlds. Therefore, a Maximally Great Being exists in reality.",
       "status": "active",
-      "summary_5th_grader": "Imagine every possible universe that could ever exist. Alvin Plantinga used a special rule of logic (called S5) to show: if it's even POSSIBLY true that a super awesome, all-powerful God exists in just ONE possible universe, then that God HAS to exist in EVERY single possible universe\u2014including our real world!"
+      "summary_5th_grader": "Imagine every possible universe that could ever exist. Alvin Plantinga used a special rule of logic (called S5) to show: if it's even POSSIBLY true that a super awesome, all-powerful God exists in just ONE possible universe, then that God HAS to exist in EVERY single possible universe—including our real world!",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_1.0_female.mp3",
+        "male": "audio/arg_plantinga_modal_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Maximal Excellence vs. Maximal Greatness (Stage 2)",
       "summary": "Plantinga distinguishes between 'Maximal Excellence' (holding omnipotence, omniscience, and moral perfection in a specific world) and 'Maximal Greatness' (holding Maximal Excellence across ALL possible worlds). Possessing Maximal Greatness in one world entails possessing it in all worlds.",
       "status": "active",
-      "summary_5th_grader": "Plantinga explained the difference between being super powerful in ONE room versus being super powerful in EVERY room in the universe! Being 'Maximally Great' means you are supreme everywhere at once, so if it's possible anywhere, it's real everywhere."
+      "summary_5th_grader": "Plantinga explained the difference between being super powerful in ONE room versus being super powerful in EVERY room in the universe! Being 'Maximally Great' means you are supreme everywhere at once, so if it's possible anywhere, it's real everywhere.",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_1.1_female.mp3",
+        "male": "audio/arg_plantinga_modal_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "The Reverse Modal Ontological Disproof & Question-Begging",
       "summary": "Skeptics (e.g., Graham Oppy, J.L. Mackie) assert that Premise 1 ('It is possible that a Maximally Great Being exists') begs the question. One can assert with equal modal validity: 'It is possible that a Maximally Great Being does NOT exist.' Under S5 logic, if non-existence is possible in one world, God cannot exist in ANY world.",
       "status": "active",
-      "summary_5th_grader": "Skeptics use the exact same logic trick backwards! They say: 'It's also possible that God DOESN'T exist in one possible world.' Under S5 logic, if God is missing in even ONE world, then God can't exist in ANY world!"
+      "summary_5th_grader": "Skeptics use the exact same logic trick backwards! They say: 'It's also possible that God DOESN'T exist in one possible world.' Under S5 logic, if God is missing in even ONE world, then God can't exist in ANY world!",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_2.1_female.mp3",
+        "male": "audio/arg_plantinga_modal_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Epistemic Conceivability vs. Metaphysical Possibility",
       "summary": "Plantinga responds that skeptics confuse epistemic conceivability (imagining something because of ignorance) with genuine broad metaphysical possibility. While non-existence is epistemically imaginable, it may be metaphysically impossible.",
       "status": "active",
-      "summary_5th_grader": "Plantinga replied: just because you can picture something in your head because you don't know all the facts doesn't mean it's actually logically possible in real life!"
+      "summary_5th_grader": "Plantinga replied: just because you can picture something in your head because you don't know all the facts doesn't mean it's actually logically possible in real life!",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_3.1_female.mp3",
+        "male": "audio/arg_plantinga_modal_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "The Modal Symmetry Epistemic Stalemate",
       "summary": "Philosophers widely agree that S5 logic produces a perfect epistemic stalemate: Plantinga's argument is demonstrably valid, but its key possibility premise cannot be proved without prior belief in God, rendering the proof rationally permissible but non-coercive.",
       "status": "active",
-      "summary_5th_grader": "Most philosophers agree that both sides are stuck in a tie! The math logic works perfectly, but whether you agree depends entirely on whether you ALREADY think God is possible."
+      "summary_5th_grader": "Most philosophers agree that both sides are stuck in a tie! The math logic works perfectly, but whether you agree depends entirely on whether you ALREADY think God is possible.",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_4.1_female.mp3",
+        "male": "audio/arg_plantinga_modal_4.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -69,7 +89,11 @@
       "title": "Stephen Law's Evil God & Quasi-Great Parodies",
       "summary": "Philosopher Stephen Law constructs a symmetrical parody: 'It is possible that a Maximally EVIL Being exists.' Under S5 modal logic, a Maximally Evil Being must exist in all worlds. Since the real world contains profound good, a Maximally Evil Being does not exist, disproving the modal logic framework.",
       "status": "active",
-      "summary_5th_grader": "Stephen Law made a parody: what if we say a 'Maximally EVIL Demon' is possible? S5 logic would mean a super evil demon rules all universes! But since our world has love and kindness, the demon doesn't exist\u2014showing the logic trick can be used for absurd things."
+      "summary_5th_grader": "Stephen Law made a parody: what if we say a 'Maximally EVIL Demon' is possible? S5 logic would mean a super evil demon rules all universes! But since our world has love and kindness, the demon doesn't exist—showing the logic trick can be used for absurd things.",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_2.2_female.mp3",
+        "male": "audio/arg_plantinga_modal_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -80,7 +104,11 @@
       "title": "Privatio Boni & Asymmetry of Moral Perfections",
       "summary": "Theists respond using Augustine's Privatio Boni (evil as a parasite/privation of good): maximal evil is self-contradictory because total evil destroys its own existential substrate, whereas maximal goodness is a coherent intrinsic perfection.",
       "status": "active",
-      "summary_5th_grader": "Theists answer: evil isn't a real thing on its own\u2014it's just good being broken, like rust on a car! You can have 100% pure good, but 'pure evil' destroys itself, so an all-evil demon is a logical contradiction."
+      "summary_5th_grader": "Theists answer: evil isn't a real thing on its own—it's just good being broken, like rust on a car! You can have 100% pure good, but 'pure evil' destroys itself, so an all-evil demon is a logical contradiction.",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_3.2_female.mp3",
+        "male": "audio/arg_plantinga_modal_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -91,7 +119,11 @@
       "title": "Conceivability Does Not Guarantee Coherence",
       "summary": "Critics argue that intuitive conceivability does not establish logical coherence. For centuries, a 'highest prime number' was conceivability-adjacent until proven logically impossible. Maximal greatness might harbor hidden logical contradictions.",
       "status": "active",
-      "summary_5th_grader": "Critics warn: just because a phrase sounds neat doesn't mean it makes logical sense! People used to think you could have a 'highest prime number' until math proved it impossible."
+      "summary_5th_grader": "Critics warn: just because a phrase sounds neat doesn't mean it makes logical sense! People used to think you could have a 'highest prime number' until math proved it impossible.",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_2.3_female.mp3",
+        "male": "audio/arg_plantinga_modal_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -102,7 +134,11 @@
       "title": "Defense of Coherent Divine Perfections",
       "summary": "Plantinga and Richard Swinburne defend the internal coherence of divine attributes, showing omnipotence, omniscience, and moral perfection contain no intrinsic logical contradictions when properly formulated.",
       "status": "active",
-      "summary_5th_grader": "Defenders argue that being all-knowing, all-powerful, and all-good are simple, clear concepts that fit together without breaking any logic rules."
+      "summary_5th_grader": "Defenders argue that being all-knowing, all-powerful, and all-good are simple, clear concepts that fit together without breaking any logic rules.",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_3.3_female.mp3",
+        "male": "audio/arg_plantinga_modal_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -113,7 +149,11 @@
       "title": "Risk of Modal Collapse & Fatalism",
       "summary": "Philosophers note that if a Maximally Great Being necessarily creates or chooses the best world across all possible worlds, contingent choice vanishes, collapsing all possible worlds into necessary truths (Modal Collapse).",
       "status": "active",
-      "summary_5th_grader": "Philosophers point out a weird side effect: if a perfect God HAS to pick the best choice in every possible world, then free choices vanish and everything that happens becomes totally locked in and mandatory!"
+      "summary_5th_grader": "Philosophers point out a weird side effect: if a perfect God HAS to pick the best choice in every possible world, then free choices vanish and everything that happens becomes totally locked in and mandatory!",
+      "audio_urls": {
+        "female": "audio/arg_plantinga_modal_2.4_female.mp3",
+        "male": "audio/arg_plantinga_modal_2.4_male.mp3"
+      }
     }
   ]
 }

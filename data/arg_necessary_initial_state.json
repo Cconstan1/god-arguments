@@ -14,7 +14,11 @@
       "title": "Necessary Initial State (T=0) & Naturalistic Parsimony",
       "summary": "Positing a fundamental, metaphysically necessary physical state at T=0 (e.g., an initial quantum vacuum or boundary condition) accounts for universal existence without requiring a supernatural, transcendent Creator. By Ockham's Razor, explaining physical reality via fundamental physical necessity is ontologically simpler than introducing an unobservable personal God.",
       "status": "active",
-      "summary_5th_grader": "Instead of saying God is the starting foundation of everything, why not just say the very first physical starting point of the universe (T=0) had to exist on its own? Natural science shows the universe could start with a simple physical rule at T=0 without needing an extra invisible God!"
+      "summary_5th_grader": "Instead of saying God is the starting foundation of everything, why not just say the very first physical starting point of the universe (T=0) had to exist on its own? Natural science shows the universe could start with a simple physical rule at T=0 without needing an extra invisible God!",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_1.0_female.mp3",
+        "male": "audio/arg_necessary_initial_state_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Ontological Parsimony & Ockham's Razor",
       "summary": "Naturalistic parsimony asserts that a physical initial state requires positing only physical entities and natural laws, whereas theistic cosmological explanations introduce dualism (mind and matter), supernatural causation, and infinite divine attributes. Naturalism avoids unnecessary ontological commitment.",
       "status": "active",
-      "summary_5th_grader": "Scientists like simple answers! Saying 'the fundamental physics state just had to exist' leaves out extra complicated ideas like invisible spirits, supernatural powers, and divine choices."
+      "summary_5th_grader": "Scientists like simple answers! Saying 'the fundamental physics state just had to exist' leaves out extra complicated ideas like invisible spirits, supernatural powers, and divine choices.",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_1.1_female.mp3",
+        "male": "audio/arg_necessary_initial_state_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Rebuttal: Physical Contingency & Specificity",
       "summary": "Theists (e.g., Feser, Craig) object that physical states at T=0 possess specific, contingent features (e.g., particular quantum field values or mathematical structures). Anything with specific contingent properties could logically have been different, proving it is not metaphysically necessary and requires an external ground.",
       "status": "active",
-      "summary_5th_grader": "Theists reply: physical stuff (like atoms or quantum fields) has specific shapes, numbers, and rules! Anything with specific rules could have been different, so it's not truly 'necessary'\u2014it still needs a Creator to pick those rules."
+      "summary_5th_grader": "Theists reply: physical stuff (like atoms or quantum fields) has specific shapes, numbers, and rules! Anything with specific rules could have been different, so it's not truly 'necessary'—it still needs a Creator to pick those rules.",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_2.1_female.mp3",
+        "male": "audio/arg_necessary_initial_state_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -45,9 +57,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Theory of Everything",
       "title": "Mathematical Necessity & Unified Laws",
-      "summary": "Naturalists reply that a completed unified Theory of Everything (TOE) may demonstrate that initial physical parameters are mathematically or logically unique\u2014meaning no alternate physical configuration could exist, establishing genuine physical necessity.",
+      "summary": "Naturalists reply that a completed unified Theory of Everything (TOE) may demonstrate that initial physical parameters are mathematically or logically unique—meaning no alternate physical configuration could exist, establishing genuine physical necessity.",
       "status": "active",
-      "summary_5th_grader": "Naturalists reply back: once we find the grand final math equation of physics, we might discover that physics COULD NOT have been built any other way\u2014just like 2 + 2 can only equal 4!"
+      "summary_5th_grader": "Naturalists reply back: once we find the grand final math equation of physics, we might discover that physics COULD NOT have been built any other way—just like 2 + 2 can only equal 4!",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_3.1_female.mp3",
+        "male": "audio/arg_necessary_initial_state_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Brute Fact Epistemic Parity",
       "summary": "If theists are permitted to assert that God's nature is a brute, uncaused necessary fact without further explanation, naturalists can equally assert that the initial physical state is an uncaused necessary fact, achieving epistemic parity while remaining naturalistic.",
       "status": "active",
-      "summary_5th_grader": "If theists can say 'God is just a brute fact that exists without a cause,' then scientists can say 'The initial physics state is just a brute fact that exists without a cause'\u2014and skip adding God!"
+      "summary_5th_grader": "If theists can say 'God is just a brute fact that exists without a cause,' then scientists can say 'The initial physics state is just a brute fact that exists without a cause'—and skip adding God!",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_4.1_female.mp3",
+        "male": "audio/arg_necessary_initial_state_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -69,7 +89,11 @@
       "title": "The Fallacy of Mathematical Causal Efficacy",
       "summary": "Theists push deeper: mathematical equations describe physical regularities but do not possess causal power to instantiate physical matter. Abstract physical laws cannot cause their own material instantiation.",
       "status": "active",
-      "summary_5th_grader": "Theists push back: rules written in a rulebook don't build the playground! Math laws can't push atoms into real life."
+      "summary_5th_grader": "Theists push back: rules written in a rulebook don't build the playground! Math laws can't push atoms into real life.",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_5.1_female.mp3",
+        "male": "audio/arg_necessary_initial_state_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -80,7 +104,11 @@
       "title": "Rebuttal: Low Entropy & Fine-Tuned T=0",
       "summary": "Critics argue that the initial state at T=0 required exceptionally low entropy (Roger Penrose calculates phase-space volume at 1 in 10^(10^123)) and precisely calibrated expansion rates. Such extreme specificity indicates intentional fine-tuning rather than brute physical necessity.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out: the initial starting state of the Big Bang was so ridiculously organized and low-entropy that it's like a billions of dominoes lined up perfectly. That doesn't look like random brute luck!"
+      "summary_5th_grader": "Skeptics point out: the initial starting state of the Big Bang was so ridiculously organized and low-entropy that it's like a billions of dominoes lined up perfectly. That doesn't look like random brute luck!",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_2.2_female.mp3",
+        "male": "audio/arg_necessary_initial_state_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -91,7 +119,11 @@
       "title": "Cosmic Inflation & Quantum Equilibrium",
       "summary": "Physicists respond that cosmic inflation and quantum vacuum dynamics show that low-entropy observable pockets naturally bubble out of higher-entropy quantum backgrounds, rendering low initial entropy a natural byproduct of inflationary physics.",
       "status": "active",
-      "summary_5th_grader": "Scientists answer: cosmic expansion (inflation) naturally makes huge, neat, smooth universes pop out of simple quantum energy ripples automatically!"
+      "summary_5th_grader": "Scientists answer: cosmic expansion (inflation) naturally makes huge, neat, smooth universes pop out of simple quantum energy ripples automatically!",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_3.2_female.mp3",
+        "male": "audio/arg_necessary_initial_state_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -102,7 +134,11 @@
       "title": "Borde-Guth-Vilenkin (BGV) Past-Completeness",
       "summary": "Apologists cite the Borde-Guth-Vilenkin theorem, which proves that any universe with an average expansion rate greater than zero must have a past space-time boundary, defeating claims of an infinitely eternal quantum background.",
       "status": "active",
-      "summary_5th_grader": "Theists reply with math theorems (BGV theorem): any expanding universe MUST have had a real beginning point in time, so you can't hide in an eternal quantum ocean!"
+      "summary_5th_grader": "Theists reply with math theorems (BGV theorem): any expanding universe MUST have had a real beginning point in time, so you can't hide in an eternal quantum ocean!",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_4.2_female.mp3",
+        "male": "audio/arg_necessary_initial_state_4.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -113,7 +149,11 @@
       "title": "Rebuttal: The Problem of Temporal Delay",
       "summary": "If the initial physical state was eternal and sufficient to produce the universe, why didn't the universe begin an infinite time ago? A personal agent with free will uniquely explains how an eternal cause produces a temporal effect at a specific moment.",
       "status": "active",
-      "summary_5th_grader": "If the physical starting energy was around forever, why did the Big Bang happen at THAT exact moment instead of way earlier? Only a mind with free choice can decide 'NOW is the time to start!'"
+      "summary_5th_grader": "If the physical starting energy was around forever, why did the Big Bang happen at THAT exact moment instead of way earlier? Only a mind with free choice can decide 'NOW is the time to start!'",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_2.3_female.mp3",
+        "male": "audio/arg_necessary_initial_state_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -124,7 +164,11 @@
       "title": "Emergent Spacetime & Timeless Quantum Geometry",
       "summary": "Naturalists respond that time itself is an emergent physical property instantiated at T=0. Prior to T=0, there was no temporal dimension or elapsed duration, making the question of 'why not earlier?' physically meaningless.",
       "status": "active",
-      "summary_5th_grader": "Naturalists answer: time ITSELF started at the Big Bang! So asking 'why didn't it start earlier?' makes no sense, because there was no 'earlier'!"
+      "summary_5th_grader": "Naturalists answer: time ITSELF started at the Big Bang! So asking 'why didn't it start earlier?' makes no sense, because there was no 'earlier'!",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_3.3_female.mp3",
+        "male": "audio/arg_necessary_initial_state_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -135,7 +179,11 @@
       "title": "Rebuttal: Principle of Sufficient Reason (PSR) Violation",
       "summary": "Classical rationalists argue that treating T=0 as an brute, unexplained physical fact violates the Principle of Sufficient Reason, terminating rational inquiry and leaving the existence of the universe fundamentally inexplicable.",
       "status": "active",
-      "summary_5th_grader": "Rationalists argue: everything in science needs a reason why it exists! Giving up and saying 'it's just a brute fact' stops science from asking questions."
+      "summary_5th_grader": "Rationalists argue: everything in science needs a reason why it exists! Giving up and saying 'it's just a brute fact' stops science from asking questions.",
+      "audio_urls": {
+        "female": "audio/arg_necessary_initial_state_2.4_female.mp3",
+        "male": "audio/arg_necessary_initial_state_2.4_male.mp3"
+      }
     }
   ]
 }

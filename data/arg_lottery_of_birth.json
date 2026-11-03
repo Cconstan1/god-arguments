@@ -14,7 +14,11 @@
       "title": "Geographic Distribution / Lottery of Birth Argument (Stage 1)",
       "summary": "Observes that a person's geographic location, culture, and era of birth are the single strongest statistical predictors of their religious affiliation (e.g., being born in Saudi Arabia vs. Thailand vs. Texas). If salvation or ultimate truth depends on holding specific religious doctrines, billions of sincere people are effectively doomed or excluded simply due to the accidents of birth and geography, which is incompatible with an all-loving, non-arbitrary God.",
       "status": "active",
-      "summary_5th_grader": "If you were born in Saudi Arabia, you'd almost certainly be Muslim; if born in Thailand, Buddhist; if born in Texas, Christian! Skeptics argue that it's unfair for God to base your eternal destiny on a 'lottery of birth' where you just happened to be born."
+      "summary_5th_grader": "If you were born in Saudi Arabia, you'd almost certainly be Muslim; if born in Thailand, Buddhist; if born in Texas, Christian! Skeptics argue that it's unfair for God to base your eternal destiny on a 'lottery of birth' where you just happened to be born.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_1.0_female.mp3",
+        "male": "audio/arg_lottery_of_birth_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -23,9 +27,13 @@
       "type": "stage_2",
       "shortLabel": "Stage 2 Moral Implication",
       "title": "Deduction of Moral Arbitrariness in Exclusivism (Stage 2)",
-      "summary": "If God assigns eternal rewards or punishments based on specific doctrinal beliefs while placing billions in geographic regions devoid of access to those doctrines, God acts with moral partiality and arbitrariness\u2014contradicting the nature of a supreme, perfectly just God.",
+      "summary": "If God assigns eternal rewards or punishments based on specific doctrinal beliefs while placing billions in geographic regions devoid of access to those doctrines, God acts with moral partiality and arbitrariness—contradicting the nature of a supreme, perfectly just God.",
       "status": "active",
-      "summary_5th_grader": "If God punishes people for not believing a specific recipe book they never even heard of, God wouldn't be fair or loving. A truly good God wouldn't play favorites based on map coordinates!"
+      "summary_5th_grader": "If God punishes people for not believing a specific recipe book they never even heard of, God wouldn't be fair or loving. A truly good God wouldn't play favorites based on map coordinates!",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_1.1_female.mp3",
+        "male": "audio/arg_lottery_of_birth_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Molinist Defense: Optimal Placement & Transworld Damnation",
       "summary": "William Lane Craig uses Molinism (God's Middle Knowledge) to argue that God knows how every person would freely choose in any circumstance. God optimally places people in geographic regions such that anyone who would freely accept salvation is placed where they receive the gospel, while those who never hear it would have rejected it under any circumstances ('transworld damnation').",
       "status": "active",
-      "summary_5th_grader": "Defenders (like William Lane Craig) reply: God has super-foresight! God puts people on the map so that anyone who WOULD say yes to Him gets to hear the message, while people born in distant places are ones who wouldn't have believed anyway."
+      "summary_5th_grader": "Defenders (like William Lane Craig) reply: God has super-foresight! God puts people on the map so that anyone who WOULD say yes to Him gets to hear the message, while people born in distant places are ones who wouldn't have believed anyway.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_2.1_female.mp3",
+        "male": "audio/arg_lottery_of_birth_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Incoherence of Transworld Damnation & Damnation Creeds",
       "summary": "Critics respond that assuming whole unreached populations across millennia possessed 'transworld damnation' is a ad-hoc, speculative theological assertion. It implies entire geographic regions were filled with uniquely stubborn souls, making God's creation of them gratuitously cruel.",
       "status": "active",
-      "summary_5th_grader": "Skeptics reply: that sounds like a made-up excuse! Claiming that whole countries across 2,000 years were filled only with stubborn people who would NEVER believe is wildly unbelievable."
+      "summary_5th_grader": "Skeptics reply: that sounds like a made-up excuse! Claiming that whole countries across 2,000 years were filled only with stubborn people who would NEVER believe is wildly unbelievable.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_3.1_female.mp3",
+        "male": "audio/arg_lottery_of_birth_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Counterfactuals of Freedom & World Selection",
       "summary": "Defenders maintain that if libertarian free will is real, God must work within the feasible world choices created by human freedom counterfactuals, optimizing total saved souls globally.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: if humans have real choice, even God can't force people to choose right, so God builds the best possible world map out of all real human choices."
+      "summary_5th_grader": "Defenders answer: if humans have real choice, even God can't force people to choose right, so God builds the best possible world map out of all real human choices.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_4.1_female.mp3",
+        "male": "audio/arg_lottery_of_birth_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -69,7 +89,11 @@
       "title": "Geographic Determinism vs. Personal Responsibility",
       "summary": "Opponents note that if geography pre-determines exposure, human responsibility is severely compromised, reducing salvation to environmental determinism.",
       "status": "active",
-      "summary_5th_grader": "Opponents say: if your environment shapes almost everything you believe, you can't blame people for believing what everyone around them taught them!"
+      "summary_5th_grader": "Opponents say: if your environment shapes almost everything you believe, you can't blame people for believing what everyone around them taught them!",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_5.1_female.mp3",
+        "male": "audio/arg_lottery_of_birth_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -80,7 +104,11 @@
       "title": "Inclusivism & Post-Mortem Salvation Defense",
       "summary": "Theologians (e.g., C.S. Lewis, Karl Rahner, John Hick) argue that God does not evaluate people on explicit doctrinal labels, but on their response to the light and moral conscience available to them (Inclusivism). Others propose post-mortem evangelization, where every soul receives a clear, uncorrupted choice after death.",
       "status": "active",
-      "summary_5th_grader": "Other theologians reply: God doesn't judge you by label or sticker! People are judged by how they love others and follow their heart's light. And if they never heard the truth on Earth, God gives them a clear choice after they die."
+      "summary_5th_grader": "Other theologians reply: God doesn't judge you by label or sticker! People are judged by how they love others and follow their heart's light. And if they never heard the truth on Earth, God gives them a clear choice after they die.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_2.2_female.mp3",
+        "male": "audio/arg_lottery_of_birth_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -91,7 +119,11 @@
       "title": "Inclusivism Undermines Traditional Exclusivist Doctrines",
       "summary": "Exclusivist critics and skeptical philosophers note that Inclusivism undermines traditional missionary mandates and core doctrines that explicitly claim exclusive salvation through specific historical creeds.",
       "status": "active",
-      "summary_5th_grader": "Strict believers and skeptics both point out: if everyone can be saved without knowing the specific religion, why spend millions sending missionaries around the world?"
+      "summary_5th_grader": "Strict believers and skeptics both point out: if everyone can be saved without knowing the specific religion, why spend millions sending missionaries around the world?",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_3.2_female.mp3",
+        "male": "audio/arg_lottery_of_birth_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -102,7 +134,11 @@
       "title": "General Revelation in Nature & Conscience",
       "summary": "Inclusivist defenders maintain that General Revelation (nature, conscience, moral sense) provides sufficient light for genuine faith, making global mission a fulfillment rather than a prerequisite.",
       "status": "active",
-      "summary_5th_grader": "Inclusivists answer: nature and your conscience already show God's beauty! Missionaries just bring the full story to help what people already sense."
+      "summary_5th_grader": "Inclusivists answer: nature and your conscience already show God's beauty! Missionaries just bring the full story to help what people already sense.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_4.2_female.mp3",
+        "male": "audio/arg_lottery_of_birth_4.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -113,7 +149,11 @@
       "title": "Epistemic Luck Applies Equally to Secular Beliefs",
       "summary": "Philosophers note that the 'lottery of birth' applies equally to all beliefs, including science, secularism, and democracy. Being born in 21st-century Oxford gives one a secular epistemic advantage over someone born in ancient Sparta, but this epistemic luck does not make modern scientific beliefs false.",
       "status": "active",
-      "summary_5th_grader": "Defenders say: being lucky doesn't make something wrong! You were lucky to be born in a time with modern science and computers. That luck doesn't mean science is fake, so spiritual luck doesn't mean religion is fake."
+      "summary_5th_grader": "Defenders say: being lucky doesn't make something wrong! You were lucky to be born in a time with modern science and computers. That luck doesn't mean science is fake, so spiritual luck doesn't mean religion is fake.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_2.3_female.mp3",
+        "male": "audio/arg_lottery_of_birth_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -124,7 +164,11 @@
       "title": "Empirical Verification vs. Unverifiable Dogma",
       "summary": "Skeptics counter that scientific and secular claims can be independently verified through empirical observation regardless of geography, whereas religious creeds rely on unrepeatable historical claims and subjective authority.",
       "status": "active",
-      "summary_5th_grader": "Skeptics counter: science can be tested in any lab in the world with microscopes! Religious stories rely on trusting old books that can't be re-tested in a lab."
+      "summary_5th_grader": "Skeptics counter: science can be tested in any lab in the world with microscopes! Religious stories rely on trusting old books that can't be re-tested in a lab.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_3.3_female.mp3",
+        "male": "audio/arg_lottery_of_birth_3.3_male.mp3"
+      }
     },
     {
       "id": "4.3",
@@ -135,7 +179,11 @@
       "title": "Internal Experience & Universal Moral Intuition",
       "summary": "Theists reply that spiritual experiences and basic moral intuitions are universally experienced across all cultures, providing cross-geographic grounding.",
       "status": "active",
-      "summary_5th_grader": "Theists reply: feeling awe at a starry sky or knowing that murder is wrong happens in every country on Earth\u2014it's not limited to one map spot."
+      "summary_5th_grader": "Theists reply: feeling awe at a starry sky or knowing that murder is wrong happens in every country on Earth—it's not limited to one map spot.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_4.3_female.mp3",
+        "male": "audio/arg_lottery_of_birth_4.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -146,7 +194,11 @@
       "title": "Universal Reconciliation & Christian Universalism",
       "summary": "Christian Universalists (e.g., Origen, Gregory of Nyssa, David Bentley Hart) resolve the lottery of birth by asserting that God's ultimate purpose is the eventual redemption and reconciliation of all human souls, rendering geographic origin irrelevant to eternal destiny.",
       "status": "active",
-      "summary_5th_grader": "Universalist thinkers say: God's love is so big that EVERYONE eventually gets saved and brought home! Geographic birth doesn't ruin anyone's ultimate happy ending."
+      "summary_5th_grader": "Universalist thinkers say: God's love is so big that EVERYONE eventually gets saved and brought home! Geographic birth doesn't ruin anyone's ultimate happy ending.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_2.4_female.mp3",
+        "male": "audio/arg_lottery_of_birth_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -157,7 +209,11 @@
       "title": "Overriding Human Freedom & Traditional Damnation Text",
       "summary": "Opponents argue that Universalism either overrides human libertarian freedom by forcing salvation or contradicts explicit historical scriptural warnings regarding eternal separation.",
       "status": "active",
-      "summary_5th_grader": "Critics object: if God forces everyone to be saved, He overrides their freedom to say 'no'. Plus, major religious texts warn about real consequences."
+      "summary_5th_grader": "Critics object: if God forces everyone to be saved, He overrides their freedom to say 'no'. Plus, major religious texts warn about real consequences.",
+      "audio_urls": {
+        "female": "audio/arg_lottery_of_birth_3.4_female.mp3",
+        "male": "audio/arg_lottery_of_birth_3.4_male.mp3"
+      }
     }
   ]
 }

@@ -12,9 +12,13 @@
       "type": "core_argument",
       "shortLabel": "Stone Paradox Core",
       "title": "The Paradox of the Stone & Logical Incoherence of Omnipotence",
-      "summary": "The Omnipotence Paradox\u2014most famously expressed as the Paradox of the Stone ('Can an omnipotent God create a stone so heavy that He cannot lift it?')\u2014presents a logical dilemma designed to prove that the concept of maximal power is self-contradictory. If God *can* create such a stone, there is a task God cannot perform (lifting the stone), proving God is not all-powerful. If God *cannot* create such a stone, there is also a task God cannot perform (creating the stone), likewise disproving omnipotence. Either outcome entails a limitation, showing that maximal omnipotence is logically incoherent.",
+      "summary": "The Omnipotence Paradox—most famously expressed as the Paradox of the Stone ('Can an omnipotent God create a stone so heavy that He cannot lift it?')—presents a logical dilemma designed to prove that the concept of maximal power is self-contradictory. If God *can* create such a stone, there is a task God cannot perform (lifting the stone), proving God is not all-powerful. If God *cannot* create such a stone, there is also a task God cannot perform (creating the stone), likewise disproving omnipotence. Either outcome entails a limitation, showing that maximal omnipotence is logically incoherent.",
       "status": "active",
-      "summary_5th_grader": "Can God make a rock so heavy that even God can't lift it? If God CAN make the rock, then God isn't strong enough to lift it. If God CAN'T make the rock, then God isn't strong enough to make it! Either way, there's something God can't do, which makes the idea of an 'all-powerful' God sound like a trick puzzle that breaks itself!"
+      "summary_5th_grader": "Can God make a rock so heavy that even God can't lift it? If God CAN make the rock, then God isn't strong enough to lift it. If God CAN'T make the rock, then God isn't strong enough to make it! Either way, there's something God can't do, which makes the idea of an 'all-powerful' God sound like a trick puzzle that breaks itself!",
+      "audio_urls": {
+        "female": "audio/arg_omnipotence_paradoxes_1.0_female.mp3",
+        "male": "audio/arg_omnipotence_paradoxes_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -23,9 +27,13 @@
       "type": "rebuttal",
       "shortLabel": "Thomistic Logical Limits",
       "title": "Thomistic Definition: Omnipotence Concerns Logical Possibilities",
-      "summary": "Formulated by Thomas Aquinas (Summa Theologiae I, Q. 25, A. 3) and modern philosophers like C.S. Lewis, the classical response defines divine omnipotence as the power to perform anything that is *logically possible*. A 'stone too heavy for an infinitely powerful being to lift' is an inherent logical contradiction\u2014a semantic pseudo-task like a 'square circle' or a 'married bachelor'. Meaningless combinations of words do not describe real tasks that power can accomplish; therefore, God's inability to perform logical impossibilities does not diminish divine omnipotence.",
+      "summary": "Formulated by Thomas Aquinas (Summa Theologiae I, Q. 25, A. 3) and modern philosophers like C.S. Lewis, the classical response defines divine omnipotence as the power to perform anything that is *logically possible*. A 'stone too heavy for an infinitely powerful being to lift' is an inherent logical contradiction—a semantic pseudo-task like a 'square circle' or a 'married bachelor'. Meaningless combinations of words do not describe real tasks that power can accomplish; therefore, God's inability to perform logical impossibilities does not diminish divine omnipotence.",
       "status": "active",
-      "summary_5th_grader": "Thomas Aquinas answered this by saying that 'all-powerful' only means doing things that make sense. Asking God to make a rock too heavy for an all-powerful being to lift is like asking God to draw a 'square circle'\u2014it's just a silly mess of words that doesn't mean anything. Not doing nonsense doesn't mean God lacks power!"
+      "summary_5th_grader": "Thomas Aquinas answered this by saying that 'all-powerful' only means doing things that make sense. Asking God to make a rock too heavy for an all-powerful being to lift is like asking God to draw a 'square circle'—it's just a silly mess of words that doesn't mean anything. Not doing nonsense doesn't mean God lacks power!",
+      "audio_urls": {
+        "female": "audio/arg_omnipotence_paradoxes_1.1_female.mp3",
+        "male": "audio/arg_omnipotence_paradoxes_1.1_male.mp3"
+      }
     },
     {
       "id": "1.1.1",
@@ -34,9 +42,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Cartesian Voluntarism",
       "title": "Cartesian Voluntarism & Unconstrained Divine Sovereignty",
-      "summary": "Ren\u00e9 Descartes famously rejected the Thomistic boundary, arguing for absolute divine voluntarism: God created the laws of logic themselves and is not bound by them. Under Cartesian voluntarism, God *can* make square circles and *can* create a stone God cannot lift while simultaneously lifting it. However, critics note that this solution undermines rational theology altogether: if God operates beyond logic, no logical theological claims (such as divine goodness, consistency, or truth) can be rationally evaluated or trusted.",
+      "summary": "René Descartes famously rejected the Thomistic boundary, arguing for absolute divine voluntarism: God created the laws of logic themselves and is not bound by them. Under Cartesian voluntarism, God *can* make square circles and *can* create a stone God cannot lift while simultaneously lifting it. However, critics note that this solution undermines rational theology altogether: if God operates beyond logic, no logical theological claims (such as divine goodness, consistency, or truth) can be rationally evaluated or trusted.",
       "status": "active",
-      "summary_5th_grader": "Another thinker, Ren\u00e9 Descartes, said God is so powerful that God actually created logic itself! So God COULD make a rock too heavy to lift and then lift it anyway. The problem is, if God can break logic whenever God wants, then we can't use logic or reason to understand God at all!"
+      "summary_5th_grader": "Another thinker, René Descartes, said God is so powerful that God actually created logic itself! So God COULD make a rock too heavy to lift and then lift it anyway. The problem is, if God can break logic whenever God wants, then we can't use logic or reason to understand God at all!",
+      "audio_urls": {
+        "female": "audio/arg_omnipotence_paradoxes_1.1.1_female.mp3",
+        "male": "audio/arg_omnipotence_paradoxes_1.1.1_male.mp3"
+      }
     },
     {
       "id": "1.2",
@@ -47,7 +59,11 @@
       "title": "Mavrodes-Plantinga Analysis: Self-Contradictory State Descriptions",
       "summary": "Philosophers George Mavrodes and Alvin Plantinga argue that the phrase 'a stone that an omnipotent being cannot lift' is a self-contradiction specifically when applied to an omnipotent being. For a human or finite creature, creating a rock too heavy for themselves to lift is possible because their power is limited. But for an omnipotent being whose lifting power is unbounded, 'a rock too heavy to lift' asserts the existence of a rock exceeding infinite capacity, which is logically impossible. Thus, the inability to create it is an inability to instantiate a logical contradiction.",
       "status": "active",
-      "summary_5th_grader": "Philosophers like Alvin Plantinga explained that regular people can make heavy rocks they can't lift because human strength is small. But because God's strength is infinite, a rock 'too heavy for infinite strength' is a total contradiction. God can't make it because the idea itself makes no sense, not because God is weak."
+      "summary_5th_grader": "Philosophers like Alvin Plantinga explained that regular people can make heavy rocks they can't lift because human strength is small. But because God's strength is infinite, a rock 'too heavy for infinite strength' is a total contradiction. God can't make it because the idea itself makes no sense, not because God is weak.",
+      "audio_urls": {
+        "female": "audio/arg_omnipotence_paradoxes_1.2_female.mp3",
+        "male": "audio/arg_omnipotence_paradoxes_1.2_male.mp3"
+      }
     },
     {
       "id": "1.2.1",
@@ -58,7 +74,11 @@
       "title": "The Temporal Limitation Paradox & Voluntary Power Relinquishment",
       "summary": "Critics counter by reframing the paradox in terms of temporal state-transitions: Can an omnipotent God choose to voluntarily divest divine power (kenosis) by creating an unliftable stone or restricting future agency? If God cannot voluntarily limit God's own future power, God lacks sovereign self-determination. If God *can* limit God's power, God ceases to be essentially omnipotent after the creation. Either divine omnipotence is essential and unalterably rigid, or it is contingent and temporary.",
       "status": "active",
-      "summary_5th_grader": "Critics ask: Can God CHOOSE to give up power or make a permanent lock God can never open? If God can't lock God's own power, then God lacks freedom. If God CAN lock God's power, then God stops being all-powerful afterwards. Either way, being 'all-powerful' creates a trap!"
+      "summary_5th_grader": "Critics ask: Can God CHOOSE to give up power or make a permanent lock God can never open? If God can't lock God's own power, then God lacks freedom. If God CAN lock God's power, then God stops being all-powerful afterwards. Either way, being 'all-powerful' creates a trap!",
+      "audio_urls": {
+        "female": "audio/arg_omnipotence_paradoxes_1.2.1_female.mp3",
+        "male": "audio/arg_omnipotence_paradoxes_1.2.1_male.mp3"
+      }
     },
     {
       "id": "1.3",
@@ -69,7 +89,11 @@
       "title": "Modern Reformulations: Maximal Power Over State-Descriptions",
       "summary": "Modern formal logic (such as Richard Swinburne and T.V. Morris) defines omnipotence as the ability to bring about any state of affairs that is logically consistent with divine essential attributes. An omnipotent being can bring about any logically possible state of affairs, provided that state description does not involve a logical impossibility or a conceptual self-contradiction given the actor's essential nature.",
       "status": "active",
-      "summary_5th_grader": "Modern thinkers define 'all-powerful' as being able to cause any possible situation in the universe that doesn't contradict who God is. It fixes the puzzle by showing that true power means having total control over everything that CAN happen."
+      "summary_5th_grader": "Modern thinkers define 'all-powerful' as being able to cause any possible situation in the universe that doesn't contradict who God is. It fixes the puzzle by showing that true power means having total control over everything that CAN happen.",
+      "audio_urls": {
+        "female": "audio/arg_omnipotence_paradoxes_1.3_female.mp3",
+        "male": "audio/arg_omnipotence_paradoxes_1.3_male.mp3"
+      }
     },
     {
       "id": "1.3.1",
@@ -80,7 +104,11 @@
       "title": "Atheistic Critique: Ad Hoc Redefinition of Divine Attributes",
       "summary": "Atheist philosophers observe that resolving omnipotence paradoxes requires constant qualifications and restrictions ('omnipotence doesn't mean doing X, Y, or Z'). These ad hoc qualifications demonstrate that 'omnipotence' is not a coherent, self-evident property, but an ill-defined human concept that must be continually shrunk whenever logical paradoxes threaten it.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out that every time the puzzle breaks the definition of 'all-powerful', believers have to add new rules and exceptions to save the word. If you have to keep adding fine print to 'all-powerful', maybe the original idea was flawed from the start!"
+      "summary_5th_grader": "Skeptics point out that every time the puzzle breaks the definition of 'all-powerful', believers have to add new rules and exceptions to save the word. If you have to keep adding fine print to 'all-powerful', maybe the original idea was flawed from the start!",
+      "audio_urls": {
+        "female": "audio/arg_omnipotence_paradoxes_1.3.1_female.mp3",
+        "male": "audio/arg_omnipotence_paradoxes_1.3.1_male.mp3"
+      }
     }
   ]
 }

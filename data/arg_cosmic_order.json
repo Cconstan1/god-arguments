@@ -14,7 +14,11 @@
       "title": "Cosmological Order & Interacting Parts (Core Argument)",
       "summary": "The physical universe consists of vastly diverse, non-conscious components (subatomic particles, gravity, electromagnetism, nuclear forces) that interact with remarkable harmony, regularity, and predictability. Unintelligent parts do not naturally coordinate toward stable global order without an overarching intelligent director or orchestrator to harmonize their properties.",
       "status": "active",
-      "summary_5th_grader": "Think of the universe like a massive orchestra filled with thousands of instruments\u2014violins, drums, flutes, and trumpets! Even though the instruments can't think for themselves, they all play together in perfect harmony instead of making noise. Defenders argue that an orchestra needs a conductor to harmonize the music, so our orderly universe must have a God directing all the parts!"
+      "summary_5th_grader": "Think of the universe like a massive orchestra filled with thousands of instruments—violins, drums, flutes, and trumpets! Even though the instruments can't think for themselves, they all play together in perfect harmony instead of making noise. Defenders argue that an orchestra needs a conductor to harmonize the music, so our orderly universe must have a God directing all the parts!",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_1.0_female.mp3",
+        "male": "audio/arg_cosmic_order_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Systemic Coordination of Disparate Laws (Stage 2)",
       "summary": "The probability of separate physical laws (thermodynamics, quantum mechanics, relativity) independently mesh together into a stable, enduring cosmos without chaos is extraordinarily low unless grounded in a unified divine intellect.",
       "status": "active",
-      "summary_5th_grader": "It's like thousands of gears from totally different factories fitting together by pure chance to build a working clock! Because all the different rules of physics mesh together so neatly, it points to one master designer."
+      "summary_5th_grader": "It's like thousands of gears from totally different factories fitting together by pure chance to build a working clock! Because all the different rules of physics mesh together so neatly, it points to one master designer.",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_1.1_female.mp3",
+        "male": "audio/arg_cosmic_order_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Rebuttal: Emergent Natural Self-Organization",
       "summary": "Skeptics argue that order naturally emerges from simple physical laws and thermodynamic gradients (e.g., crystallization, convection cells, natural selection) without requiring conscious oversight.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: order happens by itself all the time in nature! Look at snowflakes making beautiful hexagonal shapes or water freezing into ice crystals\u2014nobody has to carve them by hand!"
+      "summary_5th_grader": "Skeptics say: order happens by itself all the time in nature! Look at snowflakes making beautiful hexagonal shapes or water freezing into ice crystals—nobody has to carve them by hand!",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_2.1_female.mp3",
+        "male": "audio/arg_cosmic_order_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Counter-Rebuttal: Self-Organization Presupposes Laws",
       "summary": "Theists respond that pattern-formation mechanism (like crystallization) relies on pre-existing physical laws and atomic charge balances. Natural self-organization explains how structures form WITHIN a lawful system, not why the lawful system itself exists.",
       "status": "active",
-      "summary_5th_grader": "Theists reply: a snowflake can only form because chemistry and atomic rules ALREADY exist! Self-organization uses pre-existing rules, so it doesn't explain who created the rules in the first place."
+      "summary_5th_grader": "Theists reply: a snowflake can only form because chemistry and atomic rules ALREADY exist! Self-organization uses pre-existing rules, so it doesn't explain who created the rules in the first place.",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_3.1_female.mp3",
+        "male": "audio/arg_cosmic_order_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Fundamental Symmetries & Conservation Laws",
       "summary": "Physicists argue that physical laws are not arbitrary constraints imposed from outside, but mathematical expressions of fundamental space-time symmetries (Noether's Theorem).",
       "status": "active",
-      "summary_5th_grader": "Physicists argue back: natural laws aren't magic rules handed down from above\u2014they are just natural math symmetries built right into how space and time work!"
+      "summary_5th_grader": "Physicists argue back: natural laws aren't magic rules handed down from above—they are just natural math symmetries built right into how space and time work!",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_4.1_female.mp3",
+        "male": "audio/arg_cosmic_order_4.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -69,7 +89,11 @@
       "title": "Rebuttal: Widespread Disorder & Cosmic Chaos",
       "summary": "Critics highlight that the universe is dominated by disorder, black holes, lethal radiation, stellar collisions, and increasing entropy (Second Law of Thermodynamics), challenging the claim of universal harmony.",
       "status": "active",
-      "summary_5th_grader": "Critics point out: most of space is chaotic, dark, and dangerous! Stars explode, black holes tear things apart, and the universe is slowly running down. That doesn't look like a perfectly tuned orchestra!"
+      "summary_5th_grader": "Critics point out: most of space is chaotic, dark, and dangerous! Stars explode, black holes tear things apart, and the universe is slowly running down. That doesn't look like a perfectly tuned orchestra!",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_2.2_female.mp3",
+        "male": "audio/arg_cosmic_order_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -80,7 +104,11 @@
       "title": "Counter-Rebuttal: Thermodynamic Low Entropy Initial Condition",
       "summary": "Theists respond that entropy growth itself requires an extraordinarily low-entropy (highly ordered) initial state at the Big Bang, and localized chaotic events are governed by immutable, predictable physical laws.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: even chaotic events follow strict, mathematical physics rules! And for entropy to increase, the start of the universe had to be unbelievably neat and ordered."
+      "summary_5th_grader": "Defenders answer: even chaotic events follow strict, mathematical physics rules! And for entropy to increase, the start of the universe had to be unbelievably neat and ordered.",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_3.2_female.mp3",
+        "male": "audio/arg_cosmic_order_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -91,7 +119,11 @@
       "title": "Hume's Critique of Cosmic Induction & Projection",
       "summary": "David Hume argued that humans project mental categories of 'order' and 'design' onto raw physical cause-and-effect regularities, and that observing order within the universe gives no license to infer a designer for the whole universe.",
       "status": "active",
-      "summary_5th_grader": "David Hume said: humans love finding patterns, so we trick ourselves into seeing 'design' where there's just physical cause and effect. Just because a house has a builder doesn't mean the whole universe works like a house!"
+      "summary_5th_grader": "David Hume said: humans love finding patterns, so we trick ourselves into seeing 'design' where there's just physical cause and effect. Just because a house has a builder doesn't mean the whole universe works like a house!",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_2.3_female.mp3",
+        "male": "audio/arg_cosmic_order_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -102,7 +134,11 @@
       "title": "Counter-Rebuttal: Objective Intelligibility of Science",
       "summary": "The success of modern technology and mathematical physics shows that physical order is an objective feature of reality, not a subjective psychological projection.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: if cosmic order were just in our heads, our airplanes wouldn't fly and our computers wouldn't work! Science proves physical rules are real, not just human imagination."
+      "summary_5th_grader": "Defenders reply: if cosmic order were just in our heads, our airplanes wouldn't fly and our computers wouldn't work! Science proves physical rules are real, not just human imagination.",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_3.3_female.mp3",
+        "male": "audio/arg_cosmic_order_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -113,7 +149,11 @@
       "title": "Chesterton's 'Ethics of Elfland' Crossover",
       "summary": "G.K. Chesterton reinterprets cosmic regularity: physical repetition is not dead mechanical necessity, but the constant, joyous, personal exertion of a Creator saying 'Do it again' to the sun every morning.",
       "status": "active",
-      "summary_5th_grader": "G.K. Chesterton suggested that sunrise isn't a boring clockwork gear spinning\u2014it's God acting like a happy child playing a game, excitedly saying 'Do it again!' to the sun every single morning!"
+      "summary_5th_grader": "G.K. Chesterton suggested that sunrise isn't a boring clockwork gear spinning—it's God acting like a happy child playing a game, excitedly saying 'Do it again!' to the sun every single morning!",
+      "audio_urls": {
+        "female": "audio/arg_cosmic_order_2.4_female.mp3",
+        "male": "audio/arg_cosmic_order_2.4_male.mp3"
+      }
     }
   ]
 }

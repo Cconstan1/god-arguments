@@ -14,7 +14,11 @@
       "title": "Ockham's Razor & Theistic Simplicity (Core Premise)",
       "summary": "Ockham's Razor dictates that entities should not be multiplied beyond necessity (pluralitas non est ponenda sine necessitate). Theists argue that positing a single, uncaused, omnipotent Mind (God) to explain the universe is ontologically simpler and possesses greater explanatory power than positing an infinite sequence of uncaused physical events or an unobserved physical multiverse.",
       "status": "active",
-      "summary_5th_grader": "Ockham's Razor is a rule in science and logic that says: the simplest explanation that works is usually the best! Theists argue that believing in ONE smart Creator who made everything is way simpler than believing in a million unexplained random universe accidents."
+      "summary_5th_grader": "Ockham's Razor is a rule in science and logic that says: the simplest explanation that works is usually the best! Theists argue that believing in ONE smart Creator who made everything is way simpler than believing in a million unexplained random universe accidents.",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_1.0_female.mp3",
+        "male": "audio/arg_ockham_simplicity_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -23,9 +27,13 @@
       "type": "stage_2",
       "shortLabel": "Explanatory Scope",
       "title": "Swinburne's Ultimate Simplicity (Stage 2)",
-      "summary": "Richard Swinburne argues that a person with unlimited power, knowledge, and freedom (God) is the simplest kind of entity possible\u2014having zero arbitrary parameters or numerical limits (infinite power is simpler than a specific finite quantity of power like 4.2x10^50 Joules).",
+      "summary": "Richard Swinburne argues that a person with unlimited power, knowledge, and freedom (God) is the simplest kind of entity possible—having zero arbitrary parameters or numerical limits (infinite power is simpler than a specific finite quantity of power like 4.2x10^50 Joules).",
       "status": "active",
-      "summary_5th_grader": "Philosopher Richard Swinburne argued that infinity is actually simpler than random numbers! Saying God has unlimited power is simpler than saying the universe happens to have exact random numbers of energy."
+      "summary_5th_grader": "Philosopher Richard Swinburne argued that infinity is actually simpler than random numbers! Saying God has unlimited power is simpler than saying the universe happens to have exact random numbers of energy.",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_1.1_female.mp3",
+        "male": "audio/arg_ockham_simplicity_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Dawkins' Ultimate Boeing 747 Objection",
       "summary": "Richard Dawkins objects that a Mind capable of monitoring and designing an entire universe must be extraordinarily complex, not simple. Invoking a complex divine mind to explain physical complexity substitutes a bigger unexplained problem for a smaller one.",
       "status": "active",
-      "summary_5th_grader": "Atheist Richard Dawkins argued back: a God who can design a whole universe must be super complex! Replacing a complex universe with an even MORE complex God doesn't simplify anything."
+      "summary_5th_grader": "Atheist Richard Dawkins argued back: a God who can design a whole universe must be super complex! Replacing a complex universe with an even MORE complex God doesn't simplify anything.",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_2.1_female.mp3",
+        "male": "audio/arg_ockham_simplicity_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Thomistic Divine Simplicity Response",
       "summary": "Classical theists (Aquinas, Feser) respond that God is non-composite (lacking physical parts, matter, or internal divisions). Divine Simplicity means God is a single, unified pure act of existence, not a complex biological brain or composite mechanism.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: God doesn't have a physical brain with billions of parts! In classical philosophy, God is completely simple\u2014one unified spirit without any separate parts."
+      "summary_5th_grader": "Defenders answer: God doesn't have a physical brain with billions of parts! In classical philosophy, God is completely simple—one unified spirit without any separate parts.",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_3.1_female.mp3",
+        "male": "audio/arg_ockham_simplicity_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Incoherence of Divine Simplicity",
       "summary": "Critics object that Divine Simplicity makes God's attributes identical to each other (God's power = God's love = God's knowledge = God's existence), rendering language about divine agency semantically unintelligible.",
       "status": "active",
-      "summary_5th_grader": "Critics object: if God's power, love, and mind are all the exact same thing, those words lose their real meaning and become confusing."
+      "summary_5th_grader": "Critics object: if God's power, love, and mind are all the exact same thing, those words lose their real meaning and become confusing.",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_4.1_female.mp3",
+        "male": "audio/arg_ockham_simplicity_4.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -69,7 +89,11 @@
       "title": "Qualitative vs. Quantitative Simplicity",
       "summary": "Philosophers of science distinguish between quantitative simplicity (number of entities) and qualitative simplicity (number of kinds of entities). Naturalism posits only physical entities (one kind), whereas Theism posits physical entities PLUS supernatural minds (two kinds), violating qualitative parsimony.",
       "status": "active",
-      "summary_5th_grader": "Scientists point out two kinds of simple: counting things vs. counting TYPES of things. Believing only in physical stuff is just 1 type of thing. Believing in physical stuff PLUS magic spirits adds a second brand-new type of thing!"
+      "summary_5th_grader": "Scientists point out two kinds of simple: counting things vs. counting TYPES of things. Believing only in physical stuff is just 1 type of thing. Believing in physical stuff PLUS magic spirits adds a second brand-new type of thing!",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_2.2_female.mp3",
+        "male": "audio/arg_ockham_simplicity_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -80,7 +104,11 @@
       "title": "Multiverse Hypotheses Multiply Entities",
       "summary": "Theists respond that to explain fine-tuning, naturalism often posits a Multiverse with 10^500 unobserved physical universes with varying physical laws, multiplying entities far beyond a single transcendent God.",
       "status": "active",
-      "summary_5th_grader": "Theists reply: to explain our universe without God, atheists often invent a 'multiverse' with 10^500 invisible universes! That multiplies entities way more than just believing in one God."
+      "summary_5th_grader": "Theists reply: to explain our universe without God, atheists often invent a 'multiverse' with 10^500 invisible universes! That multiplies entities way more than just believing in one God.",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_3.2_female.mp3",
+        "male": "audio/arg_ockham_simplicity_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -91,7 +119,11 @@
       "title": "Single Universe-Generating Mechanism",
       "summary": "Naturalists reply that a single inflation mechanism (like cosmic inflation or string theory landscape) naturally generates multiple pocket universes from one physical law, preserving qualitative parsimony.",
       "status": "active",
-      "summary_5th_grader": "Naturalists answer back: a single bubble-machine law of physics can blow millions of universe bubbles naturally without inventing supernatural spirits!"
+      "summary_5th_grader": "Naturalists answer back: a single bubble-machine law of physics can blow millions of universe bubbles naturally without inventing supernatural spirits!",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_4.2_female.mp3",
+        "male": "audio/arg_ockham_simplicity_4.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -102,7 +134,11 @@
       "title": "Ockham's Razor Requires Equal Explanatory Power",
       "summary": "Ockham's Razor only favors the simpler theory IF both theories explain the data equally well. Skeptics argue God is an 'explanatory blank check' that fails to predict specific physical equations or initial constants.",
       "status": "active",
-      "summary_5th_grader": "Skeptics remind us: Ockham's Razor only works if both ideas explain the facts! Saying 'God did it' doesn't actually help scientists predict specific physics numbers."
+      "summary_5th_grader": "Skeptics remind us: Ockham's Razor only works if both ideas explain the facts! Saying 'God did it' doesn't actually help scientists predict specific physics numbers.",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_2.3_female.mp3",
+        "male": "audio/arg_ockham_simplicity_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -113,7 +149,11 @@
       "title": "Explaining Morality, Math, & Consciousness",
       "summary": "Theists reply that God successfully explains non-physical facts (objective moral values, mathematical applicability, subjective consciousness) that physical naturalism struggles to accommodate.",
       "status": "active",
-      "summary_5th_grader": "Theists answer: God explains real things that physical equations can't\u2014like human moral right and wrong, math rules, and conscious thoughts!"
+      "summary_5th_grader": "Theists answer: God explains real things that physical equations can't—like human moral right and wrong, math rules, and conscious thoughts!",
+      "audio_urls": {
+        "female": "audio/arg_ockham_simplicity_3.3_female.mp3",
+        "male": "audio/arg_ockham_simplicity_3.3_male.mp3"
+      }
     }
   ]
 }

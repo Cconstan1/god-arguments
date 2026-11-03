@@ -12,9 +12,13 @@
       "type": "core_argument",
       "shortLabel": "Special Pleading Core",
       "title": "Arbitrary Suspension of Metaphysical Rules for Deity",
-      "summary": "The Special Pleading objection asserts that traditional cosmological arguments apply strict metaphysical rules\u2014such as 'everything that exists requires an explanation or cause' or 'an actual infinite is impossible'\u2014to physical nature, but arbitrarily exempt God from those same rules without independent justification. Critics argue that unless an exception rule is grounded in observable evidence rather than ad hoc definition, declaring God uncaused or brute while demanding a cause for the cosmos is logically fallacious.",
+      "summary": "The Special Pleading objection asserts that traditional cosmological arguments apply strict metaphysical rules—such as 'everything that exists requires an explanation or cause' or 'an actual infinite is impossible'—to physical nature, but arbitrarily exempt God from those same rules without independent justification. Critics argue that unless an exception rule is grounded in observable evidence rather than ad hoc definition, declaring God uncaused or brute while demanding a cause for the cosmos is logically fallacious.",
       "status": "active",
-      "summary_5th_grader": "Imagine playing a game where the rule is 'Everyone must wear red shoes,' but one player says 'Except me, because I made up a title that says I don't have to!' Special pleading is when someone invents a strict rule for the whole universe, but makes up a special excuse to let God break that exact rule."
+      "summary_5th_grader": "Imagine playing a game where the rule is 'Everyone must wear red shoes,' but one player says 'Except me, because I made up a title that says I don't have to!' Special pleading is when someone invents a strict rule for the whole universe, but makes up a special excuse to let God break that exact rule.",
+      "audio_urls": {
+        "female": "audio/arg_special_pleading_1.0_female.mp3",
+        "male": "audio/arg_special_pleading_1.0_male.mp3"
+      }
     },
     {
       "id": "2.0",
@@ -25,7 +29,11 @@
       "title": "Categorical Distinction Between Necessary and Contingent Being",
       "summary": "Theists respond that exempting God is not arbitrary special pleading, but a principled category distinction. The rule of causation applies specifically to contingent things (things that could have failed to exist or have a beginning), not to a Necessary Being whose non-existence is logically impossible. Since God is defined as self-existent (aseity) and non-contingent, applying causal rules to God would be a category error, not special pleading.",
       "status": "active",
-      "summary_5th_grader": "Supporters say this isn't cheating because God is in a completely different category. It's like asking 'Why isn't a shadow heavy?' Shadows don't have weight, and an eternal, necessary God doesn't need a creator because God isn't something that was ever made!"
+      "summary_5th_grader": "Supporters say this isn't cheating because God is in a completely different category. It's like asking 'Why isn't a shadow heavy?' Shadows don't have weight, and an eternal, necessary God doesn't need a creator because God isn't something that was ever made!",
+      "audio_urls": {
+        "female": "audio/arg_special_pleading_2.0_female.mp3",
+        "male": "audio/arg_special_pleading_2.0_male.mp3"
+      }
     },
     {
       "id": "3.0",
@@ -36,7 +44,11 @@
       "title": "Question-Begging & Stipulative Necessity",
       "summary": "Atheists counter that defining God as a 'Necessary Being' to escape causation is a stipulative definition that begs the question. Positing a new metaphysical category solely to solve the problem of causal regress, without independent empirical or logical proof that such a category is populated, is the precise definition of ad hoc special pleading. Defining a entity as uncaused does not prove it exists.",
       "status": "active",
-      "summary_5th_grader": "Skeptics answer: 'Just inventing a fancy title like Necessary Being doesn't prove it's real!' If you can just invent a word to exempt your cause from the rule, anyone could invent a special rule to prove anything they want."
+      "summary_5th_grader": "Skeptics answer: 'Just inventing a fancy title like Necessary Being doesn't prove it's real!' If you can just invent a word to exempt your cause from the rule, anyone could invent a special rule to prove anything they want.",
+      "audio_urls": {
+        "female": "audio/arg_special_pleading_3.0_female.mp3",
+        "male": "audio/arg_special_pleading_3.0_male.mp3"
+      }
     },
     {
       "id": "4.0",
@@ -45,9 +57,13 @@
       "type": "nested_rebuttal",
       "shortLabel": "PSR & Terminal Ground",
       "title": "The Principle of Sufficient Reason Demands an Ultimate Ground",
-      "summary": "Theists reply that rational inquiry itself relies on the Principle of Sufficient Reason (PSR)\u2014that contingent facts must ultimately be explained by a non-contingent ground. If the chain of explanations never terminates in an uncaused necessary foundation, then nothing would have an ultimate explanation (infinite regress). Therefore, a necessary ultimate reality is logically required to avoid total explanatory collapse.",
+      "summary": "Theists reply that rational inquiry itself relies on the Principle of Sufficient Reason (PSR)—that contingent facts must ultimately be explained by a non-contingent ground. If the chain of explanations never terminates in an uncaused necessary foundation, then nothing would have an ultimate explanation (infinite regress). Therefore, a necessary ultimate reality is logically required to avoid total explanatory collapse.",
       "status": "active",
-      "summary_5th_grader": "Defenders explain that the chain of 'Why?' questions has to stop somewhere. If every single thing needed another thing to explain it, you would have an endless chain of dominoes and none of them would ever start falling!"
+      "summary_5th_grader": "Defenders explain that the chain of 'Why?' questions has to stop somewhere. If every single thing needed another thing to explain it, you would have an endless chain of dominoes and none of them would ever start falling!",
+      "audio_urls": {
+        "female": "audio/arg_special_pleading_4.0_female.mp3",
+        "male": "audio/arg_special_pleading_4.0_male.mp3"
+      }
     },
     {
       "id": "5.0",
@@ -58,7 +74,11 @@
       "title": "Parsimony of a Brute Physical Foundation",
       "summary": "Atheists argue that if an uncaused, ungrounded ultimate foundation must be accepted to terminate regress, Ockham's Razor dictates applying that foundation directly to fundamental physical reality (such as a quantum vacuum, energy field, or multiverse) rather than positing an additional, hyper-complex supernatural divine mind. If something can be brute, physical reality is the simpler candidate.",
       "status": "active",
-      "summary_5th_grader": "If we have to pick one thing that just exists on its own without a cause, skeptics say it makes much more sense to pick basic energy or the quantum realm\u2014things we can actually measure\u2014instead of inventing a magic, invisible mind."
+      "summary_5th_grader": "If we have to pick one thing that just exists on its own without a cause, skeptics say it makes much more sense to pick basic energy or the quantum realm—things we can actually measure—instead of inventing a magic, invisible mind.",
+      "audio_urls": {
+        "female": "audio/arg_special_pleading_5.0_female.mp3",
+        "male": "audio/arg_special_pleading_5.0_male.mp3"
+      }
     },
     {
       "id": "6.0",
@@ -67,9 +87,13 @@
       "type": "nested_rebuttal",
       "shortLabel": "Physical Contingency",
       "title": "The Inherent Contingency of Matter and Physical Laws",
-      "summary": "Theists contend that physical nature cannot serve as the ultimate necessary foundation because all physical entities (matter, energy, spatiotemporal dimensions, and physical constants) are composite, changeable, and logically contingent\u2014they could have possessed different values or configurations. A composite entity composed of parts requires a unifying cause, ruling out matter as a self-necessary ultimate reality.",
+      "summary": "Theists contend that physical nature cannot serve as the ultimate necessary foundation because all physical entities (matter, energy, spatiotemporal dimensions, and physical constants) are composite, changeable, and logically contingent—they could have possessed different values or configurations. A composite entity composed of parts requires a unifying cause, ruling out matter as a self-necessary ultimate reality.",
       "status": "active",
-      "summary_5th_grader": "Supporters point out that physical stuff (like atoms, stars, and energy) changes all the time and could easily be different than it is. Since it's made of parts that change, physical stuff can't be the unchangeable, ultimate foundation of everything."
+      "summary_5th_grader": "Supporters point out that physical stuff (like atoms, stars, and energy) changes all the time and could easily be different than it is. Since it's made of parts that change, physical stuff can't be the unchangeable, ultimate foundation of everything.",
+      "audio_urls": {
+        "female": "audio/arg_special_pleading_6.0_female.mp3",
+        "male": "audio/arg_special_pleading_6.0_male.mp3"
+      }
     },
     {
       "id": "7.0",
@@ -80,7 +104,11 @@
       "title": "Symmetrical Fallibility and Modal Intuitions",
       "summary": "Atheists conclude that claims about what is 'necessarily ultimate' rely on subjective human modal intuitions. Asserting that a divine mind is necessarily non-composite while matter is contingent is an unjustified metaphysical assumption. If we cannot explain why the universe exists, admitting ignorance is epistemically superior to applying special pleading to a divine persona.",
       "status": "active",
-      "summary_5th_grader": "Skeptics finish by saying: We don't actually know if physical laws could have been different. Admitting 'We don't know yet' is honest science, while inventing a special exception for God is just filling a gap with a special rule."
+      "summary_5th_grader": "Skeptics finish by saying: We don't actually know if physical laws could have been different. Admitting 'We don't know yet' is honest science, while inventing a special exception for God is just filling a gap with a special rule.",
+      "audio_urls": {
+        "female": "audio/arg_special_pleading_7.0_female.mp3",
+        "male": "audio/arg_special_pleading_7.0_male.mp3"
+      }
     }
   ]
 }

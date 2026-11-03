@@ -14,7 +14,11 @@
       "title": "The Fine-Tuning Argument (Stage 1)",
       "summary": "The fundamental physical constants (e.g., cosmological constant, gravitational constant, strong nuclear force) and initial low entropy of the universe fall into an extraordinarily narrow, life-permitting range. This precise calibration is far more probable under intentional Design than under physical necessity or chance.",
       "status": "active",
-      "summary_5th_grader": "The laws and numbers that run our universe are dialed in so perfectly for life that if you changed even one tiny knob by a fraction of a millimeter, stars, planets, and humans could never exist. It looks way more like a super-smart creator set the dials than just crazy lucky guessing!"
+      "summary_5th_grader": "The laws and numbers that run our universe are dialed in so perfectly for life that if you changed even one tiny knob by a fraction of a millimeter, stars, planets, and humans could never exist. It looks way more like a super-smart creator set the dials than just crazy lucky guessing!",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_1.0_female.mp3",
+        "male": "audio/arg_fine_tuning_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Teleological Designer Deduction (Stage 2)",
       "summary": "If the fine-tuning of cosmic constants requires an intentional cause, that entity must possess immense power, mathematical intellect, transcendence over physical space-time, and personal agency to choose specific life-permitting parameters.",
       "status": "active",
-      "summary_5th_grader": "If someone dialed in all the math and physics numbers perfectly, that designer must be insanely powerful, super intelligent, outside of space and time, and able to choose how to make the universe."
+      "summary_5th_grader": "If someone dialed in all the math and physics numbers perfectly, that designer must be insanely powerful, super intelligent, outside of space and time, and able to choose how to make the universe.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_1.1_female.mp3",
+        "male": "audio/arg_fine_tuning_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "The Multiverse & String Landscape Objection",
       "summary": "If an infinite or vast number of universes exist with varying physical constants (via eternal inflation or string theory's 10^500 vacuum states), it becomes statistically inevitable that at least one universe would accidentally possess life-permitting numbers.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: maybe there are billions and billions of universes! If you roll a dice trillions of times, eventually you'll get a super rare lucky number by pure chance."
+      "summary_5th_grader": "Skeptics say: maybe there are billions and billions of universes! If you roll a dice trillions of times, eventually you'll get a super rare lucky number by pure chance.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_2.1_female.mp3",
+        "male": "audio/arg_fine_tuning_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Boltzmann Brain & Measure Problem",
       "summary": "In infinite multiverse models, single random brain fluctuations (Boltzmann Brains) outnumber evolved observers by infinite orders of magnitude. A multiverse model predicts observers should be isolated brains floating in chaos, not structured evolutionary worlds.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: if the multiverse just makes random stuff by chance, it's way easier for chance to pop a single floating brain into space than to make a whole orderly universe! So the multiverse math actually fails."
+      "summary_5th_grader": "Defenders reply: if the multiverse just makes random stuff by chance, it's way easier for chance to pop a single floating brain into space than to make a whole orderly universe! So the multiverse math actually fails.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_3.1_female.mp3",
+        "male": "audio/arg_fine_tuning_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Fine-Tuned Multiverse Generator",
       "summary": "A physical mechanism capable of generating diverse universes (like eternal inflation or string theory) requires its own underlying physical laws and precise hardware, shifting fine-tuning up one level rather than eliminating it.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue back, but defenders point out: even a machine that prints billions of universes needs to be built and tuned perfectly to work! You just moved the problem back one step."
+      "summary_5th_grader": "Skeptics argue back, but defenders point out: even a machine that prints billions of universes needs to be built and tuned perfectly to work! You just moved the problem back one step.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_4.1_female.mp3",
+        "male": "audio/arg_fine_tuning_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -69,7 +89,11 @@
       "title": "Cosmological Natural Selection (Smolin)",
       "summary": "Lee Smolin's hypothesis suggests black holes produce child universes with slightly mutated laws, dynamically optimizing universes for black hole production and indirectly life, without supernatural tuning.",
       "status": "active",
-      "summary_5th_grader": "Some scientists suggest universes reproduce through black holes and evolve over time to get better, so no divine maker is needed."
+      "summary_5th_grader": "Some scientists suggest universes reproduce through black holes and evolve over time to get better, so no divine maker is needed.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_5.1_female.mp3",
+        "male": "audio/arg_fine_tuning_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -80,7 +104,11 @@
       "title": "Penrose's Gravitational Entropy Calculation",
       "summary": "Roger Penrose calculated that the creator's aim to select our universe's ultra-low initial entropy (Past Hypothesis) required a precision of 1 part in 10^(10^123), making initial thermodynamic configuration the most extreme fine-tuning known to physics.",
       "status": "active",
-      "summary_5th_grader": "Famous scientist Roger Penrose showed that the starting smoothness of the Big Bang was precise to 1 chance out of 1 followed by more zeros than there are atoms in the universe! It is the most extreme fine-tuning in all of science."
+      "summary_5th_grader": "Famous scientist Roger Penrose showed that the starting smoothness of the Big Bang was precise to 1 chance out of 1 followed by more zeros than there are atoms in the universe! It is the most extreme fine-tuning in all of science.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_2.2_female.mp3",
+        "male": "audio/arg_fine_tuning_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -91,7 +119,11 @@
       "title": "Past Hypothesis as a Fundamental Law",
       "summary": "Naturalists argue that the low-entropy initial state is simply an uncaused fundamental law of physics (the Past Hypothesis) or a boundary condition, requiring no further explanation.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: maybe the universe starting super smooth is just the basic rule of how physics starts, with no extra explanation needed."
+      "summary_5th_grader": "Skeptics say: maybe the universe starting super smooth is just the basic rule of how physics starts, with no extra explanation needed.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_3.2_female.mp3",
+        "male": "audio/arg_fine_tuning_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -102,7 +134,11 @@
       "title": "Teleological Explanation of Cosmic Arrow of Time",
       "summary": "Accepting 10^(10^123) as a brute law abandons rational probability. An intentional act of setting initial conditions to allow stable chemistry and biological life provides an explanatory rationale where brute physics gives up.",
       "status": "active",
-      "summary_5th_grader": "Defenders respond: calling a 1-in-10^(10^123) event 'just a basic rule' is giving up on explanation. A Creator who wanted life gives a real reason why it started so perfectly."
+      "summary_5th_grader": "Defenders respond: calling a 1-in-10^(10^123) event 'just a basic rule' is giving up on explanation. A Creator who wanted life gives a real reason why it started so perfectly.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_4.2_female.mp3",
+        "male": "audio/arg_fine_tuning_4.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -113,7 +149,11 @@
       "title": "Weak Anthropic Principle & Observation Selection Effect",
       "summary": "We should not be surprised to find our universe fine-tuned, because if it were not, we wouldn't be here to observe it. Our existence creates an automatic observational selection bias.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: of course we see a universe that fits us! If it didn't fit us, we wouldn't be alive to look at it, so it's silly to be surprised."
+      "summary_5th_grader": "Skeptics say: of course we see a universe that fits us! If it didn't fit us, we wouldn't be alive to look at it, so it's silly to be surprised.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_2.3_female.mp3",
+        "male": "audio/arg_fine_tuning_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -124,7 +164,11 @@
       "title": "Leslie's Firing Squad Paradox",
       "summary": "John Leslie's analogy: if 50 expert marksmen fire at a prisoner and all miss, the prisoner shouldn't say 'If they hit me, I wouldn't be here to ponder it.' While true, it fails to explain *why* all 50 missed. The survival demands an explanation.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply with a story: if 50 sharp-shooters fire guns at you and every single bullet misses, you don't say 'Well, if they hit me I'd be dead, so no surprise!' You still wonder WHY they all missed! Surviving demands an explanation."
+      "summary_5th_grader": "Defenders reply with a story: if 50 sharp-shooters fire guns at you and every single bullet misses, you don't say 'Well, if they hit me I'd be dead, so no surprise!' You still wonder WHY they all missed! Surviving demands an explanation.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_3.3_female.mp3",
+        "male": "audio/arg_fine_tuning_3.3_male.mp3"
+      }
     },
     {
       "id": "4.3",
@@ -135,7 +179,11 @@
       "title": "Mathematical Measure & Normalizability Problem",
       "summary": "Critics argue that without a well-defined mathematical probability measure over infinite potential parameter ranges, claims about 'improbability' are mathematically ill-defined.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue: unless you know all possible physics values that COULD exist, you can't accurately calculate math probabilities."
+      "summary_5th_grader": "Skeptics argue: unless you know all possible physics values that COULD exist, you can't accurately calculate math probabilities.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_4.3_female.mp3",
+        "male": "audio/arg_fine_tuning_4.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -146,7 +194,11 @@
       "title": "Exotic Biochemistry & Parameter Independence",
       "summary": "Fine-tuning arguments assume life must be carbon-based. Under different constants, alternative forms of complex self-organizing matter (e.g. silicon, plasma, dark matter life) might evolve.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: maybe life doesn't need carbon and water! Different numbers might make alien creatures made of energy, crystal, or dark matter."
+      "summary_5th_grader": "Skeptics say: maybe life doesn't need carbon and water! Different numbers might make alien creatures made of energy, crystal, or dark matter.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_2.4_female.mp3",
+        "male": "audio/arg_fine_tuning_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -157,7 +209,11 @@
       "title": "Nuclear Resonance & Carbon Instability",
       "summary": "Fred Hoyle discovered that carbon production requires precise energy resonance (the Hoyle State) in beryllium and helium fusion. Altering the strong force by even 0.5% destroys either carbon or oxygen production, preventing ANY complex chemistry.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: physics shows that if you nudge the nuclear force by even 0.5%, stars can't build carbon or oxygen at all! Without heavy atoms, no complex chemistry of any kind can ever form."
+      "summary_5th_grader": "Defenders reply: physics shows that if you nudge the nuclear force by even 0.5%, stars can't build carbon or oxygen at all! Without heavy atoms, no complex chemistry of any kind can ever form.",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_3.4_female.mp3",
+        "male": "audio/arg_fine_tuning_3.4_male.mp3"
+      }
     },
     {
       "id": "4.4",
@@ -168,7 +224,11 @@
       "title": "Fred Adams' Life-Permitting Stellar Models",
       "summary": "Astrophysicist Fred Adams showed that stellar fusion can work in up to 25% of parameter combinations when multiple constants are varied simultaneously rather than one at a time.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out: if you change multiple numbers at the same time instead of just one, up to 25% of theoretical universes could still form glowing stars!"
+      "summary_5th_grader": "Skeptics point out: if you change multiple numbers at the same time instead of just one, up to 25% of theoretical universes could still form glowing stars!",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_4.4_female.mp3",
+        "male": "audio/arg_fine_tuning_4.4_male.mp3"
+      }
     },
     {
       "id": "2.5",
@@ -177,9 +237,13 @@
       "type": "rebuttal",
       "shortLabel": "Theory of Everything",
       "title": "Theory of Everything (TOE) Necessity",
-      "summary": "Future fundamental physics may reveal a Theory of Everything showing that constants could not have been any different\u2014they are mathematically necessitated by a single master equation.",
+      "summary": "Future fundamental physics may reveal a Theory of Everything showing that constants could not have been any different—they are mathematically necessitated by a single master equation.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: maybe when we find the ultimate scientific formula, it will show that the numbers COULD NOT be anything else!"
+      "summary_5th_grader": "Skeptics say: maybe when we find the ultimate scientific formula, it will show that the numbers COULD NOT be anything else!",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_2.5_female.mp3",
+        "male": "audio/arg_fine_tuning_2.5_male.mp3"
+      }
     },
     {
       "id": "3.5",
@@ -190,7 +254,11 @@
       "title": "Deep Contingency of Mathematical Equations",
       "summary": "Even if a TOE dictates parameter values, it shifts fine-tuning to the master equation itself: why this life-permitting equation rather than countless non-life-permitting alternatives?",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: even if one master math equation fixes all the numbers, why did nature get THAT life-friendly equation instead of a million dead equations?"
+      "summary_5th_grader": "Defenders reply: even if one master math equation fixes all the numbers, why did nature get THAT life-friendly equation instead of a million dead equations?",
+      "audio_urls": {
+        "female": "audio/arg_fine_tuning_3.5_female.mp3",
+        "male": "audio/arg_fine_tuning_3.5_male.mp3"
+      }
     }
   ]
 }

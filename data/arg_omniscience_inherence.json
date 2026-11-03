@@ -12,9 +12,13 @@
       "type": "core_argument",
       "shortLabel": "Omniscience Inherence Core",
       "title": "Inherence Paradoxes of Omniscience & Set-Theoretic Incompleteness",
-      "summary": "The argument, rooted in mathematical epistemology and Grim's Logic of Omniscience (Patrick Grim), asserts that exhaustive omniscience\u2014defined as knowing the set of all truths\u2014is logically impossible. By Cantor's Power Set Theorem, for any set of truths T, the power set P(T) contains strictly more elements than T. Assigning a unique truth to each subset produces more truths than exist in the original set T, proving there can be no 'set of all truths'. Furthermore, epistemic self-reference, first-person indexicals ('I am here now'), and experiential truths create structural paradoxes where divine omniscience entails logical contradiction or cognitive incompleteness.",
+      "summary": "The argument, rooted in mathematical epistemology and Grim's Logic of Omniscience (Patrick Grim), asserts that exhaustive omniscience—defined as knowing the set of all truths—is logically impossible. By Cantor's Power Set Theorem, for any set of truths T, the power set P(T) contains strictly more elements than T. Assigning a unique truth to each subset produces more truths than exist in the original set T, proving there can be no 'set of all truths'. Furthermore, epistemic self-reference, first-person indexicals ('I am here now'), and experiential truths create structural paradoxes where divine omniscience entails logical contradiction or cognitive incompleteness.",
       "status": "active",
-      "summary_5th_grader": "Imagine trying to list EVERY single true fact that could ever exist. Cantor's mathematical rule proves that you can always make a bigger list of facts by grouping the first facts into new combinations! That means there is no such thing as 'the set of ALL facts.' If a list of 'all facts' is mathematically impossible, then an all-knowing mind that holds 'all facts' is also logically impossible!"
+      "summary_5th_grader": "Imagine trying to list EVERY single true fact that could ever exist. Cantor's mathematical rule proves that you can always make a bigger list of facts by grouping the first facts into new combinations! That means there is no such thing as 'the set of ALL facts.' If a list of 'all facts' is mathematically impossible, then an all-knowing mind that holds 'all facts' is also logically impossible!",
+      "audio_urls": {
+        "female": "audio/arg_omniscience_inherence_1.0_female.mp3",
+        "male": "audio/arg_omniscience_inherence_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Omniscience as Proper Class Knowledge & Non-Set Truths",
       "summary": "Theistic philosophers (such as Alvin Plantinga and Richard Swinburne) respond that omniscience does not require truth to form a formal mathematical 'set' in Zermelo-Fraenkel set theory. In modern logic, the collection of all true propositions is an unbounded 'proper class' or maximal attribute rather than a restrictive set subject to Cantor's power set operations. Omniscience is defined functionally: 'For every proposition p, if p is true, God knows p, and God holds no false beliefs.' This definition applies seamlessly to every actual proposition without falling into set-theoretic paradoxes.",
       "status": "active",
-      "summary_5th_grader": "Defenders of God say this is just a math trick! God doesn't carry truths around in a physical bucket or a mathematical set. Omniscience simply means that whenever something is true, God knows it. You don't need a math set to know everything that is true!"
+      "summary_5th_grader": "Defenders of God say this is just a math trick! God doesn't carry truths around in a physical bucket or a mathematical set. Omniscience simply means that whenever something is true, God knows it. You don't need a math set to know everything that is true!",
+      "audio_urls": {
+        "female": "audio/arg_omniscience_inherence_1.1_female.mp3",
+        "male": "audio/arg_omniscience_inherence_1.1_male.mp3"
+      }
     },
     {
       "id": "1.1.1",
@@ -36,7 +44,11 @@
       "title": "Grim's Cantor-Grim Argument & Proper Class Incompleteness",
       "summary": "Patrick Grim demonstrates that appealing to 'proper classes' fails to resolve the logical contradiction. Cantor's diagonal power-collection argument applies equally to proper classes and any collection of facts: for any collection of divine thoughts or truths, one can always construct a distinct truth that is not in the original collection. Furthermore, if the collection of truths is an un-individuated proper class, it cannot be held as a completed, unified cognitive state of an individual mind, rendering exhaustive divine knowledge structurally incoherent.",
       "status": "active",
-      "summary_5th_grader": "Skeptics reply that even if you call all facts a 'proper class' instead of a 'set,' the math puzzle doesn't disappear! You can still use math rules to create new true statements that weren't in God's mind yet. A mind cannot hold a list that is mathematically infinite and incomplete at the same time."
+      "summary_5th_grader": "Skeptics reply that even if you call all facts a 'proper class' instead of a 'set,' the math puzzle doesn't disappear! You can still use math rules to create new true statements that weren't in God's mind yet. A mind cannot hold a list that is mathematically infinite and incomplete at the same time.",
+      "audio_urls": {
+        "female": "audio/arg_omniscience_inherence_1.1.1_female.mp3",
+        "male": "audio/arg_omniscience_inherence_1.1.1_male.mp3"
+      }
     },
     {
       "id": "1.2",
@@ -45,9 +57,13 @@
       "type": "rebuttal",
       "shortLabel": "Indexical & Experiential Limits",
       "title": "The Problem of First-Person Indexicals & Experiential Knowledge",
-      "summary": "Philosophers like Norman Kretzmann and David Lewis highlight additional qualitative paradoxes in omniscience: 'indexical knowledge' and 'experiential knowledge'. A proposition like 'I am making a mistake right now' or 'I am a limited human creature' contains first-person indexicals ('I', 'here', 'now') that can only be known directly by the subjective agent experiencing them. If God knows what it feels like to be an ignorant, fearful creature, God must experience ignorance\u2014which contradicts divine perfection. If God does not know these subjective states, divine knowledge is not exhaustive.",
+      "summary": "Philosophers like Norman Kretzmann and David Lewis highlight additional qualitative paradoxes in omniscience: 'indexical knowledge' and 'experiential knowledge'. A proposition like 'I am making a mistake right now' or 'I am a limited human creature' contains first-person indexicals ('I', 'here', 'now') that can only be known directly by the subjective agent experiencing them. If God knows what it feels like to be an ignorant, fearful creature, God must experience ignorance—which contradicts divine perfection. If God does not know these subjective states, divine knowledge is not exhaustive.",
       "status": "active",
-      "summary_5th_grader": "There are certain things you can only know if you are NOT God\u2014like 'what it feels like to be scared, confused, or make a dumb mistake.' If God knows what it feels like to be confused, God is confused! If God doesn't know, then God doesn't know everything."
+      "summary_5th_grader": "There are certain things you can only know if you are NOT God—like 'what it feels like to be scared, confused, or make a dumb mistake.' If God knows what it feels like to be confused, God is confused! If God doesn't know, then God doesn't know everything.",
+      "audio_urls": {
+        "female": "audio/arg_omniscience_inherence_1.2_female.mp3",
+        "male": "audio/arg_omniscience_inherence_1.2_male.mp3"
+      }
     },
     {
       "id": "1.2.1",
@@ -58,7 +74,11 @@
       "title": "Third-Person Propositional Translation & Perfect Empathy",
       "summary": "Theists argue that omniscience requires knowing all true propositions, not undergoing all subjective cognitive states or committing cognitive errors. God knows the complete objective truth of what every human experiences ('God knows that Person X is experiencing fear at time T') without God Himself being fearful or ignorant. Knowing a fact propositionally does not require undergoing the defect or limitation described by that fact.",
       "status": "active",
-      "summary_5th_grader": "Supporters answer that knowing about a feeling is different from having that feeling. A great doctor knows everything about a disease without having to catch the disease themselves! God understands human feelings perfectly without needing to be confused or make mistakes."
+      "summary_5th_grader": "Supporters answer that knowing about a feeling is different from having that feeling. A great doctor knows everything about a disease without having to catch the disease themselves! God understands human feelings perfectly without needing to be confused or make mistakes.",
+      "audio_urls": {
+        "female": "audio/arg_omniscience_inherence_1.2.1_female.mp3",
+        "male": "audio/arg_omniscience_inherence_1.2.1_male.mp3"
+      }
     },
     {
       "id": "1.3",
@@ -69,7 +89,11 @@
       "title": "Incompatibility of Infallible Foreknowledge & Human Free Will",
       "summary": "The logical paradox of divine foreknowledge asserts that if God infallibly knew 1,000 years ago that Person X would choose choice A at noon today, then Person X cannot choose otherwise without making God's prior knowledge false. Since the past is unchangeable (accidental necessity) and God's knowledge is infallible, Person X's choice is causally or logically determined, eliminating libertarian free will.",
       "status": "active",
-      "summary_5th_grader": "If God knew 1,000 years ago that you would pick chocolate ice cream today, can you pick vanilla instead? If you pick vanilla, God's prediction was wrong! But if you CAN'T pick vanilla, then you didn't really have a free choice. So infallible foreknowledge seems to destroy free will."
+      "summary_5th_grader": "If God knew 1,000 years ago that you would pick chocolate ice cream today, can you pick vanilla instead? If you pick vanilla, God's prediction was wrong! But if you CAN'T pick vanilla, then you didn't really have a free choice. So infallible foreknowledge seems to destroy free will.",
+      "audio_urls": {
+        "female": "audio/arg_omniscience_inherence_1.3_female.mp3",
+        "male": "audio/arg_omniscience_inherence_1.3_male.mp3"
+      }
     },
     {
       "id": "1.3.1",
@@ -80,7 +104,11 @@
       "title": "Molinism (Middle Knowledge) and Eternal Timeless Vision",
       "summary": "Classical theology resolves the foreknowledge paradox through either Boethian timelessness (God sees all moments simultaneously from outside time, so knowledge does not 'precede' choices in time) or Molinism (God possesses 'Middle Knowledge' / scientia media of what free creatures would choose in any counterfactual scenario, so human choices logically determine divine foreknowledge rather than foreknowledge determining human choices).",
       "status": "active",
-      "summary_5th_grader": "Theists explain that God lives outside of time and sees yesterday, today, and tomorrow all at once\u2014like watching a parade from a helicopter! God doesn't 'guess before it happens'; God simply sees what you freely choose at the moment you choose it."
+      "summary_5th_grader": "Theists explain that God lives outside of time and sees yesterday, today, and tomorrow all at once—like watching a parade from a helicopter! God doesn't 'guess before it happens'; God simply sees what you freely choose at the moment you choose it.",
+      "audio_urls": {
+        "female": "audio/arg_omniscience_inherence_1.3.1_female.mp3",
+        "male": "audio/arg_omniscience_inherence_1.3.1_male.mp3"
+      }
     }
   ]
 }
