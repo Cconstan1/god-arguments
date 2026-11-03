@@ -1,0 +1,75 @@
+{
+  "id": "arg_critique_of_hell",
+  "title": "Critique of Hell vs Divine Benevolence",
+  "tier": "C",
+  "starRating": 3.5,
+  "description": "Infinite eternal conscious torment for finite human mistakes violates fundamental moral proportionality and divine omnibenevolence.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Critique of Hell Core",
+      "title": "Proportionality Deficit & Eternal Conscious Torment (ECT) Paradox",
+      "summary": "The central objection to the traditional doctrine of Hell (Eternal Conscious Torment) rests on the retributive principle of moral proportionality: finite transgressions committed over a limited human lifespan cannot justly warrant an infinite duration of conscious, irreversible suffering. A perfectly good and omnibenevolent God would never institute a system of eternal retributive torture for finite temporal wrongdoing, as infinite suffering yields zero remedial or restorative benefit.",
+      "status": "active",
+      "summary_5th_grader": "If a child breaks a toy, grounding them for an hour makes sense; grounding them for life is cruel; but grounding them in a burning room for trillions of years forever is totally insane and unfair! The argument says a truly loving and fair God would never punish people forever for short, finite mistakes made during a brief human lifetime."
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Anselmian Majesty Defense",
+      "title": "Infinite Guilt Against an Infinite Being (Anselmian Majesty Defense)",
+      "summary": "Classical theologians (such as Anselm of Canterbury and Jonathan Edwards) argue that the moral severity of a transgression is measured not by the duration of the act, but by the dignity and majesty of the victim being offended. Because God is an infinite, absolute Being, any sin against God possesses infinite moral gravity, justly deserving an infinite penalty in duration.",
+      "status": "active",
+      "summary_5th_grader": "Some theologians argued that hitting a classmate is bad, but hitting a King is a huge crime. Because God is infinitely grand and important, breaking even one of God's rules is an infinitely big crime that deserves an infinite timeout!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Feudal Dignity Fallacy",
+      "title": "Fallacy of Transferred Dignity & Moral Arbitrariness",
+      "summary": "Critics reject Anselm's majesty scale as a category error derived from medieval feudal hierarchies. In moral philosophy, harming a vulnerable finite creature causes actual harm, whereas disobeying an invulnerable, infinite God causes zero ontological damage to the deity. Furthermore, if divine majesty scales all punishment to infinity, it obliterates moral distinction between minor human flaws and monstrous evil, rendering divine justice ethically arbitrary.",
+      "status": "active",
+      "summary_5th_grader": "If stealing a pencil from an infinite King gets you the exact same infinite punishment as hurting a million people, then all rules become completely meaningless! Real justice fits the actual harm caused, not how fancy or powerful the victim is."
+    },
+    {
+      "id": "2.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Self-Chosen Isolation",
+      "title": "Self-Chosen Isolation & The Free Will Defense (C.S. Lewis)",
+      "summary": "Modern Christian apologists (like C.S. Lewis in 'The Great Divorce') reframe Hell not as an external torture chamber imposed by God, but as the inevitable self-chosen outcome of human free will. Hell is God respecting human autonomy\u2014allowing those who reject divine communion to live in eternal quarantine away from God ('the doors of Hell are locked from the inside').",
+      "status": "active",
+      "summary_5th_grader": "C.S. Lewis suggested that Hell isn't God burning people, but God respecting people's choice to say 'Leave me alone!' It's like leaving a party because you hate the music and locking yourself in a dark room forever."
+    },
+    {
+      "id": "3.2",
+      "parentId": "2.2",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Epi-Ambiguity & Lock Deficit",
+      "title": "Epistemological Ambiguity, Irreversibility, and Divine Quarantine Failure",
+      "summary": "Skeptics argue that a choice cannot be truly autonomous or 'self-chosen' when made under conditions of extreme epistemological ambiguity and finite cognitive limitation during earth life. Furthermore, an omnibenevolent God would leave the door of post-mortem repentance open eternally rather than imposing an arbitrary death deadline. Quarantining conscious beings in eternal misery when an omnipotent God could rehabilitate them violates divine care.",
+      "status": "active",
+      "summary_5th_grader": "You can't say someone 'chose' Hell if they weren't given clear proof or if they were confused during life. Plus, if God is all-powerful and loving, why would God lock the door forever and never let someone say sorry once they realize their mistake?"
+    },
+    {
+      "id": "2.3",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Alternative Eschatologies",
+      "title": "Alternative Eschatologies: Universalism and Annihilationism",
+      "summary": "Internal theological alternatives bypass the critique by rejecting Eternal Conscious Torment altogether. Annihilationism (conditional immortality) posits that the wicked simply cease to exist (a finite penalty leading to non-existence), while Christian Universalism (apokatastasis, defended by Gregory of Nyssa and Origen) asserts that divine love will eventually restore and reconcile all created souls.",
+      "status": "active",
+      "summary_5th_grader": "Many historical and modern Christians agree that eternal burning sounds wrong! Some believe bad souls just go to sleep forever (annihilationism), while others believe God's love is so strong that eventually everyone will be healed and saved in the end (universalism)."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "arg_reverse_modal_ontological",
+  "title": "Reverse Modal Ontological Argument",
+  "tier": "D",
+  "starRating": 3.0,
+  "description": "It is possible that God does not exist. Under S5 modal logic, since a necessary being exists in all possible worlds or none, the possibility of divine absence entails that God exists in no world.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Reverse Modal Core",
+      "title": "S5 Modal Symmetry & The Epistemic Possibility of Divine Absence",
+      "summary": "Formulated as a direct logical mirror to Alvin Plantinga's Modal Ontological Argument, the Reverse Modal Ontological Argument uses the rules of S5 modal logic to prove God's non-existence. Plantinga argues that if a Maximally Great Being (God) is possible (\u25c7N), then God exists in all possible worlds (\u25a1N) and therefore actually exists. However, S5 logic works with exact mathematical symmetry in reverse: if it is epistemically or metaphysically possible that God does NOT exist (\u25c7~N), then God does not exist necessarily (~\u25a1N). Under S5, a being whose non-existence is possible cannot exist in any possible world (\u25a1~N). Therefore, God does not exist in the actual world.",
+      "status": "active",
+      "summary_5th_grader": "Modal logic is a set of math-like rules about what is 'possible' and what is 'necessary'. Plantinga said: 'If God is possible, then God must exist everywhere.' But the Reverse argument turns the mirror around: 'If it's possible that God DOES NOT exist in even one world, then God CANNOT exist anywhere!' Since we can easily picture a world without God, God is actually impossible!"
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Theist Rebuttal: Question Begging Standoff",
+      "title": "Theist Rebuttal: Modal Standoff & Begging the Question",
+      "summary": "Modal theists (such as Alvin Plantinga and William Lane Craig) respond that the atheist premise \u25c7~N ('It is possible that God does not exist') is logically equivalent to asserting ~N ('God does not exist') in S5. Therefore, the atheist premise begs the question against theism just as directly as the theist premise \u25c7N begs the question against atheism. Because both arguments rely on unsupported modal intuitions regarding possibilities they cannot empirically verify, the Modal Ontological Argument and its Reverse counterpart collapse into a logical standoff rather than a sound proof.",
+      "status": "active",
+      "summary_5th_grader": "Theists reply: 'Hold on! You are just ASSUMING it's possible that God doesn't exist, while we assume it's possible that God does exist! Both sides are just picking a starting assumption that forces their favorite conclusion. That makes both arguments a draw!'"
+    },
+    {
+      "id": "1.2",
+      "parentId": "1.1",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Atheist Defense: Asymmetric Burden of Proof",
+      "title": "Atheist Defense: Conceivability Asymmetry & Naturalistic Parsimony",
+      "summary": "Atheists (such as J.L. Mackie and Graham Oppy) defend the premise \u25c7~N by arguing that the possibility of a non-god world possesses a significantly lower burden of proof than the possibility of a Maximally Great Being. A purely physical, mindless cosmos (a universe containing only matter, energy, and physical laws) is completely coherent and contains no internal logical paradoxes. In contrast, the concept of a Maximally Great Being introduces deep conceptual tensions (e.g., omnipotence paradoxes, divine hiddenness, and moral evil). Since a godless world is far easier to conceive without logical contradiction, \u25c7~N is intuitive and justified, whereas \u25c7N is speculative.",
+      "status": "active",
+      "summary_5th_grader": "Atheists answer back: 'It's much easier to picture a universe that is just rocks, stars, and physics without any God\u2014there are no logical paradoxes there! But picturing an all-knowing, all-powerful invisible spirit has tons of hard logical puzzles. So assuming a world without God is much more sensible!'"
+    },
+    {
+      "id": "1.3",
+      "parentId": "1.2",
+      "level": 4,
+      "type": "rebuttal",
+      "shortLabel": "Theist Response: Epistemic vs Metaphysical Possibility",
+      "title": "Theist Response: Equivocation Between Epistemic and Metaphysical Possibility",
+      "summary": "Theists counter that the atheist defense equivocates between 'epistemic possibility' (what human minds can imagine due to ignorance) and 'metaphysical possibility' (what could actually obtain in reality). Just because a human can imaginatively conceive of a mindless cosmos without seeing an immediate contradiction does not prove that such a cosmos is metaphysically possible. If God is a Necessary Being by definition, a world without God is metaphysically impossible, regardless of human imaginative limitations.",
+      "status": "active",
+      "summary_5th_grader": "Theists say: 'Just because you can imagine a world without God in your head doesn't mean that world is actually possible in real life! Someone in the past could imagine water that wasn't H2O, but that was actually impossible. Imagination isn't the same as real physical possibility!'"
+    },
+    {
+      "id": "2.0",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "S5 Logic Invalidity Critique",
+      "title": "Critique of Applying S5 Modal Logic to Real Concrete Existents",
+      "summary": "Philosophers of logic (such as James Garson and Richard Gale) challenge the foundational validity of applying the S5 modal system\u2014which was designed for mathematical and formal logical systems\u2014to concrete ontological existence. Under S5, any proposition regarding a necessary being transforms mere conceptual possibility into actual necessary existence. Critics contend that using modal system S5 to decide the existence of real-world entities is a logical sleight-of-hand that illegitimately bridges the gap between formal definitions and physical reality.",
+      "status": "active",
+      "summary_5th_grader": "Some philosophers say: 'Using fancy math-logic rules like S5 to decide if a real God exists is silly in the first place! You can't use trick rules from a logic class to prove or disprove things in the real physical world!'"
+    },
+    {
+      "id": "2.1",
+      "parentId": "2.0",
+      "level": 3,
+      "type": "counter_rebuttal",
+      "shortLabel": "Neutral Conclusion: The Demise of Ontological Proofs",
+      "title": "Neutral Philosophical Consensus: The Neutralization of Ontological Arguments",
+      "summary": "The ultimate significance of the Reverse Modal Ontological Argument lies in its ability to completely neutralize Plantinga's Modal Ontological Argument. By demonstrating that S5 modal logic can be deployed with equal formal validity to prove God's impossibility as it can to prove God's necessity, philosophers widely agree that modal ontological arguments fail as coercive proofs for either theism or atheism.",
+      "status": "active",
+      "summary_5th_grader": "The main takeaway is that this argument cancels out Plantinga's proof completely! It proves that you can't use modal logic tricks to settle the debate about God, showing both sides that they have to look at real-world evidence instead."
+    }
+  ]
+}

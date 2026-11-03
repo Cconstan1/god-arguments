@@ -1,0 +1,86 @@
+{
+  "id": "arg_who_created_god",
+  "title": "Infinite Regress of Creators ('Who Created God?')",
+  "tier": "D",
+  "starRating": 3.5,
+  "description": "If every complex or existing entity requires a cause, exempting God creates a special pleading fallacy.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Who Created God Core",
+      "title": "The Infinite Regress Dilemma & Special Pleading Objection",
+      "summary": "Popularized as 'the child's philosophical question', the objection targets the fundamental premise of cosmological arguments: if the complex universe requires an intelligent creator or external cause to explain its existence, then that creator\u2014possessing infinite knowledge, power, and intention\u2014must equally require a cause or meta-creator. Exempting God from the requirement of a prior cause while enforcing it on the physical cosmos constitutes a Special Pleading fallacy, unless the universe itself is permitted to be the uncaused ultimate reality.",
+      "status": "active",
+      "summary_5th_grader": "If someone tells you 'Everything needs a creator because things don't just pop into existence,' the natural question is: 'Who created God?' If God can just exist forever without a creator, why can't the universe itself just exist forever without a creator?"
+    },
+    {
+      "id": "2.0",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Category Error Rebuttal",
+      "title": "The Premise Equivocation & Necessary First Cause Definition",
+      "summary": "Theists argue the objection rests on a strawman misstatement of cosmological premises. Classical philosophy (from Aristotle and Aquinas to Craig) never posits 'everything has a cause', but rather 'whatever begins to exist' or 'whatever is contingent (could fail to exist)' has a cause. God is defined non-arbitrarily as a Necessary Being\u2014eternal, uncaused, and pure actuality. An infinite temporal or causal regress of contingent causes is logically impossible, requiring a timeless, uncaused termination.",
+      "status": "active",
+      "summary_5th_grader": "Philosophers say the question misunderstands what God is! The rule isn't 'everything needs a cause'\u2014it's 'everything that gets created or has a beginning needs a cause.' God by definition is uncreated and eternal, like the ultimate starting line that doesn't need its own starting line."
+    },
+    {
+      "id": "3.0",
+      "parentId": "2.0",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Special Pleading Counter",
+      "title": "Arbitrary Definition & The Universe as Necessary Being",
+      "summary": "Atheist critics counter that defining God as 'necessary and uncaused' while defining the universe as 'contingent' is a verbal trick. If an uncaused entity is metaphysically possible, Occam's Razor dictates attributing uncaused necessary existence directly to the physical mass-energy of the cosmos (or fundamental quantum vacuum laws) rather than inventing an unobservable, hyper-complex supernatural mind.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics reply that just slapping the label 'uncreated and necessary' on God is cheating! If something can be uncreated, why not say the universe or basic physical laws are the uncreated thing, cutting out the middleman?"
+    },
+    {
+      "id": "4.0",
+      "parentId": "3.0",
+      "level": 4,
+      "type": "rebuttal",
+      "shortLabel": "Forensic Logic Rebuttal",
+      "title": "The Logic of Explanation & Non-Requirement of Regress",
+      "summary": "Theists respond using standard principles of scientific and forensic abduction: to recognize an explanation as the best explanation for a given set of data, one does not need an explanation of the explanation. For example, archaeologists finding arrowheads on a beach correctly infer prehistoric human carvers as the cause without needing to explain who birthed the carvers or where humanity originated.",
+      "status": "active",
+      "summary_5th_grader": "Think of detectives finding a carved wooden bowl in the woods. They know a human carved it even if they don't know who the carver's parents were! You can recognize the best explanation for a puzzle without needing to explain the explanation first."
+    },
+    {
+      "id": "5.0",
+      "parentId": "4.0",
+      "level": 5,
+      "type": "counter_response",
+      "shortLabel": "Ontological Asymmetry",
+      "title": "Ontological Asymmetry Between Human and Divine Causes",
+      "summary": "Skeptics distinguish between physical agency and supernatural hypotheses. Inferring human carvers relies on established background knowledge of human biology and tools within the natural world. Inferring an uncaused supernatural deity introduces a radically unknown, non-physical entity with unlimited powers, making the lack of an explanation for God's origin a fatal flaw rather than a minor detail.",
+      "status": "active",
+      "summary_5th_grader": "Skeptics say that finding human tools is totally different because we already know humans exist in our world! But inventing a magic, invisible mind with infinite power is such a giant claim that leaving God's origin unexplained leaves a gigantic hole in the theory."
+    },
+    {
+      "id": "6.0",
+      "parentId": "5.0",
+      "level": 6,
+      "type": "rebuttal",
+      "shortLabel": "Absurdity of Polytheistic Regress",
+      "title": "Thermodynamic and Logical Infeasibility of Infinite Creators",
+      "summary": "Proponents of theistic proofs argue that an actual infinite regress of creators (God created by Super-God, created by Hyper-God ad infinitum) is mathematically and logically incoherent. Just as an infinite stack of library books cannot exist without a physical table holding them up, causal chains require a foundational, non-contingent terminus.",
+      "status": "active",
+      "summary_5th_grader": "Imagine a line of dominoes where every domino only falls because the one behind it fell. If the line stretches back forever with no starting domino, none of them could ever fall! There must be a first push that wasn't pushed by anything else."
+    },
+    {
+      "id": "7.0",
+      "parentId": "6.0",
+      "level": 7,
+      "type": "synthesis",
+      "shortLabel": "Brute Foundation Synthesis",
+      "title": "The Ultimate Clash of Brute Foundations",
+      "summary": "The 'Who Created God?' debate ultimately exposes that both theism and naturalism must accept an uncaused 'brute' starting point. The debate centers on which ultimate foundation is more rationally defensible: a necessary, self-existent transcendent Mind (Theism) or a self-existent physical universe/multiverse (Naturalism).",
+      "status": "active",
+      "summary_5th_grader": "In the end, both sides agree the line has to stop somewhere! The ultimate debate is whether the line stops at a smart, eternal Mind (God) or at eternal, physical laws (the universe)."
+    }
+  ]
+}

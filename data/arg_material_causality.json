@@ -1,0 +1,86 @@
+{
+  "id": "arg_material_causality",
+  "title": "Material Causality / Creation Ex Nihilo Objection",
+  "tier": "D",
+  "starRating": 3.0,
+  "description": "Universal induction shows all observed causes involve pre-existing material; creation ex nihilo violates established physical causality.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Material Causality Core",
+      "title": "Universal Induction & the Material Principle of Causation",
+      "summary": "All empirically observed instances of causation in science and daily life are material rearrangements (efficient causes operating on pre-existing material causes, ex materia). Creation out of nothing (ex nihilo) equivocates on the word 'cause' by removing material causality entirely, making the claim that God created the physical universe from absolute non-being an unprecedented hypothesis that violates universal physical induction.",
+      "status": "active",
+      "summary_5th_grader": "Every single time we see something being made\u2014like a house built out of bricks, or a statue carved from marble\u2014it is made from materials that already existed! We have never ever seen something created out of literal nothingness. So saying God made everything from total nothing goes against everything we actually know about how making things works."
+    },
+    {
+      "id": "1.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Primary Cause vs Secondary Causes",
+      "title": "The Primary/Secondary Cause Distinction & Divine Omnipotence",
+      "summary": "Theists contend that physical science only studies 'secondary causes' operating within an existing space-time framework. Creation ex nihilo refers to the 'primary cause'\u2014the transcendent creation of space, time, and matter themselves. Expecting God's foundational creation of reality to resemble intra-cosmic material rearrangement commits a category error, as divine omnipotence transcends physical conservation laws.",
+      "status": "active",
+      "summary_5th_grader": "Theists answer that science only studies how stuff moves around once the world is already here. But God creating the whole world in the first place is a totally different, super-special event. Expecting God's creation of the world to work like a carpenter making a wooden table is like comparing apples to magic!"
+    },
+    {
+      "id": "1.1.1",
+      "parentId": "1.1",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Equivocation on 'Cause'",
+      "title": "Equivocation Fallacy in Cosmological Premises",
+      "summary": "Atheists argue that if theistic arguments like the Kalam rely on the premise 'Whatever begins to exist has a cause,' they commit a fatal equivocation fallacy. In Premise 1, 'begins to exist' means 'is reshaped from pre-existing matter,' whereas in the conclusion, 'begins to exist' means 'comes into being ex nihilo.' Stripping away material causation destroys the empirical support for the causal principle itself.",
+      "status": "active",
+      "summary_5th_grader": "Atheists point out a trick in the logic: when believers say 'everything that starts has a cause,' all their proof comes from things made out of old ingredients (like a cake baked from flour). But when they talk about God making the universe, they suddenly switch to meaning 'made out of zero ingredients!' You can't use proof from baking cakes to prove magic out of nowhere."
+    },
+    {
+      "id": "1.1.1.1",
+      "parentId": "1.1.1",
+      "level": 4,
+      "type": "rebuttal",
+      "shortLabel": "Rational Causal Principle",
+      "title": "The Rational Necessity of Causal Being over Non-Being",
+      "summary": "Apologists respond that the intuition 'Out of nothing, nothing comes' (Ex nihilo nihil fit) is an metaphysical requirement, not merely an empirical generalization about physical matter. If non-being has no causal powers, then absolute nothingness cannot spontaneously produce space-time; therefore, an uncaused personal Mind is the only metaphysical candidate capable of intentional creation.",
+      "status": "active",
+      "summary_5th_grader": "Believers reply that 'nothing can come from nothing' is just common sense. Since total nothingness has zero power to do anything, something had to exist first! So a powerful Mind (God) must have decided to bring the world into existence."
+    },
+    {
+      "id": "1.2",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "rebuttal",
+      "shortLabel": "Quantum Vacuum Beginnings",
+      "title": "Quantum Fluctuation & Uncaused Particles",
+      "summary": "Modern quantum field theory demonstrates that virtual particles arise spontaneously out of quantum vacuum states without a preceding deterministic cause or material precursor in the traditional classical sense, showing that physical reality operates under non-classical causal dynamics.",
+      "status": "active",
+      "summary_5th_grader": "Scientists have found that in subatomic physics, tiny particles can pop into existence seemingly out of nowhere in quantum fields! This shows that nature doesn't always need a human-style builder to start something new."
+    },
+    {
+      "id": "1.2.1",
+      "parentId": "1.2",
+      "level": 3,
+      "type": "counter_response",
+      "shortLabel": "Quantum Vacuum is Not Nothing",
+      "title": "The Quantum Vacuum Equivocation",
+      "summary": "Philosophers of physics note that quantum vacuums are not absolute nothingness; they are rich physical fields obeying quantum laws and possessing zero-point energy. Particles emerging from a quantum vacuum are instances of material transformation (ex materia), not creation from total non-being (ex nihilo).",
+      "status": "active",
+      "summary_5th_grader": "Physicists and philosophers clarify that a 'quantum vacuum' isn't empty nothingness\u2014it's actually a bubbling bowl of physics laws and energy! So particles popping up there are still popping up inside something, not absolute nothing."
+    },
+    {
+      "id": "1.2.1.1",
+      "parentId": "1.2.1",
+      "level": 4,
+      "type": "rebuttal",
+      "shortLabel": "Eternal Mass-Energy Naturalism",
+      "title": "Parsimony of Eternal Mass-Energy / Quantum Multiverse",
+      "summary": "Naturalists argue that if fundamental physical substance (quantum fields or mass-energy) cannot come from absolute nothingness, it is far more parsimonious to conclude that physical substance is eternal and uncaused, eliminating the need for an additional supernatural entity.",
+      "status": "active",
+      "summary_5th_grader": "Atheists conclude: if stuff can't come from total nothing, it's much simpler to believe that energy or physics fields have just existed forever in some form, instead of inventing an invisible God to create them!"
+    }
+  ]
+}

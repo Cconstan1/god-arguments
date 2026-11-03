@@ -1,0 +1,86 @@
+{
+  "id": "arg_evil_god_challenge",
+  "title": "Evil God Challenge / Super Demon Parody (Law)",
+  "tier": "C",
+  "starRating": 3.5,
+  "description": "Stephen Law's Evil God Challenge demonstrates that every traditional defense of a good God can be symmetrically inverted to defend an omnibenevolent/omnipotent Evil God, proving both hypotheses are equally untenable.",
+  "nodes": [
+    {
+      "id": "1.0",
+      "parentId": null,
+      "level": 1,
+      "type": "core_argument",
+      "shortLabel": "Evil God Core",
+      "title": "Stephen Law's Evil God Challenge & Theoretical Symmetry",
+      "summary": "Formulated by philosopher Stephen Law, the Evil God Challenge posits an all-powerful, all-knowing, but supreme-evil deity ('Evil God'). Law demonstrates that the hypothesis of an Evil God is symmetrical to the hypothesis of a Good God: just as believers explain away evil in a good God's world using the Free Will Defense or 'soul-making' (claiming bad things exist for a greater good), an Evil God worshiper can explain away good in an evil God's world using the 'Reverse Free Will Defense' or 'soul-unmaking' (claiming good things exist so humans have more to lose, or to make suffering deeper). Because the Evil God hypothesis is universally rejected as absurd, and because the Good God hypothesis relies on the exact same logical maneuvering to handwave countervailing evidence, both hypotheses are symmetrically unreasonable.",
+      "status": "active",
+      "summary_5th_grader": "Imagine someone claims there is an All-Evil Monster God ruling the universe. When you point out that good things happen\u2014like ice cream, love, and sunshine\u2014the Monster God follower says, 'Oh, the Monster God gives you good things just to trick you, give you false hope, and make you suffer even more when bad things happen!' Stephen Law pointed out that this is the EXACT same excuse religious people use when they explain why bad things happen in a good God's world. If the Evil God story sounds ridiculous, then the Good God story uses the same silly tricks!"
+    },
+    {
+      "id": "2.0",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "counter_argument",
+      "shortLabel": "Privation Asymmetry",
+      "title": "Augustinian Privation of Good & Ontological Asymmetry",
+      "summary": "Theists (such as Edward Feser and classical Thomists) respond that Good God and Evil God hypotheses are not symmetrical because Goodness and Evil are not symmetrical properties. Under Classical Theism and Neoplatonism, Good is a primary ontological reality (being, order, perfection), whereas Evil is not a positive substance but a privation or deficit of good (privatio boni)\u2014just as darkness is the absence of light or sickness is a deficit of health. An 'all-evil' deity is an ontological contradiction in terms, because maximal evil would mean total non-being and complete incoherence.",
+      "status": "active",
+      "summary_5th_grader": "Some religious thinkers say you can't have an 'Evil God' because good and evil aren't equal opposites. Good is like light, and evil is just darkness (the absence of light). You can have pure light with no darkness, but you can't have 'pure darkness' as a physical thing by itself. So an All-Evil God makes no sense at all!"
+    },
+    {
+      "id": "2.1",
+      "parentId": "1.0",
+      "level": 2,
+      "type": "counter_argument",
+      "shortLabel": "Empirical Goodness",
+      "title": "The Empirical Asymmetry of Worldly Goodness over Malice",
+      "summary": "Another major counter-argument asserts that our world exhibits an empirical asymmetry that favors a Good God over an Evil God: the physical world displays immense order, beauty, structural stability, and widespread baseline flourishing (joy, affection, healthy ecosystems) far in excess of pure sadistic malice. A universe designed by a supremely evil deity would be far more relentlessly torturous than ours, lacking systemic harmony or genuine altruism altogether.",
+      "status": "active",
+      "summary_5th_grader": "Look around at the world: we have beautiful sunsets, delicious food, friendship, and happy moments. If an All-Evil Monster God built the world, he would never make a universe with so much natural beauty and kindness. The world is way too good for an Evil God to be true!"
+    },
+    {
+      "id": "3.0",
+      "parentId": "2.0",
+      "level": 3,
+      "type": "rebuttal",
+      "shortLabel": "Reverse Privation",
+      "title": "Inverting Privation & Functional Symmetry",
+      "summary": "Defenders of the Evil God Challenge reply that defining evil as a privation of good is an arbitrary linguistic redefinition rather than an empirical defense. One could symmetrically define Good as the 'privation of evil' (a temporary relief from suffering). Furthermore, even if evil is metaphysically a privation, an Evil God could use good functionally as a tool to maximize ultimate suffering (e.g., granting health so a victim can endure longer torture).",
+      "status": "active",
+      "summary_5th_grader": "Critics answer back that calling evil 'just the absence of good' is playing with words! You could just as easily say good is 'just a break from pain.' Plus, a truly cruel villain might feed you and keep you healthy just so he can torture you longer tomorrow!"
+    },
+    {
+      "id": "3.1",
+      "parentId": "2.1",
+      "level": 3,
+      "type": "rebuttal",
+      "shortLabel": "Reverse Free Will",
+      "title": "The Reverse Free Will & Sympathy Defense",
+      "summary": "In response to the empirical asymmetry objection, Stephen Law points out that an Evil God worshiper can invent structural parodies for every theistic defense: 1) 'Reverse Free Will': Evil God gave humans free will so they could freely choose to perform good deeds, making their ultimate corruption and moral failure far more agonizing to witness. 2) 'Soul-Unmaking': Evil God built a partially good world so humans would form attachments, enabling deeper heartbreak, grief, and despair when those goods are stripped away.",
+      "status": "active",
+      "summary_5th_grader": "The Evil God defender has an answer for why good things exist: if you are trapped in a room with no light, you get used to the dark. But if someone turns on a light for a minute and then slams you back into pitch darkness, it hurts twice as much! Good moments exist so that loss and heartbreak hurt even worse."
+    },
+    {
+      "id": "4.0",
+      "parentId": "3.1",
+      "level": 4,
+      "type": "counter_rebuttal",
+      "shortLabel": "Symmetry Verdict",
+      "title": "Equal Unplausibility & Failure of Theodicy",
+      "summary": "The ultimate conclusion of the Evil God Challenge is not to prove that an Evil God actually exists, but to force a dilemma on Classical Theism. Since nobody considers the Evil God hypothesis reasonable due to the existence of good, and since every theodicy invented to save the Good God from evil can be mirrored to save the Evil God from good, the Good God hypothesis must be judged equally unreasonable. The presence of vast mixed good and evil in the universe best fits a neutral, naturalistic cosmos without an omnipotent moral governor.",
+      "status": "active",
+      "summary_5th_grader": "The whole point of the Evil God challenge isn't to make people worship a monster\u2014it's to show that BOTH stories (All-Good God and All-Evil God) require ridiculous excuses to explain the real world. Real life has a mix of good weather and bad storms, joy and pain. That mix fits a universe driven by natural physics, not a God trying to manipulate us!"
+    },
+    {
+      "id": "4.1",
+      "parentId": "3.0",
+      "level": 4,
+      "type": "counter_rebuttal",
+      "shortLabel": "Moral Intuition",
+      "title": "Incoherence with Basic Moral Intuitions",
+      "summary": "Theists argue that human moral intuition directly perceives the intrinsic value of goodness and the horror of evil, making a Good God aligned with objective moral reality while an Evil God remains an incoherent, self-defeating absurdity. However, skeptics counter that grounding morality in divine commands re-exposes the Euthyphro Dilemma, whereas evolutionary naturalism cleanly explains why social primates evolved subjective moral feelings without needing a transcendent moral agent.",
+      "status": "active",
+      "summary_5th_grader": "At the end of the day, humans deeply feel that helping others is good and hurting others is bad. Theists say this proves a Good God, while skeptics point out that our feelings evolved naturally to help us survive together as a team\u2014without needing an invisible judge in the sky."
+    }
+  ]
+}
