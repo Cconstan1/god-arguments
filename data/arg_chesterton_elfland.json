@@ -14,7 +14,11 @@
       "title": "Ethics of Elfland: Personal Cosmic Recurrence",
       "summary": "Formulated by G.K. Chesterton in Orthodoxy, natural repetition is not cold, dead mechanical necessity, but the vibrant, personal, joyful exertion of a divine Mind who, like a young child who never tires of play, delights in repetition and personally commands the sun to rise every morning ('Do it again!').",
       "status": "active",
-      "summary_5th_grader": "When a toddler plays a fun game, they shout 'Do it again! Do it again!' a hundred times without getting tired! G.K. Chesterton argued that the sun rising every morning isn't a boring old clock machine\u2014it's God enthusiastically shouting 'Do it again!' to the sun every single day!"
+      "summary_5th_grader": "When a toddler plays a fun game, they shout 'Do it again! Do it again!' a hundred times without getting tired! G.K. Chesterton argued that the sun rising every morning isn't a boring old clock machine—it's God enthusiastically shouting 'Do it again!' to the sun every single day!",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_1.0_female.mp3",
+        "male": "audio/arg_chesterton_elfland_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "The Fallacy of Mechanical Necessity (Stage 2)",
       "summary": "Science observes statistical regularities in how natural events recur, but commits a category error by mistaking observed repetition for physical logical necessity. Physical laws describe THAT things happen repeatedly, not WHY they must continue to happen.",
       "status": "active",
-      "summary_5th_grader": "Science can see THAT the sun rises every morning, but science can't explain WHY it has to keep happening! Assuming the universe is a mechanical clock is just a habit of thought, not a logical proof."
+      "summary_5th_grader": "Science can see THAT the sun rises every morning, but science can't explain WHY it has to keep happening! Assuming the universe is a mechanical clock is just a habit of thought, not a logical proof.",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_1.1_female.mp3",
+        "male": "audio/arg_chesterton_elfland_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Rebuttal: Naturalistic Conservation Laws & Physics",
       "summary": "Naturalists respond that physical conservation laws (energy, momentum, quantum field equations) necessitate natural recurrence automatically without requiring personal divine exertion or volition.",
       "status": "active",
-      "summary_5th_grader": "Skeptics reply: gravity and physics laws keep the Earth spinning automatically! The universe doesn't need someone pushing buttons or shouting orders."
+      "summary_5th_grader": "Skeptics reply: gravity and physics laws keep the Earth spinning automatically! The universe doesn't need someone pushing buttons or shouting orders.",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_2.1_female.mp3",
+        "male": "audio/arg_chesterton_elfland_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "The Contingency of Conservation Laws",
       "summary": "Defenders reply that conservation laws themselves are contingent mathematical descriptions of physical behaviors; they possess no intrinsic causal power to exist or persist moment-to-moment without a sustaining ground.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer back: math formulas written in a textbook don't move real planets! Conservation laws themselves need a reason to stay active right now."
+      "summary_5th_grader": "Defenders answer back: math formulas written in a textbook don't move real planets! Conservation laws themselves need a reason to stay active right now.",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_3.1_female.mp3",
+        "male": "audio/arg_chesterton_elfland_3.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -56,9 +72,13 @@
       "type": "rebuttal",
       "shortLabel": "Anthropomorphism",
       "title": "Rebuttal: Psychological Projection & Anthropomorphism",
-      "summary": "Skeptics argue Chesterton's argument is pure anthropomorphism\u2014projecting human emotional childlike joy and personal will onto impersonal physical phenomena.",
+      "summary": "Skeptics argue Chesterton's argument is pure anthropomorphism—projecting human emotional childlike joy and personal will onto impersonal physical phenomena.",
       "status": "active",
-      "summary_5th_grader": "Critics say Chesterton is just pretending the universe is a fairy tale! Imagining God as a happy child is human imagination, not scientific proof."
+      "summary_5th_grader": "Critics say Chesterton is just pretending the universe is a fairy tale! Imagining God as a happy child is human imagination, not scientific proof.",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_2.2_female.mp3",
+        "male": "audio/arg_chesterton_elfland_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -69,7 +89,11 @@
       "title": "Pragmatic Resonance & Existential Gratitude",
       "summary": "Chestertonians contend that viewing the world as an intentional, enchanting gift preserves wonder, gratitude, and moral sanity, whereas cold determinism leads to existential alienation.",
       "status": "active",
-      "summary_5th_grader": "Chestertonians reply: viewing the world as a magical, joyful gift makes life meaningful and happy! Seeing nature as a dead machine makes people feel empty and hopeless."
+      "summary_5th_grader": "Chestertonians reply: viewing the world as a magical, joyful gift makes life meaningful and happy! Seeing nature as a dead machine makes people feel empty and hopeless.",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_3.2_female.mp3",
+        "male": "audio/arg_chesterton_elfland_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -80,7 +104,11 @@
       "title": "Rebuttal: Disasters as Personal Divine Volition",
       "summary": "Opponents note that if natural repetition is personal divine volition, then destructive natural recurrences (hurricanes, tsunamis, volcanic eruptions) are also God deliberately commanding 'Do it again!' to lethal disasters.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out: if God personally commands every natural event, then God is also shouting 'Do it again!' to deadly earthquakes and dangerous storms that hurt people!"
+      "summary_5th_grader": "Skeptics point out: if God personally commands every natural event, then God is also shouting 'Do it again!' to deadly earthquakes and dangerous storms that hurt people!",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_2.3_female.mp3",
+        "male": "audio/arg_chesterton_elfland_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -91,7 +119,11 @@
       "title": "Soul-Making & Cosmic Drama Integration",
       "summary": "Defenders integrate the Soul-Making theodicy, arguing that a dynamic, theatrical cosmos with real physical forces provides the essential stage for moral development, courage, and redemption.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: a real adventure story needs wild weather, big mountains, and real challenges so humans can grow brave, helpful, and strong!"
+      "summary_5th_grader": "Defenders answer: a real adventure story needs wild weather, big mountains, and real challenges so humans can grow brave, helpful, and strong!",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_3.3_female.mp3",
+        "male": "audio/arg_chesterton_elfland_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -102,7 +134,11 @@
       "title": "Rebuttal: Ockham's Razor & Mechanistic Parsimony",
       "summary": "Naturalists invoke Ockham's Razor: a simple, non-conscious mechanistic explanation is ontologically more parsimonious than positing an omnipotent personal deity exercising continuous volition.",
       "status": "active",
-      "summary_5th_grader": "Scientists say: assuming nature follows simple automatic rules is much simpler than imagining a giant invisible God constantly working behind the scenes."
+      "summary_5th_grader": "Scientists say: assuming nature follows simple automatic rules is much simpler than imagining a giant invisible God constantly working behind the scenes.",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_2.4_female.mp3",
+        "male": "audio/arg_chesterton_elfland_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -113,7 +149,11 @@
       "title": "Explanatory Depth vs. Superficial Simplicity",
       "summary": "Defenders reply that mechanistic parsimony fails to explain why there is order, beauty, and conscious joy in existence at all, sacrificing ultimate meaning for superficial simplicity.",
       "status": "active",
-      "summary_5th_grader": "Chestertonians answer: simple automatic rules can't explain why the world is so full of beauty, wonder, and joy! A simple answer that misses the magic isn't the right answer."
+      "summary_5th_grader": "Chestertonians answer: simple automatic rules can't explain why the world is so full of beauty, wonder, and joy! A simple answer that misses the magic isn't the right answer.",
+      "audio_urls": {
+        "female": "audio/arg_chesterton_elfland_3.4_female.mp3",
+        "male": "audio/arg_chesterton_elfland_3.4_male.mp3"
+      }
     }
   ]
 }

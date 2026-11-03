@@ -14,7 +14,11 @@
       "title": "Argument from Conscience (Newman's Formulation)",
       "summary": "Popularized by Cardinal John Henry Newman, the universal human experience of conscience carries an inescapable sense of authority, obligation, and emotional aftermath (guilt, shame, peace). Because obligation requires an authority to whom one is responsible, the phenomenon of conscience implies a supreme personal moral Judge and Lawgiver.",
       "status": "active",
-      "summary_5th_grader": "Have you ever felt a quiet little voice inside your head telling you 'that's wrong!' after doing something bad, even if nobody caught you? Cardinal John Henry Newman argued that feeling guilty or responsible to an invisible judge proves there is a real, loving God who put that inner moral voice in our hearts."
+      "summary_5th_grader": "Have you ever felt a quiet little voice inside your head telling you 'that's wrong!' after doing something bad, even if nobody caught you? Cardinal John Henry Newman argued that feeling guilty or responsible to an invisible judge proves there is a real, loving God who put that inner moral voice in our hearts.",
+      "audio_urls": {
+        "female": "audio/arg_conscience_1.0_female.mp3",
+        "male": "audio/arg_conscience_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Conscience as Voice of a Person",
       "summary": "Newman distinguished conscience from mere intellectual reason or preference: conscience commands us with personal relational weight. We feel responsible, ashamed, or relieved in a way that makes no sense unless we are accountable to a personal Lawgiver.",
       "status": "active",
-      "summary_5th_grader": "Feeling guilty isn't like making a mistake on a math test. Feeling guilty feels like you disappointed someone you love! Newman said that personal feeling proves we are answering to a personal God."
+      "summary_5th_grader": "Feeling guilty isn't like making a mistake on a math test. Feeling guilty feels like you disappointed someone you love! Newman said that personal feeling proves we are answering to a personal God.",
+      "audio_urls": {
+        "female": "audio/arg_conscience_1.1_female.mp3",
+        "male": "audio/arg_conscience_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -34,9 +42,13 @@
       "type": "rebuttal",
       "shortLabel": "Freudian Super-Ego",
       "title": "Freudian Psychoanalysis & Social Conditioning",
-      "summary": "Sigmund Freud argued that conscience is merely the internalised 'super-ego'\u2014the accumulated voice of parents, teachers, and cultural conditioning enforcing social norms through subconscious guilt.",
+      "summary": "Sigmund Freud argued that conscience is merely the internalised 'super-ego'—the accumulated voice of parents, teachers, and cultural conditioning enforcing social norms through subconscious guilt.",
       "status": "active",
-      "summary_5th_grader": "Famous psychologist Sigmund Freud said: conscience is just your parents' and teachers' voices playing inside your brain! You feel guilty because society trained you to follow their rules."
+      "summary_5th_grader": "Famous psychologist Sigmund Freud said: conscience is just your parents' and teachers' voices playing inside your brain! You feel guilty because society trained you to follow their rules.",
+      "audio_urls": {
+        "female": "audio/arg_conscience_2.1_female.mp3",
+        "male": "audio/arg_conscience_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Conscience Opposing Social Conditioning",
       "summary": "Defenders reply that conscience frequently compels individuals to defy their parents, culture, and society (e.g., whistleblowers, abolitionists, dissidents like Socrates or Bonhoeffer), proving conscience transcends social indoctrination.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: if conscience was just obeying parents, why do brave heroes stand UP against bad laws and bad culture? People like Martin Luther King Jr. followed a higher moral voice even when society hated them for it!"
+      "summary_5th_grader": "Defenders answer: if conscience was just obeying parents, why do brave heroes stand UP against bad laws and bad culture? People like Martin Luther King Jr. followed a higher moral voice even when society hated them for it!",
+      "audio_urls": {
+        "female": "audio/arg_conscience_3.1_female.mp3",
+        "male": "audio/arg_conscience_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Socio-Biological Evolutionary Altruism",
       "summary": "Evolutionary biologists contend that moral rebellion is explained by reciprocal altruism and kin selection, where pro-social instincts evolve to protect group survival across generations.",
       "status": "active",
-      "summary_5th_grader": "Evolution scientists argue: standing up for fairness is an evolved instinct that helps the whole human tribe survive together over long periods of time."
+      "summary_5th_grader": "Evolution scientists argue: standing up for fairness is an evolved instinct that helps the whole human tribe survive together over long periods of time.",
+      "audio_urls": {
+        "female": "audio/arg_conscience_4.1_female.mp3",
+        "male": "audio/arg_conscience_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -69,7 +89,11 @@
       "title": "Sacrificial Duty vs Biological Advantage",
       "summary": "Theists push back: conscience often commands self-sacrificial duty (dying for a stranger or enemy) that directly destroys the individual's reproductive fitness, defying unguided biological evolution.",
       "status": "active",
-      "summary_5th_grader": "Theists push deeper: why does your conscience urge you to dive into a freezing river to save a complete stranger, even if you might die? Natural evolution rewards staying alive, but conscience calls us to selfless love!"
+      "summary_5th_grader": "Theists push deeper: why does your conscience urge you to dive into a freezing river to save a complete stranger, even if you might die? Natural evolution rewards staying alive, but conscience calls us to selfless love!",
+      "audio_urls": {
+        "female": "audio/arg_conscience_5.1_female.mp3",
+        "male": "audio/arg_conscience_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -80,7 +104,11 @@
       "title": "Moral Diversity & Cultural Relativity of Guilt",
       "summary": "Cultural anthropologists note that feelings of guilt and moral duty vary radically across human societies (e.g., honor killings vs universal human rights), suggesting conscience is a malleable cultural construct.",
       "status": "active",
-      "summary_5th_grader": "Skeptics point out: people in different countries and historical eras feel guilty about totally different things! If God gave everyone a conscience, shouldn't everyone feel guilty about the same things?"
+      "summary_5th_grader": "Skeptics point out: people in different countries and historical eras feel guilty about totally different things! If God gave everyone a conscience, shouldn't everyone feel guilty about the same things?",
+      "audio_urls": {
+        "female": "audio/arg_conscience_2.2_female.mp3",
+        "male": "audio/arg_conscience_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -89,9 +117,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Shared Core Values",
       "title": "Lewis's Tao & Universal Core Morality",
-      "summary": "C.S. Lewis demonstrated in 'The Abolition of Man' that while superficial applications differ, all human cultures share the foundational moral framework (the 'Tao')\u2014condemning cowardice, treachery, and unprovoked murder.",
+      "summary": "C.S. Lewis demonstrated in 'The Abolition of Man' that while superficial applications differ, all human cultures share the foundational moral framework (the 'Tao')—condemning cowardice, treachery, and unprovoked murder.",
       "status": "active",
-      "summary_5th_grader": "C.S. Lewis showed that no culture in history ever praised a man for running away in battle or betraying his best friend! The big rules are the same everywhere; only small details change."
+      "summary_5th_grader": "C.S. Lewis showed that no culture in history ever praised a man for running away in battle or betraying his best friend! The big rules are the same everywhere; only small details change.",
+      "audio_urls": {
+        "female": "audio/arg_conscience_3.2_female.mp3",
+        "male": "audio/arg_conscience_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -102,7 +134,11 @@
       "title": "Neurobiological Brain States & Emotivism",
       "summary": "Neuroscientists argue that conscience is simply emotional brain circuitry (anterior cingulate cortex and amygdala activity), reducible to electro-chemical reactions without supernatural implications.",
       "status": "active",
-      "summary_5th_grader": "Brain scientists say: feeling guilty is just brain chemicals lighting up inside your head, just like feeling hungry or sleepy."
+      "summary_5th_grader": "Brain scientists say: feeling guilty is just brain chemicals lighting up inside your head, just like feeling hungry or sleepy.",
+      "audio_urls": {
+        "female": "audio/arg_conscience_2.3_female.mp3",
+        "male": "audio/arg_conscience_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -113,7 +149,11 @@
       "title": "Brain Hardware vs Transcendent Moral Signal",
       "summary": "Theists reply that brain activity merely reflects the physical hardware through which moral consciousness is experienced. Detecting neural activity when feeling guilty does not explain away the objective moral duty being registered.",
       "status": "active",
-      "summary_5th_grader": "Theists reply: seeing electrical signals on a brain scanner when you feel guilty is like seeing a TV screen light up when a broadcast plays! The TV doesn't create the show\u2014it just receives it."
+      "summary_5th_grader": "Theists reply: seeing electrical signals on a brain scanner when you feel guilty is like seeing a TV screen light up when a broadcast plays! The TV doesn't create the show—it just receives it.",
+      "audio_urls": {
+        "female": "audio/arg_conscience_3.3_female.mp3",
+        "male": "audio/arg_conscience_3.3_male.mp3"
+      }
     }
   ]
 }

@@ -11,7 +11,11 @@
       "title": "Leibnizian Contingency Argument (Stage 1)",
       "summary": "Everything that exists has an explanation of its existence (either in the necessity of its own nature or in an external cause). The universe exists. Therefore, the universe has an explanation, which must be a necessary being.",
       "status": "active",
-      "summary_5th_grader": "Everything around us exists for a reason\u2014either because it HAS to exist, or because something else made it. Since our universe doesn't have to exist on its own, there must be a special 'must-exist' maker that explains why the whole universe is here!"
+      "summary_5th_grader": "Everything around us exists for a reason—either because it HAS to exist, or because something else made it. Since our universe doesn't have to exist on its own, there must be a special 'must-exist' maker that explains why the whole universe is here!",
+      "audio_urls": {
+        "female": "audio/arg_contingency_1.0_female.mp3",
+        "male": "audio/arg_contingency_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -22,7 +26,11 @@
       "title": "Identification of Necessary Ground (Stage 2)",
       "summary": "If the necessary cause explains all contingent physical realities, it must transcend matter, space, and time, possessing self-existence, immense power, and libertarian personal agency to choose to create.",
       "status": "active",
-      "summary_5th_grader": "If this first cause explains all physical stuff, it can't be made of physical stuff! It must exist all by itself, outside of space and time, with the personal power to choose to bring everything into being."
+      "summary_5th_grader": "If this first cause explains all physical stuff, it can't be made of physical stuff! It must exist all by itself, outside of space and time, with the personal power to choose to bring everything into being.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_1.1_female.mp3",
+        "male": "audio/arg_contingency_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -33,7 +41,11 @@
       "title": "Brute Fact Objection (Denying the PSR)",
       "summary": "Skeptics argue that the universe (or its initial state T=0) could simply be an unexplained 'brute fact' with no reason or external cause whatsoever.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: maybe the universe just IS here, like a weird rock sitting in the middle of nowhere, with no reason or cause at all!"
+      "summary_5th_grader": "Skeptics say: maybe the universe just IS here, like a weird rock sitting in the middle of nowhere, with no reason or cause at all!",
+      "audio_urls": {
+        "female": "audio/arg_contingency_2.1_female.mp3",
+        "male": "audio/arg_contingency_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -44,7 +56,11 @@
       "title": "Scientific & Epistemic Costs of Denying PSR",
       "summary": "Denying the PSR undermines scientific inquiry and rational perception: if contingent things can exist without reason, we could never rule out uncaused hallucinations or objects popping into existence without cause.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: if things can pop into existence with zero reason, science stops making sense! We'd have to worry that giant cars or fake memories could pop up out of nowhere for no reason at all."
+      "summary_5th_grader": "Defenders reply: if things can pop into existence with zero reason, science stops making sense! We'd have to worry that giant cars or fake memories could pop up out of nowhere for no reason at all.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_3.1_female.mp3",
+        "male": "audio/arg_contingency_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -55,7 +71,11 @@
       "title": "Restricted PSRs & Methodological Naturalism",
       "summary": "Opponents argue that we can restrict the PSR to intra-cosmic physical laws without expanding it to cover the entire ensemble of physical reality or abstract metaphysical states.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue back: we can use rules and reasons inside the universe for everyday science without needing a giant rule that applies to the entire universe as a whole."
+      "summary_5th_grader": "Skeptics argue back: we can use rules and reasons inside the universe for everyday science without needing a giant rule that applies to the entire universe as a whole.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_4.1_female.mp3",
+        "male": "audio/arg_contingency_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -66,7 +86,11 @@
       "title": "Modal Collapse Objection vs. Defeasible Explanations",
       "summary": "If a strict PSR requires a necessary explanation for everything, then if the necessary being's action is necessary, all contingent facts become necessary (Modal Collapse). Theists respond by holding a defeasible PSR or agent causation.",
       "status": "active",
-      "summary_5th_grader": "Skeptics warn that if EVERYTHING has an exact reason, then nothing could ever have been different! Defenders answer that God can freely pick choices without forcing every small detail to be locked in stone."
+      "summary_5th_grader": "Skeptics warn that if EVERYTHING has an exact reason, then nothing could ever have been different! Defenders answer that God can freely pick choices without forcing every small detail to be locked in stone.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_5.1_female.mp3",
+        "male": "audio/arg_contingency_5.1_male.mp3"
+      }
     },
     {
       "id": "6.1",
@@ -77,7 +101,11 @@
       "title": "Terminal Node: Epistemic Limits of the PSR",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this path! What do you think about whether everything needs a reason?"
+      "summary_5th_grader": "End of this path! What do you think about whether everything needs a reason?",
+      "audio_urls": {
+        "female": "audio/arg_contingency_6.1_female.mp3",
+        "male": "audio/arg_contingency_6.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -88,7 +116,11 @@
       "title": "Infinite Regress / Hume-Edwards Principle",
       "summary": "Hume and Edwards argue that if every individual contingent link in an infinite chain is explained by a prior contingent link, the entire chain is fully explained without needing an external necessary being.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: if every domino in an endless line was knocked over by the domino right before it, every single falling domino is explained! You don't need a mystery person outside the line."
+      "summary_5th_grader": "Skeptics say: if every domino in an endless line was knocked over by the domino right before it, every single falling domino is explained! You don't need a mystery person outside the line.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_2.2_female.mp3",
+        "male": "audio/arg_contingency_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -97,9 +129,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Explaining the Set",
       "title": "Fallacy of Composition & Explaining the Set",
-      "summary": "Pruss and Koons point out that explaining each element in a set by another element in the set does not explain why the set as a whole exists rather than nothing\u2014like borrowing money endlessly without an original source of capital.",
+      "summary": "Pruss and Koons point out that explaining each element in a set by another element in the set does not explain why the set as a whole exists rather than nothing—like borrowing money endlessly without an original source of capital.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: if five friends keep borrowing $10 from each other in a circle, that still doesn't explain where the money came from in the first place! The whole collection of borrowing needs a real source."
+      "summary_5th_grader": "Defenders reply: if five friends keep borrowing $10 from each other in a circle, that still doesn't explain where the money came from in the first place! The whole collection of borrowing needs a real source.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_3.2_female.mp3",
+        "male": "audio/arg_contingency_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -110,7 +146,11 @@
       "title": "Terminal Node: Set Explanation & Infinite Regress",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this path! Share your thoughts on endless chains!"
+      "summary_5th_grader": "End of this path! Share your thoughts on endless chains!",
+      "audio_urls": {
+        "female": "audio/arg_contingency_4.2_female.mp3",
+        "male": "audio/arg_contingency_4.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -121,7 +161,11 @@
       "title": "Necessary Initial State (T=0 Naturalism)",
       "summary": "Skeptics (e.g. Sean Carroll) suggest that the fundamental physical substrate or the initial boundary condition of the universe (T=0) is itself the necessary being, avoiding divine ontological baggage.",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: why can't the starting point of physics (the very first second of time, T=0) be the 'must-exist' thing, instead of a God?"
+      "summary_5th_grader": "Skeptics say: why can't the starting point of physics (the very first second of time, T=0) be the 'must-exist' thing, instead of a God?",
+      "audio_urls": {
+        "female": "audio/arg_contingency_2.3_female.mp3",
+        "male": "audio/arg_contingency_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -132,7 +176,11 @@
       "title": "Physical Change, Potency, & Contingency of Physics",
       "summary": "Thomistic and Leibnizian defenders argue that physical matter is fundamentally changeable, composed of potentiality and actuality, and governed by fine-tuned constants that could logically have been different.",
       "status": "active",
-      "summary_5th_grader": "Defenders point out: physical stuff is always changing, moving, and could easily have had different laws or numbers. Real 'must-exist' things can never change or be different."
+      "summary_5th_grader": "Defenders point out: physical stuff is always changing, moving, and could easily have had different laws or numbers. Real 'must-exist' things can never change or be different.",
+      "audio_urls": {
+        "female": "audio/arg_contingency_3.3_female.mp3",
+        "male": "audio/arg_contingency_3.3_male.mp3"
+      }
     },
     {
       "id": "4.3",
@@ -143,7 +191,11 @@
       "title": "Quantum Cosmology & Priority Monism",
       "summary": "Modern naturalists argue Priority Monism: the cosmic quantum wavefunction as a whole is ontologically prior to its changing parts, functioning as an uncreated, self-sustaining system.",
       "status": "active",
-      "summary_5th_grader": "Skeptics reply: maybe the giant Quantum Wave of the whole cosmos is the single underlying reality that holds all smaller changing parts inside it!"
+      "summary_5th_grader": "Skeptics reply: maybe the giant Quantum Wave of the whole cosmos is the single underlying reality that holds all smaller changing parts inside it!",
+      "audio_urls": {
+        "female": "audio/arg_contingency_4.3_female.mp3",
+        "male": "audio/arg_contingency_4.3_male.mp3"
+      }
     },
     {
       "id": "5.3",
@@ -154,7 +206,11 @@
       "title": "Transcendence Beyond Quantum Fields",
       "summary": "Defenders argue that quantum fields and wavefunctions are still contingent physical items with specific mathematical structures that require an external explanation for why these laws hold rather than none.",
       "status": "active",
-      "summary_5th_grader": "Defenders respond: even quantum waves are physical patterns with mathematical rules that could have been different. They still need a reason for why THOSE rules exist instead of nothing!"
+      "summary_5th_grader": "Defenders respond: even quantum waves are physical patterns with mathematical rules that could have been different. They still need a reason for why THOSE rules exist instead of nothing!",
+      "audio_urls": {
+        "female": "audio/arg_contingency_5.3_female.mp3",
+        "male": "audio/arg_contingency_5.3_male.mp3"
+      }
     },
     {
       "id": "6.3",
@@ -165,7 +221,11 @@
       "title": "Terminal Node: Material vs Metaphysical Necessity",
       "summary": "End of current source tree; add your own!",
       "status": "open_ended",
-      "summary_5th_grader": "End of this path! Add your own perspective on physics vs metaphysical necessity!"
+      "summary_5th_grader": "End of this path! Add your own perspective on physics vs metaphysical necessity!",
+      "audio_urls": {
+        "female": "audio/arg_contingency_6.3_female.mp3",
+        "male": "audio/arg_contingency_6.3_male.mp3"
+      }
     },
     {
       "id": "2.4",

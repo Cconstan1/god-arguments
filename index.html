@@ -233,11 +233,6 @@
             </label>
 
             <!-- Actions Menu -->
-            <button id="resetViewHeaderBtn" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-medium text-slate-200 flex items-center gap-1.5 transition-all">
-                <i class="fa-solid fa-compress text-emerald-400"></i>
-                <span class="hidden sm:inline">Fit Canvas</span>
-            </button>
-
             <button id="themeToggleBtn" class="p-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-slate-300 transition-all" title="Toggle Light/Dark Visual Theme">
                 <i class="fa-solid fa-moon"></i>
             </button>
@@ -1351,7 +1346,16 @@
                         ? legacyAudioUrl.replace(/\.mp3$/i, `_${preferredVoice}.mp3`)
                         : null);
                 if (typeof audioUrl !== 'string' || !audioUrl) {
-                    this.setAudioStatus(nodeId, `No ${preferredVoice} audio is available for this card.`);
+                    const hasAudioForEitherVoice = ['male', 'female'].some(voice =>
+                        typeof cardData?.audio_urls?.[voice] === 'string' &&
+                        Boolean(cardData.audio_urls[voice])
+                    ) || (typeof legacyAudioUrl === 'string' && /\.mp3$/i.test(legacyAudioUrl));
+                    this.setAudioStatus(
+                        nodeId,
+                        hasAudioForEitherVoice
+                            ? `No ${preferredVoice} audio is available for this card.`
+                            : 'No voice audio is available for this card.'
+                    );
                     return;
                 }
 
@@ -1688,7 +1692,6 @@
                 document.getElementById('zoomInBtn').addEventListener('click', () => this.zoom(0.15));
                 document.getElementById('zoomOutBtn').addEventListener('click', () => this.zoom(-0.15));
                 document.getElementById('fitViewBtn').addEventListener('click', () => this.fitToView());
-                document.getElementById('resetViewHeaderBtn').addEventListener('click', () => this.fitToView());
 
                 document.getElementById('expandAllBtn').addEventListener('click', () => {
                     this.collapsedNodes.clear();

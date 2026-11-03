@@ -52,7 +52,7 @@ $env:GOOGLE_APPLICATION_CREDENTIALS = "C:\path\to\service-account.json"
 python .\generate_audio.py
 ```
 
-By default, the script processes each `data/arg_*.json` file. It writes MP3s to `audio/`, updates each node's `audio_urls`, and stores a cache in `audio/audio_cache.json`. Use `--file` to process one tree or `--force` to regenerate cached audio:
+By default, the script processes each `data/arg_*.json` file. It writes MP3s to `audio/` with the tree filename included in each MP3 name, so nodes with the same ID in different trees do not overwrite each other's audio. It updates each node's `audio_urls` and stores a cache in `audio/audio_cache.json`. Use `--file` to process one tree or `--force` to regenerate cached audio:
 
 ```powershell
 python .\generate_audio.py --file data\arg_kalam.json

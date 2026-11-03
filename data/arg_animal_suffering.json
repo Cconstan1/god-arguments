@@ -11,7 +11,11 @@
       "title": "Evolutionary & Animal Suffering Argument (Stage 1)",
       "summary": "Hundreds of millions of years of animal agony, predation, disease, and mass extinction occurred before human beings existed. An omnibenevolent and omnipotent God would not use a creation process driven by vast, uncompensated animal suffering.",
       "status": "active",
-      "summary_5th_grader": "For millions of years before humans were even born, millions of animals suffered, got sick, and ate each other just to survive. If a super loving and powerful God made the world, why would He use a system full of so much scary pain and suffering for animals?"
+      "summary_5th_grader": "For millions of years before humans were even born, millions of animals suffered, got sick, and ate each other just to survive. If a super loving and powerful God made the world, why would He use a system full of so much scary pain and suffering for animals?",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_1.0_female.mp3",
+        "male": "audio/arg_animal_suffering_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -22,7 +26,11 @@
       "title": "Deduction of Moral Incompatibility (Stage 2)",
       "summary": "Unlike human suffering, animal pain cannot be justified by free will, moral growth, or spiritual salvation. Therefore, millions of years of non-human agony directly undermines a loving, omnipotent Creator.",
       "status": "active",
-      "summary_5th_grader": "Unlike humans, animals can't choose between good and bad, go to church, or learn moral lessons from suffering. Since animal pain can't be explained by human choices or moral growth, it makes a loving God very hard to explain!"
+      "summary_5th_grader": "Unlike humans, animals can't choose between good and bad, go to church, or learn moral lessons from suffering. Since animal pain can't be explained by human choices or moral growth, it makes a loving God very hard to explain!",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_1.1_female.mp3",
+        "male": "audio/arg_animal_suffering_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -33,7 +41,11 @@
       "title": "Cartesian Objection: Animals Lacking Subjective Experience",
       "summary": "Historical Cartesian view claims animals are biological automata experiencing nociception (pain response) without qualitative, conscious experience of suffering (qualia).",
       "status": "active",
-      "summary_5th_grader": "Some thinkers claimed animals are like biological robots\u2014they flinch or cry out when hurt, but don't actually feel sad or conscious pain inside their minds."
+      "summary_5th_grader": "Some thinkers claimed animals are like biological robots—they flinch or cry out when hurt, but don't actually feel sad or conscious pain inside their minds.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_2.1_female.mp3",
+        "male": "audio/arg_animal_suffering_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -44,7 +56,11 @@
       "title": "Modern Neurobiology & Comparative Physiology",
       "summary": "Evolutionary neurobiology confirms non-human vertebrates share neocortical structures, amygdaloid pain centers, and emotional responses identical to human pain pathways.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: modern brain science proves animals have the exact same pain parts in their brains as humans! When a dog or deer gets hurt, it really feels horrible pain just like we do."
+      "summary_5th_grader": "Defenders reply: modern brain science proves animals have the exact same pain parts in their brains as humans! When a dog or deer gets hurt, it really feels horrible pain just like we do.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_3.1_female.mp3",
+        "male": "audio/arg_animal_suffering_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -55,7 +71,11 @@
       "title": "Neo-Cartesian Distinction (Pain vs. Suffering-about-Pain)",
       "summary": "Neo-Cartesians (e.g., Michael Murray) argue animals experience primary pain sensations but lack second-order awareness ('suffering about pain'), mitigating moral severity.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue back: animals feel the instant sting of a bite, but they don't worry about the future or feel emotional dread like humans do."
+      "summary_5th_grader": "Skeptics argue back: animals feel the instant sting of a bite, but they don't worry about the future or feel emotional dread like humans do.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_4.1_female.mp3",
+        "male": "audio/arg_animal_suffering_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -66,7 +86,11 @@
       "title": "Primary Pain & Terror in Mammalian Life",
       "summary": "Studies in animal behavior show severe affective distress, panic, grief, and terror in social mammals, demonstrating second-order suffering is not required for profound harm.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: mother animals mourn their dead babies and show deep fear and panic. You don't need fancy human thoughts to experience intense terror and misery."
+      "summary_5th_grader": "Defenders answer: mother animals mourn their dead babies and show deep fear and panic. You don't need fancy human thoughts to experience intense terror and misery.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_5.1_female.mp3",
+        "male": "audio/arg_animal_suffering_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -77,7 +101,11 @@
       "title": "The Fall & Cosmic Corruption / Angelic Rebellion",
       "summary": "YEC attributes animal predation to the Fall of Adam, while old-earth theodices (e.g., C.S. Lewis, Plantinga) blame pre-human demonic corruption of the natural order.",
       "status": "active",
-      "summary_5th_grader": "Some religious thinkers say nature was ruined by evil\u2014either because Adam sinned in the garden, or because rebellious angels ruined the natural world before humans were created."
+      "summary_5th_grader": "Some religious thinkers say nature was ruined by evil—either because Adam sinned in the garden, or because rebellious angels ruined the natural world before humans were created.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_2.2_female.mp3",
+        "male": "audio/arg_animal_suffering_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -88,7 +116,11 @@
       "title": "Geological & Fossil Record Chronology",
       "summary": "The geological record demonstrates fossilized animal tumors, bone fractures, and carnivorous predation millions of years before any human or angelic biblical narrative.",
       "status": "active",
-      "summary_5th_grader": "Defenders point out: dinosaur fossils from 100 million years ago show cancer, broken bones, and teeth marks from being eaten alive\u2014long before humans existed to commit any sin!"
+      "summary_5th_grader": "Defenders point out: dinosaur fossils from 100 million years ago show cancer, broken bones, and teeth marks from being eaten alive—long before humans existed to commit any sin!",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_3.2_female.mp3",
+        "male": "audio/arg_animal_suffering_3.2_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -99,7 +131,11 @@
       "title": "Proleptic / Retroactive Fall Hypothesis (Dembski)",
       "summary": "Proponents argue God retroactively applied the consequences of human sin backwards in time to pre-human history, anticipating Adam's fall.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue back: maybe God punished nature in advance because He knew humans would sin later in time!"
+      "summary_5th_grader": "Skeptics argue back: maybe God punished nature in advance because He knew humans would sin later in time!",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_4.2_female.mp3",
+        "male": "audio/arg_animal_suffering_4.2_male.mp3"
+      }
     },
     {
       "id": "5.2",
@@ -110,7 +146,11 @@
       "title": "Theological Injustice of Retroactive Punishment",
       "summary": "Punishing innocent animals for millions of years prior to a future human action violates basic divine justice and makes God the direct author of pre-creation suffering.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: punishing innocent animals for millions of years for something a human hadn't even done yet makes God sound unfair and cruel!"
+      "summary_5th_grader": "Defenders reply: punishing innocent animals for millions of years for something a human hadn't even done yet makes God sound unfair and cruel!",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_5.2_female.mp3",
+        "male": "audio/arg_animal_suffering_5.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -121,7 +161,11 @@
       "title": "Only Possible World / Fine-Tuned Ecosystems",
       "summary": "Southgate and Rolston argue biological evolution via natural selection is the only mathematically possible way for complex, organic beauty and life to emerge.",
       "status": "active",
-      "summary_5th_grader": "Some say: evolution with predators and prey is the ONLY possible way to create a world with complex, beautiful animals. Pain is just a necessary side effect of biological life."
+      "summary_5th_grader": "Some say: evolution with predators and prey is the ONLY possible way to create a world with complex, beautiful animals. Pain is just a necessary side effect of biological life.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_2.3_female.mp3",
+        "male": "audio/arg_animal_suffering_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -132,7 +176,11 @@
       "title": "Limits on Omnipotence vs. Alternative Physics",
       "summary": "An omnipotent God is not constrained by evolutionary biological necessity and could have created photosynthesizing, non-sentient life or herbivorous ecosystems.",
       "status": "active",
-      "summary_5th_grader": "Defenders counter: an all-powerful God isn't trapped by rules! He could have easily designed peaceful ecosystems where animals get energy from sunlight instead of tearing each other apart."
+      "summary_5th_grader": "Defenders counter: an all-powerful God isn't trapped by rules! He could have easily designed peaceful ecosystems where animals get energy from sunlight instead of tearing each other apart.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_3.3_female.mp3",
+        "male": "audio/arg_animal_suffering_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -143,7 +191,11 @@
       "title": "Animal Eschatology / Post-Mortem Compensation",
       "summary": "Theologians like John Wesley and Jerry Walls suggest God resurrects and compensates innocent animals in an afterlife, balancing their earthly suffering.",
       "status": "active",
-      "summary_5th_grader": "Other theologians argue: God will bring all animals back to life in heaven and give them endless joy to make up for all the pain they felt on Earth."
+      "summary_5th_grader": "Other theologians argue: God will bring all animals back to life in heaven and give them endless joy to make up for all the pain they felt on Earth.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_2.4_female.mp3",
+        "male": "audio/arg_animal_suffering_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -154,7 +206,11 @@
       "title": "Lack of Personhood & Unnecessary Harm Principle",
       "summary": "Unlike moral humans, animals cannot reflect on their past suffering in an afterlife. Compensation does not justify causing unnecessary agony when it could have been prevented entirely.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: giving a dog a treat tomorrow doesn't make it okay to burn it today. A good creator wouldn't hurt an innocent animal first just to fix it later!"
+      "summary_5th_grader": "Defenders answer: giving a dog a treat tomorrow doesn't make it okay to burn it today. A good creator wouldn't hurt an innocent animal first just to fix it later!",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_3.4_female.mp3",
+        "male": "audio/arg_animal_suffering_3.4_male.mp3"
+      }
     },
     {
       "id": "2.5",
@@ -165,7 +221,11 @@
       "title": "Skeptical Theism Applied to Animal Life",
       "summary": "We lack the cognitive capacity to comprehend God's ultimate reasons for allowing vast evolutionary history and non-human pain.",
       "status": "active",
-      "summary_5th_grader": "Skeptics of this argument say: we are too small to understand why God allowed millions of years of animal evolution. There could be a secret reason we aren't smart enough to get."
+      "summary_5th_grader": "Skeptics of this argument say: we are too small to understand why God allowed millions of years of animal evolution. There could be a secret reason we aren't smart enough to get.",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_2.5_female.mp3",
+        "male": "audio/arg_animal_suffering_2.5_male.mp3"
+      }
     },
     {
       "id": "3.5",
@@ -176,7 +236,11 @@
       "title": "Moral Paralysis & Divine Empathy Breakdown",
       "summary": "If God's goodness permits millions of years of pointlessly terrifying animal agony, human moral concepts of 'benevolence' and 'mercy' become completely meaningless.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: if God thinks millions of years of terrifying agony is 'good,' then the word 'good' doesn't mean anything to us anymore!"
+      "summary_5th_grader": "Defenders reply: if God thinks millions of years of terrifying agony is 'good,' then the word 'good' doesn't mean anything to us anymore!",
+      "audio_urls": {
+        "female": "audio/arg_animal_suffering_3.5_female.mp3",
+        "male": "audio/arg_animal_suffering_3.5_male.mp3"
+      }
     }
   ]
 }

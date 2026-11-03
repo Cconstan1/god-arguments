@@ -14,7 +14,11 @@
       "title": "Universal Human Intuition of the Divine",
       "summary": "Throughout history and across virtually every isolated human civilization, belief in a transcendent divine reality or higher power has been nearly universal. Just as universal sensory perceptions (like seeing light or feeling heat) reflect real physical phenomena, a ubiquitous human cognitive intuition pointing toward God suggests that human consciousness is tracking a real feature of ultimate reality.",
       "status": "active",
-      "summary_5th_grader": "Ever since ancient times, almost every group of people everywhere in the world built altars or prayed to a higher power. When almost every human culture independently comes up with the same core idea, it's like a universal instinct\u2014suggesting we are sensing something real!"
+      "summary_5th_grader": "Ever since ancient times, almost every group of people everywhere in the world built altars or prayed to a higher power. When almost every human culture independently comes up with the same core idea, it's like a universal instinct—suggesting we are sensing something real!",
+      "audio_urls": {
+        "female": "audio/arg_common_consent_1.0_female.mp3",
+        "male": "audio/arg_common_consent_1.0_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -25,7 +29,11 @@
       "title": "Cognitive Evolutionary Explanations (HADD)",
       "summary": "Cognitive science of religion (CSR) shows that human brains evolved a Hyperactive Agency Detection Device (HADD) and anthropomorphic biases for survival. Early humans attributed rustling leaves to unseen agents (predators or spirits) rather than chance. Universal religious belief is an evolutionary spandrel or false positive, not evidence of a deity.",
       "status": "active",
-      "summary_5th_grader": "Scientists explain that our brains evolved to assume someone is there whenever we hear a rustle in the dark\u2014because assuming it's a predator kept our ancestors alive! This 'false alarm' setting in our brains naturally makes humans imagine invisible spirits everywhere, even when none exist."
+      "summary_5th_grader": "Scientists explain that our brains evolved to assume someone is there whenever we hear a rustle in the dark—because assuming it's a predator kept our ancestors alive! This 'false alarm' setting in our brains naturally makes humans imagine invisible spirits everywhere, even when none exist.",
+      "audio_urls": {
+        "female": "audio/arg_common_consent_2.1_female.mp3",
+        "male": "audio/arg_common_consent_2.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -36,7 +44,11 @@
       "title": "Contradictory Deities and Incompatible Claims",
       "summary": "The 'consensus' is only superficial; when examined, religions postulate wildly incompatible deities (polytheism, monotheistic personal God, pantheistic impersonal Brahman, non-theistic Buddhism). Widespread agreement on 'something supernatural' is no more evidence for a specific God than widespread ancient belief in a flat Earth was evidence for flat Earth.",
       "status": "active",
-      "summary_5th_grader": "People might agree that 'something mysterious exists,' but they completely disagree on what it is! Some believe in many gods, some in one God, and others in no personal god at all. If everyone gives completely different answers, it shows people are guessing, not seeing one clear truth."
+      "summary_5th_grader": "People might agree that 'something mysterious exists,' but they completely disagree on what it is! Some believe in many gods, some in one God, and others in no personal god at all. If everyone gives completely different answers, it shows people are guessing, not seeing one clear truth.",
+      "audio_urls": {
+        "female": "audio/arg_common_consent_2.2_female.mp3",
+        "male": "audio/arg_common_consent_2.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -47,7 +59,11 @@
       "title": "Sociological Indoctrination and Geography",
       "summary": "Consensus is driven by social transmission, political enforcement, and childhood conditioning within geographic regions (the 'lottery of birth'), rather than independent rational discovery. Cultural unanimity reflects social conformity, not objective discovery.",
       "status": "active",
-      "summary_5th_grader": "Most people believe what their parents and society taught them growing up. If you were born in ancient Greece, you believed in Zeus; if in medieval Europe, Jesus; if in ancient India, Vishnu. That's cultural peer pressure and tradition, not independent discovery."
+      "summary_5th_grader": "Most people believe what their parents and society taught them growing up. If you were born in ancient Greece, you believed in Zeus; if in medieval Europe, Jesus; if in ancient India, Vishnu. That's cultural peer pressure and tradition, not independent discovery.",
+      "audio_urls": {
+        "female": "audio/arg_common_consent_2.3_female.mp3",
+        "male": "audio/arg_common_consent_2.3_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -58,7 +74,11 @@
       "title": "The Sensus Divinitatis / Evolutionary Reliability",
       "summary": "Reformed epistemologists (e.g., Alvin Plantinga) argue that God could use evolutionary mechanisms like HADD to implant a genuine 'sensus divinitatis' (sense of the divine) in human cognition. Explaining the evolutionary origin of a cognitive faculty does not invalidate the truth of its outputs.",
       "status": "active",
-      "summary_5th_grader": "Just because scientists can explain HOW our brains developed a sense for God doesn't mean God isn't real! God could have used evolution as the tool to build our brains so we could sense Him."
+      "summary_5th_grader": "Just because scientists can explain HOW our brains developed a sense for God doesn't mean God isn't real! God could have used evolution as the tool to build our brains so we could sense Him.",
+      "audio_urls": {
+        "female": "audio/arg_common_consent_3.1_female.mp3",
+        "male": "audio/arg_common_consent_3.1_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -69,7 +89,11 @@
       "title": "Common Core Intuition Behind Diverse Expressions",
       "summary": "Philosophers like C.S. Lewis and C.D. Broad point out that perceptual disagreements about fine details (e.g., distant objects or blurry vision) do not negate the reality of the underlying object. All religions share a core intuition of transcendent moral authority and ultimate reality.",
       "status": "active",
-      "summary_5th_grader": "If ten people look at a mountain through heavy fog, one might think it's a giant, another a cloud, another a tower. They disagree on the details, but they all agree there is a huge object there! Differing religions are just different blurry views of the same God."
+      "summary_5th_grader": "If ten people look at a mountain through heavy fog, one might think it's a giant, another a cloud, another a tower. They disagree on the details, but they all agree there is a huge object there! Differing religions are just different blurry views of the same God.",
+      "audio_urls": {
+        "female": "audio/arg_common_consent_3.2_female.mp3",
+        "male": "audio/arg_common_consent_3.2_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -80,7 +104,11 @@
       "title": "Unreliability of Unguided Cognitive Adaptation",
       "summary": "If natural selection favors beliefs based on survival value rather than truth value, and HADD regularly produces false positives (seeing spirits in nature), then cognitive faculties aimed at supernatural beliefs are demonstrated to be truth-unreliable.",
       "status": "active",
-      "summary_5th_grader": "Evolution cares about keeping you alive, not telling you the truth. If believing a tree trunk is a scary spirit makes you run away and stay safe, evolution favors that fear even though it's totally false!"
+      "summary_5th_grader": "Evolution cares about keeping you alive, not telling you the truth. If believing a tree trunk is a scary spirit makes you run away and stay safe, evolution favors that fear even though it's totally false!",
+      "audio_urls": {
+        "female": "audio/arg_common_consent_4.1_female.mp3",
+        "male": "audio/arg_common_consent_4.1_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -91,7 +119,11 @@
       "title": "Disanalogy with Physical Perception",
       "summary": "Physical sensory perception allows cross-cultural convergence, empirical measurement, and shared prediction. Theological intuition yields no empirical convergence or testable predictions, demonstrating that religious claims lack the objective grounding of physical perception.",
       "status": "active",
-      "summary_5th_grader": "When scientists look at a real mountain, everyone can measure its height and agree on its shape. But theologians have argued for thousands of years without ever agreeing on basic facts about God, showing it's not like seeing a real physical mountain."
+      "summary_5th_grader": "When scientists look at a real mountain, everyone can measure its height and agree on its shape. But theologians have argued for thousands of years without ever agreeing on basic facts about God, showing it's not like seeing a real physical mountain.",
+      "audio_urls": {
+        "female": "audio/arg_common_consent_4.2_female.mp3",
+        "male": "audio/arg_common_consent_4.2_male.mp3"
+      }
     }
   ]
 }

@@ -14,7 +14,11 @@
       "title": "Augustine's Argument from Eternal Truths (De Libero Arbitrio II)",
       "summary": "Formulated by Saint Augustine of Hippo, necessary, unchanging, abstract truths (such as mathematical principles like 2+2=4 or laws of logic) transcend physical matter and perishable human minds. Since truths are mental representations that require a mind, and human minds are finite and temporal, these eternal truths require an eternal, immutable Mind (God) to ground their continuous existence.",
       "status": "active",
-      "summary_5th_grader": "Saint Augustine argued that mathematical rules like 2+2=4 and laws of logic are 100% true forever\u2014even before humans existed or if the universe vanished! Since ideas and rules can't float in empty space without a mind thinking them, these eternal rules must live inside an eternal, unchangeable Mind: God!"
+      "summary_5th_grader": "Saint Augustine argued that mathematical rules like 2+2=4 and laws of logic are 100% true forever—even before humans existed or if the universe vanished! Since ideas and rules can't float in empty space without a mind thinking them, these eternal rules must live inside an eternal, unchangeable Mind: God!",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_1.0_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_1.0_male.mp3"
+      }
     },
     {
       "id": "1.1",
@@ -25,7 +29,11 @@
       "title": "Transcendent Realism of Necessary Propositions (Stage 2)",
       "summary": "Logical and mathematical truths possess intrinsic necessity and normative authority over physical reality. They are discovered rather than invented by humans, demonstrating an objective realm of truth higher than any individual human intellect.",
       "status": "active",
-      "summary_5th_grader": "We discover math and logic rules like hidden treasure\u2014we don't just invent them! Because these rules command how everything works, they prove there is a higher truth above human minds."
+      "summary_5th_grader": "We discover math and logic rules like hidden treasure—we don't just invent them! Because these rules command how everything works, they prove there is a higher truth above human minds.",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_1.1_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_1.1_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -36,7 +44,11 @@
       "title": "Rebuttal: Secular Realism & Abstract Platonism",
       "summary": "Critics and secular Platonists argue that mathematical and logical truths exist independently as uncreated abstract objects in an impersonal realm (without needing a God) or function as human linguistic conventions (Nominalism/Formalism).",
       "status": "active",
-      "summary_5th_grader": "Skeptics say: math rules can just float on their own as abstract facts without needing God, or they are just human language rules we agreed on!"
+      "summary_5th_grader": "Skeptics say: math rules can just float on their own as abstract facts without needing God, or they are just human language rules we agreed on!",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_2.1_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_2.1_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "The Incoherence of Mindless Abstract Objects",
       "summary": "Augustinians respond that mindless abstract entities in a 'third realm' cannot possess intentionality or propositionality. Propositions, by definition, require mental representation, making secular Platonism coherent only as divine thoughts (Augustinian Divine Conceptualism).",
       "status": "active",
-      "summary_5th_grader": "Augustine's followers answer: abstract thoughts can't exist in a vacuum without anyone thinking them! A 'truth' is a thought, so an eternal truth requires an eternal Thinker."
+      "summary_5th_grader": "Augustine's followers answer: abstract thoughts can't exist in a vacuum without anyone thinking them! A 'truth' is a thought, so an eternal truth requires an eternal Thinker.",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_3.1_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_3.1_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -58,7 +74,11 @@
       "title": "Threat of Psychologism & Euthyphro Variant",
       "summary": "Opponents push back: if necessary truths depend on God's mind, does God arbitrarily dictate that 2+2=4? If God cannot change necessary truths, those truths remain logically prior to and independent of God's sovereign choice.",
       "status": "active",
-      "summary_5th_grader": "Opponents push back: does God CHOOSE math rules, or is He forced to obey them? If He's forced to obey them, math is higher than God!"
+      "summary_5th_grader": "Opponents push back: does God CHOOSE math rules, or is He forced to obey them? If He's forced to obey them, math is higher than God!",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_4.1_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_4.1_male.mp3"
+      }
     },
     {
       "id": "5.1",
@@ -67,9 +87,13 @@
       "type": "sub_sub_counter",
       "shortLabel": "Essential Nature Grounding",
       "title": "Resolution: Grounding in Unchanging Divine Nature",
-      "summary": "Augustinians resolve the dilemma: eternal truths reflect God's uncreated, unchangeable rational essence\u2014neither arbitrarily invented by a divine decree nor standing superior to God.",
+      "summary": "Augustinians resolve the dilemma: eternal truths reflect God's uncreated, unchangeable rational essence—neither arbitrarily invented by a divine decree nor standing superior to God.",
       "status": "active",
-      "summary_5th_grader": "Defenders resolve it: math rules aren't random choices, nor are they higher than God\u2014they are the direct reflection of God's own logical character!"
+      "summary_5th_grader": "Defenders resolve it: math rules aren't random choices, nor are they higher than God—they are the direct reflection of God's own logical character!",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_5.1_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_5.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -80,7 +104,11 @@
       "title": "Rebuttal: Evolutionary Cognition & Physical Regularity",
       "summary": "Naturalists contend that logical and mathematical intuition reflect physical patterns in our universe and evolutionary neural adaptations rather than a transcendent divine intellect.",
       "status": "active",
-      "summary_5th_grader": "Naturalists argue: math and logic just describe physical patterns in our brain and universe that helped early humans survive!"
+      "summary_5th_grader": "Naturalists argue: math and logic just describe physical patterns in our brain and universe that helped early humans survive!",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_2.2_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_2.2_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -89,9 +117,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Counterfactual Invariance",
       "title": "Modality & Counterfactual Invariance",
-      "summary": "Defenders note that necessary mathematical truths hold true across all possible worlds\u2014even in counterfactual universes with no physical matter or physical laws. Physical evolution cannot account for necessary truth across non-physical possible worlds.",
+      "summary": "Defenders note that necessary mathematical truths hold true across all possible worlds—even in counterfactual universes with no physical matter or physical laws. Physical evolution cannot account for necessary truth across non-physical possible worlds.",
       "status": "active",
-      "summary_5th_grader": "Defenders reply: 2+2=4 would still be true even if our universe never existed at all! Brain evolution can't explain truths that apply to universes that don't exist."
+      "summary_5th_grader": "Defenders reply: 2+2=4 would still be true even if our universe never existed at all! Brain evolution can't explain truths that apply to universes that don't exist.",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_3.2_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_3.2_male.mp3"
+      }
     },
     {
       "id": "2.3",
@@ -102,7 +134,11 @@
       "title": "Rebuttal: Logical Positivism & Tautological Rules",
       "summary": "Logical positivists argue that mathematical and logical principles are tautologies (definitions true by convention) that convey no real metaphysical information about reality or a divine mind.",
       "status": "active",
-      "summary_5th_grader": "Skeptics argue: math is just true by definition, like saying 'all bachelors are unmarried men.' It's just word definitions, not proof of a Creator!"
+      "summary_5th_grader": "Skeptics argue: math is just true by definition, like saying 'all bachelors are unmarried men.' It's just word definitions, not proof of a Creator!",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_2.3_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_2.3_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -111,9 +147,13 @@
       "type": "counter_rebuttal",
       "shortLabel": "Non-Tautological Realism",
       "title": "The Non-Tautological Substance of Mathematical Discovery",
-      "summary": "Augustinians respond that non-trivial mathematical theorems (e.g., G\u00f6del's Incompleteness, Euler's identity) reveal deep, unexpected structural reality beyond human linguistic conventions.",
+      "summary": "Augustinians respond that non-trivial mathematical theorems (e.g., Gödel's Incompleteness, Euler's identity) reveal deep, unexpected structural reality beyond human linguistic conventions.",
       "status": "active",
-      "summary_5th_grader": "Defenders answer: complex math discoveries shock scientists with surprising facts about reality that go way beyond simple word tricks!"
+      "summary_5th_grader": "Defenders answer: complex math discoveries shock scientists with surprising facts about reality that go way beyond simple word tricks!",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_3.3_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_3.3_male.mp3"
+      }
     },
     {
       "id": "2.4",
@@ -124,7 +164,11 @@
       "title": "Rebuttal: Tension with Divine Simplicity",
       "summary": "Classical theologians note a potential conflict: if God's mind contains an infinite multiplicity of distinct eternal truths (mathematical theorems, logical axioms), it threatens the doctrine of Divine Simplicity.",
       "status": "active",
-      "summary_5th_grader": "Theologians raise a puzzle: if God's mind holds millions of separate math rules, does that ruin the idea that God is one simple unified Being?"
+      "summary_5th_grader": "Theologians raise a puzzle: if God's mind holds millions of separate math rules, does that ruin the idea that God is one simple unified Being?",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_2.4_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_2.4_male.mp3"
+      }
     },
     {
       "id": "3.4",
@@ -135,7 +179,11 @@
       "title": "Divine Ideas as Infinite Reflections of One Essence",
       "summary": "Thomas Aquinas and Augustinians resolve this by explaining that God knows all distinct truths through a single, unified comprehension of His own infinite essence as imitable in diverse ways.",
       "status": "active",
-      "summary_5th_grader": "Aquinas solved this: God knows all math and logic rules through ONE single perfect understanding of His own infinite nature!"
+      "summary_5th_grader": "Aquinas solved this: God knows all math and logic rules through ONE single perfect understanding of His own infinite nature!",
+      "audio_urls": {
+        "female": "audio/arg_augustine_eternal_truths_3.4_female.mp3",
+        "male": "audio/arg_augustine_eternal_truths_3.4_male.mp3"
+      }
     }
   ]
 }

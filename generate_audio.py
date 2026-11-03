@@ -147,7 +147,8 @@ def process_file(
         seen_ids.add(node_id)
 
         audio_urls = {
-            gender: f"audio/{node_id}_{gender}.mp3" for gender in VOICES
+            gender: f"audio/{json_path.stem}_{node_id}_{gender}.mp3"
+            for gender in VOICES
         }
         cache_key = f"{root_relative_path}#{node_id}"
         cached = entries.get(cache_key)
@@ -155,7 +156,7 @@ def process_file(
 
         for gender, voice_name in VOICES.items():
             audio_url = audio_urls[gender]
-            audio_path = AUDIO_DIR / f"{node_id}_{gender}.mp3"
+            audio_path = AUDIO_DIR / f"{json_path.stem}_{node_id}_{gender}.mp3"
             cache_input = json.dumps(
                 {
                     "text": text,
@@ -235,11 +236,10 @@ def main() -> None:
         generated, updated = process_file(json_path, client, cache, args.force)
         generated_files += generated
         updated_nodes += updated
-
-    atomic_write(
-        CACHE_PATH,
-        (json.dumps(cache, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
-    )
+        atomic_write(
+            CACHE_PATH,
+            (json.dumps(cache, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
+        )
     print(
         f"Done: generated {generated_files} MP3 file(s); "
         f"updated audio_urls on {updated_nodes} node(s)."

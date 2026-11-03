@@ -14,7 +14,11 @@
       "title": "The Argument from Ontological Gradation & Exemplar Perfection",
       "summary": "Formulated in Thomas Aquinas's Summa Theologiae (First Part, Q. 2, Art. 3), the Fourth Way observes that things in the world exhibit varying degrees of transcendent properties like goodness, truth, nobility, and perfection ('more or less good'). Since comparative gradations ('more' or 'less') only make sense relative to an absolute maximum standard, and because that which is supreme in a category is the cause of all sub-members, there must exist a supreme Being that is the ultimate cause of being, goodness, truth, and perfection in all things.",
       "status": "active",
-      "summary_5th_grader": "Have you ever noticed how some things are better, truer, or more beautiful than others? Thomas Aquinas argued that you can only call something 'more good' if there is a perfect '10 out of 10' standard to compare it to. That absolute maximum standard of goodness and perfection is what everyone calls God!"
+      "summary_5th_grader": "Have you ever noticed how some things are better, truer, or more beautiful than others? Thomas Aquinas argued that you can only call something 'more good' if there is a perfect '10 out of 10' standard to compare it to. That absolute maximum standard of goodness and perfection is what everyone calls God!",
+      "audio_urls": {
+        "female": "audio/arg_aquinas_fourth_1.0_female.mp3",
+        "male": "audio/arg_aquinas_fourth_1.0_male.mp3"
+      }
     },
     {
       "id": "2.1",
@@ -25,7 +29,11 @@
       "title": "The Fallacy of Realist Projection & Absurd Maxima",
       "summary": "Critics (e.g., Anthony Kenny, Richard Dawkins) argue that assuming a maximum exemplar must actually exist in concrete reality confuses semantic comparison with ontological existence. By this logic, because some things are more or less smelly, hot, or sharp, there must exist an infinitely smelly being or a supreme physical knife that causes all sharpness.",
       "status": "active",
-      "summary_5th_grader": "Critics say this trick doesn't work! Just because some things are stinky and others are super stinky doesn't mean there must be an 'infinitely stinky monster' sitting in space causing all bad smells. Comparing things in our head doesn't prove a real maximum exists in real life."
+      "summary_5th_grader": "Critics say this trick doesn't work! Just because some things are stinky and others are super stinky doesn't mean there must be an 'infinitely stinky monster' sitting in space causing all bad smells. Comparing things in our head doesn't prove a real maximum exists in real life.",
+      "audio_urls": {
+        "female": "audio/arg_aquinas_fourth_2.1_female.mp3",
+        "male": "audio/arg_aquinas_fourth_2.1_male.mp3"
+      }
     },
     {
       "id": "2.2",
@@ -36,7 +44,11 @@
       "title": "Subjective Evaluative Scales vs. Ontological Ranks",
       "summary": "Modern epistemologists point out that gradations of goodness, nobility, and perfection are subjective value judgments framed by human cognitive preferences and evolutionary survival needs, rather than mind-independent ranks of intrinsic ontological being.",
       "status": "active",
-      "summary_5th_grader": "What humans consider 'noble' or 'good' is just our own human opinion based on what helps our species survive, not a magic ladder built into the universe itself. Animals or alien life forms would have completely different ideas of what is 'better'."
+      "summary_5th_grader": "What humans consider 'noble' or 'good' is just our own human opinion based on what helps our species survive, not a magic ladder built into the universe itself. Animals or alien life forms would have completely different ideas of what is 'better'.",
+      "audio_urls": {
+        "female": "audio/arg_aquinas_fourth_2.2_female.mp3",
+        "male": "audio/arg_aquinas_fourth_2.2_male.mp3"
+      }
     },
     {
       "id": "3.1",
@@ -47,7 +59,11 @@
       "title": "Transcendental Perfections vs. Accidental Properties",
       "summary": "Thomists (e.g., Edward Feser, Etienne Gilson) respond that Aquinas explicitly restricts the Fourth Way to pure transcendental perfections (being, truth, goodness, beauty) which admit no intrinsic limit, rather than mixed or accidental physical properties like temperature, smell, or physical shape which have built-in physical limitations.",
       "status": "active",
-      "summary_5th_grader": "Supporters reply that Aquinas wasn't talking about physical stuff like bad smells or heat, which have natural limits. He was talking about pure ideas like truth and love, which can grow infinitely and point straight to a divine source."
+      "summary_5th_grader": "Supporters reply that Aquinas wasn't talking about physical stuff like bad smells or heat, which have natural limits. He was talking about pure ideas like truth and love, which can grow infinitely and point straight to a divine source.",
+      "audio_urls": {
+        "female": "audio/arg_aquinas_fourth_3.1_female.mp3",
+        "male": "audio/arg_aquinas_fourth_3.1_male.mp3"
+      }
     },
     {
       "id": "3.2",
@@ -58,7 +74,11 @@
       "title": "The Principle of Exemplar Causality & Convertible Being",
       "summary": "In Scholastic metaphysics, Being, Goodness, and Truth are convertible terms (convertuntur). Any limited or composite entity that possesses goodness in a degree must receive its goodness from a Being whose essence IS goodness itself, avoiding an infinite regress of participatory causes.",
       "status": "active",
-      "summary_5th_grader": "In old philosophy, being good and being real are two sides of the same coin. Anything that is only partly good must be getting its goodness borrowed from something that is completely 100% good on its own."
+      "summary_5th_grader": "In old philosophy, being good and being real are two sides of the same coin. Anything that is only partly good must be getting its goodness borrowed from something that is completely 100% good on its own.",
+      "audio_urls": {
+        "female": "audio/arg_aquinas_fourth_3.2_female.mp3",
+        "male": "audio/arg_aquinas_fourth_3.2_male.mp3"
+      }
     },
     {
       "id": "3.3",
@@ -69,7 +89,11 @@
       "title": "Objective Morality Requires Transcendent Anchoring",
       "summary": "If all evaluative gradations are reduced to subjective human preferences, objective moral facts collapse into cultural relativism. The Fourth Way provides the essential metaphysical bedrock required to justify objective moral realism.",
       "status": "active",
-      "summary_5th_grader": "If there is no real maximum standard of goodness, then saying 'kindness is better than torture' is just a matter of taste like choosing ice cream flavors. To make right and wrong truly real, you need a transcendent anchor."
+      "summary_5th_grader": "If there is no real maximum standard of goodness, then saying 'kindness is better than torture' is just a matter of taste like choosing ice cream flavors. To make right and wrong truly real, you need a transcendent anchor.",
+      "audio_urls": {
+        "female": "audio/arg_aquinas_fourth_3.3_female.mp3",
+        "male": "audio/arg_aquinas_fourth_3.3_male.mp3"
+      }
     },
     {
       "id": "4.1",
@@ -80,7 +104,11 @@
       "title": "The Arbitrary Distinction Between Pure & Mixed Perfections",
       "summary": "Secular philosophers reply that the distinction between 'pure transcendental perfections' and 'mixed physical properties' is an arbitrary Scholastic invention designed to insulate the argument from absurd counterexamples, relying on outdated Aristotelian metaphysics.",
       "status": "active",
-      "summary_5th_grader": "Atheists reply that picking which things are 'pure ideas' and which are 'physical stuff' is just making up arbitrary rules to save the argument when funny counterexamples like 'infinite stinkiness' are brought up."
+      "summary_5th_grader": "Atheists reply that picking which things are 'pure ideas' and which are 'physical stuff' is just making up arbitrary rules to save the argument when funny counterexamples like 'infinite stinkiness' are brought up.",
+      "audio_urls": {
+        "female": "audio/arg_aquinas_fourth_4.1_female.mp3",
+        "male": "audio/arg_aquinas_fourth_4.1_male.mp3"
+      }
     },
     {
       "id": "4.2",
@@ -91,7 +119,11 @@
       "title": "Evolutionary Naturalism as Objective Standard",
       "summary": "Naturalists argue that objective evaluative gradations can be anchored in biological flourishing, cognitive complexity, and social co-operation without invoking medieval metaphysical exemplars or divine minds.",
       "status": "active",
-      "summary_5th_grader": "We can explain why helping others is better than hurting them simply by looking at how human brains evolved to work together in groups, without needing ancient medieval metaphysics."
+      "summary_5th_grader": "We can explain why helping others is better than hurting them simply by looking at how human brains evolved to work together in groups, without needing ancient medieval metaphysics.",
+      "audio_urls": {
+        "female": "audio/arg_aquinas_fourth_4.2_female.mp3",
+        "male": "audio/arg_aquinas_fourth_4.2_male.mp3"
+      }
     }
   ]
 }
