@@ -51,8 +51,14 @@
         .argument-card { transition: transform .2s ease, opacity .2s ease, border-color .2s ease, box-shadow .2s ease; }
         .argument-card:hover { transform: translateY(-3px); box-shadow: 0 16px 35px rgba(0, 0, 0, .28); }
         .hide-master-tiers .tier-badge { display: none; }
-        .deep-view { min-height: calc(100vh - 3.5rem); }
+        .deep-view { min-height: 0; }
         #deepView > #canvasViewport { flex: 1 1 auto; height: auto; min-height: 0; min-width: 0; }
+        #canvasViewport { touch-action: none; }
+        .tree-sidebar { width: 11.5rem; }
+
+        @media (min-width: 640px) {
+            .tree-sidebar { width: 16rem; }
+        }
         
         .grid-pattern-dark {
             background-size: 32px 32px;
@@ -195,24 +201,24 @@
     </section>
 
     <!-- Top Header Navigation Bar -->
-    <header id="deepHeader" class="hidden h-14 bg-slate-900/90 border-b border-slate-800/80 px-4 flex items-center justify-between z-30 shrink-0 backdrop-blur-md">
-        <div class="flex items-center space-x-3">
-            <button id="backToMasterBtn" class="rounded-lg border border-slate-700 bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-200 transition hover:bg-slate-700" title="Return to the master argument map"><i class="fa-solid fa-arrow-left mr-1.5"></i>Back to Master Map</button>
+    <header id="deepHeader" class="hidden min-h-14 bg-slate-900/90 border-b border-slate-800/80 px-3 py-2 flex flex-wrap items-center justify-between gap-y-2 z-30 shrink-0 backdrop-blur-md sm:h-14 sm:flex-nowrap sm:px-4 sm:py-0">
+    <div class="flex min-w-0 items-center space-x-2 sm:space-x-3">
+        <button id="backToMasterBtn" class="shrink-0 rounded-lg border border-slate-700 bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-200 transition hover:bg-slate-700" title="Return to the master argument map"><i class="fa-solid fa-arrow-left sm:mr-1.5"></i><span class="hidden sm:inline">Back to Master Map</span></button>
             <div class="w-8 h-8 rounded-lg bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 font-bold text-base">
                 <i class="fa-solid fa-diagram-project"></i>
             </div>
             <div>
-                <h1 class="font-bold text-sm sm:text-base text-slate-100 flex items-center gap-2">
-                    Kalam Cosmological Argument
-                    <span class="text-xs font-normal px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">Decision Tree</span>
+                <h1 class="font-bold text-xs sm:text-base text-slate-100 flex items-center gap-1 sm:gap-2">
+                    <span class="truncate">Kalam Cosmological Argument</span>
+                    <span class="hidden sm:inline-flex text-xs font-normal px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">Decision Tree</span>
                 </h1>
                 <p class="text-[11px] text-slate-400 hidden sm:block">Interactive 4+ Level Dialectical Map & Dialectic Graph Engine</p>
             </div>
         </div>
 
         <!-- Search & Filter Bar -->
-        <div class="flex items-center space-x-2">
-            <div class="relative w-44 sm:w-64">
+        <div class="flex w-full items-center justify-between gap-1 sm:w-auto sm:space-x-2">
+            <div class="relative w-32 sm:w-64">
                 <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-xs text-slate-400"></i>
                 <input type="text" id="searchInput" placeholder="Search tree nodes..." 
                     class="w-full bg-slate-800/90 border border-slate-700/80 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-emerald-500/80 transition-all">
@@ -245,57 +251,61 @@
     <!-- Main Content Container -->
     <div id="deepView" class="deep-view hidden relative flex-1 w-full h-full overflow-hidden flex">
         
-        <!-- Left Legend & Statistics Sidebar Overlay -->
-        <div class="absolute left-4 top-4 z-20 flex flex-col gap-2 pointer-events-none">
+        <!-- Fixed legend sidebar -->
+        <aside id="treeSidebar" class="tree-sidebar order-2 z-20 shrink-0 overflow-y-auto border-l border-slate-800 bg-slate-950/95 p-3">
             <!-- Legend Container -->
-            <div class="pointer-events-auto bg-slate-900/90 border border-slate-800 rounded-xl p-3 shadow-2xl backdrop-blur-md w-52 sm:w-60 transition-all">
+            <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-3 shadow-2xl backdrop-blur-md w-full transition-all">
                 <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-2">
                     <span class="text-xs font-semibold text-slate-300 uppercase tracking-wider">Argument Legend</span>
-                    <button id="toggleLegendBtn" class="text-slate-500 hover:text-slate-300 text-xs">
+                    <button id="toggleLegendBtn" class="text-slate-500 hover:text-slate-300 text-xs" aria-label="Collapse legend" aria-expanded="true">
                         <i class="fa-solid fa-chevron-up"></i>
                     </button>
                 </div>
                 <div id="legendBody" class="space-y-1.5 text-xs">
                     <div class="flex items-center justify-between text-slate-300">
-                        <div class="flex items-center gap-2">
-                            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 ring-2 ring-emerald-500/20"></span>
-                            <span>Core Argument</span>
+                        <div class="flex min-w-0 items-center gap-2">
+                            <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-emerald-500/40 bg-emerald-500/15 text-emerald-300"><i class="fa-solid fa-circle-check" aria-hidden="true"></i></span>
+                            <span><span class="block font-medium">Core argument</span><span class="block text-[10px] text-slate-500">Main premise or conclusion</span></span>
                         </div>
                         <span id="count-core" class="text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-800/50 px-1.5 py-0.2 rounded">0</span>
                     </div>
                     <div class="flex items-center justify-between text-slate-300">
-                        <div class="flex items-center gap-2">
-                            <span class="w-2.5 h-2.5 rounded-full bg-rose-500 ring-2 ring-rose-500/20"></span>
-                            <span>Skeptic Rebuttal</span>
+                        <div class="flex min-w-0 items-center gap-2">
+                            <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-rose-500/40 bg-rose-500/15 text-rose-300"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i></span>
+                            <span><span class="block font-medium">Skeptic rebuttal</span><span class="block text-[10px] text-slate-500">Objection to the argument</span></span>
                         </div>
                         <span id="count-rebuttal" class="text-[10px] bg-rose-950 text-rose-400 border border-rose-800/50 px-1.5 py-0.2 rounded">0</span>
                     </div>
                     <div class="flex items-center justify-between text-slate-300">
-                        <div class="flex items-center gap-2">
-                            <span class="w-2.5 h-2.5 rounded-full bg-sky-500 ring-2 ring-sky-500/20"></span>
-                            <span>Theist Defense</span>
+                        <div class="flex min-w-0 items-center gap-2">
+                            <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-sky-500/40 bg-sky-500/15 text-sky-300"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></span>
+                            <span><span class="block font-medium">Theist defense</span><span class="block text-[10px] text-slate-500">Response defending a claim</span></span>
                         </div>
                         <span id="count-counter" class="text-[10px] bg-sky-950 text-sky-400 border border-sky-800/50 px-1.5 py-0.2 rounded">0</span>
                     </div>
                     <div class="flex items-center justify-between text-slate-300">
-                        <div class="flex items-center gap-2">
-                            <span class="w-2.5 h-2.5 rounded-full bg-purple-500 ring-2 ring-purple-500/20"></span>
-                            <span>Sub-Counter / Deep</span>
+                        <div class="flex min-w-0 items-center gap-2">
+                            <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-purple-500/40 bg-purple-500/15 text-purple-300"><i class="fa-solid fa-layer-group" aria-hidden="true"></i></span>
+                            <span><span class="block font-medium">Further reply</span><span class="block text-[10px] text-slate-500">Deeper branch response</span></span>
                         </div>
                         <span id="count-sub" class="text-[10px] bg-purple-950 text-purple-400 border border-purple-800/50 px-1.5 py-0.2 rounded">0</span>
                     </div>
                     <div class="flex items-center justify-between text-slate-300">
-                        <div class="flex items-center gap-2">
-                            <span class="w-2.5 h-2.5 rounded-full bg-amber-500 border border-dashed border-amber-300"></span>
-                            <span>Open / Boundary</span>
+                        <div class="flex min-w-0 items-center gap-2">
+                            <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-dashed border-amber-500/70 bg-amber-500/10 text-amber-300"><i class="fa-solid fa-flag" aria-hidden="true"></i></span>
+                            <span><span class="block font-medium">Open-ended</span><span class="block text-[10px] text-slate-500">Unresolved / boundary node</span></span>
                         </div>
                         <span id="count-terminal" class="text-[10px] bg-amber-950 text-amber-400 border border-amber-800/50 px-1.5 py-0.2 rounded">0</span>
                     </div>
+                    <p class="border-t border-slate-800 pt-2 text-[10px] text-slate-500">Arrows point from a claim to its reply.</p>
+                    <button id="expandAllBtn" type="button" class="mt-1 flex w-full items-center justify-center gap-2 rounded-lg border border-sky-500/30 bg-sky-500/10 px-3 py-2 text-xs font-semibold text-sky-200 transition hover:bg-sky-500/20" title="Expand all branches">
+                        <i class="fa-solid fa-folder-open" aria-hidden="true"></i>Expand all
+                    </button>
                 </div>
             </div>
 
             <!-- Path Highlight Status Banner (shows when path is filtered) -->
-            <div id="pathBanner" class="hidden pointer-events-auto bg-emerald-950/90 border border-emerald-500/40 rounded-lg p-2.5 shadow-lg backdrop-blur-md w-52 sm:w-60 flex items-center justify-between text-xs text-emerald-200">
+            <div id="pathBanner" class="hidden mt-2 bg-emerald-950/90 border border-emerald-500/40 rounded-lg p-2.5 shadow-lg backdrop-blur-md w-full flex items-center justify-between text-xs text-emerald-200">
                 <div class="flex items-center gap-2">
                     <i class="fa-solid fa-route text-emerald-400 animate-pulse"></i>
                     <span>Path Filter Active</span>
@@ -304,10 +314,10 @@
                     Clear
                 </button>
             </div>
-        </div>
+        </aside>
 
         <!-- Pan & Zoom Infinite Canvas Container -->
-        <div id="canvasViewport" class="relative w-full h-full cursor-grab active:cursor-grabbing grid-pattern-dark overflow-hidden transition-colors duration-300">
+        <div id="canvasViewport" class="relative order-1 w-full h-full cursor-grab active:cursor-grabbing grid-pattern-dark overflow-hidden transition-colors duration-300">
             
             <!-- Transform Container (Panning + Zooming layer) -->
             <div id="canvasTransform" class="absolute inset-0 origin-top-left transform-gpu" style="transform: translate(0px, 0px) scale(1);">
@@ -340,9 +350,8 @@
                     <!-- Nodes rendered dynamically by JS -->
                 </div>
             </div>
-        </div>
 
-        <!-- Floating Bottom Right Canvas Control Tools -->
+        <!-- Floating canvas controls -->
         <div class="absolute right-4 bottom-4 z-20 flex flex-col items-end gap-2">
             <!-- Zoom Indicator -->
             <div id="zoomBadge" class="bg-slate-900/90 border border-slate-800 text-slate-300 font-mono text-[11px] px-2.5 py-1 rounded-lg backdrop-blur-md shadow-lg">
@@ -360,13 +369,11 @@
                 <button id="fitViewBtn" class="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center transition-all" title="Fit Entire Tree in View">
                     <i class="fa-solid fa-expand text-xs text-emerald-400"></i>
                 </button>
-                <button id="expandAllBtn" class="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center transition-all" title="Expand All Nodes">
-                    <i class="fa-solid fa-folder-open text-xs text-sky-400"></i>
-                </button>
                 <button id="collapseAllBtn" class="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center transition-all" title="Collapse To Root">
                     <i class="fa-solid fa-folder-closed text-xs text-slate-400"></i>
                 </button>
             </div>
+        </div>
         </div>
 
         <!-- Right Drawer / Inspector Panel -->
@@ -927,10 +934,9 @@
                 this.isPanning = false;
                 this.panStartedOnCard = false;
                 this.suppressNodeClick = false;
-                this.panStartClientX = 0;
-                this.panStartClientY = 0;
-                this.startPanX = 0;
-                this.startPanY = 0;
+                this.activePointers = new Map();
+                this.pinchGesture = null;
+                this.pinchChanged = false;
                 this.panAnimationFrame = null;
 
                 // Layout Dimensions
@@ -965,8 +971,17 @@
                 this.updateCounts();
                 this.render();
                 
-                // Initial fit to view after short timeout for layout stabilization
-                setTimeout(() => this.fitToView(), 100);
+                // Center the root at a readable scale on phones; the full tree remains expanded and pannable.
+                setTimeout(() => {
+                    const rootNode = Array.from(this.nodes.values()).find(node => !node.parentId);
+                    if (window.matchMedia('(max-width: 639px)').matches && rootNode) {
+                        this.scale = 0.55;
+                        this.centerNode(rootNode.id);
+                        this.render();
+                    } else {
+                        this.fitToView();
+                    }
+                }, 100);
             }
 
             initDataset(data) {
@@ -1566,7 +1581,7 @@
             zoom(delta, mouseX, mouseY) {
                 const oldScale = this.scale;
                 let newScale = oldScale + delta;
-                newScale = Math.min(Math.max(0.25, newScale), 2.2);
+                newScale = Math.min(Math.max(0.1, newScale), 2.2);
 
                 if (newScale === oldScale) return;
 
@@ -1601,7 +1616,7 @@
 
                 const scaleX = vpWidth / treeWidth;
                 const scaleY = vpHeight / treeHeight;
-                this.scale = Math.min(Math.max(0.35, Math.min(scaleX, scaleY)), 1.1);
+                this.scale = Math.min(Math.max(0.1, Math.min(scaleX, scaleY)), 1.1);
 
                 this.panX = (vpWidth - (maxX - minX) * this.scale) / 2 - minX * this.scale;
                 this.panY = (vpHeight - (maxY - minY) * this.scale) / 2 - minY * this.scale;
@@ -1622,70 +1637,139 @@
                 this.updateTransform();
             }
 
+            startPinchGesture() {
+                const points = Array.from(this.activePointers.values()).slice(0, 2);
+                if (points.length < 2) return;
+
+                const dx = points[1].x - points[0].x;
+                const dy = points[1].y - points[0].y;
+                const rect = this.viewportEl.getBoundingClientRect();
+                const centerX = (points[0].x + points[1].x) / 2 - rect.left;
+                const centerY = (points[0].y + points[1].y) / 2 - rect.top;
+
+                this.pinchGesture = {
+                    distance: Math.hypot(dx, dy),
+                    scale: this.scale,
+                    worldX: (centerX - this.panX) / this.scale,
+                    worldY: (centerY - this.panY) / this.scale
+                };
+                this.pinchChanged = false;
+                this.suppressNodeClick = true;
+                this.isPanning = false;
+            }
+
+            handlePointerDown(event) {
+                if (event.pointerType === 'mouse' && event.button !== 0 && event.button !== 1) return;
+                if (event.target.closest('button, a, input, select, textarea')) return;
+
+                const rect = this.viewportEl.getBoundingClientRect();
+                this.activePointers.set(event.pointerId, {
+                    x: event.clientX,
+                    y: event.clientY,
+                    startX: event.clientX,
+                    startY: event.clientY,
+                    startPanX: event.clientX - rect.left - this.panX,
+                    startPanY: event.clientY - rect.top - this.panY
+                });
+
+                if (this.activePointers.size > 1) {
+                    this.startPinchGesture();
+                    return;
+                }
+
+                this.suppressNodeClick = false;
+                this.panStartedOnCard = event.button === 0 && Boolean(event.target.closest('.node-card'));
+                this.isPanning = !this.panStartedOnCard || event.pointerType !== 'mouse';
+                if (this.isPanning) this.viewportEl.classList.add('cursor-grabbing');
+            }
+
+            handlePointerMove(event) {
+                const pointer = this.activePointers.get(event.pointerId);
+                if (!pointer) return;
+
+                pointer.x = event.clientX;
+                pointer.y = event.clientY;
+
+                if (this.pinchGesture && this.activePointers.size > 1) {
+                    const points = Array.from(this.activePointers.values()).slice(0, 2);
+                    const dx = points[1].x - points[0].x;
+                    const dy = points[1].y - points[0].y;
+                    const distance = Math.hypot(dx, dy);
+                    if (!distance || !this.pinchGesture.distance) return;
+
+                    const rect = this.viewportEl.getBoundingClientRect();
+                    const centerX = (points[0].x + points[1].x) / 2 - rect.left;
+                    const centerY = (points[0].y + points[1].y) / 2 - rect.top;
+                    this.scale = Math.min(Math.max(0.1, this.pinchGesture.scale * distance / this.pinchGesture.distance), 2.2);
+                    this.panX = centerX - this.pinchGesture.worldX * this.scale;
+                    this.panY = centerY - this.pinchGesture.worldY * this.scale;
+                    this.pinchChanged = true;
+                    this.updateTransform();
+                    return;
+                }
+
+                if (this.panStartedOnCard && !this.isPanning) {
+                    if (Math.hypot(event.clientX - pointer.startX, event.clientY - pointer.startY) < 5) return;
+                    this.isPanning = true;
+                    this.suppressNodeClick = true;
+                }
+                if (!this.isPanning) return;
+
+                const rect = this.viewportEl.getBoundingClientRect();
+                this.panX = event.clientX - rect.left - pointer.startPanX;
+                this.panY = event.clientY - rect.top - pointer.startPanY;
+                if (this.panAnimationFrame === null) {
+                    this.panAnimationFrame = requestAnimationFrame(() => {
+                        this.panAnimationFrame = null;
+                        this.updateTransform();
+                    });
+                }
+            }
+
+            handlePointerUp(event) {
+                this.activePointers.delete(event.pointerId);
+
+                if (this.activePointers.size < 2 && this.pinchGesture) {
+                    this.pinchGesture = null;
+                    const remainingPointer = this.activePointers.values().next().value;
+                    if (remainingPointer) {
+                        const rect = this.viewportEl.getBoundingClientRect();
+                        remainingPointer.startX = remainingPointer.x;
+                        remainingPointer.startY = remainingPointer.y;
+                        remainingPointer.startPanX = remainingPointer.x - rect.left - this.panX;
+                        remainingPointer.startPanY = remainingPointer.y - rect.top - this.panY;
+                        this.panStartedOnCard = false;
+                        this.isPanning = true;
+                    }
+                }
+
+                if (this.activePointers.size === 0) {
+                    this.isPanning = false;
+                    this.panStartedOnCard = false;
+                    this.viewportEl.classList.remove('cursor-grabbing');
+                    if (this.pinchChanged) {
+                        this.pinchChanged = false;
+                        this.render();
+                    }
+                    if (this.suppressNodeClick) {
+                        setTimeout(() => { this.suppressNodeClick = false; }, 0);
+                    }
+                }
+            }
+
             /**
              * Window Event Listeners Setup
              */
             setupEventListeners() {
-                // Viewport Pan Mouse Dragging
-                this.viewportEl.addEventListener('mousedown', (e) => {
-                    this.suppressNodeClick = false;
-                    if (e.button !== 0 && e.button !== 1) return;
-
-                    const targetCard = e.target.closest('.node-card');
-                    const isCardControl = e.target.closest('button, a, input, select, textarea');
-                    if (e.button === 0 && isCardControl) return;
-
-                    if (e.button === 1) {
-                        e.preventDefault();
-                    }
-                    const rect = this.viewportEl.getBoundingClientRect();
-                    this.panStartClientX = e.clientX;
-                    this.panStartClientY = e.clientY;
-                    this.startPanX = e.clientX - rect.left - this.panX;
-                    this.startPanY = e.clientY - rect.top - this.panY;
-                    this.panStartedOnCard = e.button === 0 && Boolean(targetCard);
-                    this.isPanning = !this.panStartedOnCard;
-                    this.suppressNodeClick = false;
-                    if (this.isPanning) this.viewportEl.classList.add('cursor-grabbing');
-                });
-
-                window.addEventListener('mousemove', (e) => {
-                    if (!this.isPanning && this.panStartedOnCard) {
-                        const deltaX = e.clientX - this.panStartClientX;
-                        const deltaY = e.clientY - this.panStartClientY;
-                        if (Math.hypot(deltaX, deltaY) < 5) return;
-                        this.isPanning = true;
-                        this.suppressNodeClick = true;
-                        this.viewportEl.classList.add('cursor-grabbing');
-                    }
-                    if (!this.isPanning) return;
-                    const rect = this.viewportEl.getBoundingClientRect();
-                    this.panX = e.clientX - rect.left - this.startPanX;
-                    this.panY = e.clientY - rect.top - this.startPanY;
-                    if (this.panAnimationFrame === null) {
-                        this.panAnimationFrame = requestAnimationFrame(() => {
-                            this.panAnimationFrame = null;
-                            this.updateTransform();
-                        });
-                    }
-                });
-
-                window.addEventListener('mouseup', () => {
-                    if (this.isPanning) {
-                        this.isPanning = false;
-                        this.viewportEl.classList.remove('cursor-grabbing');
-                    }
-                    this.panStartedOnCard = false;
-                    if (this.suppressNodeClick) {
-                        setTimeout(() => { this.suppressNodeClick = false; }, 0);
-                    }
-                });
+                this.viewportEl.addEventListener('pointerdown', event => this.handlePointerDown(event));
+                window.addEventListener('pointermove', event => this.handlePointerMove(event));
+                window.addEventListener('pointerup', event => this.handlePointerUp(event));
+                window.addEventListener('pointercancel', event => this.handlePointerUp(event));
 
                 // Mouse Wheel Zooming
                 this.viewportEl.addEventListener('wheel', (e) => {
                     e.preventDefault();
-                    const delta = e.deltaY < 0 ? 0.08 : -0.08;
-                    this.zoom(delta, e.clientX, e.clientY);
+                    this.zoom(-e.deltaY * 0.001, e.clientX, e.clientY);
                 }, { passive: false });
 
                 // Control Bar Buttons
@@ -1807,7 +1891,11 @@
                 // Legend collapse toggle
                 document.getElementById('toggleLegendBtn').addEventListener('click', () => {
                     const body = document.getElementById('legendBody');
-                    body.classList.toggle('hidden');
+                    const isExpanded = document.getElementById('toggleLegendBtn').getAttribute('aria-expanded') === 'true';
+                    body.classList.toggle('hidden', isExpanded);
+                    document.getElementById('toggleLegendBtn').setAttribute('aria-expanded', String(!isExpanded));
+                    document.getElementById('toggleLegendBtn').setAttribute('aria-label', isExpanded ? 'Expand legend' : 'Collapse legend');
+                    document.getElementById('toggleLegendBtn').innerHTML = `<i class="fa-solid fa-chevron-${isExpanded ? 'down' : 'up'}"></i>`;
                 });
 
                 // Theme Toggle (Dark/Light visual mode)
@@ -2219,7 +2307,7 @@
                     <div class="mb-3 flex flex-wrap items-start justify-between gap-2">
                         <a href="#" data-card-filter="side" data-filter-value="${this.escape(argument.side)}" class="rounded-full border ${isTheist ? 'border-teal-500/30 bg-teal-950/50 text-teal-300' : 'border-rose-500/30 bg-rose-950/50 text-rose-300'} px-2 py-1 text-[10px] font-bold uppercase tracking-wider hover:underline" title="Filter by side">${sideText}</a>
                         <a href="#" data-card-filter="rating" data-filter-value="${argument.starRating}" class="rounded border border-amber-500/20 bg-amber-500/5 px-2 py-1 text-[10px] font-bold text-amber-300 hover:underline" title="Filter by accessibility rating"><span aria-hidden="true">${ratingStars}</span> <span>${argument.starRating.toFixed(1)}</span></a>
-                        <a href="#" data-card-filter="tier" data-filter-value="${this.escape(argument.tier)}" class="tier-badge rounded border border-slate-700 bg-slate-800 px-2 py-1 text-[10px] font-bold text-slate-300 hover:underline" title="Filter by academic rank">Tier ${this.escape(argument.tier)}</a>
+                        <a href="#" data-card-filter="tier" data-filter-value="${this.escape(argument.tier)}" class="tier-badge rounded border border-slate-700 bg-slate-800 px-2 py-1 text-[10px] font-bold text-slate-300 hover:underline" title="Filter by academic rank">${this.escape(argument.tier)} tier</a>
                     </div>
                     <h2 class="mb-2 text-sm font-bold leading-snug text-slate-100">${this.escape(argument.title)}</h2>
                     <p class="mb-2 line-clamp-3 text-xs leading-relaxed text-slate-400">${this.escape(displaySummary)}</p>
