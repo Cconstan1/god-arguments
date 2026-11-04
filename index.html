@@ -417,6 +417,17 @@
                     </p>
                 </div>
 
+                <!-- Tile Comments / Notes -->
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 space-y-2">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Tile Comments</span>
+                        <button id="drawerClearCommentBtn" type="button" class="rounded-md border border-slate-700 bg-slate-800 px-2 py-1 text-[10px] font-medium text-slate-300 transition hover:border-emerald-500 hover:text-emerald-200">
+                            Clear
+                        </button>
+                    </div>
+                    <textarea id="drawerComment" rows="4" placeholder="Add your notes, objections, or follow-up questions for this tile..." class="w-full rounded-lg border border-slate-700 bg-slate-950/60 px-3 py-2 text-xs text-slate-200 placeholder:text-slate-500 focus:border-emerald-500 focus:outline-none resize-none"></textarea>
+                </div>
+
                 <!-- Status & Classification -->
                 <div class="grid grid-cols-2 gap-3 text-xs">
                     <div class="bg-slate-800/40 border border-slate-800 rounded-lg p-2.5">
@@ -918,6 +929,8 @@
 
         class KalamTreeEngine {
             constructor(data) {
+                this.argumentKey = this.getArgumentKey(data);
+                this.commentStore = this.loadCommentStore();
                 this.nodes = new Map();
                 this.collapsedNodes = new Set();
                 this.selectedNodeId = null;
@@ -982,6 +995,34 @@
                         this.fitToView();
                     }
                 }, 100);
+            }
+
+            getArgumentKey(data) {
+                const argumentName = (data && data.argument) ? String(data.argument) : 'default-tree';
+                return `kalam-tree-comments:${argumentName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}`;
+            }
+
+            loadCommentStore() {
+                try {
+                    const saved = localStorage.getItem(this.argumentKey);
+                    const parsed = saved ? JSON.parse(saved) : {};
+                    return parsed && typeof parsed === 'object' ? parsed : {};
+                } catch {
+                    return {};
+                }
+            }
+
+            storeCommentStore() {
+                localStorage.setItem(this.argumentKey, JSON.stringify(this.commentStore));
+            }
+
+            getNodeComment(nodeId) {
+                return this.commentStore[nodeId] || '';
+            }
+
+            saveNodeComment(nodeId, value) {
+                this.commentStore[nodeId] = value || '';
+                this.storeCommentStore();
             }
 
             initDataset(data) {
@@ -1453,6 +1494,11 @@
                     isFifthGradeEnabled('node', node.id),
                     hasFifthGradeSummary(node)
                 );
+
+                const commentField = document.getElementById('drawerComment');
+                if (commentField) {
+                    commentField.value = this.getNodeComment(node.id);
+                }
             }
 
             highlightPathToNode(nodeId) {
@@ -1850,6 +1896,18 @@
                     );
                     this.render();
                     this.refreshDrawerSummary();
+                });
+
+                document.getElementById('drawerComment').addEventListener('input', event => {
+                    if (!this.selectedNodeId) return;
+                    this.saveNodeComment(this.selectedNodeId, event.target.value);
+                });
+
+                document.getElementById('drawerClearCommentBtn').addEventListener('click', () => {
+                    if (!this.selectedNodeId) return;
+                    this.saveNodeComment(this.selectedNodeId, '');
+                    const commentField = document.getElementById('drawerComment');
+                    if (commentField) commentField.value = '';
                 });
 
                 // Drawer Action Buttons
